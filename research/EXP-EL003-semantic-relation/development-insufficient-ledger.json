@@ -1,0 +1,285 @@
+{
+  "assemblyVersion": "1.0.0",
+  "authoringLedger": [
+    {
+      "caseId": "EL003-DEV-IE-001",
+      "intendedConstructionLabel": "INSUFFICIENT_EVIDENCE",
+      "sourceCaseId": "EL002-02-014",
+      "pmcid": "PMC13425555",
+      "claimFieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "claimSpanId": "span_1828ab25f465cb2db644b93e",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[1]/p[1]"
+      ],
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-002",
+      "intendedConstructionLabel": "INSUFFICIENT_EVIDENCE",
+      "sourceCaseId": "EL002-02-022",
+      "pmcid": "PMC13313845",
+      "claimFieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[4]/p[@id='Par4']",
+      "claimSpanId": "span_b6f272d2838fd035c7d14640",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[@id='Abs1']/sec[3]/p[@id='Par3']"
+      ],
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-003",
+      "intendedConstructionLabel": "INSUFFICIENT_EVIDENCE",
+      "sourceCaseId": "EL002-CV-001",
+      "pmcid": "PMC13575277",
+      "claimFieldPath": "/article/front/article-meta/abstract[1]/sec[3]/p[1]",
+      "claimSpanId": "span_0624d4a636eb6a603849b356",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[1]/sec[2]/p[1]"
+      ],
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-004",
+      "intendedConstructionLabel": "INSUFFICIENT_EVIDENCE",
+      "sourceCaseId": "EL002-CV-011",
+      "pmcid": "PMC13440605",
+      "claimFieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "claimSpanId": "span_423642065c244ac744ac7103",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[1]/p[1]"
+      ],
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-005",
+      "intendedConstructionLabel": "INSUFFICIENT_EVIDENCE",
+      "sourceCaseId": "EL002-CV-016",
+      "pmcid": "PMC12598066",
+      "claimFieldPath": "/article/front/article-meta/abstract[1]/sec[@id='section3-15266028241231905']/p[1]",
+      "claimSpanId": "span_fef5029a1a037f16751d6070",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[1]/sec[@id='section2-15266028241231905']/p[1]"
+      ],
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-006",
+      "intendedConstructionLabel": "INSUFFICIENT_EVIDENCE",
+      "sourceCaseId": "EL002-02-002",
+      "pmcid": "PMC13494981",
+      "claimFieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "claimSpanId": "span_2051698a6a0252f474f72c96",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[1]/p[1]"
+      ],
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-007",
+      "intendedConstructionLabel": "INSUFFICIENT_EVIDENCE",
+      "sourceCaseId": "EL002-CV-018",
+      "pmcid": "PMC13346321",
+      "claimFieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[3]/p[@id='Par3']",
+      "claimSpanId": "span_2e587d0106e4e1aaeba5d863",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[@id='Abs1']/sec[2]/p[@id='Par2']"
+      ],
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-008",
+      "intendedConstructionLabel": "INSUFFICIENT_EVIDENCE",
+      "sourceCaseId": "EL002-02-005",
+      "pmcid": "PMC13494822",
+      "claimFieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "claimSpanId": "span_04c9b6dfc59d5905b37fcd44",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[1]/p[1]"
+      ],
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-009",
+      "intendedConstructionLabel": "INSUFFICIENT_EVIDENCE",
+      "sourceCaseId": "EL002-CV-008",
+      "pmcid": "PMC13523897",
+      "claimFieldPath": "/article/front/article-meta/abstract[1]/sec[3]/p[1]",
+      "claimSpanId": "span_c089d4d9d000e39705557712",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[1]/sec[2]/p[1]"
+      ],
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-010",
+      "intendedConstructionLabel": "INSUFFICIENT_EVIDENCE",
+      "sourceCaseId": "EL002-02-001",
+      "pmcid": "PMC13573834",
+      "claimFieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P4']",
+      "claimSpanId": "span_b0d2ceba8f0b28b8c3642037",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P4']"
+      ],
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-011",
+      "intendedConstructionLabel": "INSUFFICIENT_EVIDENCE",
+      "sourceCaseId": "EL002-CV-026",
+      "pmcid": "PMC13225034",
+      "claimFieldPath": "/article/front/article-meta/abstract[1]/sec[2]/p[1]",
+      "claimSpanId": "span_246de38301f873b1881703b9",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[1]/sec[1]/p[1]"
+      ],
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-012",
+      "intendedConstructionLabel": "INSUFFICIENT_EVIDENCE",
+      "sourceCaseId": "EL002-CV-007",
+      "pmcid": "PMC13523908",
+      "claimFieldPath": "/article/front/article-meta/abstract[1]/sec[3]/p[1]",
+      "claimSpanId": "span_8b7a6806ae2e3273cbf3b42d",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[1]/sec[2]/p[1]"
+      ],
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-013",
+      "intendedConstructionLabel": "INSUFFICIENT_EVIDENCE",
+      "sourceCaseId": "EL002-CV-023",
+      "pmcid": "PMC13244758",
+      "claimFieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[3]/p[1]",
+      "claimSpanId": "span_47c9568e5dd46f3f5205147d",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[@id='abs0010']/sec[2]/p[1]"
+      ],
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-014",
+      "intendedConstructionLabel": "INSUFFICIENT_EVIDENCE",
+      "sourceCaseId": "EL002-CV-006",
+      "pmcid": "PMC13523907",
+      "claimFieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "claimSpanId": "span_46f10aa7236355fabfa5aba0",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[1]/p[1]"
+      ],
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-015",
+      "intendedConstructionLabel": "INSUFFICIENT_EVIDENCE",
+      "sourceCaseId": "EL002-CV-019",
+      "pmcid": "PMC13344390",
+      "claimFieldPath": "/article/front/article-meta/abstract[1]/sec[4]/p[1]",
+      "claimSpanId": "span_b05251c34f0a43fff21ee64f",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[1]/sec[3]/p[1]"
+      ],
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-016",
+      "intendedConstructionLabel": "INSUFFICIENT_EVIDENCE",
+      "sourceCaseId": "EL002-CV-005",
+      "pmcid": "PMC13523879",
+      "claimFieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "claimSpanId": "span_c9c0dc7610496017de800adf",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[1]/p[1]"
+      ],
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-017",
+      "intendedConstructionLabel": "INSUFFICIENT_EVIDENCE",
+      "sourceCaseId": "EL002-02-025",
+      "pmcid": "PMC13313843",
+      "claimFieldPath": "/article/front/article-meta/abstract[@id='Abs1']/p[@id='Par1']",
+      "claimSpanId": "span_aa4316a7cb72bf4be53587fa",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[@id='Abs1']/p[@id='Par1']"
+      ],
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-018",
+      "intendedConstructionLabel": "INSUFFICIENT_EVIDENCE",
+      "sourceCaseId": "EL002-02-017",
+      "pmcid": "PMC13401909",
+      "claimFieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P2']",
+      "claimSpanId": "span_6972aa2e901f2fd5030168e7",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P2']"
+      ],
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-019",
+      "intendedConstructionLabel": "INSUFFICIENT_EVIDENCE",
+      "sourceCaseId": "EL002-02-009",
+      "pmcid": "PMC13482779",
+      "claimFieldPath": "/article/front/article-meta/abstract[@id='ABS1']/sec[@id='S3']/p[@id='P3']",
+      "claimSpanId": "span_9e81e63e004bb7666126b968",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[@id='ABS1']/sec[@id='S2']/p[@id='P2']"
+      ],
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-020",
+      "intendedConstructionLabel": "INSUFFICIENT_EVIDENCE",
+      "sourceCaseId": "EL002-02-010",
+      "pmcid": "PMC13268294",
+      "claimFieldPath": "/article/front/article-meta/abstract[1]/sec[3]/p[1]",
+      "claimSpanId": "span_3d71582c8bd50fd2822a0388",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[1]/sec[2]/p[1]"
+      ],
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    }
+  ]
+}

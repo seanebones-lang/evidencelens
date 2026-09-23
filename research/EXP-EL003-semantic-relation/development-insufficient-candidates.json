@@ -1,0 +1,386 @@
+{
+  "assemblyVersion": "1.0.0",
+  "selectionRule": "Allocation ranks 21-40; exact natural claim paired with non-resolving exact evidence",
+  "cases": [
+    {
+      "caseId": "EL003-DEV-IE-001",
+      "packetId": "pkt_79ab12ed31b8d8d1c89be7aa",
+      "packetHash": "sha256:79ab12ed31b8d8d1c89be7aae1d72c329c9cb77625b2f8d6a0050736cac25a95",
+      "claim": "Notably, after 12 h, the oxygen concentration dropped to a hypoxic level of PO2 2.7 ± 0.1%.",
+      "evidence": [
+        {
+          "spanId": "span_7694f011392df10009a9b152",
+          "verbatim": "These sensors incorporate oxygen-sensitive probes (Ru­(dpp) or PtOEP) and reference dyes (RBITC or A647 NHS-Ester).",
+          "section": "Abstract"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13425555",
+      "nearDuplicateGroupId": "natural_EL002-02-014",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-002",
+      "packetId": "pkt_ebf9c58d8ae9c82412c72715",
+      "packetHash": "sha256:ebf9c58d8ae9c82412c727157f72b15207e17894d3d15825c99825485479382b",
+      "claim": "Females harbored EGFR mutations (54.32%) with higher frequency than men (45.68%) (P < 0.001), while nonsmokers had EGFR mutations (70.37%) more frequently than current smokers (29.63%) (P < 0.001).",
+      "evidence": [
+        {
+          "spanId": "span_fc63b943b181f2caf09c5ef6",
+          "verbatim": "The study comprised 333 NSCLC tissue samples from 230 males and 103 females with an average age of 50 years.",
+          "section": "Methods"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13313845",
+      "nearDuplicateGroupId": "natural_EL002-02-022",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-003",
+      "packetId": "pkt_b339d733a0d4cfef714421e5",
+      "packetHash": "sha256:b339d733a0d4cfef714421e55e1c868a8907c45e44c6a5ec2108db321b17cb55",
+      "claim": "Urinary tract infection (UTI) occurred in 17 patients.",
+      "evidence": [
+        {
+          "spanId": "span_0f3499f568932f6aa310a949",
+          "verbatim": "We analyzed 98 KTRs who used denosumab from 2018 to 2023.",
+          "section": "Methods"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13575277",
+      "nearDuplicateGroupId": "natural_EL002-CV-001",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-004",
+      "packetId": "pkt_eb80ca8e8e21145587022d26",
+      "packetHash": "sha256:eb80ca8e8e21145587022d262005c78c92c0adea2321adfa75ea76c7e78b7797",
+      "claim": "Mobile CAT was more common in the chronic renal failure group.",
+      "evidence": [
+        {
+          "spanId": "span_47ba2b05e4198e88117f7b93",
+          "verbatim": "A cardiac calcified amorphous tumor (CAT) is a non-neoplastic cardiac mass composed of calcified nodules surrounded by amorphous fibrous tissue in a context of degeneration and chronic inflammation.",
+          "section": "Abstract"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13440605",
+      "nearDuplicateGroupId": "natural_EL002-CV-011",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-005",
+      "packetId": "pkt_5ce65c2eec0b3ca274fb9441",
+      "packetHash": "sha256:5ce65c2eec0b3ca274fb9441f73e439e25cb3d4d8d903408c850657e9754f8be",
+      "claim": "No TV stenosis or occlusion was detected up to 48 months of follow-up.",
+      "evidence": [
+        {
+          "spanId": "span_5ee7c6d1e6394c5b46606e71",
+          "verbatim": "A retrospective analysis of consecutive patients, managed between September 1, 2011, and June 30, 2022, with custom-made aortic arch endografts (Cook Medical, Bloomington, IN, USA), presenting at least one branch configuration, were eligible.",
+          "section": "Methods:"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC12598066",
+      "nearDuplicateGroupId": "natural_EL002-CV-016",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-006",
+      "packetId": "pkt_2df6f8cd65eecc3be456b699",
+      "packetHash": "sha256:2df6f8cd65eecc3be456b69967b3985b460c0595e33bd1b726995de755d7e74c",
+      "claim": "In 2023 alone, this ancient disease was responsible for the death of 1.4 million individuals and has infected 10.6 million people.",
+      "evidence": [
+        {
+          "spanId": "span_3765e06b3a69a94b11370e3a",
+          "verbatim": "This mini review will focus on glutamine metabolism and its emergence as a potential target for treating tuberculosis (TB).",
+          "section": "Abstract"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13494981",
+      "nearDuplicateGroupId": "natural_EL002-02-002",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-007",
+      "packetId": "pkt_74fe55b8e1988ee3266ee805",
+      "packetHash": "sha256:74fe55b8e1988ee3266ee805b086e8fa4ffb7381ad4b915d754d62fa894caa1f",
+      "claim": "At 8 years after uRDN, the change in 24 h ambulatory SBP was −19.5 [95%CI −26.7,−12.4] mmHg (p<0.001).",
+      "evidence": [
+        {
+          "spanId": "span_62ca7c26dc69aec1b65cb2b9",
+          "verbatim": "The primary efficacy outcome was 24 h ambulatory SBP, adjusted for the number of defined daily dosages (DDD) of antihypertensive drugs.",
+          "section": "Methods"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13346321",
+      "nearDuplicateGroupId": "natural_EL002-CV-018",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-008",
+      "packetId": "pkt_eced7ff86d61b3f3e161ead3",
+      "packetHash": "sha256:eced7ff86d61b3f3e161ead3d062882a39ee30a337e40b5dc75dc5510dd88e52",
+      "claim": "Interestingly, expression studies indicated that, in the presence of RHE‐334, VEGFR‐2 was equal to 0.52±0.03, thus comparable to imatinib equal to 0.63±0.03.",
+      "evidence": [
+        {
+          "spanId": "span_f0debd232ef14e74997b7fdd",
+          "verbatim": "A pool of 18 promising candidates was shortlisted and screened against VEGFR‐2 by using molecular docking.",
+          "section": "Abstract"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13494822",
+      "nearDuplicateGroupId": "natural_EL002-02-005",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-009",
+      "packetId": "pkt_8d37f73181a1aed2fa8d0095",
+      "packetHash": "sha256:8d37f73181a1aed2fa8d00954703dfd1fd33e0b2884fc5b770880aabffb2aee6",
+      "claim": "患者未出现凝血相关并发症，均顺利出院。",
+      "evidence": [
+        {
+          "spanId": "span_d45aaa7984181ab73421a838",
+          "verbatim": "收集2023年9月至11月在泰达国际心血管病医院进行左心室辅助装置植入手术的终末期心力衰竭的4例患者临床资料，包括手术情况、凝血指标、血制品与凝血药物的应用等，并作文献复习。",
+          "section": "方法"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13523897",
+      "nearDuplicateGroupId": "natural_EL002-CV-008",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-010",
+      "packetId": "pkt_29154702612c78cda3497e63",
+      "packetHash": "sha256:29154702612c78cda3497e6355c1aa33e4af99884312cb2ec2c50fe2d7d00000",
+      "claim": "Importantly, our findings demonstrate that C80EZ® not only ensures the survival of T cells, with a particular emphasis on preserving the CD8+ subsets, but also maintains their critical function in targeting and eliminating cancer cells.",
+      "evidence": [
+        {
+          "spanId": "span_ebf4d393ae452137aad615bc",
+          "verbatim": "While conventional techniques such as freezing with liquid nitrogen remain prevalent, they pose significant challenges including high equipment costs, safety considerations, and logistical hurdles in transportation.",
+          "section": "Abstract"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13573834",
+      "nearDuplicateGroupId": "natural_EL002-02-001",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-011",
+      "packetId": "pkt_401979418a386f9eeb18761e",
+      "packetHash": "sha256:401979418a386f9eeb18761e5cb64461ca26aa1b8a2b51016e77f39f92c33a97",
+      "claim": "At 18-month follow-up, the patient does not endorse any cardiovascular symptoms and echocardiography findings are consistent with a well-seated and normally functioning prosthetic valve.",
+      "evidence": [
+        {
+          "spanId": "span_b834db5c9bab3462bafa9ecd",
+          "verbatim": "While these prostheses are indicated for aortic valve replacement, there are case studies that have reported their use in the pulmonic position in high surgical risk patients.",
+          "section": "Background"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13225034",
+      "nearDuplicateGroupId": "natural_EL002-CV-026",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-012",
+      "packetId": "pkt_571a98adc7d7d5c9fd9e3453",
+      "packetHash": "sha256:571a98adc7d7d5c9fd9e34534fd153b498b244aa1b9c36c5685b9edd49a951b2",
+      "claim": "患者最终好转出院。",
+      "evidence": [
+        {
+          "spanId": "span_ce66cb99e222d47f6819bef1",
+          "verbatim": "报告重症颅脑创伤后出凝血障碍1例并进行文献复习。",
+          "section": "方法"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13523908",
+      "nearDuplicateGroupId": "natural_EL002-CV-007",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-013",
+      "packetId": "pkt_60835103eafcf8d8fc234fda",
+      "packetHash": "sha256:60835103eafcf8d8fc234fda9b86d4c87f09a3d5878df63cd2b043c26cc20cef",
+      "claim": "Twelve-year freedom from reintervention was 69% in the stented group and 97% in the grafted group (P log-rank = .003).",
+      "evidence": [
+        {
+          "spanId": "span_825d74719679c74b4602ed37",
+          "verbatim": "Freedom from reintervention and survival were assessed by the Kaplan–Meier method.",
+          "section": "Methods"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13244758",
+      "nearDuplicateGroupId": "natural_EL002-CV-023",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-014",
+      "packetId": "pkt_9869864fac11fd7528b5e4bb",
+      "packetHash": "sha256:9869864fac11fd7528b5e4bb088d522def7375cf39de57ad9bab1c07ac838625",
+      "claim": "最终因感染死亡。",
+      "evidence": [
+        {
+          "spanId": "span_686d735fe1762084374efd21",
+          "verbatim": "体外膜肺氧合（Extracorporeal membrane oxygenation, ECMO）是一种基于体外循环原理，为严重心肺功能衰竭患者提供短期生命支持的先进技术",
+          "section": "Abstract"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13523907",
+      "nearDuplicateGroupId": "natural_EL002-CV-006",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-015",
+      "packetId": "pkt_f0c5b18f23545bf9d285f32c",
+      "packetHash": "sha256:f0c5b18f23545bf9d285f32cdf6d4b22bfb2e487ea2ef223cd823ce93deb1b31",
+      "claim": "The stage 1 model improved performance with area under the curve values of 0.849 for mortality, 0.786 for ICU admission, and 0.783 for persistent organ failure.",
+      "evidence": [
+        {
+          "spanId": "span_3d73932ddcce02ca1cd10ee0",
+          "verbatim": "We developed ML models to predict SAP, in-hospital mortality, and intensive care unit (ICU) admission.",
+          "section": "Methods:"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13344390",
+      "nearDuplicateGroupId": "natural_EL002-CV-019",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-016",
+      "packetId": "pkt_e212ce838483664b7f792f78",
+      "packetHash": "sha256:e212ce838483664b7f792f7813ad435197d6d54c1e4802c945739792e8320a12",
+      "claim": "受者出院后生活质量好，移植心功能基本正常。",
+      "evidence": [
+        {
+          "spanId": "span_8615233a7c582190a39e243d",
+          "verbatim": "因冠心病、二尖瓣返流、三尖瓣返流行“冠状动脉旁路移植、二尖瓣机械瓣置换、三尖瓣成形术”2个月余的患者，再次出现心功能衰竭、心源性休克",
+          "section": "Abstract"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13523879",
+      "nearDuplicateGroupId": "natural_EL002-CV-005",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-017",
+      "packetId": "pkt_64d5c00760d05e591120277e",
+      "packetHash": "sha256:64d5c00760d05e591120277ed7284955cdca369ec7bbe13cf19e769b138f2b51",
+      "claim": "Functional genomics in drug discovery, particularly for cancer, is still not thoroughly investigated, despite the existence of a significant amount of literature on the subject.",
+      "evidence": [
+        {
+          "spanId": "span_a8c5b7e87fe6798b3feee43e",
+          "verbatim": "Drug repurposing is an economically efficient approach that entails discovering novel therapeutic applications for already-available medications.",
+          "section": "Abstract"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13313843",
+      "nearDuplicateGroupId": "natural_EL002-02-025",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-018",
+      "packetId": "pkt_cd6ac79916c43016b838a030",
+      "packetHash": "sha256:cd6ac79916c43016b838a0307ce92fb6f1ae343686e6c04fc05a68ca922b7d0f",
+      "claim": "A biobehavioral framework can enhance our understanding of the complex association between medications, physical symptoms, and psychosocial distress in patients with GVHD.",
+      "evidence": [
+        {
+          "spanId": "span_bc86b9bba0a9807469d234a6",
+          "verbatim": "Among the potential complications of allogeneic hematopoietic stem cell transplantation (HSCT), graft-versus-host disease (GVHD) is common and associated with significant physical and psychosocial symptom burden.",
+          "section": "Abstract"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13401909",
+      "nearDuplicateGroupId": "natural_EL002-02-017",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-019",
+      "packetId": "pkt_a5d68187dc6217a9285cff18",
+      "packetHash": "sha256:a5d68187dc6217a9285cff1807d1ec8229233a5b11d618c8598515b157169989",
+      "claim": "After benchmarking 3 state-of-the-art machine learning models, the random forest model emerged as the best classifier with 96.9% accuracy.",
+      "evidence": [
+        {
+          "spanId": "span_90f5e1f2152cea1d16e2133e",
+          "verbatim": "Neural Network, Random Forest, and extreme gradient boosting machine learning models were trained to distinguish between tumor types.",
+          "section": "METHODS:"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13482779",
+      "nearDuplicateGroupId": "natural_EL002-02-009",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-IE-020",
+      "packetId": "pkt_b8896bac150425f879f83b76",
+      "packetHash": "sha256:b8896bac150425f879f83b76c721144a1aea6c1443ccaae2d6c23554760b8109",
+      "claim": "However, in contrast to the prediction, a significant increase in cortisol was noted in the experimental group relative to the control group (p = .016).",
+      "evidence": [
+        {
+          "spanId": "span_7141eec4a36c35d011953ed3",
+          "verbatim": "Blood samples were collected to measure the levels of cortisol, serotonin, and natural killer (NK) cells.",
+          "section": "Methods"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13268294",
+      "nearDuplicateGroupId": "natural_EL002-02-010",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    }
+  ]
+}
