@@ -1,7 +1,8 @@
 # EXP-EL001 transfer result 001
 
 **Decision for this partition:** PASS
-**Frozen manifest commit:** `eab3690f13f459fbcec719cf43e6bfa27cb4eece`
+**Local freeze commit before evaluation:** `eab3690f13f459fbcec719cf43e6bfa27cb4eece`
+**Published equivalent tree commit:** `0b887839885effe9c0be8a8e65ea6ef30e436a3b`
 **Manifest file SHA-256:** `5950ee376b6fd549c767af0945b1688b7adb3b46f355d0853d0f84b0dd9a023a`
 **Raw report file SHA-256:** `a3e3792cd3665eba7870ad61429b0d2156575bdce91dd4684aa53c02e5cd1d48`
 **Runner version:** 0.1.0

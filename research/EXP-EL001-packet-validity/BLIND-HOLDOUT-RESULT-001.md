@@ -1,7 +1,8 @@
 # EXP-EL001 blind holdout result 001
 
 **Decision for this partition:** PASS
-**Frozen manifest commit:** `51382eec8e33f0c879f53162ac242527f6cba7e3`
+**Local freeze commit before evaluation:** `51382eec8e33f0c879f53162ac242527f6cba7e3`
+**Published equivalent tree commit:** `cb56d90eafca6036ccab2290028953786994c530`
 **Manifest file SHA-256:** `0be5ffb3cf2cecccbdd1332d9a8c1eeb78c6924ae4fbf37089b57d65b10b5bd5`
 **Raw report file SHA-256:** `6500d683e219a24fbb3c6996714f45956a969b2b3d82d82400c7ca58ec82bad3`
 **Runner version:** 0.1.0
