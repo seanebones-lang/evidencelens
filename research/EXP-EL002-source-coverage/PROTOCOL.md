@@ -55,6 +55,25 @@ NCBI PMC ESearch query on 2026-09-23:
 `scripts/assemble-batch-01.mjs`. The query and this selection rule
 were committed before fetching any candidate full text.
 
+## Batches 02–05: frozen discovery pools
+
+On 2026-09-23, four NCBI PMC ESearch queries used the same
+`open access[filter]` and `2024[dp]` conditions with
+`retmax=80`:
+
+- `breast cancer[tiab]` → `CANCER_02`;
+- `SARS-CoV-2[tiab]` → `INFECTIOUS_03`;
+- `synaptic plasticity[tiab]` → `NEUROSCIENCE_04`;
+- `immune checkpoint[tiab]` → `IMMUNOLOGY_05`.
+
+All 80 ordered IDs per query and API counts are frozen in
+`candidate-pools-02-05.json`, file SHA-256
+`e7559e28ab62720535aa94abe2ba25d4ad41c88625909e10056d17765ff3dcce`.
+The assembler reads each list in order, excluding all EXP-EL001
+articles, batch 01, and prior EXP-EL002 batches. Pools, source
+selection code, and the batch runner are committed before retrieving
+any full text for these four batches.
+
 ## Decision
 
 For each batch, freeze the manifest and file hash in a commit
