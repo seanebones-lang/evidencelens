@@ -1,0 +1,165 @@
+{
+  "assemblyVersion": "1.0.0",
+  "authoringLedger": [
+    {
+      "caseId": "EL003-DEV-CON-001",
+      "intendedConstructionLabel": "CONTRADICTED",
+      "parentCaseId": "EL003-DEV-SUP-001",
+      "transformation": "DIRECTION_REVERSAL",
+      "materialPropositionsChanged": 1,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-CON-002",
+      "intendedConstructionLabel": "CONTRADICTED",
+      "parentCaseId": "EL003-DEV-SUP-002",
+      "transformation": "PROPERTY_REVERSAL",
+      "materialPropositionsChanged": 1,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-CON-003",
+      "intendedConstructionLabel": "CONTRADICTED",
+      "parentCaseId": "EL003-DEV-SUP-003",
+      "transformation": "AIM_NEGATION",
+      "materialPropositionsChanged": 1,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-CON-004",
+      "intendedConstructionLabel": "CONTRADICTED",
+      "parentCaseId": "EL003-DEV-SUP-004",
+      "transformation": "DIRECTION_REVERSAL",
+      "materialPropositionsChanged": 1,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-CON-005",
+      "intendedConstructionLabel": "CONTRADICTED",
+      "parentCaseId": "EL003-DEV-SUP-005",
+      "transformation": "LOCATION_SUBSTITUTION",
+      "materialPropositionsChanged": 1,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-CON-006",
+      "intendedConstructionLabel": "CONTRADICTED",
+      "parentCaseId": "EL003-DEV-SUP-006",
+      "transformation": "PROPERTY_REVERSAL",
+      "materialPropositionsChanged": 1,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-CON-007",
+      "intendedConstructionLabel": "CONTRADICTED",
+      "parentCaseId": "EL003-DEV-SUP-007",
+      "transformation": "DIRECTION_REVERSAL",
+      "materialPropositionsChanged": 1,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-CON-008",
+      "intendedConstructionLabel": "CONTRADICTED",
+      "parentCaseId": "EL003-DEV-SUP-008",
+      "transformation": "PRESENCE_NEGATION",
+      "materialPropositionsChanged": 1,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-CON-009",
+      "intendedConstructionLabel": "CONTRADICTED",
+      "parentCaseId": "EL003-DEV-SUP-009",
+      "transformation": "SEVERITY_REVERSAL",
+      "materialPropositionsChanged": 1,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-CON-010",
+      "intendedConstructionLabel": "CONTRADICTED",
+      "parentCaseId": "EL003-DEV-SUP-010",
+      "transformation": "ASSESSMENT_REVERSAL",
+      "materialPropositionsChanged": 1,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-CON-011",
+      "intendedConstructionLabel": "CONTRADICTED",
+      "parentCaseId": "EL003-DEV-SUP-011",
+      "transformation": "EXISTENCE_REVERSAL",
+      "materialPropositionsChanged": 1,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-CON-012",
+      "intendedConstructionLabel": "CONTRADICTED",
+      "parentCaseId": "EL003-DEV-SUP-012",
+      "transformation": "NECESSITY_REVERSAL",
+      "materialPropositionsChanged": 1,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-CON-013",
+      "intendedConstructionLabel": "CONTRADICTED",
+      "parentCaseId": "EL003-DEV-SUP-013",
+      "transformation": "CERTAINTY_REVERSAL",
+      "materialPropositionsChanged": 1,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-CON-014",
+      "intendedConstructionLabel": "CONTRADICTED",
+      "parentCaseId": "EL003-DEV-SUP-014",
+      "transformation": "AIM_NEGATION",
+      "materialPropositionsChanged": 1,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-CON-015",
+      "intendedConstructionLabel": "CONTRADICTED",
+      "parentCaseId": "EL003-DEV-SUP-015",
+      "transformation": "POPULATION_SUBSTITUTION",
+      "materialPropositionsChanged": 1,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-CON-016",
+      "intendedConstructionLabel": "CONTRADICTED",
+      "parentCaseId": "EL003-DEV-SUP-016",
+      "transformation": "MECHANISM_REVERSAL",
+      "materialPropositionsChanged": 1,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-CON-017",
+      "intendedConstructionLabel": "CONTRADICTED",
+      "parentCaseId": "EL003-DEV-SUP-017",
+      "transformation": "PERSISTENCE_NEGATION",
+      "materialPropositionsChanged": 1,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-CON-018",
+      "intendedConstructionLabel": "CONTRADICTED",
+      "parentCaseId": "EL003-DEV-SUP-018",
+      "transformation": "ASSOCIATION_NEGATION",
+      "materialPropositionsChanged": 1,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-CON-019",
+      "intendedConstructionLabel": "CONTRADICTED",
+      "parentCaseId": "EL003-DEV-SUP-019",
+      "transformation": "EFFECTIVENESS_REVERSAL",
+      "materialPropositionsChanged": 1,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-CON-020",
+      "intendedConstructionLabel": "CONTRADICTED",
+      "parentCaseId": "EL003-DEV-SUP-020",
+      "transformation": "PRESENTATION_NEGATION",
+      "materialPropositionsChanged": 1,
+      "requiresHumanAuthorReview": true
+    }
+  ]
+}
