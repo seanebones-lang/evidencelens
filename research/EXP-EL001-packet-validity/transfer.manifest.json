@@ -1,0 +1,222 @@
+{
+  "experiment": "EXP-EL001",
+  "manifestVersion": "1.0.0",
+  "partition": "TRANSFER",
+  "frozen": true,
+  "sources": [
+    {
+      "pmcid": "PMC13321751",
+      "pmid": "39481590",
+      "doi": "10.1016/j.pneurobio.2024.102684",
+      "version": "PMC13321751.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:2142dc8b4d5c30c6c39c36e5294284b7f71c29a4130cd2d116c768d663eb261f"
+    },
+    {
+      "pmcid": "PMC13271256",
+      "pmid": "39436150",
+      "doi": "10.1096/fj.202400454r",
+      "version": "PMC13271256.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:93099244e96c8f542fa575fdfe11660880d353cf57f5e55f27d8ac3c41d668e7"
+    },
+    {
+      "pmcid": "PMC13108743",
+      "pmid": "38701208",
+      "doi": "10.1126/sciadv.adk7257",
+      "version": "PMC13108743.1",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "contentHash": "sha256:8556973ac910c8be2e709a252997cfd966fef6f9de8f68f1ef2e16c83205e6f9"
+    },
+    {
+      "pmcid": "PMC13045196",
+      "pmid": "39709647",
+      "doi": "10.1016/j.conb.2024.102948",
+      "version": "PMC13045196.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:46f96821b2e0631c450d4cda1b614bddb00fd3f5f728a1bf4c11c196d77a7b56"
+    }
+  ],
+  "cases": [
+    {
+      "caseId": "EL001-TRANSFER-001",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13321751",
+      "claimType": "UNKNOWN",
+      "verbatim": "Angelman syndrome (AS) is a severe neurodevelopmental disorder characterized by motor disfunction, seizures, intellectual disability, speech deficits, and autism-like behavior, showing high comorbidity with Autism Spectrum Disorders (ASD).",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-TRANSFER-002",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13321751",
+      "claimType": "UNKNOWN",
+      "verbatim": "It is known that stimulation of the serotonin receptor 7 (5-HT7R) can rescue some of the behavioral and neuroplasticity dysfunctions in animal models of Fragile X and Rett syndrome, two pathologies associated with ASD.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-TRANSFER-003",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13321751",
+      "claimType": "UNKNOWN",
+      "verbatim": "In view of these observations, we hypothesised that alterations of 5-HT7R signalling might also be involved in AS.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-TRANSFER-004",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13321751",
+      "claimType": "UNKNOWN",
+      "verbatim": "To test this hypothesis, we stimulated 5-HT7R with the selective agonist LP-211 to investigate its possible beneficial effects on synaptic dysfunctions and altered behavior in the AS mice model.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-TRANSFER-005",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC13321751",
+      "verbatim": "This sentence is absent from the cited PMC article [EL001-TRANSFER-005].",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P1']",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL001-TRANSFER-006",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13271256",
+      "claimType": "UNKNOWN",
+      "verbatim": "Neuronal connectivity is essential for adaptive brain responses and can be modulated by dendritic spine plasticity and the intrinsic excitability of individual neurons.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P3']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-TRANSFER-007",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13271256",
+      "claimType": "UNKNOWN",
+      "verbatim": "Dysregulation of these processes can lead to aberrant neuronal activity, which has been associated with numerous neurological disorders including autism, epilepsy, and Alzheimer's disease.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P3']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-TRANSFER-008",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13271256",
+      "claimType": "UNKNOWN",
+      "verbatim": "Nonetheless, the molecular mechanisms underlying abnormal neuronal connectivity remain unclear.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P3']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-TRANSFER-009",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13271256",
+      "claimType": "UNKNOWN",
+      "verbatim": "We previously found that the serine/threonine kinase Microtubule Affinity Regulating Kinase 2 (MARK2), also known as Partitioning Defective 1b (Par1b), is important for the formation of dendritic spines in vitro.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P3']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-TRANSFER-010",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC13271256",
+      "verbatim": "This sentence is absent from the cited PMC article [EL001-TRANSFER-010].",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P3']",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL001-TRANSFER-011",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13108743",
+      "claimType": "UNKNOWN",
+      "verbatim": "Neuromodulators have been shown to alter the temporal profile of short-term synaptic plasticity (STP); however, the computational function of this neuromodulation remains unexplored.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-TRANSFER-012",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13108743",
+      "claimType": "UNKNOWN",
+      "verbatim": "Here, we propose that the neuromodulation of STP provides a general mechanism to scale neural dynamics and motor outputs in time and space.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-TRANSFER-013",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13108743",
+      "claimType": "UNKNOWN",
+      "verbatim": "We trained recurrent neural networks that incorporated STP to produce complex motor trajectories—handwritten digits—with different temporal (speed) and spatial (size) scales.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-TRANSFER-014",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13108743",
+      "claimType": "UNKNOWN",
+      "verbatim": "Neuromodulation of STP produced temporal and spatial scaling of the learned dynamics and enhanced temporal or spatial generalization compared to standard training of the synaptic weights in the absence of STP.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-TRANSFER-015",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC13108743",
+      "verbatim": "This sentence is absent from the cited PMC article [EL001-TRANSFER-015].",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL001-TRANSFER-016",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13045196",
+      "claimType": "UNKNOWN",
+      "verbatim": "Critical periods are brief windows of heightened neural circuit plasticity that allow circuits to permanently reset their structure and function to facilitate robust organismal behavior.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-TRANSFER-017",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13045196",
+      "claimType": "UNKNOWN",
+      "verbatim": "Understanding the cellular and molecular mechanisms that instruct critical period timing is of broad clinical interest, as altered developmental plasticity is linked to multiple neuro-developmental disorders.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-TRANSFER-018",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13045196",
+      "claimType": "UNKNOWN",
+      "verbatim": "While intrinsic, neuronal mechanisms shape both neural circuit remodeling and critical period timing, recent data indicate that signaling from astrocytes and surrounding glia can both promote and limit critical period plasticity.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-TRANSFER-019",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13045196",
+      "claimType": "UNKNOWN",
+      "verbatim": "In this short review, we discuss recent breakthroughs in our understanding of astrocytes in critical period plasticity and highlight pioneering work in Drosophila.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-TRANSFER-020",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC13045196",
+      "verbatim": "This sentence is absent from the cited PMC article [EL001-TRANSFER-020].",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P1']",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    }
+  ]
+}

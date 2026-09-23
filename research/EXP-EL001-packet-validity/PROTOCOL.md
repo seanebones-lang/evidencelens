@@ -1,6 +1,6 @@
 # EXP-EL001 — Evidence-Packet Validity
 
-**Status:** Frozen protocol; development 30/30 and blind holdout 50/50 passed; transfer pending
+**Status:** Frozen protocol; development 30/30 and blind holdout 50/50 passed; transfer frozen, evaluation pending
 **Protocol version:** 0.1.0
 **Date:** 2026-09-23
 
@@ -38,8 +38,10 @@ The 30-claim development manifest was frozen at
 after a 30/30 deterministic packet-validity run. The 50-claim blind holdout
 was assembled and frozen at file SHA-256
 `0be5ffb3cf2cecccbdd1332d9a8c1eeb78c6924ae4fbf37089b57d65b10b5bd5`
-before evaluation; see `BLIND-HOLDOUT-FREEZE.md`. The transfer partition
-remains unbuilt.
+before evaluation; see `BLIND-HOLDOUT-FREEZE.md`. The 20-claim synaptic
+plasticity transfer partition was frozen at file SHA-256
+`5950ee376b6fd549c767af0945b1688b7adb3b46f355d0853d0f84b0dd9a023a`
+before evaluation; see `TRANSFER-FREEZE.md`.
 
 ## Primary outcomes
 
