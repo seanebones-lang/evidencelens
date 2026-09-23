@@ -1,6 +1,6 @@
 # EXP-EL002 — Prospective source diversity expansion
 
-**Status:** Protocol and first candidate pool frozen before article-content selection
+**Status:** Batch 01 frozen and 31/31 deterministic outcomes matched; four batches pending
 **Date:** 2026-09-23
 
 **Pre-freeze implementation note:** The first selection pass exposed
