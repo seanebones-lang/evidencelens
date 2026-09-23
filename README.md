@@ -44,6 +44,7 @@ The repository is in Phase 0/1:
 - `@evidencelens/evidence-schema` provides the canonical TypeScript model, JSON Schema, JSON-LD context, runtime invariants, and tests;
 - `@evidencelens/source-adapters` begins EXP-EL001 with conservative, reproducible DOI and PubMed metadata resolution;
 - PubMed source status is resolved separately from identity using explicit NLM correction and retraction signals;
+- `@evidencelens/packet-builder` assembles validated packets while preserving hashed source snapshots and refusing unverified evidence;
 - no JEV question is approved for product use yet.
 
 ## Repository map
@@ -73,3 +74,4 @@ npm run check
 
 See [`docs/PRODUCT_CHARTER.md`](docs/PRODUCT_CHARTER.md) before implementing product behavior.
 See [`docs/SOURCE_STATUS.md`](docs/SOURCE_STATUS.md) for the deterministic publication-status policy.
+See [`docs/PACKET_ASSEMBLY.md`](docs/PACKET_ASSEMBLY.md) for fail-closed assembly and replay rules.
