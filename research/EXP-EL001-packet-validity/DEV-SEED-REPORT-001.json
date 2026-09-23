@@ -1,0 +1,65 @@
+{
+  "experiment": "EXP-EL001",
+  "partition": "DEVELOPMENT_SEED",
+  "manifestVersion": "0.1.0",
+  "manifestHash": "sha256:2e7be9efc3a0649579c43cc97910e656e33b66d8bab119bf788462ebfcf73669",
+  "manifestFrozen": false,
+  "runnerVersion": "0.1.0",
+  "runAt": "2026-09-23T18:00:00.000Z",
+  "score": {
+    "total": 5,
+    "passed": 5,
+    "failed": 0,
+    "passRate": 1
+  },
+  "decision": "PASS",
+  "results": [
+    {
+      "caseId": "EL001-SEED-001",
+      "operation": "VALID_PACKET",
+      "passed": true,
+      "observedOutcome": "PASS",
+      "details": {
+        "packetId": "pkt_106a6f209e441654d37bc871",
+        "packetHash": "sha256:106a6f209e441654d37bc8719d7e2ddff89f1135c4d9f1c14e9f0928a57f1875",
+        "sourceHash": "sha256:c518bad0b5164b749fc94a72c6c60e1162af0733b2abeb10a89f9ad2a0291e9d",
+        "status": "UNKNOWN",
+        "spanId": "span_4d8db7d99eca223786fe7910",
+        "spanHash": "sha256:f6bc5f0a597a2f32057d94d3af13055ac0032c91656db983fb7d98ebe36ffd58",
+        "replayEquivalent": true
+      }
+    },
+    {
+      "caseId": "EL001-SEED-002",
+      "operation": "SPAN_NOT_FOUND",
+      "passed": true,
+      "observedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND",
+      "observedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL001-SEED-003",
+      "operation": "CONTENT_HASH_MISMATCH",
+      "passed": true,
+      "observedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "CONTENT_HASH_MISMATCH",
+      "observedErrorCode": "CONTENT_HASH_MISMATCH"
+    },
+    {
+      "caseId": "EL001-SEED-004",
+      "operation": "SOURCE_UNAUTHORIZED",
+      "passed": true,
+      "observedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SOURCE_UNAUTHORIZED",
+      "observedErrorCode": "SOURCE_UNAUTHORIZED"
+    },
+    {
+      "caseId": "EL001-SEED-005",
+      "operation": "INVALID_IDENTIFIER",
+      "passed": true,
+      "observedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "INVALID_IDENTIFIER",
+      "observedErrorCode": "INVALID_IDENTIFIER"
+    }
+  ]
+}

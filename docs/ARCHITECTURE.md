@@ -52,4 +52,4 @@ Dependencies point inward toward stable domain contracts:
 | `semantic-review` | Provider-neutral decisions and JEV adapter | Planned after EXP-EL001 |
 | `routing` | Versioned review-priority rules | Planned after question evaluation |
 | `witness-adapter` | Append-only provenance delivery and outbox | Planned |
-| `evaluation` | Frozen corpora, controls, scoring, reports | Planned |
+| `evaluation` | Versioned manifests, controls, scoring, reports | Active: development seed |

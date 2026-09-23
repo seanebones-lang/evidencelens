@@ -1,0 +1,45 @@
+{
+  "experiment": "EXP-EL001",
+  "manifestVersion": "0.1.0",
+  "partition": "DEVELOPMENT_SEED",
+  "frozen": false,
+  "cases": [
+    {
+      "caseId": "EL001-SEED-001",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC7320186",
+      "verbatim": "PubMed® is an essential resource for the medical domain, but useful concepts are either difficult to extract or are ambiguous, which has significantly hindered knowledge discovery.",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-SEED-002",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC7320186",
+      "verbatim": "This deliberately absent sentence must never be fabricated.",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL001-SEED-003",
+      "operation": "CONTENT_HASH_MISMATCH",
+      "pmcid": "PMC7320186",
+      "verbatim": "PubMed® is an essential resource for the medical domain",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "CONTENT_HASH_MISMATCH"
+    },
+    {
+      "caseId": "EL001-SEED-004",
+      "operation": "SOURCE_UNAUTHORIZED",
+      "pmcid": "PMC10132428",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SOURCE_UNAUTHORIZED"
+    },
+    {
+      "caseId": "EL001-SEED-005",
+      "operation": "INVALID_IDENTIFIER",
+      "pmcid": "not-a-pmcid",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "INVALID_IDENTIFIER"
+    }
+  ]
+}

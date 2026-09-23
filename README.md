@@ -46,6 +46,7 @@ The repository is in Phase 0/1:
 - PubMed source status is resolved separately from identity using explicit NLM correction and retraction signals;
 - `@evidencelens/packet-builder` assembles validated packets while preserving hashed source snapshots and refusing unverified evidence;
 - `@evidencelens/deterministic-checks` verifies exact spans against hash-matched, openly licensed PMC XML;
+- `@evidencelens/evaluation` validates hashed manifests and scores expected and unexpected outcomes;
 - no JEV question is approved for product use yet.
 
 ## Repository map
@@ -77,3 +78,4 @@ See [`docs/PRODUCT_CHARTER.md`](docs/PRODUCT_CHARTER.md) before implementing pro
 See [`docs/SOURCE_STATUS.md`](docs/SOURCE_STATUS.md) for the deterministic publication-status policy.
 See [`docs/PACKET_ASSEMBLY.md`](docs/PACKET_ASSEMBLY.md) for fail-closed assembly and replay rules.
 See [`docs/PMC_CONTENT.md`](docs/PMC_CONTENT.md) for licensed full-text acquisition and exact-span verification.
+See [`docs/EVALUATION.md`](docs/EVALUATION.md) for corpus partitions, scoring, and interpretation limits.
