@@ -1,0 +1,26 @@
+{
+  "@context": {
+    "prov": "http://www.w3.org/ns/prov#",
+    "el": "https://nexteleven.dev/evidencelens/ns#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "packetId": "@id",
+    "EvidencePacket": "el:EvidencePacket",
+    "Claim": "el:Claim",
+    "SourceArtifact": "el:SourceArtifact",
+    "EvidenceSpan": "el:EvidenceSpan",
+    "DeterministicAssertion": "el:DeterministicAssertion",
+    "claim": {"@id": "el:claim", "@type": "@id"},
+    "sources": {"@id": "el:source", "@type": "@id", "@container": "@set"},
+    "evidenceSpans": {"@id": "el:evidenceSpan", "@type": "@id", "@container": "@set"},
+    "wasDerivedFrom": {"@id": "prov:wasDerivedFrom", "@type": "@id"},
+    "wasQuotedFrom": {"@id": "prov:wasQuotedFrom", "@type": "@id"},
+    "hadPrimarySource": {"@id": "prov:hadPrimarySource", "@type": "@id"},
+    "wasRevisionOf": {"@id": "prov:wasRevisionOf", "@type": "@id"},
+    "generatedAtTime": {"@id": "prov:generatedAtTime", "@type": "xsd:dateTime"},
+    "epistemicClass": "el:epistemicClass",
+    "verbatim": "el:verbatim",
+    "contentHash": "el:contentHash",
+    "schemaVersion": "el:schemaVersion"
+  }
+}
+
