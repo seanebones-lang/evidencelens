@@ -10,22 +10,49 @@ export type SemanticLabel = typeof SEMANTIC_LABELS[number];
 export const ATOMIC_ANSWERS = ["YES", "NO", "INSUFFICIENT_EVIDENCE"] as const;
 export type AtomicAnswer = typeof ATOMIC_ANSWERS[number];
 
+export type SemanticPartition = "DEVELOPMENT" | "BLIND_HOLDOUT" | "TRANSFER";
+
+export interface BlindedEvidence {
+  spanId: string;
+  verbatim: string;
+  section?: string;
+}
+
 export interface SemanticCase {
   caseId: string;
   packetId: string;
   packetHash: string;
   claim: string;
-  evidenceSpanIds: string[];
+  evidence: BlindedEvidence[];
   domain: string;
+  partition: SemanticPartition;
+  sourceGroupId: string;
+  nearDuplicateGroupId: string;
+  origin: "NATURAL" | "SYNTHETIC";
   excludedContextConfirmed: boolean;
 }
 
 export interface AnnotationRecord {
+  annotationId: string;
   caseId: string;
   annotatorId: string;
   label: SemanticLabel;
   rubricVersion: string;
   createdAt: string;
+}
+
+export interface BlindedAnnotationCase {
+  caseId: string;
+  claim: string;
+  evidence: BlindedEvidence[];
+  domain: string;
+}
+
+export interface BlindedAssignment {
+  assignmentId: string;
+  slot: "A" | "B";
+  rubricVersion: string;
+  cases: BlindedAnnotationCase[];
 }
 
 export interface AdjudicatedLabel {
@@ -79,15 +106,25 @@ export function validateSemanticCases(input: unknown): asserts input is Semantic
   const ids = new Set<string>();
   for (const [index, value] of input.entries()) {
     if (!isRecord(value)) throw new SemanticEvaluationError(`cases[${index}] must be an object`);
-    for (const field of ["caseId", "packetId", "packetHash", "claim", "domain"] as const) {
+    for (const field of ["caseId", "packetId", "packetHash", "claim", "domain", "sourceGroupId", "nearDuplicateGroupId"] as const) {
       requireNonEmptyString(value, field, `cases[${index}]`);
     }
     if (!/^sha256:[a-f0-9]{64}$/.test(String(value.packetHash))) {
       throw new SemanticEvaluationError(`cases[${index}].packetHash must be a SHA-256 digest`);
     }
-    if (!Array.isArray(value.evidenceSpanIds) || value.evidenceSpanIds.length === 0
-      || value.evidenceSpanIds.some((item) => typeof item !== "string" || !item)) {
-      throw new SemanticEvaluationError(`cases[${index}].evidenceSpanIds must contain identifiers`);
+    if (!Array.isArray(value.evidence) || value.evidence.length === 0) {
+      throw new SemanticEvaluationError(`cases[${index}].evidence must be non-empty`);
+    }
+    for (const [evidenceIndex, evidence] of value.evidence.entries()) {
+      if (!isRecord(evidence)) throw new SemanticEvaluationError(`cases[${index}].evidence[${evidenceIndex}] must be an object`);
+      requireNonEmptyString(evidence, "spanId", `cases[${index}].evidence[${evidenceIndex}]`);
+      requireNonEmptyString(evidence, "verbatim", `cases[${index}].evidence[${evidenceIndex}]`);
+    }
+    if (!["DEVELOPMENT", "BLIND_HOLDOUT", "TRANSFER"].includes(String(value.partition))) {
+      throw new SemanticEvaluationError(`cases[${index}].partition is unsupported`);
+    }
+    if (value.origin !== "NATURAL" && value.origin !== "SYNTHETIC") {
+      throw new SemanticEvaluationError(`cases[${index}].origin is unsupported`);
     }
     if (value.excludedContextConfirmed !== true) {
       throw new SemanticEvaluationError(`cases[${index}] must confirm excluded-context screening`);
@@ -96,6 +133,49 @@ export function validateSemanticCases(input: unknown): asserts input is Semantic
     if (ids.has(caseId)) throw new SemanticEvaluationError(`Duplicate caseId ${caseId}`);
     ids.add(caseId);
   }
+}
+
+export function validatePartitionIsolation(cases: SemanticCase[]): void {
+  const sourcePartitions = new Map<string, SemanticPartition>();
+  const duplicatePartitions = new Map<string, SemanticPartition>();
+  for (const testCase of cases) {
+    for (const [group, partition, label] of [
+      [testCase.sourceGroupId, sourcePartitions, "source"],
+      [testCase.nearDuplicateGroupId, duplicatePartitions, "near-duplicate"],
+    ] as const) {
+      const existing = partition.get(group);
+      if (existing && existing !== testCase.partition) {
+        throw new SemanticEvaluationError(`${label} group ${group} crosses ${existing} and ${testCase.partition}`);
+      }
+      partition.set(group, testCase.partition);
+    }
+  }
+}
+
+function deterministicOrder(caseId: string, seed: string, slot: string): string {
+  return createHash("sha256").update(`${seed}|${slot}|${caseId}`, "utf8").digest("hex");
+}
+
+export function createBlindedAssignments(
+  cases: SemanticCase[],
+  seed: string,
+  rubricVersion: string,
+): BlindedAssignment[] {
+  validateSemanticCases(cases);
+  validatePartitionIsolation(cases);
+  if (!seed) throw new SemanticEvaluationError("Assignment seed is required");
+  if (!rubricVersion) throw new SemanticEvaluationError("Rubric version is required");
+  return (["A", "B"] as const).map((slot) => {
+    const blinded = cases.map(({ caseId, claim, evidence, domain }) => ({ caseId, claim, evidence, domain }))
+      .sort((left, right) => deterministicOrder(left.caseId, seed, slot).localeCompare(deterministicOrder(right.caseId, seed, slot)));
+    const identity = JSON.stringify({ seed, slot, rubricVersion, caseIds: blinded.map((item) => item.caseId) });
+    return {
+      assignmentId: `assignment_${createHash("sha256").update(identity, "utf8").digest("hex").slice(0, 24)}`,
+      slot,
+      rubricVersion,
+      cases: blinded,
+    };
+  });
 }
 
 export function validateIndependentAnnotations(
@@ -113,7 +193,7 @@ export function validateIndependentAnnotations(
     if (!SEMANTIC_LABELS.includes(annotation.label)) {
       throw new SemanticEvaluationError(`annotations[${index}].label is unsupported`);
     }
-    for (const field of ["annotatorId", "rubricVersion", "createdAt"] as const) {
+    for (const field of ["annotationId", "annotatorId", "rubricVersion", "createdAt"] as const) {
       if (!annotation[field]) throw new SemanticEvaluationError(`annotations[${index}].${field} is required`);
     }
     const identity = `${annotation.caseId}|${annotation.annotatorId}`;
@@ -217,3 +297,4 @@ export function scoreSemanticPredictions(
     perClass,
   };
 }
+import { createHash } from "node:crypto";

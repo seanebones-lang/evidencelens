@@ -4,9 +4,11 @@ import test from "node:test";
 import {
   SemanticEvaluationError,
   cohenKappa,
+  createBlindedAssignments,
   mapAtomicAnswers,
   scoreSemanticPredictions,
   validateIndependentAnnotations,
+  validatePartitionIsolation,
   validateSemanticCases,
 } from "../dist/index.js";
 
@@ -15,8 +17,12 @@ const cases = [{
   packetId: "pkt_1",
   packetHash: `sha256:${"a".repeat(64)}`,
   claim: "Intervention A reduced outcome B.",
-  evidenceSpanIds: ["span_1"],
+  evidence: [{ spanId: "span_1", verbatim: "Intervention A reduced outcome B." }],
   domain: "biomedical-literature",
+  partition: "DEVELOPMENT",
+  sourceGroupId: "source_1",
+  nearDuplicateGroupId: "group_1",
+  origin: "NATURAL",
   excludedContextConfirmed: true,
 }];
 
@@ -26,12 +32,29 @@ test("validates addressable semantic cases", () => {
 });
 
 test("requires independent annotation coverage", () => {
-  const base = { caseId: "SEM-001", label: "SUPPORTED", rubricVersion: "1.0.0", createdAt: "2026-09-23T15:00:00.000Z" };
+  const base = { annotationId: "ann_1", caseId: "SEM-001", label: "SUPPORTED", rubricVersion: "1.0.0", createdAt: "2026-09-23T15:00:00.000Z" };
   assert.throws(() => validateIndependentAnnotations(cases, [{ ...base, annotatorId: "A" }]), /lacks 2/);
   assert.doesNotThrow(() => validateIndependentAnnotations(cases, [
     { ...base, annotatorId: "A" },
-    { ...base, annotatorId: "B" },
+    { ...base, annotationId: "ann_2", annotatorId: "B" },
   ]));
+});
+
+test("creates deterministic isolated annotation assignments without packet metadata", () => {
+  const second = { ...cases[0], caseId: "SEM-002", packetId: "pkt_2", packetHash: `sha256:${"b".repeat(64)}`, sourceGroupId: "source_2", nearDuplicateGroupId: "group_2" };
+  const assignments = createBlindedAssignments([cases[0], second], "seed-001", "1.0.0");
+  assert.equal(assignments.length, 2);
+  assert.notEqual(assignments[0].assignmentId, assignments[1].assignmentId);
+  assert.deepEqual(assignments, createBlindedAssignments([cases[0], second], "seed-001", "1.0.0"));
+  assert.equal("packetId" in assignments[0].cases[0], false);
+  assert.equal("partition" in assignments[0].cases[0], false);
+});
+
+test("rejects source and near-duplicate leakage across partitions", () => {
+  assert.throws(() => validatePartitionIsolation([
+    cases[0],
+    { ...cases[0], caseId: "SEM-002", partition: "BLIND_HOLDOUT" },
+  ]), /crosses DEVELOPMENT and BLIND_HOLDOUT/);
 });
 
 test("maps paired atomic answers without inventing certainty", () => {
@@ -43,7 +66,7 @@ test("maps paired atomic answers without inventing certainty", () => {
 });
 
 test("computes Cohen's kappa from paired independent labels", () => {
-  const record = (caseId, annotatorId, label) => ({ caseId, annotatorId, label, rubricVersion: "1.0.0", createdAt: "2026-09-23T15:00:00.000Z" });
+  const record = (caseId, annotatorId, label) => ({ annotationId: `${caseId}_${annotatorId}`, caseId, annotatorId, label, rubricVersion: "1.0.0", createdAt: "2026-09-23T15:00:00.000Z" });
   const left = [record("A", "L", "SUPPORTED"), record("B", "L", "CONTRADICTED"), record("C", "L", "MIXED"), record("D", "L", "INSUFFICIENT_EVIDENCE")];
   const right = [record("A", "R", "SUPPORTED"), record("B", "R", "CONTRADICTED"), record("C", "R", "MIXED"), record("D", "R", "INSUFFICIENT_EVIDENCE")];
   assert.equal(cohenKappa(left, right), 1);
