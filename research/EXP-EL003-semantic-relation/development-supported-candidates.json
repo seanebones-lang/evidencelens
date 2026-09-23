@@ -1,0 +1,367 @@
+{
+  "selectionVersion": "1.0.0",
+  "selectionRule": "First 20 SHA-256 ordered DEVELOPMENT|PMCID records from EXP-EL002 batches 01 and 02",
+  "cases": [
+    {
+      "caseId": "EL003-DEV-SUP-001",
+      "packetId": "pkt_1f8a792cc3b3b65e40d8dd7d",
+      "packetHash": "sha256:1f8a792cc3b3b65e40d8dd7d55501f4ba9f0c1604afe403003d22d68b748b0ce",
+      "claim": "When administered as first-line intervention to patients admitted with acute hypercapnic respiratory failure secondary to COPD exacerbation in conjunction with guideline-recommended therapies, noninvasive ventilation (NIV) has been shown to reduce mortality and endotracheal intubation.",
+      "evidence": [
+        {
+          "spanId": "span_a8f7513ee2ef3522d8a67888",
+          "verbatim": "When administered as first-line intervention to patients admitted with acute hypercapnic respiratory failure secondary to COPD exacerbation in conjunction with guideline-recommended therapies, noninvasive ventilation (NIV) has been shown to reduce mortality and endotracheal intubation."
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC11580180",
+      "nearDuplicateGroupId": "natural_EL002-CV-015",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-002",
+      "packetId": "pkt_81a713d4bede39e23fca29d3",
+      "packetHash": "sha256:81a713d4bede39e23fca29d310b3f94d2108511ca1580253125af2e640ca2f51",
+      "claim": "Total body irradiation (TBI) for hematopoietic stem cell transplant (HSCT) has certain distinct advantages, such as uniform dose distribution and lack of drug resistance, but it is not widely available in resource-constrained settings.",
+      "evidence": [
+        {
+          "spanId": "span_acf0ccaa2665cdda276b6739",
+          "verbatim": "Total body irradiation (TBI) for hematopoietic stem cell transplant (HSCT) has certain distinct advantages, such as uniform dose distribution and lack of drug resistance, but it is not widely available in resource-constrained settings."
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13313829",
+      "nearDuplicateGroupId": "natural_EL002-CV-017",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-003",
+      "packetId": "pkt_882b54cd8877869769c1e8bd",
+      "packetHash": "sha256:882b54cd8877869769c1e8bd33f7f5f1e9ee75d5b7c4a28a2106c051043375f2",
+      "claim": "This study aims to investigate patient factors affecting the rate of plasma volume target attained in hypertriglyceridemic pancreatitis (HTG‐AP) patients undergoing double filtration plasmapheresis (DFPP).",
+      "evidence": [
+        {
+          "spanId": "span_2494dd1ccfe932150d40adb5",
+          "verbatim": "This study aims to investigate patient factors affecting the rate of plasma volume target attained in hypertriglyceridemic pancreatitis (HTG‐AP) patients undergoing double filtration plasmapheresis (DFPP)."
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13540548",
+      "nearDuplicateGroupId": "natural_EL002-CV-003",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-004",
+      "packetId": "pkt_90aa9852145392cf536787a5",
+      "packetHash": "sha256:90aa9852145392cf536787a551a26049fd535b5ac49a90288a722d1f20b3da76",
+      "claim": "Triple-negative breast cancer (TNBC) is one of the most aggressive and formidable subtypes of breast cancer, devoid of targeted therapy and frequently leading to unfavorable prognoses and significant side effects.",
+      "evidence": [
+        {
+          "spanId": "span_e9f68f1b76985889bcd66291",
+          "verbatim": "Triple-negative breast cancer (TNBC) is one of the most aggressive and formidable subtypes of breast cancer, devoid of targeted therapy and frequently leading to unfavorable prognoses and significant side effects."
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13313835",
+      "nearDuplicateGroupId": "natural_EL002-02-023",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-005",
+      "packetId": "pkt_0fffbf052a55b680a10faf6b",
+      "packetHash": "sha256:0fffbf052a55b680a10faf6bb35af7b1f79747adeb6c157f99fbf77d043d21d2",
+      "claim": "Amyloidosis is a localized or systemic disease caused by deposition of proteins in the extracellular space of various organs and tissues.",
+      "evidence": [
+        {
+          "spanId": "span_5b1709df45f63048c6fee934",
+          "verbatim": "Amyloidosis is a localized or systemic disease caused by deposition of proteins in the extracellular space of various organs and tissues."
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13488628",
+      "nearDuplicateGroupId": "natural_EL002-CV-009",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-006",
+      "packetId": "pkt_b9b72060756176aa080f10cd",
+      "packetHash": "sha256:b9b72060756176aa080f10cd4d0ad02cbb279077be893cd71d09a2ce8d5ee708",
+      "claim": "Quantum dots (QDs) semiconducting nanomaterials, have garnered attention due to their distinctive properties, including small size, high luminescence, and biocompatibility.",
+      "evidence": [
+        {
+          "spanId": "span_9eec9b49455eeb9b43d52210",
+          "verbatim": "Quantum dots (QDs) semiconducting nanomaterials, have garnered attention due to their distinctive properties, including small size, high luminescence, and biocompatibility."
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13494823",
+      "nearDuplicateGroupId": "natural_EL002-02-007",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-007",
+      "packetId": "pkt_4e29fedf5c5efa6f948ff426",
+      "packetHash": "sha256:4e29fedf5c5efa6f948ff426378c6966e440d96da80d97ed33e2919f9035209f",
+      "claim": "The COVID-19 pandemic caused large-scale shifts in healthcare access and delivery that impacted the availability of routine care, such as cancer screening.",
+      "evidence": [
+        {
+          "spanId": "span_c44cb80390fee95c5ebe3f29",
+          "verbatim": "The COVID-19 pandemic caused large-scale shifts in healthcare access and delivery that impacted the availability of routine care, such as cancer screening."
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13410520",
+      "nearDuplicateGroupId": "natural_EL002-02-016",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-008",
+      "packetId": "pkt_23c9d186ae20032d881330d2",
+      "packetHash": "sha256:23c9d186ae20032d881330d28f56e4c338f5a16ab2a624975458cbdfec0fbaba",
+      "claim": "The genus Citrobacter commonly found in water and soil as well as the intestinal and urinary tracts of animals and humans.",
+      "evidence": [
+        {
+          "spanId": "span_590e33ea1f999dd45d93d445",
+          "verbatim": "The genus Citrobacter commonly found in water and soil as well as the intestinal and urinary tracts of animals and humans."
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13277527",
+      "nearDuplicateGroupId": "natural_EL002-CV-020",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-009",
+      "packetId": "pkt_c07fe7bf4fd5439665ee42e9",
+      "packetHash": "sha256:c07fe7bf4fd5439665ee42e921b746584a842fa29ac335110474c8e18140dd71",
+      "claim": "Glioblastoma multiforme (GBM) is the most common harmful high-grade brain tumor with high mortality and low survival rate.",
+      "evidence": [
+        {
+          "spanId": "span_ac85e631250185ec7403b887",
+          "verbatim": "Glioblastoma multiforme (GBM) is the most common harmful high-grade brain tumor with high mortality and low survival rate."
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13313877",
+      "nearDuplicateGroupId": "natural_EL002-02-026",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-010",
+      "packetId": "pkt_33d7423dc27729f02c5a9a72",
+      "packetHash": "sha256:33d7423dc27729f02c5a9a72a6d42ebe0f137dee3cfceb3395d217f32a9a7f03",
+      "claim": "Targeting the protein arginine methyltransferase 1 (PRMT1) has emerged as a promising therapeutic strategy in cancer treatment.",
+      "evidence": [
+        {
+          "spanId": "span_8df5122fb481062d6d8ca438",
+          "verbatim": "Targeting the protein arginine methyltransferase 1 (PRMT1) has emerged as a promising therapeutic strategy in cancer treatment."
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13494812",
+      "nearDuplicateGroupId": "natural_EL002-02-006",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-011",
+      "packetId": "pkt_1d944f497ef9475823d0bb69",
+      "packetHash": "sha256:1d944f497ef9475823d0bb699d9c56987fc3e358e6e4fa97007fca0b3edf89f3",
+      "claim": "There are no guidelines for OSA assessment in patients with COPD.",
+      "evidence": [
+        {
+          "spanId": "span_9b2cdf36b82d514cb8bdba82",
+          "verbatim": "There are no guidelines for OSA assessment in patients with COPD."
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13418682",
+      "nearDuplicateGroupId": "natural_EL002-CV-013",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-012",
+      "packetId": "pkt_83a3c86fceae1ee47a4bc331",
+      "packetHash": "sha256:83a3c86fceae1ee47a4bc33143701b9537ed0d192bbbc50a5e533930e50ce1b1",
+      "claim": "It is essential to increase the rates of early diagnosis in cancer control, and the diagnostic process needs to be improved to achieve this goal.",
+      "evidence": [
+        {
+          "spanId": "span_50f10e97f3b14be26599df40",
+          "verbatim": "It is essential to increase the rates of early diagnosis in cancer control, and the diagnostic process needs to be improved to achieve this goal."
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13373511",
+      "nearDuplicateGroupId": "natural_EL002-02-019",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-013",
+      "packetId": "pkt_7dd7861b501a91c0b9a41816",
+      "packetHash": "sha256:7dd7861b501a91c0b9a4181627b031810c9ef2ce0c404e932b7ae5533174331f",
+      "claim": "The clinical consequences of coexistent tricuspid regurgitation (TR) in patients with severe ischemic mitral regurgitation (IMR) remain unclear.",
+      "evidence": [
+        {
+          "spanId": "span_4913e67b94a9aa1949518686",
+          "verbatim": "The clinical consequences of coexistent tricuspid regurgitation (TR) in patients with severe ischemic mitral regurgitation (IMR) remain unclear."
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13162248",
+      "nearDuplicateGroupId": "natural_EL002-CV-024",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-014",
+      "packetId": "pkt_607f939723dc8c176db6194a",
+      "packetHash": "sha256:607f939723dc8c176db6194ad702468de8c9358b6d27cf06e614ac85a2f24c09",
+      "claim": "This study aimed to describe the epidemiology of kidney replacement therapy (KRT) in Aotearoa New Zealand and assess the impact of residential location on access to kidney transplantation.",
+      "evidence": [
+        {
+          "spanId": "span_5aaa72e959d0995b2fc61233",
+          "verbatim": "This study aimed to describe the epidemiology of kidney replacement therapy (KRT) in Aotearoa New Zealand and assess the impact of residential location on access to kidney transplantation."
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13546947",
+      "nearDuplicateGroupId": "natural_EL002-CV-002",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-015",
+      "packetId": "pkt_f5ac451450625c779d95a063",
+      "packetHash": "sha256:f5ac451450625c779d95a0637424846a83f49243463cab99092959fb281efc46",
+      "claim": "The rarity of Francisella novicida infection in humans is well-known, and the F. novicida cases occur in immunocompromised patients or those with underlying health problems.",
+      "evidence": [
+        {
+          "spanId": "span_3f5c680c0f158102a8285c54",
+          "verbatim": "The rarity of Francisella novicida infection in humans is well-known, and the F. novicida cases occur in immunocompromised patients or those with underlying health problems."
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13277560",
+      "nearDuplicateGroupId": "natural_EL002-CV-021",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-016",
+      "packetId": "pkt_f3a7a97287e4c1124b185947",
+      "packetHash": "sha256:f3a7a97287e4c1124b1859474f2c67a36e10729175e1477ed6b060d201342907",
+      "claim": "Tumour‐derived sialoglycans, bearing the charged nonulosonic sugar sialic acid at their termini, play a critical role in tumour cell adhesion and invasion, as well as evading cell death and immune surveillance.",
+      "evidence": [
+        {
+          "spanId": "span_a3ec15107b77f2ce6e916ea9",
+          "verbatim": "Tumour‐derived sialoglycans, bearing the charged nonulosonic sugar sialic acid at their termini, play a critical role in tumour cell adhesion and invasion, as well as evading cell death and immune surveillance."
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13494824",
+      "nearDuplicateGroupId": "natural_EL002-02-004",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-017",
+      "packetId": "pkt_1b3c70f6444e33bcef6a22f5",
+      "packetHash": "sha256:1b3c70f6444e33bcef6a22f5d368645f7800c5f3755c7e6ddb330ecb09a112c0",
+      "claim": "Racial differences in lung cancer screening (LCS) eligibility and outcomes persist despite recent expansion of the US Preventive Services Task Force criteria and greater recognition of screening disparities.",
+      "evidence": [
+        {
+          "spanId": "span_f464b5e982c3c403f0214a1c",
+          "verbatim": "Racial differences in lung cancer screening (LCS) eligibility and outcomes persist despite recent expansion of the US Preventive Services Task Force criteria and greater recognition of screening disparities."
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13420458",
+      "nearDuplicateGroupId": "natural_EL002-02-012",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-018",
+      "packetId": "pkt_fe77046a7851c884896e0ac7",
+      "packetHash": "sha256:fe77046a7851c884896e0ac7069618d63382fc105b1cc8e148536a28d26fc557",
+      "claim": "N6-methyladenosine (m6A) modification has been associated with non-small cell lung cancer (NSCLC) tumorigenesis.",
+      "evidence": [
+        {
+          "spanId": "span_0f3eda126dec033c7cee43a1",
+          "verbatim": "N6-methyladenosine (m6A) modification has been associated with non-small cell lung cancer (NSCLC) tumorigenesis."
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13502726",
+      "nearDuplicateGroupId": "natural_EL002-02-003",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-019",
+      "packetId": "pkt_e1ccaa724684f3015071956f",
+      "packetHash": "sha256:e1ccaa724684f3015071956f9086db04132946b01e9b4378fb89edbcc465fa91",
+      "claim": "Social media is becoming recognized as an effective platform for cancer health promotion, education, care, and support.",
+      "evidence": [
+        {
+          "spanId": "span_097e82cfadfb576d11883d67",
+          "verbatim": "Social media is becoming recognized as an effective platform for cancer health promotion, education, care, and support."
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13420014",
+      "nearDuplicateGroupId": "natural_EL002-02-015",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-020",
+      "packetId": "pkt_d51e533b37043dbd4dd62ebc",
+      "packetHash": "sha256:d51e533b37043dbd4dd62ebcdd4266e7d925a21278007d70779b7feb7de2a8ff",
+      "claim": "A 76-year-old female with a history of estrogen receptor-positive/progesterone receptor-positive/HER2-negative breast cancer presented to the pulmonary clinic with severe exertional dyspnea.",
+      "evidence": [
+        {
+          "spanId": "span_e6fe2ee5a5914b80927ebce6",
+          "verbatim": "A 76-year-old female with a history of estrogen receptor-positive/progesterone receptor-positive/HER2-negative breast cancer presented to the pulmonary clinic with severe exertional dyspnea."
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13417794",
+      "nearDuplicateGroupId": "natural_EL002-02-013",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    }
+  ]
+}
+

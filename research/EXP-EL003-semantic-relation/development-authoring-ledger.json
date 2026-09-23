@@ -1,0 +1,187 @@
+{
+  "ledgerVersion": "1.0.0",
+  "confidentialUntilEvaluationComplete": true,
+  "records": [
+    {
+      "caseId": "EL003-DEV-SUP-001",
+      "intendedConstructionLabel": "SUPPORTED",
+      "sourceCaseId": "EL002-CV-015",
+      "pmcid": "PMC11580180",
+      "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[1]/p[1]",
+      "transformation": null,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-002",
+      "intendedConstructionLabel": "SUPPORTED",
+      "sourceCaseId": "EL002-CV-017",
+      "pmcid": "PMC13313829",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[1]/p[@id='Par1']",
+      "transformation": null,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-003",
+      "intendedConstructionLabel": "SUPPORTED",
+      "sourceCaseId": "EL002-CV-003",
+      "pmcid": "PMC13540548",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[@id='tap14232-sec-0001']/p[1]",
+      "transformation": null,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-004",
+      "intendedConstructionLabel": "SUPPORTED",
+      "sourceCaseId": "EL002-02-023",
+      "pmcid": "PMC13313835",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[1]/p[@id='Par1']",
+      "transformation": null,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-005",
+      "intendedConstructionLabel": "SUPPORTED",
+      "sourceCaseId": "EL002-CV-009",
+      "pmcid": "PMC13488628",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/p[@id='Par1']",
+      "transformation": null,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-006",
+      "intendedConstructionLabel": "SUPPORTED",
+      "sourceCaseId": "EL002-02-007",
+      "pmcid": "PMC13494823",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "transformation": null,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-007",
+      "intendedConstructionLabel": "SUPPORTED",
+      "sourceCaseId": "EL002-02-016",
+      "pmcid": "PMC13410520",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/sec[@id='S1']/p[@id='P2']",
+      "transformation": null,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-008",
+      "intendedConstructionLabel": "SUPPORTED",
+      "sourceCaseId": "EL002-CV-020",
+      "pmcid": "PMC13277527",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "transformation": null,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-009",
+      "intendedConstructionLabel": "SUPPORTED",
+      "sourceCaseId": "EL002-02-026",
+      "pmcid": "PMC13313877",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/p[@id='Par1']",
+      "transformation": null,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-010",
+      "intendedConstructionLabel": "SUPPORTED",
+      "sourceCaseId": "EL002-02-006",
+      "pmcid": "PMC13494812",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "transformation": null,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-011",
+      "intendedConstructionLabel": "SUPPORTED",
+      "sourceCaseId": "EL002-CV-013",
+      "pmcid": "PMC13418682",
+      "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[1]/p[1]",
+      "transformation": null,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-012",
+      "intendedConstructionLabel": "SUPPORTED",
+      "sourceCaseId": "EL002-02-019",
+      "pmcid": "PMC13373511",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[@id='as1']/p[1]",
+      "transformation": null,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-013",
+      "intendedConstructionLabel": "SUPPORTED",
+      "sourceCaseId": "EL002-CV-024",
+      "pmcid": "PMC13162248",
+      "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[1]/p[1]",
+      "transformation": null,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-014",
+      "intendedConstructionLabel": "SUPPORTED",
+      "sourceCaseId": "EL002-CV-002",
+      "pmcid": "PMC13546947",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[@id='nep14409-sec-0001']/p[1]",
+      "transformation": null,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-015",
+      "intendedConstructionLabel": "SUPPORTED",
+      "sourceCaseId": "EL002-CV-021",
+      "pmcid": "PMC13277560",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "transformation": null,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-016",
+      "intendedConstructionLabel": "SUPPORTED",
+      "sourceCaseId": "EL002-02-004",
+      "pmcid": "PMC13494824",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "transformation": null,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-017",
+      "intendedConstructionLabel": "SUPPORTED",
+      "sourceCaseId": "EL002-02-012",
+      "pmcid": "PMC13420458",
+      "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[1]/p[1]",
+      "transformation": null,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-018",
+      "intendedConstructionLabel": "SUPPORTED",
+      "sourceCaseId": "EL002-02-003",
+      "pmcid": "PMC13502726",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[1]/p[1]",
+      "transformation": null,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-019",
+      "intendedConstructionLabel": "SUPPORTED",
+      "sourceCaseId": "EL002-02-015",
+      "pmcid": "PMC13420014",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/sec[@id='S1']/p[@id='P1']",
+      "transformation": null,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-SUP-020",
+      "intendedConstructionLabel": "SUPPORTED",
+      "sourceCaseId": "EL002-02-013",
+      "pmcid": "PMC13417794",
+      "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/p[1]",
+      "transformation": null,
+      "requiresHumanAuthorReview": true
+    }
+  ]
+}
+
