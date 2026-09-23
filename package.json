@@ -13,7 +13,8 @@
     "typecheck": "npm run typecheck --workspaces --if-present",
     "check": "npm run build && npm run typecheck && npm test",
     "experiment:dev-seed": "node research/EXP-EL001-packet-validity/scripts/run-dev-seed.mjs",
-    "experiment:development": "node research/EXP-EL001-packet-validity/scripts/run-dev-seed.mjs --manifest=research/EXP-EL001-packet-validity/development.manifest.json"
+    "experiment:development": "node research/EXP-EL001-packet-validity/scripts/run-dev-seed.mjs --manifest=research/EXP-EL001-packet-validity/development.manifest.json",
+    "experiment:audit-coverage": "node research/EXP-EL001-packet-validity/scripts/audit-source-coverage.mjs"
   },
   "devDependencies": {
     "@types/node": "^24.5.2",

@@ -4,6 +4,10 @@
 **Protocol version:** 0.1.0
 **Date:** 2026-09-23
 
+Amendment 001 defines the previously unspecified source-record
+counting rule after the frozen runs. It does not change these
+partitions or their outcomes; see `AMENDMENT-001-SOURCE-COVERAGE.md`.
+
 ## Research question
 
 Can EvidenceLens construct exact, reproducible, provenance-preserving evidence packets from authorized scientific sources without fabricating or misattributing identifiers, content, source status, or deterministic assertions?

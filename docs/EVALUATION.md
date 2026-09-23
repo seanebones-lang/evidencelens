@@ -40,3 +40,6 @@ These partitions use 20 distinct licensed PMC articles. The
 150–300 source-record target remains unmet, and the current overall
 experiment decision is `CONTINUE_RESEARCH`. None of these
 deterministic case results measures JEV semantic performance.
+Amendment 001 defines a conservative distinct-article counting rule
+and preserves a source-by-source audit. The count is 20, leaving 130
+additional qualifying articles for a prospective expansion cohort.

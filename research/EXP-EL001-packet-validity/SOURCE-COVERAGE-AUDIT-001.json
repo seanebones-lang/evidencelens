@@ -1,0 +1,208 @@
+{
+  "auditVersion": "1.0.0",
+  "countingRule": "Unique preserved PMC article artifact identified by PMCID, version, and XML SHA-256; repeat uses, status responses, and discovery candidates do not add records.",
+  "minimum": 150,
+  "maximum": 300,
+  "uniqueSourceRecords": 20,
+  "shortfallToMinimum": 130,
+  "coverageGate": "UNMET",
+  "partitions": [
+    {
+      "partition": "DEVELOPMENT",
+      "claims": 30,
+      "uniqueSourceRecords": 6
+    },
+    {
+      "partition": "BLIND_HOLDOUT",
+      "claims": 50,
+      "uniqueSourceRecords": 10
+    },
+    {
+      "partition": "TRANSFER",
+      "claims": 20,
+      "uniqueSourceRecords": 4
+    }
+  ],
+  "records": [
+    {
+      "partition": "DEVELOPMENT",
+      "pmcid": "PMC7320186",
+      "pmid": "32591513",
+      "doi": "10.1038/s41597-020-0543-2",
+      "version": "PMC7320186.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:c518bad0b5164b749fc94a72c6c60e1162af0733b2abeb10a89f9ad2a0291e9d"
+    },
+    {
+      "partition": "DEVELOPMENT",
+      "pmcid": "PMC7733667",
+      "pmid": "33269805",
+      "doi": "10.1042/etls20200165",
+      "version": "PMC7733667.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:f3b62eb2e1a14db03b4f4ab6476a970c2e65b0cb049e7ab0f78777f08bdf1dac"
+    },
+    {
+      "partition": "DEVELOPMENT",
+      "pmcid": "PMC6241741",
+      "pmid": "28466087",
+      "doi": "10.4338/aci-2017-01-ie-0018",
+      "version": "PMC6241741.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:78281ec1d2ae2b42810e2b0cc5256eedef9be64b872656091f74807994f35c7b"
+    },
+    {
+      "partition": "DEVELOPMENT",
+      "pmcid": "PMC12807016",
+      "pmid": "33217201",
+      "doi": "10.1002/tpg2.20039",
+      "version": "PMC12807016.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:60b2900ff7050b7e0a2fbe67f1c383674aeef93d5f2ef081020ebb303f7d12f3"
+    },
+    {
+      "partition": "DEVELOPMENT",
+      "pmcid": "PMC13317115",
+      "pmid": "32372307",
+      "doi": "10.1186/s43046-020-00028-2",
+      "version": "PMC13317115.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:d351d66c3eea043969e65896b9e4c97a038fd9562525894f5784cb8f4913279b"
+    },
+    {
+      "partition": "DEVELOPMENT",
+      "pmcid": "PMC13580650",
+      "pmid": "32442987",
+      "doi": "10.1088/1741-2552/ab95ea",
+      "version": "PMC13580650.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:ac008002de7a3c55b0a7c8c2104a4e6ef9f7cad3bf21f5fb575cd02f6acbfb91"
+    },
+    {
+      "partition": "BLIND_HOLDOUT",
+      "pmcid": "PMC13404518",
+      "pmid": "42523236",
+      "doi": "10.1055/s-0044-1779698",
+      "version": "PMC13404518.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:c529cf00b4e073fc938dbdae7faee77a9b6af1b4bd5c284a58255e22dc9c4065"
+    },
+    {
+      "partition": "BLIND_HOLDOUT",
+      "pmcid": "PMC11700226",
+      "pmid": "38967539",
+      "doi": "10.1002/pmrj.13213",
+      "version": "PMC11700226.2",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:6f6e5051a4c006a5d0176b134d6248a18714e008e9fc996f1529ba6bd70a41ed"
+    },
+    {
+      "partition": "BLIND_HOLDOUT",
+      "pmcid": "PMC12414314",
+      "pmid": "40922766",
+      "doi": "10.1016/j.jaacop.2024.09.001",
+      "version": "PMC12414314.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:555a62094c99776e93ce8b92a4252b11e54a3837e8462ee8111bd2bb4e0ec77a"
+    },
+    {
+      "partition": "BLIND_HOLDOUT",
+      "pmcid": "PMC12285681",
+      "pmid": "38266979",
+      "doi": "10.1016/j.drudis.2024.103894",
+      "version": "PMC12285681.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:27ddca974420a56f517686e42e943e71dac8907a437954676d3105e5ab367c90"
+    },
+    {
+      "partition": "BLIND_HOLDOUT",
+      "pmcid": "PMC12081502",
+      "pmid": "39636421",
+      "doi": "10.1007/s00330-024-11188-3",
+      "version": "PMC12081502.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:fa87caae2316c5129389c140d8676ec7d725df44a59d4a8bb59494514674b747"
+    },
+    {
+      "partition": "BLIND_HOLDOUT",
+      "pmcid": "PMC12020540",
+      "pmid": "39587019",
+      "doi": "10.1055/a-2482-9071",
+      "version": "PMC12020540.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:1c2cbe336a11e5f6ec454a0b89b7ff12f0dfd923503bd2325e74f8c5892757ef"
+    },
+    {
+      "partition": "BLIND_HOLDOUT",
+      "pmcid": "PMC12000765",
+      "pmid": "40247904",
+      "doi": "10.1002/lrh2.10454",
+      "version": "PMC12000765.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:0409dbf27ce334f33bbc4524e903f39394cdf98b94e6aee0af1f3ea5ce541f51"
+    },
+    {
+      "partition": "BLIND_HOLDOUT",
+      "pmcid": "PMC11962597",
+      "pmid": "39808114",
+      "doi": "10.1093/bib/bbae713",
+      "version": "PMC11962597.1",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "contentHash": "sha256:3f5b0398b419dab4165da246c43fdd83a5d27634f427a5e6537262c26da66385"
+    },
+    {
+      "partition": "BLIND_HOLDOUT",
+      "pmcid": "PMC11932155",
+      "pmid": "38302337",
+      "doi": "10.1016/j.vaccine.2024.01.092",
+      "version": "PMC11932155.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:ac74550944a7bd3d5778546e6beb15786c1d916b91fb1f7730e74134431d7f72"
+    },
+    {
+      "partition": "BLIND_HOLDOUT",
+      "pmcid": "PMC11928429",
+      "pmid": "38565775",
+      "doi": "10.1007/s12033-024-01133-6",
+      "version": "PMC11928429.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:23687bc8b53ea9b5d7e7f445567a78bd94366637e3d4a6775fd1c82271a266f0"
+    },
+    {
+      "partition": "TRANSFER",
+      "pmcid": "PMC13321751",
+      "pmid": "39481590",
+      "doi": "10.1016/j.pneurobio.2024.102684",
+      "version": "PMC13321751.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:2142dc8b4d5c30c6c39c36e5294284b7f71c29a4130cd2d116c768d663eb261f"
+    },
+    {
+      "partition": "TRANSFER",
+      "pmcid": "PMC13271256",
+      "pmid": "39436150",
+      "doi": "10.1096/fj.202400454r",
+      "version": "PMC13271256.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:93099244e96c8f542fa575fdfe11660880d353cf57f5e55f27d8ac3c41d668e7"
+    },
+    {
+      "partition": "TRANSFER",
+      "pmcid": "PMC13108743",
+      "pmid": "38701208",
+      "doi": "10.1126/sciadv.adk7257",
+      "version": "PMC13108743.1",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "contentHash": "sha256:8556973ac910c8be2e709a252997cfd966fef6f9de8f68f1ef2e16c83205e6f9"
+    },
+    {
+      "partition": "TRANSFER",
+      "pmcid": "PMC13045196",
+      "pmid": "39709647",
+      "doi": "10.1016/j.conb.2024.102948",
+      "version": "PMC13045196.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:46f96821b2e0631c450d4cda1b614bddb00fd3f5f728a1bf4c11c196d77a7b56"
+    }
+  ]
+}
