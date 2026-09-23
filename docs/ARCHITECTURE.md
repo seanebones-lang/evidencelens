@@ -46,9 +46,9 @@ Dependencies point inward toward stable domain contracts:
 | Package | Purpose | State |
 |---|---|---|
 | `evidence-schema` | Packet types, JSON Schema, JSON-LD context, graph invariants | Active |
-| `source-adapters` | DOI/PubMed/PMC/ClinicalTrials/upload resolution | Active: Crossref first |
+| `source-adapters` | DOI/PubMed/PMC/ClinicalTrials/upload resolution | Active: Crossref, PubMed, licensed PMC XML |
 | `packet-builder` | Fail-closed assembly, snapshot preservation, status assertions, replay identity | Active |
-| `deterministic-checks` | Hash, identifier, quote, date, and numeric checks | Planned |
+| `deterministic-checks` | Hash, identifier, quote, date, and numeric checks | Active: licensed PMC exact spans |
 | `semantic-review` | Provider-neutral decisions and JEV adapter | Planned after EXP-EL001 |
 | `routing` | Versioned review-priority rules | Planned after question evaluation |
 | `witness-adapter` | Append-only provenance delivery and outbox | Planned |

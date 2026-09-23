@@ -3,6 +3,7 @@ import type { SourceArtifact, SourceStatus } from "@evidencelens/evidence-schema
 export type SourceAdapterErrorCode =
   | "INVALID_IDENTIFIER"
   | "SOURCE_UNAVAILABLE"
+  | "SOURCE_UNAUTHORIZED"
   | "SOURCE_RESPONSE_INVALID"
   | "IDENTIFIER_MISMATCH";
 
