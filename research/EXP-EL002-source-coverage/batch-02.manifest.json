@@ -1,0 +1,481 @@
+{
+  "experiment": "EXP-EL002",
+  "manifestVersion": "1.0.0",
+  "partition": "CANCER_02",
+  "frozen": true,
+  "sources": [
+    {
+      "pmcid": "PMC13573834",
+      "pmid": "42741434",
+      "doi": "10.3389/frhem.2024.1346627",
+      "version": "PMC13573834.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:8678def281c71c87e6204129c25a18c48e406f968a96e91fa9fdb302ee447a1a"
+    },
+    {
+      "pmcid": "PMC13494981",
+      "pmid": "42638765",
+      "doi": "10.3389/ftubr.2024.1432880",
+      "version": "PMC13494981.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:92bdab120fa95778ddf25d00f98ebd1104ffee0ba6f71c773207f10298eb63ad"
+    },
+    {
+      "pmcid": "PMC13502726",
+      "pmid": "38427468",
+      "doi": "10.3233/cbm-230188",
+      "version": "PMC13502726.1",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "contentHash": "sha256:f31e4bd7232ef0ee224ab2a2b62f3482d092f43a496f5663decc13d7a5813e6d"
+    },
+    {
+      "pmcid": "PMC13494824",
+      "pmid": "38758134",
+      "doi": "10.1002/cmdc.202400088",
+      "version": "PMC13494824.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:be8414a0e797feae52e9c89d328de461a537b5c81dd504f14a7b4855334cf254"
+    },
+    {
+      "pmcid": "PMC13494822",
+      "pmid": "38726553",
+      "doi": "10.1002/cmdc.202400108",
+      "version": "PMC13494822.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:6a7865ef43c2fc746a5ce2b7ec7b9eb24eda575c58c57357639a3284b06efb9e"
+    },
+    {
+      "pmcid": "PMC13494812",
+      "pmid": "38724444",
+      "doi": "10.1002/cmdc.202400269",
+      "version": "PMC13494812.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:9425c0849597fae370e2d4b9fbeabe4f53f33d8513a869963f5c51c3654368b1"
+    },
+    {
+      "pmcid": "PMC13494823",
+      "pmid": "38724442",
+      "doi": "10.1002/cmdc.202400172",
+      "version": "PMC13494823.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:65a500886ab8f3eae1c254dce8c0d458bbf9ff9e53b5133c663351082aee4b09"
+    },
+    {
+      "pmcid": "PMC13485073",
+      "pmid": "39542128",
+      "doi": "10.1016/j.biocel.2024.106693",
+      "version": "PMC13485073.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:551e4f42e9b8a1acea75dd083fe0f867bfea72cb7a7f6ef094b63aff8ecff602"
+    },
+    {
+      "pmcid": "PMC13482779",
+      "pmid": "38382726",
+      "doi": "10.1016/j.cgh.2024.02.007",
+      "version": "PMC13482779.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:2642b649ca70e4a94ad4626acda4a7917cba588c711033f0d0bb080f39deb92e"
+    },
+    {
+      "pmcid": "PMC13268294",
+      "pmid": "42563774",
+      "doi": "10.7586/jkbns.24.011",
+      "version": "PMC13268294.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:ce3622762e1f8d8ece0e374f9d4ace193d6430f1a0f3d81c61ba5e149af61e9c"
+    },
+    {
+      "pmcid": "PMC13268277",
+      "pmid": "42563753",
+      "doi": "10.7586/jkbns.24.015",
+      "version": "PMC13268277.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:3aae96ea6ab84de68c2ac703c577b08f7c0a268301a4cbff68b6793d53473397"
+    },
+    {
+      "pmcid": "PMC13420458",
+      "pmid": "42548494",
+      "doi": "10.1016/j.chpulm.2024.100051",
+      "version": "PMC13420458.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:4d6bf3c3696041fdb9ddb601c6e82543b9a725d719c408cb7a2c1a56d4a03318"
+    },
+    {
+      "pmcid": "PMC13417794",
+      "pmid": "42548330",
+      "doi": "10.1016/j.chpulm.2024.100074",
+      "version": "PMC13417794.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:d53a7f4c601ccb73146f32f0773ea522e9b8d4cbef9d2c1cc7f40eb2db8a505c"
+    },
+    {
+      "pmcid": "PMC13425555",
+      "pmid": "39205375",
+      "doi": "10.1021/acsami.4c08306",
+      "version": "PMC13425555.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:c1545f36504f3655fff1aac304f0634c12b5c4e452cb0123bee4cfad237bec49"
+    },
+    {
+      "pmcid": "PMC13420014",
+      "pmid": "38282227",
+      "doi": "10.1002/pon.6299",
+      "version": "PMC13420014.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:32be88bb7ef63d5f44878a08d6ba19e5644b65bc89379487e1650443b5aa10ee"
+    },
+    {
+      "pmcid": "PMC13410520",
+      "pmid": "42524349",
+      "doi": "10.1016/j.rare.2024.100034",
+      "version": "PMC13410520.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:e29b9e8526b13015e98a03ef473e8b7e7b6d166aaabb9cba9afc3a8cef1c6da3"
+    },
+    {
+      "pmcid": "PMC13401909",
+      "pmid": "39370233",
+      "doi": "10.1016/j.jtct.2024.05.024",
+      "version": "PMC13401909.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:b5118deba28229cb75c09d65ae963adabb5f7b8993e34523cd0bb982475fd2d2"
+    },
+    {
+      "pmcid": "PMC13395951",
+      "pmid": "38413541",
+      "doi": "10.1007/s11306-024-02096-0",
+      "version": "PMC13395951.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:a58ad1d419d74fc0d407ea992fce93d3d84a35de73c7c09e94ea538bf02d5f3e"
+    },
+    {
+      "pmcid": "PMC13373511",
+      "pmid": "39415661",
+      "doi": "10.1017/s146342362400029x",
+      "version": "PMC13373511.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:e4ca96fb63ac15b3b60011e500fa96f60703b9dd30907a9a7a381d68e3f10688"
+    },
+    {
+      "pmcid": "PMC13327348",
+      "pmid": "39730977",
+      "doi": "10.1186/s43046-024-00254-y",
+      "version": "PMC13327348.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:b4ea1207b054993d2199869d52009bba369b7163443bd2e73146ac07203ae1cb"
+    },
+    {
+      "pmcid": "PMC13313861",
+      "pmid": "39722090",
+      "doi": "10.1186/s43046-024-00250-2",
+      "version": "PMC13313861.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:bbcc6fe0c0abdda26b32e19dbe78d60054ca5dc382dc4abca112ae06b93b6745"
+    },
+    {
+      "pmcid": "PMC13313845",
+      "pmid": "39710832",
+      "doi": "10.1186/s43046-024-00251-1",
+      "version": "PMC13313845.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:1da8eea4b0d26ca203eb3ef1438fc80440afa98531af9254d4bd0c5219fa3439"
+    },
+    {
+      "pmcid": "PMC13313835",
+      "pmid": "39702881",
+      "doi": "10.1186/s43046-024-00246-y",
+      "version": "PMC13313835.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:44e0754e6c97402d6387278e9a94c6ed3ecbe8bd89f3d14d660ff1a5e0c19b8d"
+    },
+    {
+      "pmcid": "PMC13313864",
+      "pmid": "39693006",
+      "doi": "10.1186/s43046-024-00248-w",
+      "version": "PMC13313864.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:9d3d5b806b6e0d067925fdf42f1b6eab7c8cabe9cc5c71073477fcdea877db20"
+    },
+    {
+      "pmcid": "PMC13313843",
+      "pmid": "39523244",
+      "doi": "10.1186/s43046-024-00245-z",
+      "version": "PMC13313843.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:e1ff0a65a9b8d445111fca2ec2358db40857c24f780bbf5f1cd8f194764bbcbd"
+    },
+    {
+      "pmcid": "PMC13313877",
+      "pmid": "39465481",
+      "doi": "10.1186/s43046-024-00240-4",
+      "version": "PMC13313877.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:9aaa48d29c496eccb12421322b4a013a57bdd721c72cb9ca624806c216978741"
+    }
+  ],
+  "cases": [
+    {
+      "caseId": "EL002-02-001",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13573834",
+      "verbatim": "The increasing demand for immune cell applications, both in clinical settings and in research laboratories, has highlighted the critical need for cryopreservation (banking) methods for T cells.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P4']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-02-002",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13494981",
+      "verbatim": "Mycobacterium tuberculosis (Mtb) has remained one of the major infectious disease killers for generations and generations.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-02-003",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13502726",
+      "verbatim": "N6-methyladenosine (m6A) modification has been associated with non-small cell lung cancer (NSCLC) tumorigenesis.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-02-004",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13494824",
+      "verbatim": "Tumour‐derived sialoglycans, bearing the charged nonulosonic sugar sialic acid at their termini, play a critical role in tumour cell adhesion and invasion, as well as evading cell death and immune surveillance.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-02-005",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13494822",
+      "verbatim": "Vascular endothelial growth factor receptor 2 (VEGFR‐2) stands as a prominent therapeutic target in oncology, playing a critical role in angiogenesis, tumor growth, and metastasis.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-02-NEG-005",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC13494822",
+      "verbatim": "This sentence is absent from the cited PMC article [EL002-02-NEG-005].",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL002-02-006",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13494812",
+      "verbatim": "Targeting the protein arginine methyltransferase 1 (PRMT1) has emerged as a promising therapeutic strategy in cancer treatment.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-02-007",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13494823",
+      "verbatim": "Quantum dots (QDs) semiconducting nanomaterials, have garnered attention due to their distinctive properties, including small size, high luminescence, and biocompatibility.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-02-008",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13485073",
+      "verbatim": "Autophagy is a cellular recycling process that is associated with tumor growth, anti-tumor immune responses, and therapy resistance in colorectal cancer (CRC).",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P2']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-02-009",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13482779",
+      "verbatim": "Cytologic and histopathologic diagnosis of non-ductal pancreatic neoplasms can be challenging in daily clinical practice, whereas it is crucial for therapy and prognosis.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/sec[@id='S1']/p[@id='P1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-02-010",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13268294",
+      "verbatim": "This study investigated changes in psychological and physiological indices in cancer survivors who participated in a forest therapy camp in Korea.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-02-NEG-010",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC13268294",
+      "verbatim": "This sentence is absent from the cited PMC article [EL002-02-NEG-010].",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[1]/p[1]",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL002-02-011",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13268277",
+      "verbatim": "This study examined the effects of the healing movie programs for cancer survivors on post-traumatic stress syndrome, resilience, and cognitive emotional control strategies, a quasi-experimental design.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-02-012",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13420458",
+      "verbatim": "Racial differences in lung cancer screening (LCS) eligibility and outcomes persist despite recent expansion of the US Preventive Services Task Force criteria and greater recognition of screening disparities.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-02-013",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13417794",
+      "verbatim": "A 76-year-old female with a history of estrogen receptor-positive/progesterone receptor-positive/HER2-negative breast cancer presented to the pulmonary clinic with severe exertional dyspnea.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-02-014",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13425555",
+      "verbatim": "Fluorescence imaging allows for noninvasively visualizing and measuring key physiological parameters like pH and dissolved oxygen.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-02-015",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13420014",
+      "verbatim": "Social media is becoming recognized as an effective platform for cancer health promotion, education, care, and support.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/sec[@id='S1']/p[@id='P1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-02-NEG-015",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC13420014",
+      "verbatim": "This sentence is absent from the cited PMC article [EL002-02-NEG-015].",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/sec[@id='S1']/p[@id='P1']",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL002-02-016",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13410520",
+      "verbatim": "The COVID-19 pandemic caused large-scale shifts in healthcare access and delivery that impacted the availability of routine care, such as cancer screening.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/sec[@id='S1']/p[@id='P2']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-02-017",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13401909",
+      "verbatim": "Among the potential complications of allogeneic hematopoietic stem cell transplantation (HSCT), graft-versus-host disease (GVHD) is common and associated with significant physical and psychosocial symptom burden.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P2']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-02-018",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13395951",
+      "verbatim": "Despite the ability of cancer cells to survive glucose deprivation, most studies on anti-cancer effect of metformin explored its impact on glucose metabolism.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[1]/p[@id='Par1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-02-019",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13373511",
+      "verbatim": "It is essential to increase the rates of early diagnosis in cancer control, and the diagnostic process needs to be improved to achieve this goal.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[@id='as1']/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-02-020",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13327348",
+      "verbatim": "Green synthesis techniques have drawn a lot of interest lately since they are beneficial to the environment and have potential uses in a variety of industries, including biomedicine.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/p[@id='Par1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-02-NEG-020",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC13327348",
+      "verbatim": "This sentence is absent from the cited PMC article [EL002-02-NEG-020].",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/p[@id='Par1']",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL002-02-021",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13313861",
+      "verbatim": "Tumor recurrence or metastasis after surgery is a significant factor influencing bladder cancer (BC) prognosis.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[1]/p[@id='Par1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-02-022",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13313845",
+      "verbatim": "Lung cancer is a form of cancer that is responsible for the largest incidence of deaths attributed to cancer worldwide.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[1]/p[@id='Par1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-02-023",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13313835",
+      "verbatim": "Triple-negative breast cancer (TNBC) is one of the most aggressive and formidable subtypes of breast cancer, devoid of targeted therapy and frequently leading to unfavorable prognoses and significant side effects.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[1]/p[@id='Par1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-02-024",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13313864",
+      "verbatim": "Axillary lymph node dissection (ALND) is an essential step in the management of breast cancer.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[1]/p[@id='Par1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-02-025",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13313843",
+      "verbatim": "Functional genomics, a multidisciplinary subject, investigates the functions of genes and their products in biological systems to better understand diseases and find new drugs.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/p[@id='Par1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-02-NEG-025",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC13313843",
+      "verbatim": "This sentence is absent from the cited PMC article [EL002-02-NEG-025].",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/p[@id='Par1']",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL002-02-026",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13313877",
+      "verbatim": "Glioblastoma multiforme (GBM) is the most common harmful high-grade brain tumor with high mortality and low survival rate.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/p[@id='Par1']",
+      "expectedOutcome": "PASS"
+    }
+  ],
+  "exclusions": [
+    {
+      "pmcid": "PMC13563328",
+      "reason": "NO_QUALIFYING_ABSTRACT_SENTENCE"
+    },
+    {
+      "pmcid": "PMC13419161",
+      "reason": "NO_QUALIFYING_ABSTRACT_SENTENCE"
+    }
+  ]
+}

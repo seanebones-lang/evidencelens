@@ -1,0 +1,477 @@
+{
+  "experiment": "EXP-EL002",
+  "manifestVersion": "1.0.0",
+  "partition": "IMMUNOLOGY_05",
+  "frozen": true,
+  "sources": [
+    {
+      "pmcid": "PMC13313863",
+      "pmid": "39370456",
+      "doi": "10.1186/s43046-024-00236-0",
+      "version": "PMC13313863.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:d1596316874e6a180abf0805e7192476254d543e806c054560a3adb3c3147d23"
+    },
+    {
+      "pmcid": "PMC13268100",
+      "pmid": "38749434",
+      "doi": "10.1016/j.celrep.2024.114209",
+      "version": "PMC13268100.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:7efb02897fffc88da7ff475fcb5a5833ce9be08896d8327cb6f96d8600c2c378"
+    },
+    {
+      "pmcid": "PMC11380221",
+      "pmid": "39213052",
+      "doi": "10.3233/cbm-230407",
+      "version": "PMC11380221.2",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "contentHash": "sha256:bf92b1f44a7df38e6965f979de09a44e371511bb63a5666352b1e45797fb0869"
+    },
+    {
+      "pmcid": "PMC12288547",
+      "pmid": "38669521",
+      "doi": "10.3233/cbm-230301",
+      "version": "PMC12288547.1",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "contentHash": "sha256:e35ebbe8c58ac20c3232d4898c696afca87cb0559e1a060432a33e9c93c3f0cf"
+    },
+    {
+      "pmcid": "PMC11307039",
+      "pmid": "38306024",
+      "doi": "10.3233/cbm-230090",
+      "version": "PMC11307039.2",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "contentHash": "sha256:a346bf30f2a31c361d57c3c143c8fe6c0620ae726e2fa11696a634e477da05b8"
+    },
+    {
+      "pmcid": "PMC11091592",
+      "pmid": "38250759",
+      "doi": "10.3233/cbm-230086",
+      "version": "PMC11091592.2",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "contentHash": "sha256:d3255cdf1d0e32dffaa1983197efed82b409c31dd5f0853795c61aadc848992f"
+    },
+    {
+      "pmcid": "PMC11996958",
+      "pmid": "39325360",
+      "doi": "10.1007/s13402-024-00992-0",
+      "version": "PMC11996958.2",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:1d2cb24b5b19c71cca8682bdf4dea03894d28e40f5ea87d68f2e32daf53f49ad"
+    },
+    {
+      "pmcid": "PMC11466988",
+      "pmid": "38717722",
+      "doi": "10.1007/s13402-024-00951-9",
+      "version": "PMC11466988.2",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:31f47074531b2d924eb8f7d98bf1fc85c8266c8f4151f34164ca742eede04ad3"
+    },
+    {
+      "pmcid": "PMC11467025",
+      "pmid": "38668817",
+      "doi": "10.1007/s13402-024-00950-w",
+      "version": "PMC11467025.2",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:f106e5aaef85ed50dec6b9f3f5cf4988480c9d11b87b2e5ec63796b81e1e81e9"
+    },
+    {
+      "pmcid": "PMC11322377",
+      "pmid": "38502270",
+      "doi": "10.1007/s13402-024-00930-0",
+      "version": "PMC11322377.2",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:06f0801e09c07b4799d17cf0fc6e13db62d7eed010ab9f349fe3c19c3fb9f234"
+    },
+    {
+      "pmcid": "PMC12979251",
+      "pmid": "38744246",
+      "doi": "10.1016/j.ccell.2024.04.010",
+      "version": "PMC12979251.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:b25395bf8cd297dd692ccd1818f60ffda2348e6fd8828e84ae9543fcb899ae34"
+    },
+    {
+      "pmcid": "PMC12952736",
+      "pmid": "39716918",
+      "doi": "10.1080/2162402x.2024.2430066",
+      "version": "PMC12952736.1",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "contentHash": "sha256:f08257658ccf3097c3dea06c538a10f00cafa539a1eb98fb3c002f5ff13f208e"
+    },
+    {
+      "pmcid": "PMC12952733",
+      "pmid": "39703053",
+      "doi": "10.1080/2162402x.2024.2440967",
+      "version": "PMC12952733.1",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "contentHash": "sha256:f3fd40432e27fe74f600e1b78d1741d9cfbb4ad1ba9f1e62353dd17b6f3ad2f3"
+    },
+    {
+      "pmcid": "PMC12836530",
+      "pmid": "41648743",
+      "doi": "10.1016/j.esmogo.2024.100045",
+      "version": "PMC12836530.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:8bfa76779eb3e8c75b65cbddccf372af0fed9899201ace7fd9fe9b066d85cc23"
+    },
+    {
+      "pmcid": "PMC12836647",
+      "pmid": "41648734",
+      "doi": "10.1016/j.esmogo.2024.100046",
+      "version": "PMC12836647.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:ae6987cf6b6f61e07d4352978d84a6d619f2c9ee1b9e93e81fa8d1cdd0848512"
+    },
+    {
+      "pmcid": "PMC12836564",
+      "pmid": "41648037",
+      "doi": "10.1016/j.esmogo.2024.100047",
+      "version": "PMC12836564.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:9c41fe9938e2cdc4755e740b408712c56c71946eaf25d29bb57cb524da3b59ea"
+    },
+    {
+      "pmcid": "PMC12836699",
+      "pmid": "41647596",
+      "doi": "10.1016/j.esmogo.2024.100089",
+      "version": "PMC12836699.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:8235f99713604721502cae5a51f96ffc8371470d0f91439a732fc20dc1c56bf8"
+    },
+    {
+      "pmcid": "PMC12836570",
+      "pmid": "41647594",
+      "doi": "10.1016/j.esmogo.2024.100084",
+      "version": "PMC12836570.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:cde3e3d82875d0fd2bf386379e38841119569fea077640468a989ad03a9d114a"
+    },
+    {
+      "pmcid": "PMC12836540",
+      "pmid": "41647593",
+      "doi": "10.1016/j.esmogo.2024.100083",
+      "version": "PMC12836540.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:89ca033045afe7483ee2a8b25356115c6acedb9d6c83668c7850333f95f7533d"
+    },
+    {
+      "pmcid": "PMC12836741",
+      "pmid": "41647587",
+      "doi": "10.1016/j.esmogo.2024.100069",
+      "version": "PMC12836741.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:f6abe522718c691d1f4e6615eeee3b14cdf3ddda3e942fcb5cc922b29cbbc53e"
+    },
+    {
+      "pmcid": "PMC12869779",
+      "pmid": "41647554",
+      "doi": "10.1016/j.fmre.2024.10.017",
+      "version": "PMC12869779.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:d662b03f330fca99431e628a7c837afe5d2f02076c50e40a12369527f38cf814"
+    },
+    {
+      "pmcid": "PMC12836520",
+      "pmid": "41646954",
+      "doi": "10.1016/j.esmogo.2024.100107",
+      "version": "PMC12836520.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:d241c07a5d6b9ec2647e806a5a53f741a59c3d2557ebdb8d1dda4ea6a17a922c"
+    },
+    {
+      "pmcid": "PMC12836640",
+      "pmid": "41646947",
+      "doi": "10.1016/j.esmogo.2024.100108",
+      "version": "PMC12836640.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:2edda5d719943c0da8e4b733952106b26623f508976cbbf0c80ce80287897e57"
+    },
+    {
+      "pmcid": "PMC12836578",
+      "pmid": "41646096",
+      "doi": "10.1016/j.esmorw.2024.100090",
+      "version": "PMC12836578.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:98d221147149e3f5b1cc36080fb90b6e3bb29fb06c0b9e3b197226950f8964b5"
+    },
+    {
+      "pmcid": "PMC12854964",
+      "pmid": "39566979",
+      "doi": "10.2169/internalmedicine.4654-24",
+      "version": "PMC12854964.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:b231a14adcbbb7149ad90bba4d7b93b500c79a69ea1e47d6651ce7caf66f808b"
+    },
+    {
+      "pmcid": "PMC7618644",
+      "pmid": "39673834",
+      "doi": "10.1016/j.ejca.2024.115160",
+      "version": "PMC7618644.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:a29c635972db6420c493999f96280e281fb94d1b233683ddcd3510eccc59268e"
+    }
+  ],
+  "cases": [
+    {
+      "caseId": "EL002-05-001",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13313863",
+      "verbatim": "Although advances in immune checkpoint inhibitor (ICI) research have provided a new treatment approach for lung adenocarcinoma (LUAD) patients, their survival is still unsatisfactory, and there are issues in the era of response prediction to immunotherapy.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[1]/p[@id='Par1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-05-002",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13268100",
+      "verbatim": "2’3’-Cyclic guanosine monophosphate (GMP)-AMP (cGAMP) is a second messenger synthesized upon detection of cytosolic double-stranded DNA (dsDNA) and passed between cells to facilitate downstream immune signaling.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P3']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-05-003",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC11380221",
+      "verbatim": "Necroptosis is a caspase-independent regulated necrotic cell death modality that elicits strong adaptive immune responses, and has the potential to activate antitumor immunity.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-05-004",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12288547",
+      "verbatim": "Biomarkers predicting clinical outcomes of treating non-small cell lung cancer (NSCLC) with combination of immune checkpoint inhibitors (ICIs) and chemotherapy would be valuable.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-05-005",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC11307039",
+      "verbatim": "Docetaxel is a yew compound antitumor agent with accurate antitumor efficacy, but its application is limited due to the high and serious adverse effects, and finding effective combination therapy options is a viable strategy.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-05-NEG-005",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC11307039",
+      "verbatim": "This sentence is absent from the cited PMC article [EL002-05-NEG-005].",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[1]/p[1]",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL002-05-006",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC11091592",
+      "verbatim": "Osteosarcoma (OS) is a relatively rare malignant bone tumor in teenagers; however, its molecular mechanisms are not yet understood comprehensively.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-05-007",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC11996958",
+      "verbatim": "T helper (Th) cell subsets play pivotal roles in regulating immune responses within the tumor microenvironment, influencing both tumor progression and anti-tumor immunity.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/p[@id='Par1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-05-008",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC11466988",
+      "verbatim": "Gastric cancer (GC) is a malignant tumor with one of the lowest five-year survival rates.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/p[@id='Par1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-05-009",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC11467025",
+      "verbatim": "Acquired resistance to immune checkpoint blockers (ICBs) is a major barrier in cancer treatment, emphasizing the need for innovative strategies.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[1]/p[@id='Par1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-05-010",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC11322377",
+      "verbatim": "Melanoma is widely utilized as a prominent model for the development of immunotherapy, thought an inadequate immune response can occur.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[1]/p[@id='Par1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-05-NEG-010",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC11322377",
+      "verbatim": "This sentence is absent from the cited PMC article [EL002-05-NEG-010].",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[1]/p[@id='Par1']",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL002-05-011",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12979251",
+      "verbatim": "The success of checkpoint inhibitors (CPIs) for cancer has been tempered by immune-related adverse effects including colitis.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-05-012",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12952736",
+      "verbatim": "Immune checkpoint blockers have substantially improved prognosis of melanoma patients, nevertheless, resistance remains a significant problem.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-05-013",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12952733",
+      "verbatim": "The immune checkpoint inhibitor ipilimumab provides long term survival in some metastatic melanoma patients, but the majority has no benefit, and may experience serious side effects.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-05-014",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12836530",
+      "verbatim": "Addition of immunotherapy to standard chemotherapy marginally improved outcomes in gastroesophageal adenocarcinoma (GEAC).",
+      "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-05-015",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12836647",
+      "verbatim": "Trifluridine (FTD)/tipiracil (TPI) is a standard salvage treatment for advanced gastric cancer (AGC).",
+      "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-05-NEG-015",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC12836647",
+      "verbatim": "This sentence is absent from the cited PMC article [EL002-05-NEG-015].",
+      "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[1]/p[1]",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL002-05-016",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12836564",
+      "verbatim": "Immune-checkpoint inhibitors (ICIs) are the standard of care for microsatellite instability (MSI) metastatic gastrointestinal cancer (mGIC) patients in first- and later-treatment lines.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-05-017",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12836699",
+      "verbatim": "Programmed death-ligand 1 (PD-L1) expression serves as a predictive biomarker for response to immune checkpoint inhibitors (ICIs) in metastatic gastroesophageal adenocarcinoma (mGEA).",
+      "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-05-018",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12836570",
+      "verbatim": "Currently, mismatch repair deficient/microsatellite instable (dMMR/MSI) status constitutes a validated predictive marker of response to immune checkpoint inhibitors (ICIs) in patients with metastatic colorectal cancer (mCRC).",
+      "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-05-019",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12836540",
+      "verbatim": "Immune checkpoint inhibitors (ICIs) have become the standard of care in several solid tumours.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-05-020",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12836741",
+      "verbatim": "Patients with metastatic colorectal cancer (mCRC) carrying a deficit in the mismatch repair system/microsatellite instability (dMMR/MSI) show great responses to immune checkpoint inhibitors.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-05-NEG-020",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC12836741",
+      "verbatim": "This sentence is absent from the cited PMC article [EL002-05-NEG-020].",
+      "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[1]/p[1]",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL002-05-021",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12869779",
+      "verbatim": "Immunotherapy has revolutionized cancer treatment by leveraging the immune system to target tumors.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='abs0001']/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-05-022",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12836520",
+      "verbatim": "Perioperative chemoimmunotherapy [i.e. chemotherapy plus immune checkpoint inhibitor (ICI) (ChT–ICI)] is an investigational treatment for operable gastroesophageal adenocarcinoma (GEA) with unclear outcomes in an unselected population.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-05-023",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12836640",
+      "verbatim": "Gastric cancer is one of the types of cancer with a high prevalence of morbidity.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-05-024",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12836578",
+      "verbatim": "Toxicity profile of immune checkpoint inhibitors (ICI) poses challenges for early detection of immune-related adverse events (IrAEs).",
+      "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-05-025",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12854964",
+      "verbatim": "The number of patients with cancer qualifying for treatment with immune checkpoint inhibitors (ICIs) continues to increase, and a clearer understanding of the mechanisms underlying their activity-driven side effects, or immune-related adverse events (irAEs), has become crucial.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-05-NEG-025",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC12854964",
+      "verbatim": "This sentence is absent from the cited PMC article [EL002-05-NEG-025].",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL002-05-026",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC7618644",
+      "verbatim": "Over the past decade, PD-1-based immune checkpoint inhibitors (ICI) and targeted therapies (TT) with BRAF and MEK inhibitors transformed melanoma treatment.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[@id='S1']/p[@id='P1']",
+      "expectedOutcome": "PASS"
+    }
+  ],
+  "exclusions": [
+    {
+      "pmcid": "PMC13313877",
+      "reason": "PREVIOUSLY_USED"
+    }
+  ]
+}

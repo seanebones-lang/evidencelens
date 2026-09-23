@@ -1,0 +1,497 @@
+{
+  "experiment": "EXP-EL002",
+  "manifestVersion": "1.0.0",
+  "partition": "NEUROSCIENCE_04",
+  "frozen": true,
+  "sources": [
+    {
+      "pmcid": "PMC13001755",
+      "pmid": "41929418",
+      "doi": "10.1016/j.jatmed.2024.12.003",
+      "version": "PMC13001755.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:64bd6a39365ac749422b374d2adc6f2782b3f0914afa2be469b73c3acbea0a1b"
+    },
+    {
+      "pmcid": "PMC13023382",
+      "pmid": "39542222",
+      "doi": "10.1016/j.nbd.2024.106737",
+      "version": "PMC13023382.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:7772393749ec989f74238390e85138d0120b4c7713ad4fb88bf549d7268cc9a6"
+    },
+    {
+      "pmcid": "PMC11800364",
+      "pmid": "39916748",
+      "doi": "10.1080/29933935.2024.2439490",
+      "version": "PMC11800364.2",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:8590d8f5ddf1bd46a1e2192a8c92cb8ec1861ab825b2fe71571938f735b9cbe6"
+    },
+    {
+      "pmcid": "PMC12997613",
+      "pmid": "39607280",
+      "doi": "10.5935/0004-2749.2023-0281",
+      "version": "PMC12997613.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:71085e5e727a4c5835354f5b30b6ddf0d530c3604feaa06aa82fdcf663e2523b"
+    },
+    {
+      "pmcid": "PMC12834022",
+      "pmid": "41601550",
+      "doi": "10.1016/j.ibneur.2024.11.011",
+      "version": "PMC12834022.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:3b1a80fbd5241acb9a0c527d71c51e9f68c83f9f7323fb81e60700e729074c01"
+    },
+    {
+      "pmcid": "PMC12810228",
+      "pmid": "39722574",
+      "doi": "10.1113/jp285656",
+      "version": "PMC12810228.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:fae808d3ed7713fe41d155b1eab9f82a026ef9ed44d0091442c96888f0e84c4c"
+    },
+    {
+      "pmcid": "PMC12356413",
+      "pmid": "40822706",
+      "doi": "10.3389/fstro.2024.1423887",
+      "version": "PMC12356413.2",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:a09b574eaaf9a37a06205712d265084e7f2e97a968e524479e13aa4951f48a35"
+    },
+    {
+      "pmcid": "PMC11764858",
+      "pmid": "39668560",
+      "doi": "10.1016/j.ymthe.2024.12.006",
+      "version": "PMC11764858.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:53091c339359478c778b28d55ed464538599884d782e241079d1cf9b12cb1410"
+    },
+    {
+      "pmcid": "PMC11864087",
+      "pmid": "39374445",
+      "doi": "10.1146/annurev-pharmtox-061724-080548",
+      "version": "PMC11864087.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:2faa96f03e721fafdc81d42c505cb877546fbf078c085a4a6d6925d73c3cb662"
+    },
+    {
+      "pmcid": "PMC12697572",
+      "pmid": "38507489",
+      "doi": "10.1126/sciadv.adi4350",
+      "version": "PMC12697572.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:3780848bd574d366cd2e54fb28861843e0a143f5ea8db3a52d97d3c6afbff562"
+    },
+    {
+      "pmcid": "PMC12486910",
+      "pmid": "41383700",
+      "doi": "10.1002/nep3.43",
+      "version": "PMC12486910.1",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "contentHash": "sha256:45064d8305d7e736ec60288e101bc460327558a8db16f83b090037e8d67bea7b"
+    },
+    {
+      "pmcid": "PMC12478676",
+      "pmid": "41255906",
+      "doi": "10.14744/cpr.2024.30592",
+      "version": "PMC12478676.1",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "contentHash": "sha256:30f88d55b4ee38e6c5adb79a38e25ef3cdf7e29d27fce8fee1bf18abd81d899f"
+    },
+    {
+      "pmcid": "PMC12073661",
+      "pmid": "39433067",
+      "doi": "10.1088/1741-2552/ad8961",
+      "version": "PMC12073661.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:fc6fb26c809647260f2231d645c1cc1747c5ce78948aa5e1bde9c2fe5b3fff6e"
+    },
+    {
+      "pmcid": "PMC12599878",
+      "pmid": "41221079",
+      "doi": "10.34133/research.0402",
+      "version": "PMC12599878.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:885d8b4f49e3c8de0e809ab8adc3a9ccc7bda4233865cb18e0b84ac191e489ce"
+    },
+    {
+      "pmcid": "PMC12559990",
+      "pmid": "39367860",
+      "doi": "10.1113/jp286400",
+      "version": "PMC12559990.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:afd9b77e32284abbfa6acc0f01bf45da775bddd75d9c03225f06468fde6c8bc3"
+    },
+    {
+      "pmcid": "PMC11922792",
+      "pmid": "39303148",
+      "doi": "10.1113/jp286818",
+      "version": "PMC11922792.2",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:64467fc198817bb8ebaf090e33cf2ff307df77dc953e3e21895e953f4479b553"
+    },
+    {
+      "pmcid": "PMC12559981",
+      "pmid": "39183664",
+      "doi": "10.1113/jp286176",
+      "version": "PMC12559981.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:2036118b1dab2067248651bbb9b5cc7f202915926ce8ccc3fdc300e926c54bbe"
+    },
+    {
+      "pmcid": "PMC12539541",
+      "pmid": "39812540",
+      "doi": "10.14336/ad.2024.1089",
+      "version": "PMC12539541.1",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "contentHash": "sha256:02d5000f76b26d89aead2aea1e1f8ed7ac6eba95b95f536d777fbe86641dcb79"
+    },
+    {
+      "pmcid": "PMC12529104",
+      "pmid": "38598336",
+      "doi": "10.1016/j.celrep.2024.113986",
+      "version": "PMC12529104.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:217e3052d89667ba3d253822ba2c341b8583d7dd41ed2a6c42e2b862bf8a129e"
+    },
+    {
+      "pmcid": "PMC12500796",
+      "pmid": "39343821",
+      "doi": "10.1007/s00406-024-01898-6",
+      "version": "PMC12500796.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:099670f90219bfc6cabfd6d375d594eea6013d8fd2fb6978d0155f0a8ab5dc68"
+    },
+    {
+      "pmcid": "PMC12500787",
+      "pmid": "39191930",
+      "doi": "10.1007/s00406-024-01873-1",
+      "version": "PMC12500787.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:a0bad7af87cf44a3794389b115fd290c1cfcad427ce3ab25da190541c30b20a2"
+    },
+    {
+      "pmcid": "PMC12500284",
+      "pmid": "39265565",
+      "doi": "10.1159/000541379",
+      "version": "PMC12500284.1",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "contentHash": "sha256:7d6b826af3b2b432296b2c3403f8c91f6c77cb0b79b3d599f17923b5d1183cc9"
+    },
+    {
+      "pmcid": "PMC11489560",
+      "pmid": "39205389",
+      "doi": "10.1016/j.ymthe.2024.08.022",
+      "version": "PMC11489560.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:a902ef71e0796f87f40d92abb7b3e99d587c848e43921ba68dcf5fbef083d9de"
+    },
+    {
+      "pmcid": "PMC11606516",
+      "pmid": "39467641",
+      "doi": "10.1101/lm.054018.124",
+      "version": "PMC11606516.1",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "contentHash": "sha256:8ac97730b53acd237c9b903d752653fd779ee95bba8cad2ad4e94006bf38f5e0"
+    },
+    {
+      "pmcid": "PMC11406684",
+      "pmid": "39296258",
+      "doi": "10.1021/acsptsci.4c00002",
+      "version": "PMC11406684.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:29a62b3dbaa0d6b25b851c2e5e2646816ab627d8ee66145626713c80bdd3b7bb"
+    },
+    {
+      "pmcid": "PMC12333908",
+      "pmid": "39264228",
+      "doi": "10.1113/jp285228",
+      "version": "PMC12333908.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:52671dd38efaf466579377da4c70b85e842bb5d8d586a4f2df29f0479ab41e2e"
+    }
+  ],
+  "cases": [
+    {
+      "caseId": "EL002-04-001",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13001755",
+      "verbatim": "Neuropathic pain typically arises following injury or damage to the somatic nervous system, a chronic and debilitating condition with complex mechanisms.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ab0010']/sec[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-04-002",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13023382",
+      "verbatim": "Parvalbumin-positive (PV+) GABAergic interneurons in the dentate gyrus provide powerful perisomatic inhibition of dentate granule cells (DGCs) to prevent overexcitation and maintain the stability of dentate gyrus circuits.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P2']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-04-003",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC11800364",
+      "verbatim": "Clinical studies strongly suggest the importance of diet quality on cognition in youth populations (15–24 years).",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-04-004",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12997613",
+      "verbatim": "This study aimed to propose a guideline for amblyopia treatment and follow-up.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-04-005",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12834022",
+      "verbatim": "Epilepsy, a chronic neurological disorder characterized by recurring seizures, involves inflammatory and abnormal plasticity features.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ab0010']/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-04-NEG-005",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC12834022",
+      "verbatim": "This sentence is absent from the cited PMC article [EL002-04-NEG-005].",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ab0010']/p[1]",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL002-04-006",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12810228",
+      "verbatim": "The human cortical inhibitory system is known to play a vital role for normal brain development, function, and plasticity.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-04-007",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12356413",
+      "verbatim": "Cardiac arrest-induced global cerebral ischemia (GCI) results in profound cognitive impairment in survivors.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-04-008",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC11764858",
+      "verbatim": "Allogeneic modified bone marrow-derived human mesenchymal stromal/stem cells (hMSC-SB623 cells) are in clinical development for the treatment of chronic motor deficits after traumatic brain injury and cerebral ischemic stroke.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-04-009",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC11864087",
+      "verbatim": "The last two decades have witnessed substantial advances in identifying synaptic plasticity responsible for behavioral changes in animal models of substance use disorder.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-04-010",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12697572",
+      "verbatim": "Cortical excitatory neurons show clear tuning to stimulus features, but the tuning properties of inhibitory interneurons are ambiguous.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-04-NEG-010",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC12697572",
+      "verbatim": "This sentence is absent from the cited PMC article [EL002-04-NEG-010].",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL002-04-011",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12486910",
+      "verbatim": "Neurodegenerative diseases, marked by the gradual death of neurons, present a significant and growing public health challenge.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-04-012",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12478676",
+      "verbatim": "Disruptions in pH regulation are known to cause impairments in cognitive processes such as learning and memory, leading to various neurological disorders.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[@id='st1']/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-04-013",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12073661",
+      "verbatim": "Finger dexterity, and finger individuation in particular, is crucial for human movement, and disruptions due to brain injury can significantly impact quality of life.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/sec[@id='S1']/p[@id='P1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-04-014",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12599878",
+      "verbatim": "Addressing the urgent need for innovative depression treatments, this study heralds a breakthrough in major depressive disorder (MDD) therapy by intertwining clinical observations with neurobiological advancements.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-04-015",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12559990",
+      "verbatim": "The synaptic vesicle cluster (SVC) is an essential component of chemical synapses, which provides neurotransmitter‐loaded vesicles during synaptic activity, at the same time as also controlling the local concentrations of numerous exo‐ and endocytosis cofactors.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-04-NEG-015",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC12559990",
+      "verbatim": "This sentence is absent from the cited PMC article [EL002-04-NEG-015].",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL002-04-016",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC11922792",
+      "verbatim": "Neurons of the inferior olive (IO) fire action potentials with large, long‐lasting afterdepolarizations (ADPs).",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[@id='tjp16312-sec-0010']/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-04-017",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12559981",
+      "verbatim": "Repetitive synaptic stimulation can induce different forms of synaptic plasticity but may also limit the robustness of synaptic transmission by exhausting key resources.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[@id='tjp16257-sec-0010']/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-04-018",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12539541",
+      "verbatim": "The gut-brain axis is a bidirectional communication pathway that modulates cognitive function.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-04-019",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12529104",
+      "verbatim": "Layer 5 neurons of the neocortex receive their principal inputs from layer 2/3 neurons.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P3']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-04-020",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12500796",
+      "verbatim": "The discovery of ketamine’s rapid antidepressant action has generated intense interest in the field of neuropsychiatry.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/p[@id='Par1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-04-NEG-020",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC12500796",
+      "verbatim": "This sentence is absent from the cited PMC article [EL002-04-NEG-020].",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/p[@id='Par1']",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL002-04-021",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12500787",
+      "verbatim": "Treatment response and resistance in major depressive disorder (MDD) show a significant genetic component, but previous studies had limited power also due to MDD heterogeneity.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/p[@id='Par1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-04-022",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12500284",
+      "verbatim": "Neural circuits are subjected to refinement throughout life.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-04-023",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC11489560",
+      "verbatim": "In Alzheimer's disease (AD), amyloid β (Aβ)-triggered cleavage of TrkB-FL impairs brain-derived neurotrophic factor (BDNF) signaling, thereby compromising neuronal survival, differentiation, and synaptic transmission and plasticity.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-04-024",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC11606516",
+      "verbatim": "Memory formation is contingent on molecular and structural changes in neurons in response to learning stimuli—a process known as neuronal plasticity.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-04-025",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC11406684",
+      "verbatim": "Brain aging is associated with cognitive decline, reduced synaptic plasticity, and altered metabolism.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[2]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-04-NEG-025",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC11406684",
+      "verbatim": "This sentence is absent from the cited PMC article [EL002-04-NEG-025].",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[2]",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL002-04-026",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12333908",
+      "verbatim": "Pannexin 1 (PANX1) is an ion and metabolite membrane channel and scaffold protein enriched in synaptic compartments of neurons in the central nervous system.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    }
+  ],
+  "exclusions": [
+    {
+      "pmcid": "PMC13452708",
+      "reason": "NO_QUALIFYING_ABSTRACT_SENTENCE"
+    },
+    {
+      "pmcid": "PMC13321751",
+      "reason": "PREVIOUSLY_USED"
+    },
+    {
+      "pmcid": "PMC13271256",
+      "reason": "PREVIOUSLY_USED"
+    },
+    {
+      "pmcid": "PMC13108743",
+      "reason": "PREVIOUSLY_USED"
+    },
+    {
+      "pmcid": "PMC13045196",
+      "reason": "PREVIOUSLY_USED"
+    },
+    {
+      "pmcid": "PMC12462668",
+      "reason": "SOURCE_UNAUTHORIZED"
+    }
+  ]
+}

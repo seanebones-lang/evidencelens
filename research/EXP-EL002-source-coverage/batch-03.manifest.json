@@ -1,0 +1,485 @@
+{
+  "experiment": "EXP-EL002",
+  "manifestVersion": "1.0.0",
+  "partition": "INFECTIOUS_03",
+  "frozen": true,
+  "sources": [
+    {
+      "pmcid": "PMC11195920",
+      "pmid": "38919767",
+      "doi": "10.1097/ono.0000000000000051",
+      "version": "PMC11195920.2",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:dc3b56dc5400ebb5b8414846030e148ab731577beb5b10d799940a39e29e820f"
+    },
+    {
+      "pmcid": "PMC13580852",
+      "pmid": "39599934",
+      "doi": "10.1002/open.202400319",
+      "version": "PMC13580852.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:eb9564f2f5c549b0ff46e0f6641777e17d5371e94559554d6868e952cb8ab4cf"
+    },
+    {
+      "pmcid": "PMC13494990",
+      "pmid": "42638777",
+      "doi": "10.3389/ftubr.2024.1378068",
+      "version": "PMC13494990.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:db34d8d3c418b2d1e98dded2ed94d9be2b5bdae7d9e3f269d355295241ff6333"
+    },
+    {
+      "pmcid": "PMC13488799",
+      "pmid": "39385233",
+      "doi": "10.1186/s42358-024-00418-3",
+      "version": "PMC13488799.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:d55b23d960b562dc9e8d03bc4e34a7f14505c071eb4f7cbf0e6691052221e13a"
+    },
+    {
+      "pmcid": "PMC13488655",
+      "pmid": "39135131",
+      "doi": "10.1186/s42358-024-00397-5",
+      "version": "PMC13488655.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:2b7b968cb444e7c3e03a099550947551d3b215ccc308e2924d9734078f70143a"
+    },
+    {
+      "pmcid": "PMC13456083",
+      "pmid": "39705164",
+      "doi": "10.1146/annurev-immunol-083122-043054",
+      "version": "PMC13456083.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:4b456c3c80d90335c3d3a33dc8cf8c13a6d9fc74c993225ee8f6419cafb62d19"
+    },
+    {
+      "pmcid": "PMC13380264",
+      "pmid": "39366027",
+      "doi": "10.1016/j.virol.2024.110255",
+      "version": "PMC13380264.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:5a808059a87f3c7dbfeb3ed8430e4f58f1f1a3ea3913b436a944491bd7832ff2"
+    },
+    {
+      "pmcid": "PMC13290073",
+      "pmid": "39341403",
+      "doi": "10.1016/j.jinf.2024.106284",
+      "version": "PMC13290073.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:eb729b8b83f2df602b72342530f2e428e701b615821e5c78d044cf7409996a2b"
+    },
+    {
+      "pmcid": "PMC13277579",
+      "pmid": "42328615",
+      "doi": "10.1097/id9.0000000000000148",
+      "version": "PMC13277579.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:99d1d9c6e173a94cb37e0e71bf60a3939abf340c5ddc1bd01ac7a08f04e5aa01"
+    },
+    {
+      "pmcid": "PMC13277574",
+      "pmid": "42328241",
+      "doi": "10.1097/id9.0000000000000125",
+      "version": "PMC13277574.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:1fd8ff5db15bc58d881f392edf9e2e40932ba497dfa56e2b7fe984df6eee6010"
+    },
+    {
+      "pmcid": "PMC13277577",
+      "pmid": "42326884",
+      "doi": "10.1097/id9.0000000000000138",
+      "version": "PMC13277577.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:4265f1b7c56122efe70cb04241d769528dd7d16f172b2116e28516af032be12c"
+    },
+    {
+      "pmcid": "PMC13277564",
+      "pmid": "42326550",
+      "doi": "10.1097/id9.0000000000000103",
+      "version": "PMC13277564.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:32e6ecb45ef0d9f3bbd3db7184e8b1aaf8bd7b6603993f6aa38238c4bdbc9006"
+    },
+    {
+      "pmcid": "PMC13277550",
+      "pmid": "42325857",
+      "doi": "10.1097/id9.0000000000000145",
+      "version": "PMC13277550.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:d57e13b71806ab3dffa00f99174a1a714ca46ba3a41e370fcbd378181f480a0c"
+    },
+    {
+      "pmcid": "PMC13277573",
+      "pmid": "42325292",
+      "doi": "10.1097/id9.0000000000000115",
+      "version": "PMC13277573.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:7921bb453180c4706c5097dd88215dc1c0cdc1728633343957286b21d0df1503"
+    },
+    {
+      "pmcid": "PMC13208914",
+      "pmid": "38724328",
+      "doi": "10.1016/j.tig.2024.04.003",
+      "version": "PMC13208914.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:0844a969091eadeba67bc7f8563793e4a265aaa187d52c4f2d71533a4bc4585b"
+    },
+    {
+      "pmcid": "PMC13141935",
+      "pmid": "38869208",
+      "doi": "10.5578/tt.202402929",
+      "version": "PMC13141935.1",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "contentHash": "sha256:b94b76a2bc7ef9d6e08d5f9d8833ae3e5bcc88dd162619bb4ccec875094f937d"
+    },
+    {
+      "pmcid": "PMC11826387",
+      "pmid": "42038153",
+      "doi": "10.31661/gmj.v13i.3625",
+      "version": "PMC11826387.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:566f37cc336b8c3fc0320b3cf0019ae0afdc05a4f3d5b0c57ae730b717fd507f"
+    },
+    {
+      "pmcid": "PMC13012655",
+      "pmid": "41883348",
+      "doi": "10.1556/066.2024.00151",
+      "version": "PMC13012655.1",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "contentHash": "sha256:df88147ff9f4ce377f59c7521dfc5ea105c9588a1e989de48c8a932405ba24db"
+    },
+    {
+      "pmcid": "PMC12973230",
+      "pmid": "41816638",
+      "doi": "10.15212/zoonoses-2024-0028",
+      "version": "PMC12973230.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:353534cee78e4d8afbd10abd3e6b5ab64c393bd7d472cfaf877cfc89e49deeb0"
+    },
+    {
+      "pmcid": "PMC12912400",
+      "pmid": "41776324",
+      "doi": "10.1038/s44325-024-00011-z",
+      "version": "PMC12912400.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:59a67fa85edd209c7f486af3a7cbe960efd93ae34926eebdd1206f263c454c84"
+    },
+    {
+      "pmcid": "PMC12806009",
+      "pmid": "41674874",
+      "doi": "10.1002/qub2.64",
+      "version": "PMC12806009.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:e1269c525a652474053ac8b58d3d4511d09737a20c85367e1ee841539a5033f8"
+    },
+    {
+      "pmcid": "PMC12878584",
+      "pmid": "39025017",
+      "doi": "10.1016/j.jnha.2024.100315",
+      "version": "PMC12878584.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:b48ea51cc32cf4df59131b59a98d11b73ffc663525f29358f555db39ec3e0b34"
+    },
+    {
+      "pmcid": "PMC12878588",
+      "pmid": "38901116",
+      "doi": "10.1016/j.jnha.2024.100296",
+      "version": "PMC12878588.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:a7e935f425f8defbc1fb683aff30c2cb3d5cf23f2981f1e8e499a9081a31c64a"
+    },
+    {
+      "pmcid": "PMC12873539",
+      "pmid": "41657972",
+      "doi": "10.12688/f1000research.127061.2",
+      "version": "PMC12873539.2",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:e47f19fae48a82f1fdafb76e158d0fc7ac43a32a18dde8aa615bd59e11bd3e67"
+    },
+    {
+      "pmcid": "PMC11801853",
+      "pmid": "39927191",
+      "doi": "10.1159/000541602",
+      "version": "PMC11801853.1",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "contentHash": "sha256:b97e3cec4a1d50006e45d6214b42e9de6b9f5c10938578a8d1bc3eb99f92dd31"
+    },
+    {
+      "pmcid": "PMC12859536",
+      "pmid": "39001710",
+      "doi": "10.1002/bimj.202400027",
+      "version": "PMC12859536.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:f476af2bf56dd573d09ac52b25ff7772f217a30aa853f43bd51816bc260944af"
+    }
+  ],
+  "cases": [
+    {
+      "caseId": "EL002-03-001",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC11195920",
+      "verbatim": "Determine the incidence of vestibular disorders in patients with SARS-CoV-2 compared to the control population.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-03-002",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13580852",
+      "verbatim": "The major threat to public health due to the outbreak of severe acute respiratory syndrome coronavirus‐2 (SARS‐CoV‐2) infection has been recognised as a global issue.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-03-003",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13494990",
+      "verbatim": "The COVID pandemic and tuberculosis (TB) endemicity is double trouble to much of the world.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-03-004",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13488799",
+      "verbatim": "SARS-CoV-2 infection has become a major international issue, not only from a medical point of view, but also social, economic and political.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[1]/p[@id='Par1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-03-005",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13488655",
+      "verbatim": "Patients with immune-mediated rheumatic diseases (IMRDs) have been prioritized for COVID-19 vaccination to mitigate the infection severity risks.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[1]/p[@id='Par1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-03-NEG-005",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC13488655",
+      "verbatim": "This sentence is absent from the cited PMC article [EL002-03-NEG-005].",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[1]/p[@id='Par1']",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL002-03-006",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13456083",
+      "verbatim": "The persistence of SARS-CoV-2 infections at a global level reflects the repeated emergence of variant strains encoding unique constellations of mutations.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-03-007",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13380264",
+      "verbatim": "We biochemically simulated the mutation synthesis process of SARS-CoV-2 RNA-dependent RNA polymerase (RdRp) complex (nsp7/nsp8/nsp12) involving two sequential mechanistic steps that occur during genomic replication: misinsertion (incorporation of incorrect nucleotides) and mismatch extension.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-03-008",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13290073",
+      "verbatim": "Rapid evolution of SARS-CoV-2 has resulted in the emergence of numerous variants, posing significant challenges to public health surveillance.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/sec[@id='S1']/p[@id='P1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-03-009",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13277579",
+      "verbatim": "The coronavirus disease 2019 (COVID-19) pandemic has resulted in a dynamic evolution of the immune response to severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), initially characterized by primary responses and later by secondary responses due to mass vaccination and viral variants.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-03-010",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13277574",
+      "verbatim": "Infection and vaccination can provide protective immunity against severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2).",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-03-NEG-010",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC13277574",
+      "verbatim": "This sentence is absent from the cited PMC article [EL002-03-NEG-010].",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL002-03-011",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13277577",
+      "verbatim": "While some studies have reported the impact of COVID-19 vaccines on immune recovery and human immunodeficiency virus (HIV) reservoirs in persons living with HIV (PLWH), their findings remain inconsistent.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-03-012",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13277564",
+      "verbatim": "The outbreak of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) has been influenced by the human response to the virus.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-03-013",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13277550",
+      "verbatim": "Given the controversial reports on the effect of convalescent plasma (CP) on coronavirus disease 2019 (COVID-19) patients, this study aimed to clarify the efficacy of early CP administration, improve the understanding of its impact on clinical outcomes, guide future research, address safety concerns, and inform public health policies.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-03-014",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13277573",
+      "verbatim": "The dynamics of COVID-19 and mucormycosis reveal a complex interplay of genetic factors that influence the susceptibility, severity, and immune responses.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-03-015",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13208914",
+      "verbatim": "Positive-strand RNA [(+)RNA] viruses include pandemic SARS-CoV-2, tumor-inducing hepatitis C virus, debilitating chikungunya virus (CHIKV), lethal encephalitis viruses, and many other major pathogens. (+)RNA viruses replicate their RNA genomes in virus-induced replication organelles (ROs) that also evolve new viral species and variants by recombination and mutation and are crucial virus control targets.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-03-NEG-015",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC13208914",
+      "verbatim": "This sentence is absent from the cited PMC article [EL002-03-NEG-015].",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P1']",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL002-03-016",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13141935",
+      "verbatim": "Introduction: Immune responses against Coronavirus (SARS-CoV-2) may be highly complex.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ab0005']/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-03-017",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC11826387",
+      "verbatim": "Background: COVID-19 infection can negatively affect multiple organ systems, including the reproductive system.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-03-018",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13012655",
+      "verbatim": "Food manufacturing and processing are part of the nation’s critical infrastructure.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-03-019",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12973230",
+      "verbatim": "Zoonotic transmission of severe acute respiratory coronavirus 2 (SARS-CoV-2) has been found to result in infections in more than 30 mammalian species.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/sec[@id='S1']/p[@id='P4']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-03-020",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12912400",
+      "verbatim": "People with COVID-19 can experience post-acute sequelae of SARS-CoV-2 (PASC).",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/p[@id='Par1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-03-NEG-020",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC12912400",
+      "verbatim": "This sentence is absent from the cited PMC article [EL002-03-NEG-020].",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/p[@id='Par1']",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL002-03-021",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12806009",
+      "verbatim": "Gene regulatory network (GRN) refers to the complex network formed by regulatory interactions between genes in living cells.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-03-022",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12878584",
+      "verbatim": "Impact of frailty towards immunogenicity and reactogenicity of BNT162b2 boosters administered via intramuscular or intradermal routes in a Thai geriatric population",
+      "fieldPath": "/article/front/article-meta/abstract[@id='abs0005']/sec[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-03-023",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12878588",
+      "verbatim": "Studies have shown that frailty was increased in hospitalized COVID-19 patients.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='abs0005']/sec[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-03-024",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12873539",
+      "verbatim": "A coronavirus identified in 2019, SARS-CoV-2, has caused a pandemic of respiratory illness, called COVID-19.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-03-025",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC11801853",
+      "verbatim": "Long-term sequelae following acute SARS-CoV-2 infection appear to be common in patients with inflammatory bowel diseases (IBDs).",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-03-NEG-025",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC11801853",
+      "verbatim": "This sentence is absent from the cited PMC article [EL002-03-NEG-025].",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[1]/p[1]",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL002-03-026",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12859536",
+      "verbatim": "A generalization of Passing–Bablok regression is proposed for comparing multiple measurement methods simultaneously.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    }
+  ],
+  "exclusions": [
+    {
+      "pmcid": "PMC13177765",
+      "reason": "MISSING_REQUIRED_METADATA"
+    },
+    {
+      "pmcid": "PMC13177448",
+      "reason": "MISSING_REQUIRED_METADATA"
+    },
+    {
+      "pmcid": "PMC12806454",
+      "reason": "NO_QUALIFYING_ABSTRACT_SENTENCE"
+    }
+  ]
+}
