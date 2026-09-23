@@ -42,7 +42,7 @@ The repository is in Phase 0/1:
 - product and risk boundaries are frozen;
 - EXP-EL001 defines the first evidence-packet validity experiment;
 - `@evidencelens/evidence-schema` provides the canonical TypeScript model, JSON Schema, JSON-LD context, runtime invariants, and tests;
-- `@evidencelens/source-adapters` begins EXP-EL001 with conservative, reproducible DOI metadata resolution;
+- `@evidencelens/source-adapters` begins EXP-EL001 with conservative, reproducible DOI and PubMed metadata resolution;
 - no JEV question is approved for product use yet.
 
 ## Repository map
