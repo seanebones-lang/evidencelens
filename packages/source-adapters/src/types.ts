@@ -1,4 +1,4 @@
-import type { SourceArtifact } from "@evidencelens/evidence-schema";
+import type { SourceArtifact, SourceStatus } from "@evidencelens/evidence-schema";
 
 export type SourceAdapterErrorCode =
   | "INVALID_IDENTIFIER"
@@ -30,3 +30,21 @@ export interface SourceAdapter<TInput, TSnapshot = unknown> {
   resolve(input: TInput): Promise<ResolvedSource<TSnapshot>>;
 }
 
+export interface SourceStatusSignal {
+  signalType: "PUBLICATION_TYPE" | "CORRECTION_RELATION";
+  value: string;
+  mappedStatus: Exclude<SourceStatus, "CURRENT" | "UNKNOWN">;
+  relatedPmid?: string;
+  citation?: string;
+}
+
+export interface ResolvedSourceStatus<TSnapshot = unknown> {
+  identifier: { pmid: string };
+  status: Exclude<SourceStatus, "CURRENT">;
+  checkedAt: string;
+  signals: SourceStatusSignal[];
+  snapshot: TSnapshot;
+  snapshotHash: string;
+  resolver: string;
+  resolverVersion: string;
+}
