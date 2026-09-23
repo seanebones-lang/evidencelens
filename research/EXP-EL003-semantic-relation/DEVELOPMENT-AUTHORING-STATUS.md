@@ -22,6 +22,16 @@ exactly one material proposition.
 - Synthetic origin: 20 (the full development synthetic allowance)
 - Remaining authoring target: 20 natural mixed and 20 natural insufficient-evidence candidates
 
+The remaining-source inventory is frozen before relation-case authoring:
+
+- Source-inventory SHA-256:
+  `8f9bd7c78d4af3c5f9ddce4d1f01f355a505030ab848371c6099a7f63fdae511`
+- Unused development sources: 32
+- Planned cases from those sources: 40
+- Dual-case sources: first eight unused sources in the predeclared SHA-256 order
+- Single-case sources: remaining 24
+- Source drift check: all frozen identifiers, licenses, versions, and content hashes matched
+
 Construction labels are not gold labels. All candidates must receive human
 author review, independent blinded annotations, and adjudication. No JEV or
 other model evaluation has been run, and annotation assignments have not been
