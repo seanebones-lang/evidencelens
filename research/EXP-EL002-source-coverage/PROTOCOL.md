@@ -1,6 +1,6 @@
 # EXP-EL002 — Prospective source diversity expansion
 
-**Status:** Batch 01 frozen and 31/31 deterministic outcomes matched; four batches pending
+**Status:** PASS — 155/155 deterministic outcomes matched across five frozen batches
 **Date:** 2026-09-23
 
 **Pre-freeze implementation note:** The first selection pass exposed
@@ -84,3 +84,11 @@ fails closed. A batch PASS is only an engineering result on that
 batch; the 150 distinct source-record target can be checked only
 after all five batches and an overlap audit. Missing strata,
 provider failures, or unreviewed deviations yield CONTINUE_RESEARCH.
+
+All five batches were evaluated without changing their frozen manifests or
+the deterministic evaluator. The 130 EXP-EL002 articles are mutually disjoint
+and disjoint from the 20 EXP-EL001 articles, producing 150 distinct preserved
+article versions across the two studies. All 155 EXP-EL002 cases matched their
+predeclared outcomes. The prospective engineering study therefore passes its
+defined source-diversity gate. This decision does not evaluate semantic truth,
+claim support, topic relevance, or JEV.

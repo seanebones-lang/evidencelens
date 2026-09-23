@@ -1,0 +1,29 @@
+{
+  "auditVersion": "1.0.0",
+  "decision": "PASS",
+  "countingRule": "Unique preserved PMC article artifact identified by PMCID, explicit version, and frozen XML SHA-256; repeat cases and status responses do not add records.",
+  "expEl001Sources": 20,
+  "expEl002Sources": 130,
+  "combinedSourceEntries": 150,
+  "combinedUniquePmcids": 150,
+  "duplicatePmcids": [],
+  "expEl002Cases": 155,
+  "expEl002Passed": 155,
+  "expEl002Failed": 0,
+  "validPacketCases": 130,
+  "expectedMissingSpanCases": 25,
+  "publicationStatuses": {
+    "UNKNOWN": 126,
+    "CORRECTED": 4
+  },
+  "providerRequests": 260,
+  "providerRetries": 0,
+  "batches": [
+    {"batch":"01","sources":26,"cases":31,"passed":31,"manifestSha256":"d77485d286ec0c062099ab92fe83037340d4d2d28d77e973bb9407d52e10eccf","reportSha256":"e71a11a3cc45f71e4eaca8adc21094f7bfd3e113fb696d5b104f858328112aab"},
+    {"batch":"02","sources":26,"cases":31,"passed":31,"manifestSha256":"735dc31c9b9a9ffbd4e64a5b4e0cc6fb0cc1cf677ffc5bb17b9780c3b112b40e","reportSha256":"3efd5762d198c16dc20eebedb24fffd7a514c10b587d419baf0d7d91a65da71a"},
+    {"batch":"03","sources":26,"cases":31,"passed":31,"manifestSha256":"a210e38aa744baf4e221e8bb68743e9777cac0663aad3275cea77d1066dbd090","reportSha256":"d33081a424625fe84814b2584dffbfcc60b430b9ecc82418fe51ca3b39db9042"},
+    {"batch":"04","sources":26,"cases":31,"passed":31,"manifestSha256":"c80ccf1331dbf2d36a09b87c68424d1f10ad6d6cb2035f133b31e4536827f122","reportSha256":"0dbfe3ce0d834090479ac586a0876f61c85f4193bf764eeaeeab7424e7608716"},
+    {"batch":"05","sources":26,"cases":31,"passed":31,"manifestSha256":"7440354cca920e9ca0fe23dbdf009f04dcb5383aa23de750a73e5fcb6672bc45","reportSha256":"c065befc37d9c5ce398717dcc74bd69850496cf2ad4e581daa28db7130123954"}
+  ],
+  "interpretation": "The prospective source-diversity engineering gate passed. This audit does not evaluate semantic support, topic relevance, scientific truth, or JEV."
+}

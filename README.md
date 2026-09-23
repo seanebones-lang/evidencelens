@@ -37,7 +37,8 @@ EvidenceLens does **not** determine whether a claim is true. A low-priority resu
 
 ## Current phase
 
-The repository is in Phase 0/1:
+The repository has completed its deterministic packet-integrity and prospective
+source-diversity foundation:
 
 - product and risk boundaries are frozen;
 - EXP-EL001 defines the first evidence-packet validity experiment;
@@ -47,6 +48,12 @@ The repository is in Phase 0/1:
 - `@evidencelens/packet-builder` assembles validated packets while preserving hashed source snapshots and refusing unverified evidence;
 - `@evidencelens/deterministic-checks` verifies exact spans against hash-matched, openly licensed PMC XML;
 - `@evidencelens/evaluation` validates hashed manifests and scores expected and unexpected outcomes;
+- EXP-EL001 matched 100/100 frozen deterministic outcomes across development,
+  blind-holdout, and transfer partitions;
+- EXP-EL002 matched 155/155 frozen deterministic outcomes across 130 new,
+  licensed PMC articles;
+- the combined studies contain 150 distinct preserved article versions with no
+  PMCID overlap; and
 - no JEV question is approved for product use yet.
 
 ## Repository map
@@ -56,6 +63,7 @@ docs/                         Product, governance, and question records
 packages/evidence-schema/     Canonical packet types, schema, validation, provenance context
 packages/source-adapters/     Authoritative source metadata resolution and snapshots
 research/EXP-EL001-*/         Frozen packet-validity protocol and future artifacts
+research/EXP-EL002-*/         Prospective source-diversity manifests and results
 ```
 
 ## Development

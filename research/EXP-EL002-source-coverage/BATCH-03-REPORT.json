@@ -1,0 +1,469 @@
+{
+  "experiment": "EXP-EL002",
+  "partition": "INFECTIOUS_03",
+  "manifestVersion": "1.0.0",
+  "manifestFileHash": "sha256:a210e38aa744baf4e221e8bb68743e9777cac0663aad3275cea77d1066dbd090",
+  "manifestHash": "sha256:fff4936e2e247ac790c33cf9b19bfbc2ed4711e7d3f023ab8924244c99be870e",
+  "manifestFrozen": true,
+  "runnerVersion": "0.1.0",
+  "runAt": "2026-09-23T14:14:00.000Z",
+  "providerMetrics": {
+    "requests": 52,
+    "retries": 0
+  },
+  "score": {
+    "total": 31,
+    "passed": 31,
+    "failed": 0,
+    "passRate": 1
+  },
+  "decision": "PASS",
+  "results": [
+    {
+      "caseId": "EL002-03-001",
+      "operation": "VALID_PACKET",
+      "passed": true,
+      "observedOutcome": "PASS",
+      "details": {
+        "packetId": "pkt_ed078d4e47592503315ae36e",
+        "packetHash": "sha256:ed078d4e47592503315ae36ec8497a7de36a8dcfd399122f70cc7717aaeb4419",
+        "sourceHash": "sha256:dc3b56dc5400ebb5b8414846030e148ab731577beb5b10d799940a39e29e820f",
+        "status": "UNKNOWN",
+        "spanId": "span_f96830fa776507eb5d506ab8",
+        "spanHash": "sha256:18dbcca1d8fef25f43fc85c3bbae73b692ea45990ee23efd152a96c1ce274c96",
+        "replayEquivalent": true
+      }
+    },
+    {
+      "caseId": "EL002-03-002",
+      "operation": "VALID_PACKET",
+      "passed": true,
+      "observedOutcome": "PASS",
+      "details": {
+        "packetId": "pkt_05b6cf2884fefaa019b8a9c1",
+        "packetHash": "sha256:05b6cf2884fefaa019b8a9c1bf9f6467db9668295eac15177a9e3bd23d6ec6d4",
+        "sourceHash": "sha256:eb9564f2f5c549b0ff46e0f6641777e17d5371e94559554d6868e952cb8ab4cf",
+        "status": "UNKNOWN",
+        "spanId": "span_63dc98204b9b7adcfb0caa06",
+        "spanHash": "sha256:16d28e408a712cc1ef49be61a7087a119c64d5a91db3c8c110dc715f01c95de6",
+        "replayEquivalent": true
+      }
+    },
+    {
+      "caseId": "EL002-03-003",
+      "operation": "VALID_PACKET",
+      "passed": true,
+      "observedOutcome": "PASS",
+      "details": {
+        "packetId": "pkt_c8998c3e5510c8f6e03a0d37",
+        "packetHash": "sha256:c8998c3e5510c8f6e03a0d37a927c66e09326cfd70c05fb661ced028de70e025",
+        "sourceHash": "sha256:db34d8d3c418b2d1e98dded2ed94d9be2b5bdae7d9e3f269d355295241ff6333",
+        "status": "UNKNOWN",
+        "spanId": "span_42949a83c9fe627262af8200",
+        "spanHash": "sha256:b86056b384689493cd47268ecb5bdc3d55a43976d4416217945baf659236a2a5",
+        "replayEquivalent": true
+      }
+    },
+    {
+      "caseId": "EL002-03-004",
+      "operation": "VALID_PACKET",
+      "passed": true,
+      "observedOutcome": "PASS",
+      "details": {
+        "packetId": "pkt_0dbe2cd97a3ebea03f201365",
+        "packetHash": "sha256:0dbe2cd97a3ebea03f20136566dda921581c688f0f2ba03c52d7d324e2bec243",
+        "sourceHash": "sha256:d55b23d960b562dc9e8d03bc4e34a7f14505c071eb4f7cbf0e6691052221e13a",
+        "status": "UNKNOWN",
+        "spanId": "span_3c350a6696ef0a02f443298a",
+        "spanHash": "sha256:96c5bc5f43d5764d116c21e1f9dcdca0d9a46e25b0a5afcffcfb0d2da949d8ab",
+        "replayEquivalent": true
+      }
+    },
+    {
+      "caseId": "EL002-03-005",
+      "operation": "VALID_PACKET",
+      "passed": true,
+      "observedOutcome": "PASS",
+      "details": {
+        "packetId": "pkt_2332be7dcbfc6f3bdbca171c",
+        "packetHash": "sha256:2332be7dcbfc6f3bdbca171c4096a57d6c2b2f79acb9ab524e017dd845e66907",
+        "sourceHash": "sha256:2b7b968cb444e7c3e03a099550947551d3b215ccc308e2924d9734078f70143a",
+        "status": "UNKNOWN",
+        "spanId": "span_741fc4b1677fd5222f270936",
+        "spanHash": "sha256:e6872973fe07259a77f22bbcead8809ecd82b351ff764239e741add9887a103e",
+        "replayEquivalent": true
+      }
+    },
+    {
+      "caseId": "EL002-03-NEG-005",
+      "operation": "SPAN_NOT_FOUND",
+      "passed": true,
+      "observedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND",
+      "observedErrorCode": "SPAN_NOT_FOUND",
+      "details": {
+        "message": "Exact normalized text was not found in the preserved PMC artifact"
+      }
+    },
+    {
+      "caseId": "EL002-03-006",
+      "operation": "VALID_PACKET",
+      "passed": true,
+      "observedOutcome": "PASS",
+      "details": {
+        "packetId": "pkt_9626a19878918445994a2898",
+        "packetHash": "sha256:9626a19878918445994a2898b5f995b357f39dc429f084281041a4946684a799",
+        "sourceHash": "sha256:4b456c3c80d90335c3d3a33dc8cf8c13a6d9fc74c993225ee8f6419cafb62d19",
+        "status": "UNKNOWN",
+        "spanId": "span_14894c110fa88ce744eb3ff1",
+        "spanHash": "sha256:1676fe7ce91c7b2cdebf66e1ea4815b6c1adf4248e38569d8e69e9f0c7bc0890",
+        "replayEquivalent": true
+      }
+    },
+    {
+      "caseId": "EL002-03-007",
+      "operation": "VALID_PACKET",
+      "passed": true,
+      "observedOutcome": "PASS",
+      "details": {
+        "packetId": "pkt_a6d56d7358eb07063b461444",
+        "packetHash": "sha256:a6d56d7358eb07063b4614446b50ae8c2c4ff702e6d350e48428ccd2ae24a08d",
+        "sourceHash": "sha256:5a808059a87f3c7dbfeb3ed8430e4f58f1f1a3ea3913b436a944491bd7832ff2",
+        "status": "UNKNOWN",
+        "spanId": "span_d78d3f72c95c158483e1a45f",
+        "spanHash": "sha256:dba4d86868425880c7faac87d4f3bd8ce0ca6a2afdd271bb208573237a9c0b4b",
+        "replayEquivalent": true
+      }
+    },
+    {
+      "caseId": "EL002-03-008",
+      "operation": "VALID_PACKET",
+      "passed": true,
+      "observedOutcome": "PASS",
+      "details": {
+        "packetId": "pkt_3d3ce5c0133e11ad0f09425b",
+        "packetHash": "sha256:3d3ce5c0133e11ad0f09425be69c92c966ed8887f7ff1f43485b87cf91267764",
+        "sourceHash": "sha256:eb729b8b83f2df602b72342530f2e428e701b615821e5c78d044cf7409996a2b",
+        "status": "UNKNOWN",
+        "spanId": "span_eb7a0bd9fbbc1e82cefb90d3",
+        "spanHash": "sha256:4dec14386bc64e0983de5052d77f2cb7b3df04436075ec41e43306a7e0a8dbad",
+        "replayEquivalent": true
+      }
+    },
+    {
+      "caseId": "EL002-03-009",
+      "operation": "VALID_PACKET",
+      "passed": true,
+      "observedOutcome": "PASS",
+      "details": {
+        "packetId": "pkt_e2e7b9eecaccdfe66e8e3780",
+        "packetHash": "sha256:e2e7b9eecaccdfe66e8e378066a2637df77297281ce4ec84aee55eba88a59750",
+        "sourceHash": "sha256:99d1d9c6e173a94cb37e0e71bf60a3939abf340c5ddc1bd01ac7a08f04e5aa01",
+        "status": "UNKNOWN",
+        "spanId": "span_5f08c6c6e9511ca3865d1111",
+        "spanHash": "sha256:f16a1454d8ea6a527a3a0cd802345f31e9a406173cb7c3b1597f00571750884f",
+        "replayEquivalent": true
+      }
+    },
+    {
+      "caseId": "EL002-03-010",
+      "operation": "VALID_PACKET",
+      "passed": true,
+      "observedOutcome": "PASS",
+      "details": {
+        "packetId": "pkt_a8eed899e712bfbce0b21d30",
+        "packetHash": "sha256:a8eed899e712bfbce0b21d30213e34d51cad06f6d3ff5c50b629487020e5162b",
+        "sourceHash": "sha256:1fd8ff5db15bc58d881f392edf9e2e40932ba497dfa56e2b7fe984df6eee6010",
+        "status": "UNKNOWN",
+        "spanId": "span_dfca1f2baa3c8e490af21bac",
+        "spanHash": "sha256:a555cc6317601c21f8134d3b55d95408e9cc40e4277f2a612bfeb944834a45b6",
+        "replayEquivalent": true
+      }
+    },
+    {
+      "caseId": "EL002-03-NEG-010",
+      "operation": "SPAN_NOT_FOUND",
+      "passed": true,
+      "observedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND",
+      "observedErrorCode": "SPAN_NOT_FOUND",
+      "details": {
+        "message": "Exact normalized text was not found in the preserved PMC artifact"
+      }
+    },
+    {
+      "caseId": "EL002-03-011",
+      "operation": "VALID_PACKET",
+      "passed": true,
+      "observedOutcome": "PASS",
+      "details": {
+        "packetId": "pkt_3ba3b56c8fd56f8d139c5ab7",
+        "packetHash": "sha256:3ba3b56c8fd56f8d139c5ab71901d430ffb03187999f03136e3a2c97bfd5b4e9",
+        "sourceHash": "sha256:4265f1b7c56122efe70cb04241d769528dd7d16f172b2116e28516af032be12c",
+        "status": "CORRECTED",
+        "spanId": "span_f2cc4a5201b9521f981e8081",
+        "spanHash": "sha256:33cd64e39d4dafa19dcac3048c4ee2b905fb0ccc2622f964d593a22393357351",
+        "replayEquivalent": true
+      }
+    },
+    {
+      "caseId": "EL002-03-012",
+      "operation": "VALID_PACKET",
+      "passed": true,
+      "observedOutcome": "PASS",
+      "details": {
+        "packetId": "pkt_02e94aabb102e59a93f8259a",
+        "packetHash": "sha256:02e94aabb102e59a93f8259a0a1e5f4c3efbc5fce42c87218e023f093f229e40",
+        "sourceHash": "sha256:32e6ecb45ef0d9f3bbd3db7184e8b1aaf8bd7b6603993f6aa38238c4bdbc9006",
+        "status": "UNKNOWN",
+        "spanId": "span_6da4a532c2a452d912785695",
+        "spanHash": "sha256:05dfae80d35f51110a40ac58823fc6252b6fa889e2ede297be4d239e6e1a2d05",
+        "replayEquivalent": true
+      }
+    },
+    {
+      "caseId": "EL002-03-013",
+      "operation": "VALID_PACKET",
+      "passed": true,
+      "observedOutcome": "PASS",
+      "details": {
+        "packetId": "pkt_7543a41b2d7b08e3d940b9d1",
+        "packetHash": "sha256:7543a41b2d7b08e3d940b9d1418e031aa990d838b8756449675fb4262f941ce0",
+        "sourceHash": "sha256:d57e13b71806ab3dffa00f99174a1a714ca46ba3a41e370fcbd378181f480a0c",
+        "status": "UNKNOWN",
+        "spanId": "span_83f6d3a321d51e31c6a991dd",
+        "spanHash": "sha256:20e4c533f6b6059e7187644c2c8a5d9af88eacfb8a37ae2332c96a7b714928a5",
+        "replayEquivalent": true
+      }
+    },
+    {
+      "caseId": "EL002-03-014",
+      "operation": "VALID_PACKET",
+      "passed": true,
+      "observedOutcome": "PASS",
+      "details": {
+        "packetId": "pkt_cd27f426d654dcb6c9acad1a",
+        "packetHash": "sha256:cd27f426d654dcb6c9acad1ac5580157a01dd9667a9e529d7d2d90d291c54b52",
+        "sourceHash": "sha256:7921bb453180c4706c5097dd88215dc1c0cdc1728633343957286b21d0df1503",
+        "status": "UNKNOWN",
+        "spanId": "span_4066158bed98199c49ead28b",
+        "spanHash": "sha256:09c438332deacf137d5dd21f6a56e8108c72cdbaf3e69eb3aea6ff5a8972a143",
+        "replayEquivalent": true
+      }
+    },
+    {
+      "caseId": "EL002-03-015",
+      "operation": "VALID_PACKET",
+      "passed": true,
+      "observedOutcome": "PASS",
+      "details": {
+        "packetId": "pkt_f7e3e4e5db18ad469fd2456a",
+        "packetHash": "sha256:f7e3e4e5db18ad469fd2456a7157cc9850367d0b91a6a26c9c80d1ca74872fd4",
+        "sourceHash": "sha256:0844a969091eadeba67bc7f8563793e4a265aaa187d52c4f2d71533a4bc4585b",
+        "status": "UNKNOWN",
+        "spanId": "span_5dac97fbf5745e6d885df7e6",
+        "spanHash": "sha256:c3d57b187376fc69fa8ae3feae2b4da749b431b34f5b1a7ff4363160b43ca6e2",
+        "replayEquivalent": true
+      }
+    },
+    {
+      "caseId": "EL002-03-NEG-015",
+      "operation": "SPAN_NOT_FOUND",
+      "passed": true,
+      "observedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND",
+      "observedErrorCode": "SPAN_NOT_FOUND",
+      "details": {
+        "message": "Exact normalized text was not found in the preserved PMC artifact"
+      }
+    },
+    {
+      "caseId": "EL002-03-016",
+      "operation": "VALID_PACKET",
+      "passed": true,
+      "observedOutcome": "PASS",
+      "details": {
+        "packetId": "pkt_c837aeae76b3180f4b294716",
+        "packetHash": "sha256:c837aeae76b3180f4b2947168e482773d7f73a090148965953a06749bc5af353",
+        "sourceHash": "sha256:b94b76a2bc7ef9d6e08d5f9d8833ae3e5bcc88dd162619bb4ccec875094f937d",
+        "status": "UNKNOWN",
+        "spanId": "span_728d71c520332f7324f60615",
+        "spanHash": "sha256:8659f9c636cec5f1c32784233304767e1a7f0af69cffb5d804617b661a1777de",
+        "replayEquivalent": true
+      }
+    },
+    {
+      "caseId": "EL002-03-017",
+      "operation": "VALID_PACKET",
+      "passed": true,
+      "observedOutcome": "PASS",
+      "details": {
+        "packetId": "pkt_54d5239bf8b3c07ba7f0f041",
+        "packetHash": "sha256:54d5239bf8b3c07ba7f0f041aab05e26600ffb31f256174b2f9de442cf425e87",
+        "sourceHash": "sha256:566f37cc336b8c3fc0320b3cf0019ae0afdc05a4f3d5b0c57ae730b717fd507f",
+        "status": "UNKNOWN",
+        "spanId": "span_a2e6ad1c28a58f83cd380746",
+        "spanHash": "sha256:0de517afdb67163e101e3b6a70dd546f69d035c4f6d7bd481b1fd59e6a5b96b8",
+        "replayEquivalent": true
+      }
+    },
+    {
+      "caseId": "EL002-03-018",
+      "operation": "VALID_PACKET",
+      "passed": true,
+      "observedOutcome": "PASS",
+      "details": {
+        "packetId": "pkt_50f1f2335a4ca2e6bcaaa783",
+        "packetHash": "sha256:50f1f2335a4ca2e6bcaaa78387b8525766cb4ae565580be9e7bd0085efec0e8b",
+        "sourceHash": "sha256:df88147ff9f4ce377f59c7521dfc5ea105c9588a1e989de48c8a932405ba24db",
+        "status": "UNKNOWN",
+        "spanId": "span_4186c8a2172fa7ec2f5ff43b",
+        "spanHash": "sha256:c17c4a709eda01a381da09e258de9d9173af40135da341345e0938b7db233be3",
+        "replayEquivalent": true
+      }
+    },
+    {
+      "caseId": "EL002-03-019",
+      "operation": "VALID_PACKET",
+      "passed": true,
+      "observedOutcome": "PASS",
+      "details": {
+        "packetId": "pkt_13870939afead0d787167657",
+        "packetHash": "sha256:13870939afead0d787167657aed521faed4be4124800bedb111969f39d3cf2be",
+        "sourceHash": "sha256:353534cee78e4d8afbd10abd3e6b5ab64c393bd7d472cfaf877cfc89e49deeb0",
+        "status": "UNKNOWN",
+        "spanId": "span_a87a75eee61109c0ac5027c6",
+        "spanHash": "sha256:d1541b1b68fe1a1ca3e145fd199a8e90e1721d71982596cc5414ad2cb435fc3f",
+        "replayEquivalent": true
+      }
+    },
+    {
+      "caseId": "EL002-03-020",
+      "operation": "VALID_PACKET",
+      "passed": true,
+      "observedOutcome": "PASS",
+      "details": {
+        "packetId": "pkt_b6648bc520e3403a061d5dcc",
+        "packetHash": "sha256:b6648bc520e3403a061d5dccd1ec66d6557c9d5e156fe5d352f28ee0f3fe67df",
+        "sourceHash": "sha256:59a67fa85edd209c7f486af3a7cbe960efd93ae34926eebdd1206f263c454c84",
+        "status": "UNKNOWN",
+        "spanId": "span_f92d61baac67105d9c0a75c7",
+        "spanHash": "sha256:f0ed57ad20fe80cc632cfcc63449f17da6a9e0a4fb6beb24a8e2bd19a93d86e9",
+        "replayEquivalent": true
+      }
+    },
+    {
+      "caseId": "EL002-03-NEG-020",
+      "operation": "SPAN_NOT_FOUND",
+      "passed": true,
+      "observedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND",
+      "observedErrorCode": "SPAN_NOT_FOUND",
+      "details": {
+        "message": "Exact normalized text was not found in the preserved PMC artifact"
+      }
+    },
+    {
+      "caseId": "EL002-03-021",
+      "operation": "VALID_PACKET",
+      "passed": true,
+      "observedOutcome": "PASS",
+      "details": {
+        "packetId": "pkt_ec93dfae4536b4f9e082b649",
+        "packetHash": "sha256:ec93dfae4536b4f9e082b6497207bb898ec7104e7482089a191f930cb020cd6c",
+        "sourceHash": "sha256:e1269c525a652474053ac8b58d3d4511d09737a20c85367e1ee841539a5033f8",
+        "status": "UNKNOWN",
+        "spanId": "span_d6759d4fcf7906fe1a82f796",
+        "spanHash": "sha256:1d0787a8c95a71059078007426aa9e98eadfec5bbdd3fad9717bc3543196b287",
+        "replayEquivalent": true
+      }
+    },
+    {
+      "caseId": "EL002-03-022",
+      "operation": "VALID_PACKET",
+      "passed": true,
+      "observedOutcome": "PASS",
+      "details": {
+        "packetId": "pkt_3f073954c8424500dd30b6ad",
+        "packetHash": "sha256:3f073954c8424500dd30b6adfb6146d063b3a908bf501d86c8e382430615c5e1",
+        "sourceHash": "sha256:b48ea51cc32cf4df59131b59a98d11b73ffc663525f29358f555db39ec3e0b34",
+        "status": "UNKNOWN",
+        "spanId": "span_1ec0ab05a06f039d74962df1",
+        "spanHash": "sha256:e25c493a80378e541344d8bc63606459cb22db36ba54f7fc0405ba813e4eddd4",
+        "replayEquivalent": true
+      }
+    },
+    {
+      "caseId": "EL002-03-023",
+      "operation": "VALID_PACKET",
+      "passed": true,
+      "observedOutcome": "PASS",
+      "details": {
+        "packetId": "pkt_523dd88df720a1d90642b856",
+        "packetHash": "sha256:523dd88df720a1d90642b8565ce5d0b8bccbb2fd2a5657590d3d8578a547389f",
+        "sourceHash": "sha256:a7e935f425f8defbc1fb683aff30c2cb3d5cf23f2981f1e8e499a9081a31c64a",
+        "status": "UNKNOWN",
+        "spanId": "span_cb9cca5eae2722fdd437d390",
+        "spanHash": "sha256:13c9e3cb7fc464f4bb08d9834d22c6466ff1e7e5b96cbc4a8ade4400caa1acfa",
+        "replayEquivalent": true
+      }
+    },
+    {
+      "caseId": "EL002-03-024",
+      "operation": "VALID_PACKET",
+      "passed": true,
+      "observedOutcome": "PASS",
+      "details": {
+        "packetId": "pkt_172de5fc305e4a069ba7e63b",
+        "packetHash": "sha256:172de5fc305e4a069ba7e63bf591c8a8bdf8351665cc41daba61eba4aad29313",
+        "sourceHash": "sha256:e47f19fae48a82f1fdafb76e158d0fc7ac43a32a18dde8aa615bd59e11bd3e67",
+        "status": "UNKNOWN",
+        "spanId": "span_f292f1cb70f817b5d85d48a1",
+        "spanHash": "sha256:dba8a69c89c5aa6142b4376cd909a4f7def279b0f8673a4ffd3d2fd8e56e0725",
+        "replayEquivalent": true
+      }
+    },
+    {
+      "caseId": "EL002-03-025",
+      "operation": "VALID_PACKET",
+      "passed": true,
+      "observedOutcome": "PASS",
+      "details": {
+        "packetId": "pkt_5d1cb6e6bd9dc02e7b46dbf6",
+        "packetHash": "sha256:5d1cb6e6bd9dc02e7b46dbf6c255b3c25b790988cddccbe339c06b2902c0104c",
+        "sourceHash": "sha256:b97e3cec4a1d50006e45d6214b42e9de6b9f5c10938578a8d1bc3eb99f92dd31",
+        "status": "UNKNOWN",
+        "spanId": "span_d54797d1cf530dce13c9c9dc",
+        "spanHash": "sha256:8c25bac2027aaefa22220ffbf44b2b23ded84f12f089cfe8ce529713c3c6f507",
+        "replayEquivalent": true
+      }
+    },
+    {
+      "caseId": "EL002-03-NEG-025",
+      "operation": "SPAN_NOT_FOUND",
+      "passed": true,
+      "observedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND",
+      "observedErrorCode": "SPAN_NOT_FOUND",
+      "details": {
+        "message": "Exact normalized text was not found in the preserved PMC artifact"
+      }
+    },
+    {
+      "caseId": "EL002-03-026",
+      "operation": "VALID_PACKET",
+      "passed": true,
+      "observedOutcome": "PASS",
+      "details": {
+        "packetId": "pkt_49ee91e99098e662156555b4",
+        "packetHash": "sha256:49ee91e99098e662156555b4750c2ad96f1fda5ffbe9ff3e9b7bebff45e3b239",
+        "sourceHash": "sha256:f476af2bf56dd573d09ac52b25ff7772f217a30aa853f43bd51816bc260944af",
+        "status": "UNKNOWN",
+        "spanId": "span_e1c431ec1b75ecf72ec56f68",
+        "spanHash": "sha256:3b9e0bdce2b509fbfff96c1caf11c240691a60cd9f7703668ef309bef0de9e3a",
+        "replayEquivalent": true
+      }
+    }
+  ]
+}
+
