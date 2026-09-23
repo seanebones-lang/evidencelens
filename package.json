@@ -8,10 +8,10 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "npm run build --workspaces --if-present",
+    "build": "npm run build -w @evidencelens/evidence-schema && npm run build -w @evidencelens/evaluation && npm run build -w @evidencelens/source-adapters && npm run build -w @evidencelens/deterministic-checks && npm run build -w @evidencelens/packet-builder",
     "test": "npm run build && npm run test --workspaces --if-present",
     "typecheck": "npm run typecheck --workspaces --if-present",
-    "check": "npm run typecheck && npm test",
+    "check": "npm run build && npm run typecheck && npm test",
     "experiment:dev-seed": "node research/EXP-EL001-packet-validity/scripts/run-dev-seed.mjs",
     "experiment:development": "node research/EXP-EL001-packet-validity/scripts/run-dev-seed.mjs --manifest=research/EXP-EL001-packet-validity/development.manifest.json"
   },

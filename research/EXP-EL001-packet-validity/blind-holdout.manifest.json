@@ -1,0 +1,540 @@
+{
+  "experiment": "EXP-EL001",
+  "manifestVersion": "1.0.0",
+  "partition": "BLIND_HOLDOUT",
+  "frozen": true,
+  "sources": [
+    {
+      "pmcid": "PMC13404518",
+      "pmid": "42523236",
+      "doi": "10.1055/s-0044-1779698",
+      "version": "PMC13404518.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:c529cf00b4e073fc938dbdae7faee77a9b6af1b4bd5c284a58255e22dc9c4065"
+    },
+    {
+      "pmcid": "PMC11700226",
+      "pmid": "38967539",
+      "doi": "10.1002/pmrj.13213",
+      "version": "PMC11700226.2",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:6f6e5051a4c006a5d0176b134d6248a18714e008e9fc996f1529ba6bd70a41ed"
+    },
+    {
+      "pmcid": "PMC12414314",
+      "pmid": "40922766",
+      "doi": "10.1016/j.jaacop.2024.09.001",
+      "version": "PMC12414314.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:555a62094c99776e93ce8b92a4252b11e54a3837e8462ee8111bd2bb4e0ec77a"
+    },
+    {
+      "pmcid": "PMC12285681",
+      "pmid": "38266979",
+      "doi": "10.1016/j.drudis.2024.103894",
+      "version": "PMC12285681.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:27ddca974420a56f517686e42e943e71dac8907a437954676d3105e5ab367c90"
+    },
+    {
+      "pmcid": "PMC12081502",
+      "pmid": "39636421",
+      "doi": "10.1007/s00330-024-11188-3",
+      "version": "PMC12081502.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:fa87caae2316c5129389c140d8676ec7d725df44a59d4a8bb59494514674b747"
+    },
+    {
+      "pmcid": "PMC12020540",
+      "pmid": "39587019",
+      "doi": "10.1055/a-2482-9071",
+      "version": "PMC12020540.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:1c2cbe336a11e5f6ec454a0b89b7ff12f0dfd923503bd2325e74f8c5892757ef"
+    },
+    {
+      "pmcid": "PMC12000765",
+      "pmid": "40247904",
+      "doi": "10.1002/lrh2.10454",
+      "version": "PMC12000765.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:0409dbf27ce334f33bbc4524e903f39394cdf98b94e6aee0af1f3ea5ce541f51"
+    },
+    {
+      "pmcid": "PMC11962597",
+      "pmid": "39808114",
+      "doi": "10.1093/bib/bbae713",
+      "version": "PMC11962597.1",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "contentHash": "sha256:3f5b0398b419dab4165da246c43fdd83a5d27634f427a5e6537262c26da66385"
+    },
+    {
+      "pmcid": "PMC11932155",
+      "pmid": "38302337",
+      "doi": "10.1016/j.vaccine.2024.01.092",
+      "version": "PMC11932155.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:ac74550944a7bd3d5778546e6beb15786c1d916b91fb1f7730e74134431d7f72"
+    },
+    {
+      "pmcid": "PMC11928429",
+      "pmid": "38565775",
+      "doi": "10.1007/s12033-024-01133-6",
+      "version": "PMC11928429.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:23687bc8b53ea9b5d7e7f445567a78bd94366637e3d4a6775fd1c82271a266f0"
+    }
+  ],
+  "cases": [
+    {
+      "caseId": "EL001-BLIND-001",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13404518",
+      "claimType": "UNKNOWN",
+      "verbatim": "Background Clinician burnout is increasingly prevalent in the health care workplace.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-002",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13404518",
+      "claimType": "UNKNOWN",
+      "verbatim": "Hospital leadership needs an informatics tool to measure clinicians' well-being levels and provide empirical evidence to improve their work environment.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-003",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13404518",
+      "claimType": "UNKNOWN",
+      "verbatim": "Objectives This study aimed to (1) design and implement a web-based application to collect and visualize clinicians' well-being levels and (2) conduct formative usability evaluation.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[2]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-004",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13404518",
+      "claimType": "UNKNOWN",
+      "verbatim": "Methods Clinician and staff well-being champions guided the development of the Well-being Check application.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[3]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-005",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC13404518",
+      "verbatim": "This sentence is absent from the cited PMC article [EL001-BLIND-005].",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL001-BLIND-006",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC11700226",
+      "claimType": "UNKNOWN",
+      "verbatim": "As health care attempts to bridge the gap between evidence and practice, the concept of the learning health system (LHS) is becoming increasingly relevant.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-007",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC11700226",
+      "claimType": "UNKNOWN",
+      "verbatim": "LHS integrates evidence with health systems data, driving health care quality and outcomes through updates in policy, practice, and care delivery.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-008",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC11700226",
+      "claimType": "UNKNOWN",
+      "verbatim": "In addition, LHS research is becoming critically important as there are several initiatives underway to increase research capacity, expertise, and implementation, including attempts to stimulate increasing numbers of LHS researchers.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-009",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC11700226",
+      "claimType": "UNKNOWN",
+      "verbatim": "Physical Medicine & Rehabilitation (PM&R) physicians (physiatrists), nurses, therapists (physical therapists, occupational therapists, speech therapists, clinical psychologists), and scientists are affiliated with LHSs.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-010",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC11700226",
+      "verbatim": "This sentence is absent from the cited PMC article [EL001-BLIND-010].",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL001-BLIND-011",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12414314",
+      "claimType": "UNKNOWN",
+      "verbatim": "To examine the prevalence and correlates of child involuntary mental health detentions through evaluation of legal documentation embedded in medical records and children’s electronic health information.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-012",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12414314",
+      "claimType": "UNKNOWN",
+      "verbatim": "Medical records were analyzed from 3,440 children ages 10 to 17 years with MH-related emergency department visits in a large academic health system over 2 years (2017-2019).",
+      "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[2]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-013",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12414314",
+      "claimType": "UNKNOWN",
+      "verbatim": "Bivariate analyses and random forests were deployed to identify child-, neighborhood-, and systems-level correlates of involuntary MH detentions.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[2]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-014",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12414314",
+      "claimType": "UNKNOWN",
+      "verbatim": "Nearly 1 in 4 (n = 769, 22.4%) visits involved an involuntary detention.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[3]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-015",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC12414314",
+      "verbatim": "This sentence is absent from the cited PMC article [EL001-BLIND-015].",
+      "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[1]/p[1]",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL001-BLIND-016",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12285681",
+      "claimType": "UNKNOWN",
+      "verbatim": "The understudied members of the druggable proteomes offer promising prospects for drug discovery efforts.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-017",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12285681",
+      "claimType": "UNKNOWN",
+      "verbatim": "While large-scale initiatives have generated valuable functional information on understudied members of the druggable gene families, translating this information into actionable knowledge for drug discovery requires specialized informatics tools and resources.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-018",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12285681",
+      "claimType": "UNKNOWN",
+      "verbatim": "Here, we review the unique informatics challenges and advances in annotating understudied members of the druggable proteome.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-019",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12285681",
+      "claimType": "UNKNOWN",
+      "verbatim": "We demonstrate the application of statistical evolutionary inference tools, knowledge graph mining approaches, and protein language models in illuminating understudied protein kinases, pseudokinases, and ion channels.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-020",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC12285681",
+      "verbatim": "This sentence is absent from the cited PMC article [EL001-BLIND-020].",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P1']",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL001-BLIND-021",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12081502",
+      "claimType": "UNKNOWN",
+      "verbatim": "AI tools in radiology are revolutionising the diagnosis, evaluation, and management of patients.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[1]/p[@id='Par1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-022",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12081502",
+      "claimType": "UNKNOWN",
+      "verbatim": "However, there is a major gap between the large number of developed AI tools and those translated into daily clinical practice, which can be primarily attributed to limited usefulness and trust in current AI tools.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[1]/p[@id='Par1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-023",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12081502",
+      "claimType": "UNKNOWN",
+      "verbatim": "Instead of technically driven development, little effort has been put into value-based development to ensure AI tools will have a clinically relevant impact on patient care.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[1]/p[@id='Par1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-024",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12081502",
+      "claimType": "UNKNOWN",
+      "verbatim": "An iterative comprehensive value evaluation process covering the complete AI tool lifecycle should be part of radiology AI development.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[1]/p[@id='Par2']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-025",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC12081502",
+      "verbatim": "This sentence is absent from the cited PMC article [EL001-BLIND-025].",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[1]/p[@id='Par1']",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL001-BLIND-026",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12020540",
+      "claimType": "UNKNOWN",
+      "verbatim": "Background To keep pace with the developments in the medical informatics field, the curriculum of the Heidelberg/Heilbronn Medical Informatics Master of Science program is continuously updated.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-027",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12020540",
+      "claimType": "UNKNOWN",
+      "verbatim": "In its latest revision we restructured our master's program to allow more flexibility to accommodate updates and include current topics and to enable students' choices.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-028",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12020540",
+      "claimType": "UNKNOWN",
+      "verbatim": "Objectives This study aimed to present our new concepts for graduate medical informatics education, share our experiences, and provide insights into the perception of these concepts by advanced students and graduates.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[2]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-029",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12020540",
+      "claimType": "UNKNOWN",
+      "verbatim": "Methods Our new curriculum consists of three core components: Areas of concentration that bundle elective courses in an important domain of medical informatics, a large catalog of elective courses, and introductory/alignment courses for students without a bachelor's degree in medical informatics.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[3]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-030",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC12020540",
+      "verbatim": "This sentence is absent from the cited PMC article [EL001-BLIND-030].",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL001-BLIND-031",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12000765",
+      "claimType": "UNKNOWN",
+      "verbatim": "A learning health system (LHS) approach is a collaborative model that continuously examines, evaluates, and re‐evaluates data eventually transforming it into knowledge.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[@id='lrh210454-sec-0001']/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-032",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12000765",
+      "claimType": "UNKNOWN",
+      "verbatim": "High quantity of high‐quality data are needed to establish this model.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[@id='lrh210454-sec-0001']/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-033",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12000765",
+      "claimType": "UNKNOWN",
+      "verbatim": "The purpose of this article is to describe the collaborative discovery process used to identify and standardize clinical data documented during daily multidisciplinary inpatient rehabilitation that would then allow access to these data to conduct comparative effectiveness research.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[@id='lrh210454-sec-0001']/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-034",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12000765",
+      "claimType": "UNKNOWN",
+      "verbatim": "CARE4TBI is a prospective observational research study designed to capture clinical data within the standard inpatient rehabilitation documentation workflow at 15 TBI Model Systems Centers in the US.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[@id='lrh210454-sec-0002']/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-035",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC12000765",
+      "verbatim": "This sentence is absent from the cited PMC article [EL001-BLIND-035].",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[@id='lrh210454-sec-0001']/p[1]",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL001-BLIND-036",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC11962597",
+      "claimType": "UNKNOWN",
+      "verbatim": "Single-cell technologies have enabled the high-dimensional characterization of cell populations at an unprecedented scale.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-037",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC11962597",
+      "claimType": "UNKNOWN",
+      "verbatim": "The innate complexity and increasing volume of data pose significant computational and analytical challenges, especially in comparative studies delineating cellular architectures across various biological conditions (i.e. generation of sample-level distance matrices).",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-038",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC11962597",
+      "claimType": "UNKNOWN",
+      "verbatim": "Optimal Transport is a mathematical tool that captures the intrinsic structure of data geometrically and has been applied to many bioinformatics tasks.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-039",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC11962597",
+      "claimType": "UNKNOWN",
+      "verbatim": "In this paper, we propose QOT (Quantized Optimal Transport), a new method enabling efficient computation of sample-level distance matrix from large-scale single-cell omics data through a quantization step.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-040",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC11962597",
+      "verbatim": "This sentence is absent from the cited PMC article [EL001-BLIND-040].",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL001-BLIND-041",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC11932155",
+      "claimType": "UNKNOWN",
+      "verbatim": "To support efforts to vaccinate millions of Americans across the United States (US) against COVID-19, the US federal government (USG) launched the Pharmacy Partnership for Long-Term Care Program (PPP) in December 2020 and the Federal Retail Pharmacy Program (FRPP) in February 2021.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-042",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC11932155",
+      "claimType": "UNKNOWN",
+      "verbatim": "These programs consisted of a collaborative partnership with the USG and 21 pharmacy organizations, including large retail chains, coordinating pharmacy services administrative organizations (PSAOs) representing independent retail and long-term care pharmacies, and pharmacy network administrators.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-043",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC11932155",
+      "claimType": "UNKNOWN",
+      "verbatim": "These pharmacy organizations represented over 46,000 providers and created a robust channel for far-reaching COVID-19 vaccination across 56 state and local jurisdictions.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-044",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC11932155",
+      "claimType": "UNKNOWN",
+      "verbatim": "PPP reported more than 8 million COVID-19 doses administered to residents and staff in long-term care facilities (LTCFs) as of June 2021.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-045",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC11932155",
+      "verbatim": "This sentence is absent from the cited PMC article [EL001-BLIND-045].",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P1']",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL001-BLIND-046",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC11928429",
+      "claimType": "UNKNOWN",
+      "verbatim": "In the dynamic landscape of targeted therapeutics, drug discovery has pivoted towards understanding underlying disease mechanisms, placing a strong emphasis on molecular perturbations and target identification.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/p[@id='Par1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-047",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC11928429",
+      "claimType": "UNKNOWN",
+      "verbatim": "This paradigm shift, crucial for drug discovery, is underpinned by big data, a transformative force in the current era.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/p[@id='Par1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-048",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC11928429",
+      "claimType": "UNKNOWN",
+      "verbatim": "Omics data, characterized by its heterogeneity and enormity, has ushered biological and biomedical research into the big data domain.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/p[@id='Par1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-049",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC11928429",
+      "claimType": "UNKNOWN",
+      "verbatim": "Acknowledging the significance of integrating diverse omics data strata, known as multi-omics studies, researchers delve into the intricate interrelationships among various omics layers.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/p[@id='Par1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL001-BLIND-050",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC11928429",
+      "verbatim": "This sentence is absent from the cited PMC article [EL001-BLIND-050].",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/p[@id='Par1']",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    }
+  ]
+}

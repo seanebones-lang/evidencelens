@@ -35,8 +35,11 @@ The final manifest will record inclusion rules, licenses, identifiers, expected 
 
 The 30-claim development manifest was frozen at
 `sha256:5154a0ab562653f757dacc9900cd3d340a6a08d14e69dacdcaef3a40a0b1ba3a`
-after a 30/30 deterministic packet-validity run. The blind holdout and transfer
-partitions remain unbuilt.
+after a 30/30 deterministic packet-validity run. The 50-claim blind holdout
+was assembled and frozen at file SHA-256
+`0be5ffb3cf2cecccbdd1332d9a8c1eeb78c6924ae4fbf37089b57d65b10b5bd5`
+before evaluation; see `BLIND-HOLDOUT-FREEZE.md`. The transfer partition
+remains unbuilt.
 
 ## Primary outcomes
 
