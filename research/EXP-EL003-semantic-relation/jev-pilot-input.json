@@ -1,0 +1,884 @@
+{
+  "inputVersion": "1.0.0",
+  "decisionContract": "JEV-PILOT-DECISION-CONTRACT.md",
+  "caseCount": 80,
+  "canonicalHash": "sha256:d2a6d1bfd0dd89a617aced005aea2881df7af38f3f63ce63ee10fa27733a095d",
+  "inputs": [
+    {
+      "caseId": "EL003-DEV-CON-001",
+      "claim": "When used as first-line treatment for acute hypercapnic respiratory failure secondary to COPD exacerbation, noninvasive ventilation increases mortality.",
+      "evidence": [
+        {
+          "verbatim": "When administered as first-line intervention to patients admitted with acute hypercapnic respiratory failure secondary to COPD exacerbation in conjunction with guideline-recommended therapies, noninvasive ventilation (NIV) has been shown to reduce mortality and endotracheal intubation."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-CON-002",
+      "claim": "Total body irradiation for hematopoietic stem cell transplant does not provide uniform dose distribution.",
+      "evidence": [
+        {
+          "verbatim": "Total body irradiation (TBI) for hematopoietic stem cell transplant (HSCT) has certain distinct advantages, such as uniform dose distribution and lack of drug resistance, but it is not widely available in resource-constrained settings."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-CON-003",
+      "claim": "This study does not investigate patient factors affecting the plasma volume target attained during double filtration plasmapheresis for hypertriglyceridemic pancreatitis.",
+      "evidence": [
+        {
+          "verbatim": "This study aims to investigate patient factors affecting the rate of plasma volume target attained in hypertriglyceridemic pancreatitis (HTG‐AP) patients undergoing double filtration plasmapheresis (DFPP)."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-CON-004",
+      "claim": "Triple-negative breast cancer is among the least aggressive breast-cancer subtypes.",
+      "evidence": [
+        {
+          "verbatim": "Triple-negative breast cancer (TNBC) is one of the most aggressive and formidable subtypes of breast cancer, devoid of targeted therapy and frequently leading to unfavorable prognoses and significant side effects."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-CON-005",
+      "claim": "Amyloidosis is caused by protein deposition exclusively within cells rather than in extracellular tissue.",
+      "evidence": [
+        {
+          "verbatim": "Amyloidosis is a localized or systemic disease caused by deposition of proteins in the extracellular space of various organs and tissues."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-CON-006",
+      "claim": "Quantum dots are characterized by low luminescence.",
+      "evidence": [
+        {
+          "verbatim": "Quantum dots (QDs) semiconducting nanomaterials, have garnered attention due to their distinctive properties, including small size, high luminescence, and biocompatibility."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-CON-007",
+      "claim": "The COVID-19 pandemic increased the availability of routine care such as cancer screening.",
+      "evidence": [
+        {
+          "verbatim": "The COVID-19 pandemic caused large-scale shifts in healthcare access and delivery that impacted the availability of routine care, such as cancer screening."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-CON-008",
+      "claim": "Citrobacter is not commonly found in water.",
+      "evidence": [
+        {
+          "verbatim": "The genus Citrobacter commonly found in water and soil as well as the intestinal and urinary tracts of animals and humans."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-CON-009",
+      "claim": "Glioblastoma multiforme is a low-grade brain tumor.",
+      "evidence": [
+        {
+          "verbatim": "Glioblastoma multiforme (GBM) is the most common harmful high-grade brain tumor with high mortality and low survival rate."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-CON-010",
+      "claim": "Targeting protein arginine methyltransferase 1 is not considered a promising therapeutic strategy in cancer treatment.",
+      "evidence": [
+        {
+          "verbatim": "Targeting the protein arginine methyltransferase 1 (PRMT1) has emerged as a promising therapeutic strategy in cancer treatment."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-CON-011",
+      "claim": "Established guidelines exist for obstructive sleep apnea assessment in patients with COPD.",
+      "evidence": [
+        {
+          "verbatim": "There are no guidelines for OSA assessment in patients with COPD."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-CON-012",
+      "claim": "Increasing early-diagnosis rates is unnecessary for cancer control.",
+      "evidence": [
+        {
+          "verbatim": "It is essential to increase the rates of early diagnosis in cancer control, and the diagnostic process needs to be improved to achieve this goal."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-CON-013",
+      "claim": "The clinical consequences of coexistent tricuspid regurgitation in severe ischemic mitral regurgitation are well established.",
+      "evidence": [
+        {
+          "verbatim": "The clinical consequences of coexistent tricuspid regurgitation (TR) in patients with severe ischemic mitral regurgitation (IMR) remain unclear."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-CON-014",
+      "claim": "This study did not assess how residential location affects access to kidney transplantation in Aotearoa New Zealand.",
+      "evidence": [
+        {
+          "verbatim": "This study aimed to describe the epidemiology of kidney replacement therapy (KRT) in Aotearoa New Zealand and assess the impact of residential location on access to kidney transplantation."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-CON-015",
+      "claim": "Francisella novicida infections in humans typically occur in immunocompetent people.",
+      "evidence": [
+        {
+          "verbatim": "The rarity of Francisella novicida infection in humans is well-known, and the F. novicida cases occur in immunocompromised patients or those with underlying health problems."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-CON-016",
+      "claim": "Tumour-derived sialoglycans inhibit tumour-cell adhesion.",
+      "evidence": [
+        {
+          "verbatim": "Tumour‐derived sialoglycans, bearing the charged nonulosonic sugar sialic acid at their termini, play a critical role in tumour cell adhesion and invasion, as well as evading cell death and immune surveillance."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-CON-017",
+      "claim": "Racial differences in lung-cancer screening eligibility and outcomes no longer persist.",
+      "evidence": [
+        {
+          "verbatim": "Racial differences in lung cancer screening (LCS) eligibility and outcomes persist despite recent expansion of the US Preventive Services Task Force criteria and greater recognition of screening disparities."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-CON-018",
+      "claim": "N6-methyladenosine modification is not associated with non-small cell lung cancer tumorigenesis.",
+      "evidence": [
+        {
+          "verbatim": "N6-methyladenosine (m6A) modification has been associated with non-small cell lung cancer (NSCLC) tumorigenesis."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-CON-019",
+      "claim": "Social media is recognized as ineffective for cancer health promotion.",
+      "evidence": [
+        {
+          "verbatim": "Social media is becoming recognized as an effective platform for cancer health promotion, education, care, and support."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-CON-020",
+      "claim": "The 76-year-old patient with hormone-receptor-positive, HER2-negative breast cancer did not present with severe exertional dyspnea.",
+      "evidence": [
+        {
+          "verbatim": "A 76-year-old female with a history of estrogen receptor-positive/progesterone receptor-positive/HER2-negative breast cancer presented to the pulmonary clinic with severe exertional dyspnea."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-IE-001",
+      "claim": "Notably, after 12 h, the oxygen concentration dropped to a hypoxic level of PO2 2.7 ± 0.1%.",
+      "evidence": [
+        {
+          "verbatim": "These sensors incorporate oxygen-sensitive probes (Ru­(dpp) or PtOEP) and reference dyes (RBITC or A647 NHS-Ester).",
+          "section": "Abstract"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-IE-002",
+      "claim": "Females harbored EGFR mutations (54.32%) with higher frequency than men (45.68%) (P < 0.001), while nonsmokers had EGFR mutations (70.37%) more frequently than current smokers (29.63%) (P < 0.001).",
+      "evidence": [
+        {
+          "verbatim": "The study comprised 333 NSCLC tissue samples from 230 males and 103 females with an average age of 50 years.",
+          "section": "Methods"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-IE-003",
+      "claim": "Urinary tract infection (UTI) occurred in 17 patients.",
+      "evidence": [
+        {
+          "verbatim": "We analyzed 98 KTRs who used denosumab from 2018 to 2023.",
+          "section": "Methods"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-IE-004",
+      "claim": "Mobile CAT was more common in the chronic renal failure group.",
+      "evidence": [
+        {
+          "verbatim": "A cardiac calcified amorphous tumor (CAT) is a non-neoplastic cardiac mass composed of calcified nodules surrounded by amorphous fibrous tissue in a context of degeneration and chronic inflammation.",
+          "section": "Abstract"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-IE-005",
+      "claim": "No TV stenosis or occlusion was detected up to 48 months of follow-up.",
+      "evidence": [
+        {
+          "verbatim": "A retrospective analysis of consecutive patients, managed between September 1, 2011, and June 30, 2022, with custom-made aortic arch endografts (Cook Medical, Bloomington, IN, USA), presenting at least one branch configuration, were eligible.",
+          "section": "Methods:"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-IE-006",
+      "claim": "In 2023 alone, this ancient disease was responsible for the death of 1.4 million individuals and has infected 10.6 million people.",
+      "evidence": [
+        {
+          "verbatim": "This mini review will focus on glutamine metabolism and its emergence as a potential target for treating tuberculosis (TB).",
+          "section": "Abstract"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-IE-007",
+      "claim": "At 8 years after uRDN, the change in 24 h ambulatory SBP was −19.5 [95%CI −26.7,−12.4] mmHg (p<0.001).",
+      "evidence": [
+        {
+          "verbatim": "The primary efficacy outcome was 24 h ambulatory SBP, adjusted for the number of defined daily dosages (DDD) of antihypertensive drugs.",
+          "section": "Methods"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-IE-008",
+      "claim": "Interestingly, expression studies indicated that, in the presence of RHE‐334, VEGFR‐2 was equal to 0.52±0.03, thus comparable to imatinib equal to 0.63±0.03.",
+      "evidence": [
+        {
+          "verbatim": "A pool of 18 promising candidates was shortlisted and screened against VEGFR‐2 by using molecular docking.",
+          "section": "Abstract"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-IE-009",
+      "claim": "患者未出现凝血相关并发症，均顺利出院。",
+      "evidence": [
+        {
+          "verbatim": "收集2023年9月至11月在泰达国际心血管病医院进行左心室辅助装置植入手术的终末期心力衰竭的4例患者临床资料，包括手术情况、凝血指标、血制品与凝血药物的应用等，并作文献复习。",
+          "section": "方法"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-IE-010",
+      "claim": "Importantly, our findings demonstrate that C80EZ® not only ensures the survival of T cells, with a particular emphasis on preserving the CD8+ subsets, but also maintains their critical function in targeting and eliminating cancer cells.",
+      "evidence": [
+        {
+          "verbatim": "While conventional techniques such as freezing with liquid nitrogen remain prevalent, they pose significant challenges including high equipment costs, safety considerations, and logistical hurdles in transportation.",
+          "section": "Abstract"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-IE-011",
+      "claim": "At 18-month follow-up, the patient does not endorse any cardiovascular symptoms and echocardiography findings are consistent with a well-seated and normally functioning prosthetic valve.",
+      "evidence": [
+        {
+          "verbatim": "While these prostheses are indicated for aortic valve replacement, there are case studies that have reported their use in the pulmonic position in high surgical risk patients.",
+          "section": "Background"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-IE-012",
+      "claim": "患者最终好转出院。",
+      "evidence": [
+        {
+          "verbatim": "报告重症颅脑创伤后出凝血障碍1例并进行文献复习。",
+          "section": "方法"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-IE-013",
+      "claim": "Twelve-year freedom from reintervention was 69% in the stented group and 97% in the grafted group (P log-rank = .003).",
+      "evidence": [
+        {
+          "verbatim": "Freedom from reintervention and survival were assessed by the Kaplan–Meier method.",
+          "section": "Methods"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-IE-014",
+      "claim": "最终因感染死亡。",
+      "evidence": [
+        {
+          "verbatim": "体外膜肺氧合（Extracorporeal membrane oxygenation, ECMO）是一种基于体外循环原理，为严重心肺功能衰竭患者提供短期生命支持的先进技术",
+          "section": "Abstract"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-IE-015",
+      "claim": "The stage 1 model improved performance with area under the curve values of 0.849 for mortality, 0.786 for ICU admission, and 0.783 for persistent organ failure.",
+      "evidence": [
+        {
+          "verbatim": "We developed ML models to predict SAP, in-hospital mortality, and intensive care unit (ICU) admission.",
+          "section": "Methods:"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-IE-016",
+      "claim": "受者出院后生活质量好，移植心功能基本正常。",
+      "evidence": [
+        {
+          "verbatim": "因冠心病、二尖瓣返流、三尖瓣返流行“冠状动脉旁路移植、二尖瓣机械瓣置换、三尖瓣成形术”2个月余的患者，再次出现心功能衰竭、心源性休克",
+          "section": "Abstract"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-IE-017",
+      "claim": "Functional genomics in drug discovery, particularly for cancer, is still not thoroughly investigated, despite the existence of a significant amount of literature on the subject.",
+      "evidence": [
+        {
+          "verbatim": "Drug repurposing is an economically efficient approach that entails discovering novel therapeutic applications for already-available medications.",
+          "section": "Abstract"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-IE-018",
+      "claim": "A biobehavioral framework can enhance our understanding of the complex association between medications, physical symptoms, and psychosocial distress in patients with GVHD.",
+      "evidence": [
+        {
+          "verbatim": "Among the potential complications of allogeneic hematopoietic stem cell transplantation (HSCT), graft-versus-host disease (GVHD) is common and associated with significant physical and psychosocial symptom burden.",
+          "section": "Abstract"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-IE-019",
+      "claim": "After benchmarking 3 state-of-the-art machine learning models, the random forest model emerged as the best classifier with 96.9% accuracy.",
+      "evidence": [
+        {
+          "verbatim": "Neural Network, Random Forest, and extreme gradient boosting machine learning models were trained to distinguish between tumor types.",
+          "section": "METHODS:"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-IE-020",
+      "claim": "However, in contrast to the prediction, a significant increase in cortisol was noted in the experimental group relative to the control group (p = .016).",
+      "evidence": [
+        {
+          "verbatim": "Blood samples were collected to measure the levels of cortisol, serotonin, and natural killer (NK) cells.",
+          "section": "Methods"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-001",
+      "claim": "Fluorescence imaging allows for noninvasively visualizing and measuring key physiological parameters like pH and dissolved oxygen.",
+      "evidence": [
+        {
+          "verbatim": "Fluorescence imaging allows for noninvasively visualizing and measuring key physiological parameters like pH and dissolved oxygen. In our work, we created two ratiometric fluorescent microsensors designed for accurately tracking dissolved oxygen levels in 3D cell cultures. We developed a simple and cost-effective method to produce hybrid core–shell silica microparticles that are biocompatible and versatile. These sensors incorporate oxygen-sensitive probes (Ru­(dpp) or PtOEP) and reference dyes (RBITC or A647 NHS-Ester). SEM analysis confirmed the efficient loading and distribution of the sensing dye on the outer shell. Fluorimetric and CLSM tests demonstrated the sensors’ reversibility and high sensitivity to oxygen, even when integrated into 3D scaffolds. Aging and bleaching experiments validated the stability of our hybrid core–shell silica microsensors for 3D monitoring. The Ru­(dpp)-RBITC microparticles showed the most promising performance, especially in a pancreatic cancer model using alginate microgels. By employing computational segmentation, we generated 3D oxygen maps during live cell imaging, revealing oxygen gradients in the extracellular matrix and indicating a significant decrease in oxygen level characteristics of solid tumors. Notably, after 12 h, the oxygen concentration dropped to a hypoxic level of PO2 2.7 ± 0.1%.",
+          "section": "Abstract"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-002",
+      "claim": "According to the findings, somatic EGFR mutations can be employed as a diagnostic tool for non-small cell lung cancer in Egypt, and they can be implemented in conjunction with clinical criteria to identify which patients are more likely to respond favorably to TKIs.",
+      "evidence": [
+        {
+          "verbatim": "The study comprised 333 NSCLC tissue samples from 230 males and 103 females with an average age of 50 years. Exons 18–21 of the EGFR gene have been examined using real-time PCR. Using SPSS, correlations between clinical and demographic variables were examined, and EGFR mutation and clinical features associations were studied.",
+          "section": "Methods"
+        },
+        {
+          "verbatim": "The study’s findings revealed that the incidence rate of EGFR mutation was 24.32% (81/333), with partial deletion of exon 19 (19-Del) and a point mutation of L858R in exon 21 accounting for 66.67% (P < 0.001) and 28.40% (P < 0.001) of the mutant cases, respectively. Patients who had the T790M mutation represent 4.94% (P = 0.004) of total number of patients. Females harbored EGFR mutations (54.32%) with higher frequency than men (45.68%) (P < 0.001), while nonsmokers had EGFR mutations (70.37%) more frequently than current smokers (29.63%) (P < 0.001).",
+          "section": "Results"
+        },
+        {
+          "verbatim": "The screening study conducted in Egypt reported that the EGFR mutations prevalence was 24.32% among Egyptians with NSCLC. The study also found a slight gender bias, with females having an incidence rate of these mutations higher than males. Additionally, nonsmokers had higher rates of mutations in EGFR gene compared to smokers. According to the findings, somatic EGFR mutations can be employed as a diagnostic tool for non-small cell lung cancer in Egypt, and they can be implemented in conjunction with clinical criteria to identify which patients are more likely to respond favorably to TKIs.",
+          "section": "Conclusion"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-003",
+      "claim": "The use of denosumab in KTRs is effective and safe for the treatment of osteoporosis and prevention of fracture, but it should be carefully monitored for complications, especially UTI.",
+      "evidence": [
+        {
+          "verbatim": "Mean T-scores at 1 year after denosumab were significantly increased compared to mean T-scores pre-denosumab at the femur neck and spine area, respectively (–2.68 ± 0.68 vs. –2.81 ± 0.68, p < 0.001; –2.78 ± 0.96 vs. –3.21 ± 1.00, p < 0.001). The levels of calcium and phosphorus significantly decreased and those of vitamin D significantly increased at 1 year after denosumab, but there were no significant differences in parathyroid hormone, allograft function, and tacrolimus trough level. There were no recurrent fractures among 12 KTRs with a history of fracture, but three de novo fractures happened. Cardiovascular events occurred in three patients. Denosumab-induced hypocalcemia developed in eight patients, but severe hypocalcemia was observed in only one patient. Acute kidney injury did not happen. Urinary tract infection (UTI) occurred in 17 patients. Arthralgia occurred in four patients. FRAX score was significantly decreased after denosumab. Acute rejection within 1 year after denosumab developed in three patients. There was no graft failure.",
+          "section": "Results"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-004",
+      "claim": "Hence, early diagnosis based on periodic examination in patients with ESRD and aggressive surgical treatment are necessary.",
+      "evidence": [
+        {
+          "verbatim": "A cardiac calcified amorphous tumor (CAT) is a non-neoplastic cardiac mass composed of calcified nodules surrounded by amorphous fibrous tissue in a context of degeneration and chronic inflammation. Although CAT cases are increasingly reported, its clinical manifestation remains unclear. We aimed to conduct a narrative review of CAT and identify its clinical characteristics. We conducted a comprehensive literature search using PubMed, with the keyword “Cardiac Calcified Amorphous Tumor” to identify relevant articles. A total of 113 articles published between 1997 and 2022 were retrieved. The clinical features allowing for assess patient background, differences with and without end-stage renal disease (ESRD), symptom-related factors, risk factors for embolism caused by CAT, and features of CAT, such as shape, location, mobility, pathology, and treatment, were statistically analyzed in 106 criteria-matched cases. The mean patient age was 60.2 ± 18.6 years, with 45 men and 61 women. Of the data collected from 21 countries, 52 patients were from Japan. Mobile CAT was more common in the chronic renal failure group. Linear, club-shaped, and spindle-shaped CAT tended to be mobile and more common in the ESRD group as well as located in the mitral valve region. The shape, mobility, location, and underlying mechanism of CAT depended on the presence or absence of ESRD. The risk of embolism was considered high because mobile CAT was more common in the ESRD group, and CAT originated in the mitral valve region. Hence, early diagnosis based on periodic examination in patients with ESRD and aggressive surgical treatment are necessary.",
+          "section": "Abstract"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-005",
+      "claim": "TV stenosis or occlusion in BTEVAR cases is rare and TV-related reinterventions and instability events are mainly attributed to type Ic and III endoleak formation.",
+      "evidence": [
+        {
+          "verbatim": "In total, 255 TVs were revascularized using branches: 107 innominate arteries (IAs), 108 left common carotid arteries (LCCAs), and 40 left subclavian arteries (LSAs). Covered stents were used as bridging stents of which 10.2% were balloon expandable. Relining, using bare-metal stents (BMS), was performed in 14.0% of IAs, 35.2% of LCCAs, and 22.5% of LSAs. Technical success on case basis was 99.2%; no failure was related to unsuccessful TV bridging. At 30 day follow-up, no TV occlusion was detected. In 5.6% of cases, a type Ic or III endoleak, attributed to TVs, was recorded. Two patients needed early branch-related reintervention. The mean follow-up was 18.3±9.2 months. Freedom from TV instability was 94.6% (standard error [SE] 2.5%] at 12 months. No TV stenosis or occlusion was detected up to 48 months of follow-up. Freedom from TV-related reinterventions was 95.4% [SE 2.4%] at 12 months.",
+          "section": "Results:"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-006",
+      "claim": "Among many host-directed targets, host immunometabolism has emerged as one of the most attractive targets for developing new host-directed therapies.",
+      "evidence": [
+        {
+          "verbatim": "Mycobacterium tuberculosis (Mtb) has remained one of the major infectious disease killers for generations and generations. In 2023 alone, this ancient disease was responsible for the death of 1.4 million individuals and has infected 10.6 million people. With the ever-evolving multi- and extremely resistant Mtb strains, the need for novel and effective drugs requiring shorter treatment regimens represents an urgent medical need for the development of new drugs. Over the last two decades, the field of host-directed therapy as a potential novel avenue for new approaches to TB treatment, either as a mono or adjuvant therapy, has garnered increasing attention. Among many host-directed targets, host immunometabolism has emerged as one of the most attractive targets for developing new host-directed therapies. As one of the most successful bacterial pathogens, Mtb has evolved several mechanisms to modulate numerous host metabolic pathways, including glycolysis, glutaminolysis, Kreb cycle, and oxidative phosphorylation. This mini review will focus on glutamine metabolism and its emergence as a potential target for treating tuberculosis (TB). In the last several decades, the role of glutamine metabolism in cancer and neurological disorders has been extensively studied. However, the association of glutamine metabolism with infectious disease has remained underappreciated. The aim of this review is to not only discuss the current knowledge in the field but also the existing knowledge gap that needs further exploration.",
+          "section": "Abstract"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-007",
+      "claim": "A significant BP reduction was observed up until 8 years following uRDN in parallel to a decrease in drug burden over time, in the absence of procedure-related adverse events.",
+      "evidence": [
+        {
+          "verbatim": "A total of 27 out of the initially enrolled 96 patients underwent prospective follow-up at a median of 8.2 [7.6−8.9] years. Mean age was 62.6±9.3 years (37.0% female). Preprocedural 24 h ambulatory BP was 151.9/84.1±11.5/11.1 mmHg and the median number of DDDs was 5.0 [4.3−7.0]. At 8 years after uRDN, the change in 24 h ambulatory SBP was −19.5 [95%CI −26.7,−12.4] mmHg (p<0.001). The 8-year change in the number of DDDs was −1.7 [−2.8,−0.6] (p = 0.003). The 8-year decline in eGFR was −8.9 [−13.2,−4.7] ml/min/1.73m2 (p<0.001). Clinical event data were available for all 96 patients (median follow-up 3.5 [1.0–8.0] years). Renal failure occurred in one patient and no cases of renal artery stenosis were detected.",
+          "section": "Results"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-008",
+      "claim": "In conclusion, this workflow based on theoretical and experimental approaches demonstrates effective in identifying VEGFR‐2 inhibitors and can be easily adapted to other medicinal chemistry goals.",
+      "evidence": [
+        {
+          "verbatim": "Vascular endothelial growth factor receptor 2 (VEGFR‐2) stands as a prominent therapeutic target in oncology, playing a critical role in angiogenesis, tumor growth, and metastasis. FDA‐approved VEGFR‐2 inhibitors are associated with diverse side effects. Thus, finding novel and more effective inhibitors is of utmost importance. In this study, a deep learning (DL) classification model was first developed and then employed to select putative active VEGFR‐2 inhibitors from an in‐house chemical library including 187 druglike compounds. A pool of 18 promising candidates was shortlisted and screened against VEGFR‐2 by using molecular docking. Finally, two compounds, RHE‐334 and EA‐11, were prioritized as promising VEGFR‐2 inhibitors by employing PLATO, our target fishing and bioactivity prediction platform. Based on this rationale, we prepared RHE‐334 and EA‐11 and successfully tested their anti‐proliferative potential against MCF‐7 human breast cancer cells with IC50 values of 26.78±4.02 and 38.73±3.84 μM, respectively. Their toxicities were instead challenged against the WI‐38. Interestingly, expression studies indicated that, in the presence of RHE‐334, VEGFR‐2 was equal to 0.52±0.03, thus comparable to imatinib equal to 0.63±0.03. In conclusion, this workflow based on theoretical and experimental approaches demonstrates effective in identifying VEGFR‐2 inhibitors and can be easily adapted to other medicinal chemistry goals.",
+          "section": "Abstract"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-009",
+      "claim": "This consensus provides evidence-based data to guide LN diagnosis and treatment, supporting the development of public and supplementary health policies in Brazil.",
+      "evidence": [
+        {
+          "verbatim": "Two methodologists and 20 rheumatologists from Lupus Comittee of Brazilian Society of Rheumatology participate in the development of this guideline. Fourteen PICO questions were defined and a systematic review was performed. Eligible randomized controlled trials were analyzed regarding complete renal remission, partial renal remission, serum creatinine, proteinuria, serum creatinine doubling, progression to end-stage renal disease, renal relapse, and severe adverse events (infections and mortality). The Grading of Recommendations Assessment, Development and Evaluation (GRADE) approach was used to develop these recommendations. Recommendations required ≥82% of agreement among the voting members and were classified as strongly in favor, weakly in favor, conditional, weakly against or strongly against a particular intervention. Other aspects of LN management (diagnosis, general principles of treatment, treatment of comorbidities and refractory cases) were evaluated through literature review and expert opinion.",
+          "section": "Methods"
+        },
+        {
+          "verbatim": "All SLE patients should undergo creatinine and urinalysis tests to assess renal involvement. Kidney biopsy is considered the gold standard for diagnosing LN but, if it is not available or there is a contraindication to the procedure, therapeutic decisions should be based on clinical and laboratory parameters. Fourteen recommendations were developed. Target Renal response (TRR) was defined as improvement or maintenance of renal function (±10% at baseline of treatment) combined with a decrease in 24-h proteinuria or 24-h UPCR of 25% at 3 months, a decrease of 50% at 6 months, and proteinuria < 0.8 g/24 h at 12 months. Hydroxychloroquine should be prescribed to all SLE patients, except in cases of contraindication. Glucocorticoids should be used at the lowest dose and for the minimal necessary period. In class III or IV (±V), mycophenolate (MMF), cyclophosphamide, MMF plus tacrolimus (TAC), MMF plus belimumab or TAC can be used as induction therapy. For maintenance therapy, MMF or azathioprine (AZA) are the first choice and TAC or cyclosporin or leflunomide can be used in patients who cannot use MMF or AZA. Rituximab can be prescribed in cases of refractory disease. In cases of failure in achieving TRR, it is important to assess adherence, immunosuppressant dosage, adjuvant therapy, comorbidities, and consider biopsy/rebiopsy.",
+          "section": "Results"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-010",
+      "claim": "The healing program is an effective psychosocial nursing intervention that helps cancer survivors feel better about their illness, and it helps them healthy transition from negative emotions to increased resilience and positive cognitive emotions.",
+      "evidence": [
+        {
+          "verbatim": "Participants included 39 cancer survivors registered in four healthcare centers in Gyeongsangnam-do. The intervention and control group included 19 and 20 participants, respectively. The healing program using movies developed in this study was provided to the intervention group in 10 sessions, occurring twice each week for 5 weeks and lasting 80 minutes per session. The data were collected using structured questionnaires and they were analyzed to examine differences in the test scores before and after the intervention.",
+          "section": "Methods"
+        },
+        {
+          "verbatim": "In the intervention group, the post-traumatic stress syndrome (F = 14.97, p < .001) decreased significantly and the resilience (F = 19.55, p < .001) and adaptive cognitive emotion regulation (F = 5.11, p = .029) increased significantly. The difference between the intervention and control group was statistically significant in post-traumatic stress syndrome, resilience, and adaptive cognitive emotion regulation. Thus, the healing program of this study significantly reduced post-traumatic stress, and it improved both resilience and adaptive cognitive emotion regulation of cancer cancer survivors.",
+          "section": "Results"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-011",
+      "claim": "The clinical impact of transcatheter valve explantation is significant and should be strongly considered by multidisciplinary heart teams in the lifetime management strategy of cardiac valvular disease.",
+      "evidence": [
+        {
+          "verbatim": "Adult patients undergoing surgical explantation of transcatheter valve prostheses between 2014 and 2022 at a single institution were identified. Retrospective cohort review and survival analysis were performed to assess patient characteristics, indications for explant, and operative outcomes.",
+          "section": "Methods"
+        },
+        {
+          "verbatim": "From 2014 to 2022, 8 surgeons at a single institution performed explantation of transcatheter valve prostheses in 44 patients. Among explanted devices, 50% were removed within 1 year of transcatheter implantation. Surgical explantation was performed on an urgent or emergent basis in 57% of patients. Indications for explantation included valve prosthesis failure (57%), iatrogenic injury (16%), and endocarditis (11%). Operative mortality was 11%, with a mean Society of Thoracic Surgeons mortality risk of 12%. Patients undergoing elective explantation had improved survival compared with those undergoing urgent or emergent explantation (P = .03). Overall survival was 77% at 3 years following transcatheter valve explantation.",
+          "section": "Results"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-012",
+      "claim": "Our study recommends the utilization of ultrasound shears in ALND as it is a safe and accurate method that allows faster post-operative recovery with shorter drainage time and lower incidence of seroma or infection, without affecting operative time or lymph node yield.",
+      "evidence": [
+        {
+          "verbatim": "This study is a randomized control trial. It includes 56 breast cancer ALND cases performed in conjunction with either BCS or MRM; being upfront surgery cases or post-neoadjuvant therapy cases, 28 patients underwent ALND using ultrasound shears and 28 underwent ALND using radio frequency electrosurgery.",
+          "section": "Methods"
+        },
+        {
+          "verbatim": "The mean age of the study population was 51 ± 11.7 years, with a mean BMI of 39. The mean operative time in the ultrasound shear group was 29.4. ± 7.6 min and 31.6 ± 5.1 min in the conventional group. The mean amount of drainage in the ultrasound shear group was 319.6 ± 75.4 ml and 407.5 ± 75.2 ml in the conventional group. The mean drainage days in the ultrasound shear group were 8 ± 1 day and 12 ± 2.2 days in the conventional group. Seroma formation was recorded in 6 of the ultrasound shear groups and 9 in the conventional group. Seroma followed by infection was found in 10% of the ultrasound shear group versus 21% in the conventional group. Seroma formation and wound infection were significantly related to the conventional group (p-value = 0.01).",
+          "section": "Results"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-013",
+      "claim": "The RBS provided a systematic way to narrow down the patient population to a subset that is enriched for eligible patients.",
+      "evidence": [
+        {
+          "verbatim": "A majority of patients with heart failure (HF) do not receive adequate medical therapy as recommended by clinical guidelines. One major obstacle encountered by population health management (PHM) programs to improve medication usage is the substantial burden placed on clinical staff who must manually sift through electronic health records (EHRs) to ascertain patients’ eligibility for the guidelines. As a potential solution, the study team developed a rule-based system (RBS) that automatically parses the EHR for identifying patients with HF who may be eligible for guideline-directed therapy. The RBS was deployed to streamline a PHM program at Brigham and Women’s Hospital wherein the RBS was executed every other month to identify potentially eligible patients for further screening by the program staff. The study team evaluated the performance of the system and performed an error analysis to identify areas for improving the system. Of approximately 161,000 patients who have an echocardiogram in the health system, each execution of the RBS typically identified around 4200 patients. A total 5460 patients were manually screened, of which 1754 were found to be truly eligible with an accuracy of 32.1%. An analysis of the false-positive cases showed that over 38% of the false positives were due to incorrect determination of symptomatic HF and medication history of the patients. The system’s performance can be potentially improved by integrating information from clinical notes. The RBS provided a systematic way to narrow down the patient population to a subset that is enriched for eligible patients. However, there is a need to further optimize the system by integrating processing of clinical notes. This study highlights the practical challenges of implementing automated tools to facilitate guideline-directed care.",
+          "section": "Abstract"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-014",
+      "claim": "Green synthesis techniques have drawn a lot of interest lately since they are beneficial to the environment and have potential uses in a variety of industries, including biomedicine.",
+      "evidence": [
+        {
+          "verbatim": "Green synthesis techniques have drawn a lot of interest lately since they are beneficial to the environment and have potential uses in a variety of industries, including biomedicine. Because of their special physicochemical characteristics, copper nanoparticles (CuNPs) have become one of the most interesting options for use in biological applications among nanomaterials. An overview of green synthesis methods for CuNPs is given in this review, along with a discussion of their applications in cancer therapeutics. The benefits and drawbacks of certain green synthesis techniques, such as plant-mediated, microorganism-mediated, and other environmentally friendly processes, are discussed. Moreover, a thorough discussion is given of CuNPs’ biological uses, including their antibacterial activity, anticancer potential, drug transport, and bioimaging capabilities. Furthermore, difficulties and prospects for the application of green-synthesised CuNPs in biomedicine are discussed.",
+          "section": "Abstract"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-015",
+      "claim": "Measurement of symptoms burden throughout clinical trial follow-up is feasible in AF/HF and should be useful for evaluating patient-centered outcomes in AF prevention trials.",
+      "evidence": [
+        {
+          "verbatim": "The authors modified a validated, AF-specific patient-reported outcome instrument to function in the setting of AF/HF (Atrial Fibrillation Symptoms Questionnaire [AFSQ]) and used it to measure atrial fibrillation symptoms burden (SxBAF) throughout long-term (180 day) follow-up. The AFSQ queries the presence of 10 new or worsening symptoms, equally divided between those commonly associated with AF or HF. To measure SxBAF, the AFSQ was linked to electrocardiography-documented AF episodes to form a 2-component clinical outcome assessment, which was subjected to psychometric testing, anchor validation, and endpoint performance efficiency compared with time to first symptomatic event in a 267-patient AF/HF trial (GENETIC-AF [Genotype-Directed Comparative Effectiveness Trial of Bucindolol and Toprol-XL for Prevention of Atrial Fibrillation/Atrial Flutter in Patients with Heart Failure] trial) comparing 2 AF prevention treatments.",
+          "section": "METHODS"
+        },
+        {
+          "verbatim": "SxBAF exhibited greater efficiency than time to first symptomatic event for treatment difference detection, resulting in smaller projected clinical trial sample sizes. SxBAF correlated well with device-detected AF burden (Spearman’s ρ = 0.74; P < 0.0001), while permitting gradation in symptom severity. SxBAF also identified treatment group differences in cardiovascular serious adverse events and AF interventions and in recent-onset AF provided specificity for AF- or worsening HF-associated symptoms (P < 0.001 for each).",
+          "section": "RESULTS"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-016",
+      "claim": "Early identification of LMNA‐related muscular dystrophies is crucial to ensure appropriate cardiac screening and prevent devastating cardiac complications.",
+      "evidence": [
+        {
+          "verbatim": "There are overlapping features between inflammatory myopathies and muscular dystrophies, particularly laminopathies. Key features that characterize laminopathies include axial and proximal weakness, contractures, and cardiac abnormalities.",
+          "section": "Introduction"
+        },
+        {
+          "verbatim": "A 12‐year‐old girl diagnosed with juvenile dermatomyositis as a child presented with cardiac failure and was found to have an LMNA likely pathogenic variant, with a phenotype most consistent with Emery–Dreifuss muscular dystrophy type 2.",
+          "section": "Methods/Results"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-017",
+      "claim": "Together, these results demonstrate a new role of Rab27B in the autophagy trafficking process in CRC and identify Rab27B as a potential therapeutic target for CRC.",
+      "evidence": [
+        {
+          "verbatim": "Autophagy is a cellular recycling process that is associated with tumor growth, anti-tumor immune responses, and therapy resistance in colorectal cancer (CRC). In this report, we identify the small GTPase Rab27B to control the autophagy process in CRC. Depletion of Rab27B showed an abnormal accumulation of autophagy vesicles and increased autophagy markers in CRC cells, indicating autophagy dysregulation. Image analysis indicated that autophagy flux is blocked at the autophagosome/lysosome fusion step when Rab27B is lost. While Rab27B deficient cells are proficient at growth under 2D in vitro conditions, cell growth was significantly impacted in both in vitro 3D growth and in vivo tumorigenesis studies. Together, these results demonstrate a new role of Rab27B in the autophagy trafficking process in CRC and identify Rab27B as a potential therapeutic target for CRC.",
+          "section": "Abstract"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-018",
+      "claim": "The derangement of multiple glucose-independent metabolic pathways, which are often upregulated in therapy-resistant cancer, and concomitant cMyc downregulation coordinately contribute to the anti-proliferative effect of metformin in liver cancer cells. These are reversible and may influence its therapeutic utility.",
+      "evidence": [
+        {
+          "verbatim": "Metformin concentrations up to 2.5 mM were found to be anti-proliferative irrespective of presence of glucose without significant increase in cytotoxicity. Apart from mitochondrial impairment, derangement of fatty acid desaturation, one-carbon, glutathione, and polyamine metabolism were associated with metformin treatment irrespective of glucose supplementation. Depletion of pantothenic acid, downregulation of essential amino acid uptake and metabolism alongside purine salvage were identified as novel glucose-independent effects of metformin. These were significantly correlated with cMyc expression and reduction in proliferation. Rescue experiments established reversibility upon metformin withdrawal and tight association between proliferation, metabotype, and cMyc expression.",
+          "section": "Results"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-019",
+      "claim": "There is a possible correlation between c-MET and HER2 gene overexpression and poor clinical outcomes in patients with BC.",
+      "evidence": [
+        {
+          "verbatim": "A quantitative real-time polymerase chain reaction was done on 40 BC patients who had undergone transurethral resection (TUR) or radical cystectomy and had a pathologically verified diagnosis of primary tumor without prior chemoradiotherapy as well as 20 patients with benign diseases who served as controls. The c-MET and HER2 expression levels were investigated, and their relationship with clinicopathological features was analyzed.",
+          "section": "Methods"
+        },
+        {
+          "verbatim": "c-MET and HER2 gene expression were significantly higher, 6.1- and 4.5-fold, in the study group compared to the controls. The frequency of c-MET and HER2 overexpression in the study group was 80% (32/40) and 90% (36/40), respectively. c-MET overexpression was associated with pathological stage(P = 0.002), tumor grade (P = 0.019), muscle invasion (P = 0.008), and node involvement (P = 0.017), while HER2 overexpression was associated with pathological stage(P = 0.033), invasion to muscles (P = 0.003), and node involvement (P = 0.005). Based on the Log-rank test, patients expressing both c-MET and HER2 had the poorest disease-free survival rates among all studied patients (median = 10 m, 3.0–16.9 95%CI).",
+          "section": "Results"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-020",
+      "claim": "As this protocol is safe and feasible, further research is warranted in this area for developing PPCS treatment options.",
+      "evidence": [
+        {
+          "verbatim": "To examine the feasibility, utility and safety of superimposed lower body negative pressure (LBNP) and tilt during supine cycling in individuals suffering from persisting post‐concussive symptoms (PPCS). Eleven individuals aged 17–31 (6 females/5 males) participated in two randomized separate visits, 1 week apart. A ramp‐incremental test was performed during both visits until volitional failure. Visits included no pressure (control) or LBNP at −40 Torr (experimental) with head‐up tilt at 15 degrees (females) or 30 degrees (males). Transcranial Doppler ultrasound was utilized to quantify middle cerebral artery velocity (MCAv), while symptom reports were filled out before and 0, 10, and 60 min post‐exertion. Ratings of exertion and overall condition followed similar trends for participants across both tests. The relative increase in MCAv was blunted during the experimental condition (8%) compared to control (24%), while a greater heart rate (17 beats/min) was achieved during the LBNP condition (P = 0.047). Symptom severity at the 0 and 10 min post‐exertion time points displayed negligible‐to‐small effect sizes between conditions (Wilcoxon's r< 0.11). Symptom reporting was lower at the 60 min post‐exertion time point with these displaying a moderate effect size (Wilcoxon's r = 0.31). The combination of LBNP and tilt during supine cycling did not change the participants’ subjective interpretation of the exertional test but attenuated the hyperpnia‐induced vasodilatory MCAv response, while also enabling participants to achieve a higher heart rate during exercise and reduced symptoms 1 h later. As this protocol is safe and feasible, further research is warranted in this area for developing PPCS treatment options.",
+          "section": "Abstract"
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-001",
+      "claim": "When administered as first-line intervention to patients admitted with acute hypercapnic respiratory failure secondary to COPD exacerbation in conjunction with guideline-recommended therapies, noninvasive ventilation (NIV) has been shown to reduce mortality and endotracheal intubation.",
+      "evidence": [
+        {
+          "verbatim": "When administered as first-line intervention to patients admitted with acute hypercapnic respiratory failure secondary to COPD exacerbation in conjunction with guideline-recommended therapies, noninvasive ventilation (NIV) has been shown to reduce mortality and endotracheal intubation."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-002",
+      "claim": "Total body irradiation (TBI) for hematopoietic stem cell transplant (HSCT) has certain distinct advantages, such as uniform dose distribution and lack of drug resistance, but it is not widely available in resource-constrained settings.",
+      "evidence": [
+        {
+          "verbatim": "Total body irradiation (TBI) for hematopoietic stem cell transplant (HSCT) has certain distinct advantages, such as uniform dose distribution and lack of drug resistance, but it is not widely available in resource-constrained settings."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-003",
+      "claim": "This study aims to investigate patient factors affecting the rate of plasma volume target attained in hypertriglyceridemic pancreatitis (HTG‐AP) patients undergoing double filtration plasmapheresis (DFPP).",
+      "evidence": [
+        {
+          "verbatim": "This study aims to investigate patient factors affecting the rate of plasma volume target attained in hypertriglyceridemic pancreatitis (HTG‐AP) patients undergoing double filtration plasmapheresis (DFPP)."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-004",
+      "claim": "Triple-negative breast cancer (TNBC) is one of the most aggressive and formidable subtypes of breast cancer, devoid of targeted therapy and frequently leading to unfavorable prognoses and significant side effects.",
+      "evidence": [
+        {
+          "verbatim": "Triple-negative breast cancer (TNBC) is one of the most aggressive and formidable subtypes of breast cancer, devoid of targeted therapy and frequently leading to unfavorable prognoses and significant side effects."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-005",
+      "claim": "Amyloidosis is a localized or systemic disease caused by deposition of proteins in the extracellular space of various organs and tissues.",
+      "evidence": [
+        {
+          "verbatim": "Amyloidosis is a localized or systemic disease caused by deposition of proteins in the extracellular space of various organs and tissues."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-006",
+      "claim": "Quantum dots (QDs) semiconducting nanomaterials, have garnered attention due to their distinctive properties, including small size, high luminescence, and biocompatibility.",
+      "evidence": [
+        {
+          "verbatim": "Quantum dots (QDs) semiconducting nanomaterials, have garnered attention due to their distinctive properties, including small size, high luminescence, and biocompatibility."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-007",
+      "claim": "The COVID-19 pandemic caused large-scale shifts in healthcare access and delivery that impacted the availability of routine care, such as cancer screening.",
+      "evidence": [
+        {
+          "verbatim": "The COVID-19 pandemic caused large-scale shifts in healthcare access and delivery that impacted the availability of routine care, such as cancer screening."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-008",
+      "claim": "The genus Citrobacter commonly found in water and soil as well as the intestinal and urinary tracts of animals and humans.",
+      "evidence": [
+        {
+          "verbatim": "The genus Citrobacter commonly found in water and soil as well as the intestinal and urinary tracts of animals and humans."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-009",
+      "claim": "Glioblastoma multiforme (GBM) is the most common harmful high-grade brain tumor with high mortality and low survival rate.",
+      "evidence": [
+        {
+          "verbatim": "Glioblastoma multiforme (GBM) is the most common harmful high-grade brain tumor with high mortality and low survival rate."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-010",
+      "claim": "Targeting the protein arginine methyltransferase 1 (PRMT1) has emerged as a promising therapeutic strategy in cancer treatment.",
+      "evidence": [
+        {
+          "verbatim": "Targeting the protein arginine methyltransferase 1 (PRMT1) has emerged as a promising therapeutic strategy in cancer treatment."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-011",
+      "claim": "There are no guidelines for OSA assessment in patients with COPD.",
+      "evidence": [
+        {
+          "verbatim": "There are no guidelines for OSA assessment in patients with COPD."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-012",
+      "claim": "It is essential to increase the rates of early diagnosis in cancer control, and the diagnostic process needs to be improved to achieve this goal.",
+      "evidence": [
+        {
+          "verbatim": "It is essential to increase the rates of early diagnosis in cancer control, and the diagnostic process needs to be improved to achieve this goal."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-013",
+      "claim": "The clinical consequences of coexistent tricuspid regurgitation (TR) in patients with severe ischemic mitral regurgitation (IMR) remain unclear.",
+      "evidence": [
+        {
+          "verbatim": "The clinical consequences of coexistent tricuspid regurgitation (TR) in patients with severe ischemic mitral regurgitation (IMR) remain unclear."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-014",
+      "claim": "This study aimed to describe the epidemiology of kidney replacement therapy (KRT) in Aotearoa New Zealand and assess the impact of residential location on access to kidney transplantation.",
+      "evidence": [
+        {
+          "verbatim": "This study aimed to describe the epidemiology of kidney replacement therapy (KRT) in Aotearoa New Zealand and assess the impact of residential location on access to kidney transplantation."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-015",
+      "claim": "The rarity of Francisella novicida infection in humans is well-known, and the F. novicida cases occur in immunocompromised patients or those with underlying health problems.",
+      "evidence": [
+        {
+          "verbatim": "The rarity of Francisella novicida infection in humans is well-known, and the F. novicida cases occur in immunocompromised patients or those with underlying health problems."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-016",
+      "claim": "Tumour‐derived sialoglycans, bearing the charged nonulosonic sugar sialic acid at their termini, play a critical role in tumour cell adhesion and invasion, as well as evading cell death and immune surveillance.",
+      "evidence": [
+        {
+          "verbatim": "Tumour‐derived sialoglycans, bearing the charged nonulosonic sugar sialic acid at their termini, play a critical role in tumour cell adhesion and invasion, as well as evading cell death and immune surveillance."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-017",
+      "claim": "Racial differences in lung cancer screening (LCS) eligibility and outcomes persist despite recent expansion of the US Preventive Services Task Force criteria and greater recognition of screening disparities.",
+      "evidence": [
+        {
+          "verbatim": "Racial differences in lung cancer screening (LCS) eligibility and outcomes persist despite recent expansion of the US Preventive Services Task Force criteria and greater recognition of screening disparities."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-018",
+      "claim": "N6-methyladenosine (m6A) modification has been associated with non-small cell lung cancer (NSCLC) tumorigenesis.",
+      "evidence": [
+        {
+          "verbatim": "N6-methyladenosine (m6A) modification has been associated with non-small cell lung cancer (NSCLC) tumorigenesis."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-019",
+      "claim": "Social media is becoming recognized as an effective platform for cancer health promotion, education, care, and support.",
+      "evidence": [
+        {
+          "verbatim": "Social media is becoming recognized as an effective platform for cancer health promotion, education, care, and support."
+        }
+      ],
+      "domain": "biomedical-literature"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-020",
+      "claim": "A 76-year-old female with a history of estrogen receptor-positive/progesterone receptor-positive/HER2-negative breast cancer presented to the pulmonary clinic with severe exertional dyspnea.",
+      "evidence": [
+        {
+          "verbatim": "A 76-year-old female with a history of estrogen receptor-positive/progesterone receptor-positive/HER2-negative breast cancer presented to the pulmonary clinic with severe exertional dyspnea."
+        }
+      ],
+      "domain": "biomedical-literature"
+    }
+  ]
+}

@@ -10,6 +10,11 @@ The [evaluation integrity charter](./EVALUATION-INTEGRITY-CHARTER.md) is
 binding for model integration, tuning, protected-partition execution, and
 reporting.
 
+The initial engineering run follows the separately disclosed
+[GPT-authored pilot labeling addendum](./PILOT-LABELING-ADDENDUM.md). Pilot
+references are not human gold labels and cannot satisfy the human-label or
+promotion gates in this protocol.
+
 ## Research question
 
 Can a bounded semantic reviewer distinguish whether supplied, exact evidence

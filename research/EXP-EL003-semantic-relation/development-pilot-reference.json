@@ -1,0 +1,339 @@
+{
+  "referenceVersion": "1.0.0",
+  "referenceAuthority": "GPT_AUTHORED_PROVISIONAL_REFERENCE",
+  "humanReviewed": false,
+  "independentlyAnnotated": false,
+  "adjudicated": false,
+  "suitableAsGoldLabels": false,
+  "frozenBeforeJevPrediction": true,
+  "candidateCanonicalHash": "sha256:0ed0090e174b3d46dc3738eee90d4a207f3fd4c79bd79fa0f8c9b0efa6abfea6",
+  "caseCount": 80,
+  "labelCounts": {
+    "CONTRADICTED": 20,
+    "INSUFFICIENT_EVIDENCE": 20,
+    "MIXED": 20,
+    "SUPPORTED": 20
+  },
+  "records": [
+    {
+      "caseId": "EL003-DEV-CON-001",
+      "provisionalReference": "CONTRADICTED"
+    },
+    {
+      "caseId": "EL003-DEV-CON-002",
+      "provisionalReference": "CONTRADICTED"
+    },
+    {
+      "caseId": "EL003-DEV-CON-003",
+      "provisionalReference": "CONTRADICTED"
+    },
+    {
+      "caseId": "EL003-DEV-CON-004",
+      "provisionalReference": "CONTRADICTED"
+    },
+    {
+      "caseId": "EL003-DEV-CON-005",
+      "provisionalReference": "CONTRADICTED"
+    },
+    {
+      "caseId": "EL003-DEV-CON-006",
+      "provisionalReference": "CONTRADICTED"
+    },
+    {
+      "caseId": "EL003-DEV-CON-007",
+      "provisionalReference": "CONTRADICTED"
+    },
+    {
+      "caseId": "EL003-DEV-CON-008",
+      "provisionalReference": "CONTRADICTED"
+    },
+    {
+      "caseId": "EL003-DEV-CON-009",
+      "provisionalReference": "CONTRADICTED"
+    },
+    {
+      "caseId": "EL003-DEV-CON-010",
+      "provisionalReference": "CONTRADICTED"
+    },
+    {
+      "caseId": "EL003-DEV-CON-011",
+      "provisionalReference": "CONTRADICTED"
+    },
+    {
+      "caseId": "EL003-DEV-CON-012",
+      "provisionalReference": "CONTRADICTED"
+    },
+    {
+      "caseId": "EL003-DEV-CON-013",
+      "provisionalReference": "CONTRADICTED"
+    },
+    {
+      "caseId": "EL003-DEV-CON-014",
+      "provisionalReference": "CONTRADICTED"
+    },
+    {
+      "caseId": "EL003-DEV-CON-015",
+      "provisionalReference": "CONTRADICTED"
+    },
+    {
+      "caseId": "EL003-DEV-CON-016",
+      "provisionalReference": "CONTRADICTED"
+    },
+    {
+      "caseId": "EL003-DEV-CON-017",
+      "provisionalReference": "CONTRADICTED"
+    },
+    {
+      "caseId": "EL003-DEV-CON-018",
+      "provisionalReference": "CONTRADICTED"
+    },
+    {
+      "caseId": "EL003-DEV-CON-019",
+      "provisionalReference": "CONTRADICTED"
+    },
+    {
+      "caseId": "EL003-DEV-CON-020",
+      "provisionalReference": "CONTRADICTED"
+    },
+    {
+      "caseId": "EL003-DEV-IE-001",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "caseId": "EL003-DEV-IE-002",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "caseId": "EL003-DEV-IE-003",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "caseId": "EL003-DEV-IE-004",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "caseId": "EL003-DEV-IE-005",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "caseId": "EL003-DEV-IE-006",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "caseId": "EL003-DEV-IE-007",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "caseId": "EL003-DEV-IE-008",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "caseId": "EL003-DEV-IE-009",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "caseId": "EL003-DEV-IE-010",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "caseId": "EL003-DEV-IE-011",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "caseId": "EL003-DEV-IE-012",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "caseId": "EL003-DEV-IE-013",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "caseId": "EL003-DEV-IE-014",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "caseId": "EL003-DEV-IE-015",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "caseId": "EL003-DEV-IE-016",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "caseId": "EL003-DEV-IE-017",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "caseId": "EL003-DEV-IE-018",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "caseId": "EL003-DEV-IE-019",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "caseId": "EL003-DEV-IE-020",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-001",
+      "provisionalReference": "MIXED"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-002",
+      "provisionalReference": "MIXED"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-003",
+      "provisionalReference": "MIXED"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-004",
+      "provisionalReference": "MIXED"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-005",
+      "provisionalReference": "MIXED"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-006",
+      "provisionalReference": "MIXED"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-007",
+      "provisionalReference": "MIXED"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-008",
+      "provisionalReference": "MIXED"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-009",
+      "provisionalReference": "MIXED"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-010",
+      "provisionalReference": "MIXED"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-011",
+      "provisionalReference": "MIXED"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-012",
+      "provisionalReference": "MIXED"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-013",
+      "provisionalReference": "MIXED"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-014",
+      "provisionalReference": "MIXED"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-015",
+      "provisionalReference": "MIXED"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-016",
+      "provisionalReference": "MIXED"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-017",
+      "provisionalReference": "MIXED"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-018",
+      "provisionalReference": "MIXED"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-019",
+      "provisionalReference": "MIXED"
+    },
+    {
+      "caseId": "EL003-DEV-MIX-020",
+      "provisionalReference": "MIXED"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-001",
+      "provisionalReference": "SUPPORTED"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-002",
+      "provisionalReference": "SUPPORTED"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-003",
+      "provisionalReference": "SUPPORTED"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-004",
+      "provisionalReference": "SUPPORTED"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-005",
+      "provisionalReference": "SUPPORTED"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-006",
+      "provisionalReference": "SUPPORTED"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-007",
+      "provisionalReference": "SUPPORTED"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-008",
+      "provisionalReference": "SUPPORTED"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-009",
+      "provisionalReference": "SUPPORTED"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-010",
+      "provisionalReference": "SUPPORTED"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-011",
+      "provisionalReference": "SUPPORTED"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-012",
+      "provisionalReference": "SUPPORTED"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-013",
+      "provisionalReference": "SUPPORTED"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-014",
+      "provisionalReference": "SUPPORTED"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-015",
+      "provisionalReference": "SUPPORTED"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-016",
+      "provisionalReference": "SUPPORTED"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-017",
+      "provisionalReference": "SUPPORTED"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-018",
+      "provisionalReference": "SUPPORTED"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-019",
+      "provisionalReference": "SUPPORTED"
+    },
+    {
+      "caseId": "EL003-DEV-SUP-020",
+      "provisionalReference": "SUPPORTED"
+    }
+  ]
+}
