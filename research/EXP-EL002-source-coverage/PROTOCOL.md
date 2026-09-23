@@ -3,6 +3,15 @@
 **Status:** Protocol and first candidate pool frozen before article-content selection
 **Date:** 2026-09-23
 
+**Pre-freeze implementation note:** The first selection pass exposed
+abstracts in Chinese. Before freezing a manifest or running evaluation,
+the sentence splitter was corrected to recognize Chinese full stops
+and question/exclamation marks. The candidate order, inclusion
+thresholds, and source selection rule were not changed. The query
+also returns articles whose first abstract sentence is not about
+heart failure; stratum names describe discovery queries, not
+adjudicated article topics.
+
 ## Purpose and boundary
 
 Expand the tested source coverage without modifying EXP-EL001's
@@ -13,7 +22,7 @@ It does not evaluate semantic truth or JEV.
 
 ## Sampling plan
 
-Five topic strata will each contribute 26 distinct, licensed PMC
+Five discovery-query strata will each contribute 26 distinct, licensed PMC
 full-text article versions (130 new records total): cardiovascular,
 cancer, infectious disease, neuroscience, and immunology. Each
 accepted source supplies one addressable abstract sentence for a
@@ -31,6 +40,9 @@ abstract sentence; its JATS field path, identifiers, license,
 version, and XML SHA-256 are frozen before execution. The expected
 outcome for a valid packet is PASS. Every fifth source also supplies
 one synthetic absent-span case expected to return SPAN_NOT_FOUND.
+The splitter recognizes whitespace-separated Latin sentence
+boundaries and Chinese full stops/question/exclamation marks; it
+does not claim perfect linguistic sentence segmentation.
 Exclude candidates with typed reason codes, preserve all attempted
 IDs in order, and stop rather than changing a frozen pool if fewer
 than 26 qualify.

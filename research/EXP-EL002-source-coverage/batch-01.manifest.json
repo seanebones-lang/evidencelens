@@ -1,0 +1,477 @@
+{
+  "experiment": "EXP-EL002",
+  "manifestVersion": "1.0.0",
+  "partition": "CARDIOVASCULAR_01",
+  "frozen": true,
+  "sources": [
+    {
+      "pmcid": "PMC13575277",
+      "pmid": "39639418",
+      "doi": "10.23876/j.krcp.24.168",
+      "version": "PMC13575277.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:99e5badda05a5ea6bc22307dad1ccb121f2abc9fa3e119d6172a331a0817fac3"
+    },
+    {
+      "pmcid": "PMC13546947",
+      "pmid": "39467040",
+      "doi": "10.1111/nep.14409",
+      "version": "PMC13546947.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:772b0f6aa8bed872f100a3b36270577103db7bd7a376104151c61ac08a621a25"
+    },
+    {
+      "pmcid": "PMC13540548",
+      "pmid": "39586574",
+      "doi": "10.1111/1744-9987.14232",
+      "version": "PMC13540548.1",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "contentHash": "sha256:aa3d5684ca3de6115a29be1c4b1dc6d9a1fcfde1e89c180db029e261d6768eff"
+    },
+    {
+      "pmcid": "PMC13531951",
+      "pmid": "39570238",
+      "doi": "10.1016/j.jchf.2024.08.023",
+      "version": "PMC13531951.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:6e20d14ef630ed43089a4364909d975f3d9cb83e34045a957cbef465fb775fbc"
+    },
+    {
+      "pmcid": "PMC13523879",
+      "pmid": "40032354",
+      "doi": "10.3760/cma.j.cn121090-20241130-00506",
+      "version": "PMC13523879.1",
+      "license": "https://creativecommons.org/licenses/by/3.0/",
+      "contentHash": "sha256:6e190a98f2d67aa6adbd055c4c5a2ac3c8d61e3f9c7ce797896705dd583346b9"
+    },
+    {
+      "pmcid": "PMC13523907",
+      "pmid": "40032348",
+      "doi": "10.3760/cma.j.cn121090-20241128-00490",
+      "version": "PMC13523907.1",
+      "license": "https://creativecommons.org/licenses/by/3.0/",
+      "contentHash": "sha256:8ed1066169fecbefc41daabc337835890dd8940fc99d43f3a6cd78b56fad0652"
+    },
+    {
+      "pmcid": "PMC13523908",
+      "pmid": "40032340",
+      "doi": "10.3760/cma.j.cn121090-20241208-00545",
+      "version": "PMC13523908.1",
+      "license": "https://creativecommons.org/licenses/by/3.0/",
+      "contentHash": "sha256:3be7b78eb579b0aabb96687a31833982d1415f46932eaadc8e3bdcfca4004a40"
+    },
+    {
+      "pmcid": "PMC13523897",
+      "pmid": "40032338",
+      "doi": "10.3760/cma.j.cn121090-20241128-00488",
+      "version": "PMC13523897.1",
+      "license": "https://creativecommons.org/licenses/by/3.0/",
+      "contentHash": "sha256:33c52fa3ec1459196ad7826f077dc939db516ca3601a43bf765a7b10f283ad67"
+    },
+    {
+      "pmcid": "PMC13488628",
+      "pmid": "39285267",
+      "doi": "10.1186/s42358-024-00399-3",
+      "version": "PMC13488628.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:b3d9bc67048bce983f48e33934c3d6cc524b02464b5d4ff68b8eb15d62e48ad7"
+    },
+    {
+      "pmcid": "PMC13488729",
+      "pmid": "38890752",
+      "doi": "10.1186/s42358-024-00386-8",
+      "version": "PMC13488729.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:ec1d2542d231bfdf34253a4eb500e3522047c3cc8a1513b50732e04d341dfc1d"
+    },
+    {
+      "pmcid": "PMC13440605",
+      "pmid": "38722160",
+      "doi": "10.1097/crd.0000000000000714",
+      "version": "PMC13440605.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:55c8c1fa89817641ab4ccec1e177c75826302830c1b851d25c87dd350e295b51"
+    },
+    {
+      "pmcid": "PMC13359128",
+      "pmid": "42563804",
+      "doi": "10.1002/cns3.20075",
+      "version": "PMC13359128.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:ddf92459c3c1342ee2c3200bc1c4d8b655545bb7cecabff870bb9e35769ad477"
+    },
+    {
+      "pmcid": "PMC13418682",
+      "pmid": "42548552",
+      "doi": "10.1016/j.chpulm.2024.100114",
+      "version": "PMC13418682.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:4266cf97e79121a9b05f696341558317a85d0e976c9836ba13f9aa8f8c7003cf"
+    },
+    {
+      "pmcid": "PMC13431970",
+      "pmid": "39630562",
+      "doi": "10.1089/pop.2024.0132",
+      "version": "PMC13431970.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:00c0af7c8a922f287157c8ad8398c70fa21e15345665fc9291f19364b9b8c872"
+    },
+    {
+      "pmcid": "PMC11580180",
+      "pmid": "39575446",
+      "doi": "10.1016/j.chpulm.2024.100067",
+      "version": "PMC11580180.2",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:c15448ebaf4fb819638830cbb04c7285c4184c73fc7271a08dbaa88dae6e9ab5"
+    },
+    {
+      "pmcid": "PMC12598066",
+      "pmid": "38380515",
+      "doi": "10.1177/15266028241231905",
+      "version": "PMC12598066.2",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "contentHash": "sha256:9621e4ba15c2b8fac149a873e9faf7aa19cc720c8c36d7941413d7efa523fa88"
+    },
+    {
+      "pmcid": "PMC13313829",
+      "pmid": "38764073",
+      "doi": "10.1186/s43046-024-00221-7",
+      "version": "PMC13313829.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:af9daa30e752cb22a6d65c6b5627d6b631894810ec5988464617f8f22be28e21"
+    },
+    {
+      "pmcid": "PMC13346321",
+      "pmid": "39441345",
+      "doi": "10.1007/s00392-024-02555-7",
+      "version": "PMC13346321.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:36a249a1e0aff324236585ff3a6fdc5c9f9505f19949fbe846c4feaa2f6fe3a9"
+    },
+    {
+      "pmcid": "PMC13344390",
+      "pmid": "39498559",
+      "doi": "10.1097/sla.0000000000006579",
+      "version": "PMC13344390.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:cf456c730c4d42a24f94d38b2b42759b37316592ef3e5c8e396d98f121769701"
+    },
+    {
+      "pmcid": "PMC13277527",
+      "pmid": "42328243",
+      "doi": "10.1097/id9.0000000000000127",
+      "version": "PMC13277527.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:780c2de3a44d7e9b337f141a87f1cd93e239ebe0e92901a58556c3306774cf70"
+    },
+    {
+      "pmcid": "PMC13277560",
+      "pmid": "42325854",
+      "doi": "10.1097/id9.0000000000000147",
+      "version": "PMC13277560.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:2c8de0f55752c28ff9a79e29b7646cc57213708cce268098c7b1248e66acd186"
+    },
+    {
+      "pmcid": "PMC13244752",
+      "pmid": "42305984",
+      "doi": "10.1016/j.xjse.2024.100027",
+      "version": "PMC13244752.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:6de49bc8c276950e0bbe49e6f53eeaeadfa7c631cea41ad4f4188a3c2e03e699"
+    },
+    {
+      "pmcid": "PMC13244758",
+      "pmid": "42305376",
+      "doi": "10.1016/j.xjse.2024.100034",
+      "version": "PMC13244758.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:0d8ebfc0d38afa4a0fc34f94ba8bd6f6dbd89484e35599bd7980650cc4f16a26"
+    },
+    {
+      "pmcid": "PMC13162248",
+      "pmid": "42131797",
+      "doi": "10.1016/j.xjse.2024.100003",
+      "version": "PMC13162248.2",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:4b3efd08deff072c507d616ac1873b3c97fe18d544b159ab780e1c13e9106a9a"
+    },
+    {
+      "pmcid": "PMC13238726",
+      "pmid": "39102430",
+      "doi": "10.1113/ep091677",
+      "version": "PMC13238726.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:0b8d3de99b1047f80ce39d6073589f979ba4acee4942cc38502e74694347e730"
+    },
+    {
+      "pmcid": "PMC13225034",
+      "pmid": "42232705",
+      "doi": "10.21037/jovs-23-34",
+      "version": "PMC13225034.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:0039b71e4ab2c6c37819dc9325356c1e10792729bdfc32ce2336758c4b587f39"
+    }
+  ],
+  "cases": [
+    {
+      "caseId": "EL002-CV-001",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13575277",
+      "verbatim": "Denosumab has been reported to improve bone mineral density (BMD), but the clinical impact of denosumab on osteoporosis in kidney transplant recipients (KTRs) remains controversial.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-CV-002",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13546947",
+      "verbatim": "This study aimed to describe the epidemiology of kidney replacement therapy (KRT) in Aotearoa New Zealand and assess the impact of residential location on access to kidney transplantation.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[@id='nep14409-sec-0001']/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-CV-003",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13540548",
+      "verbatim": "This study aims to investigate patient factors affecting the rate of plasma volume target attained in hypertriglyceridemic pancreatitis (HTG‐AP) patients undergoing double filtration plasmapheresis (DFPP).",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[@id='tap14232-sec-0001']/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-CV-004",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13531951",
+      "verbatim": "Atrial fibrillation (AF) and heart failure (HF) are both increasing in prevalence, and at least 25% of AF patients have HF (AF/HF).",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/sec[@id='S1']/p[@id='P1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-CV-005",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13523879",
+      "verbatim": "因冠心病、二尖瓣返流、三尖瓣返流行“冠状动脉旁路移植、二尖瓣机械瓣置换、三尖瓣成形术”2个月余的患者，再次出现心功能衰竭、心源性休克，主动脉球囊反博术支持1个月后心功能无法恢复，转为体外膜肺氧合（VA-ECMO）支持。",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-CV-NEG-005",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC13523879",
+      "verbatim": "This sentence is absent from the cited PMC article [EL002-CV-NEG-005].",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL002-CV-006",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13523907",
+      "verbatim": "体外膜肺氧合（Extracorporeal membrane oxygenation, ECMO）是一种基于体外循环原理，为严重心肺功能衰竭患者提供短期生命支持的先进技术，但也可出现急性肢体缺血、骨筋膜室综合征、出血和血栓等多种并发症。",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-CV-007",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13523908",
+      "verbatim": "患者入院后急行硬膜外血肿清除术+去骨瓣减压术+硬膜外血肿引流术，发生凝血障碍，诊断颅脑创伤后出凝血障碍，次日心梗并发心衰、下肢静脉血栓，经多次输注凝血酶原复合物等支持治疗，应用低分子肝素、积极抗感染治疗等，患者最终好转出院。",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[3]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-CV-008",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13523897",
+      "verbatim": "收集2023年9月至11月在泰达国际心血管病医院进行左心室辅助装置植入手术的终末期心力衰竭的4例患者临床资料，包括手术情况、凝血指标、血制品与凝血药物的应用等，并作文献复习。",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[2]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-CV-009",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13488628",
+      "verbatim": "Amyloidosis is a localized or systemic disease caused by deposition of proteins in the extracellular space of various organs and tissues.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/p[@id='Par1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-CV-010",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13488729",
+      "verbatim": "To develop the second evidence-based Brazilian Society of Rheumatology consensus for diagnosis and treatment of lupus nephritis (LN).",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[1]/p[@id='Par1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-CV-NEG-010",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC13488729",
+      "verbatim": "This sentence is absent from the cited PMC article [EL002-CV-NEG-010].",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[1]/p[@id='Par1']",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL002-CV-011",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13440605",
+      "verbatim": "A cardiac calcified amorphous tumor (CAT) is a non-neoplastic cardiac mass composed of calcified nodules surrounded by amorphous fibrous tissue in a context of degeneration and chronic inflammation.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-CV-012",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13359128",
+      "verbatim": "There are overlapping features between inflammatory myopathies and muscular dystrophies, particularly laminopathies.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[@id='cns320075-sec-0010']/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-CV-013",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13418682",
+      "verbatim": "There are no guidelines for OSA assessment in patients with COPD.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-CV-014",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13431970",
+      "verbatim": "A majority of patients with heart failure (HF) do not receive adequate medical therapy as recommended by clinical guidelines.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P4']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-CV-015",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC11580180",
+      "verbatim": "When administered as first-line intervention to patients admitted with acute hypercapnic respiratory failure secondary to COPD exacerbation in conjunction with guideline-recommended therapies, noninvasive ventilation (NIV) has been shown to reduce mortality and endotracheal intubation.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-CV-NEG-015",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC11580180",
+      "verbatim": "This sentence is absent from the cited PMC article [EL002-CV-NEG-015].",
+      "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[1]/p[1]",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL002-CV-016",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC12598066",
+      "verbatim": "Data on target vessel (TV)-related outcomes in patients managed with branched thoracic endovascular aortic repair (BTEVAR) are limited.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[@id='section1-15266028241231905']/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-CV-017",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13313829",
+      "verbatim": "Total body irradiation (TBI) for hematopoietic stem cell transplant (HSCT) has certain distinct advantages, such as uniform dose distribution and lack of drug resistance, but it is not widely available in resource-constrained settings.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[1]/p[@id='Par1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-CV-018",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13346321",
+      "verbatim": "Ultrasound renal sympathetic denervation (uRDN) reduces blood pressure (BP) in the absence and presence of antihypertensive treatment at 2 months.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[1]/p[@id='Par1']",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-CV-019",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13344390",
+      "verbatim": "To evaluate machine learning (ML) models’ performance in predicting acute pancreatitis (AP) severity using early-stage variables while excluding laboratory and imaging tests.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-CV-020",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13277527",
+      "verbatim": "The genus Citrobacter commonly found in water and soil as well as the intestinal and urinary tracts of animals and humans.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-CV-NEG-020",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC13277527",
+      "verbatim": "This sentence is absent from the cited PMC article [EL002-CV-NEG-020].",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL002-CV-021",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13277560",
+      "verbatim": "The rarity of Francisella novicida infection in humans is well-known, and the F. novicida cases occur in immunocompromised patients or those with underlying health problems.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-CV-022",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13244752",
+      "verbatim": "Over the past decade, there has been a dramatic growth in the utilization and diversity of available transcatheter devices for the replacement and repair of all heart valves.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-CV-023",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13244758",
+      "verbatim": "Optimal management of primary aortic coarctation in adolescents and adults remains controversial.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-CV-024",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13162248",
+      "verbatim": "The clinical consequences of coexistent tricuspid regurgitation (TR) in patients with severe ischemic mitral regurgitation (IMR) remain unclear.",
+      "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-CV-025",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13238726",
+      "verbatim": "To examine the feasibility, utility and safety of superimposed lower body negative pressure (LBNP) and tilt during supine cycling in individuals suffering from persisting post‐concussive symptoms (PPCS).",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "PASS"
+    },
+    {
+      "caseId": "EL002-CV-NEG-025",
+      "operation": "SPAN_NOT_FOUND",
+      "pmcid": "PMC13238726",
+      "verbatim": "This sentence is absent from the cited PMC article [EL002-CV-NEG-025].",
+      "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "expectedOutcome": "EXPECTED_FAILURE",
+      "expectedErrorCode": "SPAN_NOT_FOUND"
+    },
+    {
+      "caseId": "EL002-CV-026",
+      "operation": "VALID_PACKET",
+      "pmcid": "PMC13225034",
+      "verbatim": "Sutureless prosthetic aortic valves have continued to play an expansive role in addressing aortic valve disease in patients undergoing heart surgery.",
+      "fieldPath": "/article/front/article-meta/abstract[1]/sec[1]/p[1]",
+      "expectedOutcome": "PASS"
+    }
+  ],
+  "exclusions": [
+    {
+      "pmcid": "PMC13417762",
+      "reason": "NO_QUALIFYING_ABSTRACT_SENTENCE"
+    }
+  ]
+}

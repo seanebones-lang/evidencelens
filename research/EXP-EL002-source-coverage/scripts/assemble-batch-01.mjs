@@ -21,6 +21,9 @@ const adapter = new PmcFullTextAdapter({ tool: "evidencelens-exp-el002" });
 const sources = [];
 const cases = [];
 const exclusions = [];
+const splitSentences = (text) => text.split(/(?<=[。！？])|(?<=[.!?])\s+(?=[A-Z])/u)
+  .map((sentence) => sentence.trim())
+  .filter((sentence) => sentence.length >= 55 && sentence.length <= 500);
 for (const numericId of candidateIds) {
   if (sources.length === 26) break;
   const pmcid = `PMC${numericId}`;
@@ -37,15 +40,12 @@ for (const numericId of candidateIds) {
     }
     const paragraph = extractPmcAddressableParagraphs(snapshot)
       .find((item) => item.fieldPath.startsWith("/article/front/article-meta/abstract") &&
-        item.text.split(/(?<=[.!?])\s+(?=[A-Z])/u)
-          .some((sentence) => sentence.length >= 55 && sentence.length <= 500));
+        splitSentences(item.text).length > 0);
     if (!paragraph) {
       exclusions.push({ pmcid, reason: "NO_QUALIFYING_ABSTRACT_SENTENCE" });
       continue;
     }
-    const verbatim = paragraph.text.split(/(?<=[.!?])\s+(?=[A-Z])/u)
-      .map((sentence) => sentence.trim())
-      .find((sentence) => sentence.length >= 55 && sentence.length <= 500);
+    const verbatim = splitSentences(paragraph.text)[0];
     const sourceNumber = sources.length + 1;
     sources.push({
       pmcid, pmid: artifact.identifiers.pmid, doi: artifact.identifiers.doi,
