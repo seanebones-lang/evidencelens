@@ -1,0 +1,71 @@
+import assert from "node:assert/strict";
+import test from "node:test";
+
+import {
+  SemanticEvaluationError,
+  cohenKappa,
+  mapAtomicAnswers,
+  scoreSemanticPredictions,
+  validateIndependentAnnotations,
+  validateSemanticCases,
+} from "../dist/index.js";
+
+const cases = [{
+  caseId: "SEM-001",
+  packetId: "pkt_1",
+  packetHash: `sha256:${"a".repeat(64)}`,
+  claim: "Intervention A reduced outcome B.",
+  evidenceSpanIds: ["span_1"],
+  domain: "biomedical-literature",
+  excludedContextConfirmed: true,
+}];
+
+test("validates addressable semantic cases", () => {
+  assert.doesNotThrow(() => validateSemanticCases(cases));
+  assert.throws(() => validateSemanticCases([{ ...cases[0], excludedContextConfirmed: false }]), SemanticEvaluationError);
+});
+
+test("requires independent annotation coverage", () => {
+  const base = { caseId: "SEM-001", label: "SUPPORTED", rubricVersion: "1.0.0", createdAt: "2026-09-23T15:00:00.000Z" };
+  assert.throws(() => validateIndependentAnnotations(cases, [{ ...base, annotatorId: "A" }]), /lacks 2/);
+  assert.doesNotThrow(() => validateIndependentAnnotations(cases, [
+    { ...base, annotatorId: "A" },
+    { ...base, annotatorId: "B" },
+  ]));
+});
+
+test("maps paired atomic answers without inventing certainty", () => {
+  assert.equal(mapAtomicAnswers({ caseId: "A", supportAnswer: "YES", contradictionAnswer: "NO" }), "SUPPORTED");
+  assert.equal(mapAtomicAnswers({ caseId: "B", supportAnswer: "NO", contradictionAnswer: "YES" }), "CONTRADICTED");
+  assert.equal(mapAtomicAnswers({ caseId: "C", supportAnswer: "YES", contradictionAnswer: "YES" }), "MIXED");
+  assert.equal(mapAtomicAnswers({ caseId: "D", supportAnswer: "NO", contradictionAnswer: "NO" }), "INSUFFICIENT_EVIDENCE");
+  assert.equal(mapAtomicAnswers({ caseId: "E", supportAnswer: "INSUFFICIENT_EVIDENCE", contradictionAnswer: "YES" }), "INSUFFICIENT_EVIDENCE");
+});
+
+test("computes Cohen's kappa from paired independent labels", () => {
+  const record = (caseId, annotatorId, label) => ({ caseId, annotatorId, label, rubricVersion: "1.0.0", createdAt: "2026-09-23T15:00:00.000Z" });
+  const left = [record("A", "L", "SUPPORTED"), record("B", "L", "CONTRADICTED"), record("C", "L", "MIXED"), record("D", "L", "INSUFFICIENT_EVIDENCE")];
+  const right = [record("A", "R", "SUPPORTED"), record("B", "R", "CONTRADICTED"), record("C", "R", "MIXED"), record("D", "R", "INSUFFICIENT_EVIDENCE")];
+  assert.equal(cohenKappa(left, right), 1);
+  right[3] = record("D", "R", "SUPPORTED");
+  assert.ok(cohenKappa(left, right) < 1);
+});
+
+test("scores all classes and isolates false reassurance", () => {
+  const gold = [
+    ["A", "SUPPORTED"], ["B", "CONTRADICTED"], ["C", "MIXED"], ["D", "INSUFFICIENT_EVIDENCE"],
+  ].map(([caseId, label]) => ({ caseId, label, adjudicatorId: "Z", rubricVersion: "1.0.0", sourceAnnotationIds: ["1", "2"], createdAt: "2026-09-23T15:00:00.000Z" }));
+  const metrics = scoreSemanticPredictions(gold, [
+    { caseId: "A", supportAnswer: "YES", contradictionAnswer: "NO" },
+    { caseId: "B", supportAnswer: "YES", contradictionAnswer: "NO" },
+    { caseId: "C", supportAnswer: "YES", contradictionAnswer: "YES" },
+    { caseId: "D", supportAnswer: "NO", contradictionAnswer: "NO" },
+  ]);
+  assert.equal(metrics.accuracy, 0.75);
+  assert.equal(metrics.abstentionRate, 0.25);
+  assert.equal(metrics.nonAbstentionCoverage, 0.75);
+  assert.equal(metrics.criticalFalseReassuranceCount, 1);
+  assert.equal(metrics.criticalFalseReassuranceRate, 0.5);
+  assert.equal(metrics.confusionMatrix.CONTRADICTED.SUPPORTED, 1);
+  assert.equal(metrics.perClass.MIXED.recall, 1);
+});

@@ -8,7 +8,7 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "npm run build -w @evidencelens/evidence-schema && npm run build -w @evidencelens/evaluation && npm run build -w @evidencelens/source-adapters && npm run build -w @evidencelens/deterministic-checks && npm run build -w @evidencelens/packet-builder",
+    "build": "npm run build -w @evidencelens/evidence-schema && npm run build -w @evidencelens/evaluation && npm run build -w @evidencelens/source-adapters && npm run build -w @evidencelens/deterministic-checks && npm run build -w @evidencelens/packet-builder && npm run build -w @evidencelens/semantic-evaluation",
     "test": "npm run build && npm run test --workspaces --if-present",
     "typecheck": "npm run typecheck --workspaces --if-present",
     "check": "npm run build && npm run typecheck && npm test",

@@ -49,7 +49,8 @@ Dependencies point inward toward stable domain contracts:
 | `source-adapters` | DOI/PubMed/PMC/ClinicalTrials/upload resolution | Active: Crossref, PubMed, licensed PMC XML |
 | `packet-builder` | Fail-closed assembly, snapshot preservation, status assertions, replay identity | Active |
 | `deterministic-checks` | Hash, identifier, quote, date, and numeric checks | Active: licensed PMC exact spans |
-| `semantic-review` | Provider-neutral decisions and JEV adapter | Planned after EXP-EL001 |
+| `semantic-review` | Provider-neutral decisions and JEV adapter | Planned after EXP-EL003 labels freeze |
 | `routing` | Versioned review-priority rules | Planned after question evaluation |
 | `witness-adapter` | Append-only provenance delivery and outbox | Planned |
-| `evaluation` | Versioned manifests, controls, scoring, reports | Active: development seed |
+| `evaluation` | Versioned deterministic manifests, controls, scoring, reports | Active |
+| `semantic-evaluation` | Independent-label validation, paired-answer mapping, semantic metrics | Active: EXP-EL003 foundation |
