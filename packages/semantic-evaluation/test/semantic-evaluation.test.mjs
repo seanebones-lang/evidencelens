@@ -6,6 +6,7 @@ import {
   cohenKappa,
   createBlindedAssignments,
   mapAtomicAnswers,
+  mapExpandedAtomicAnswers,
   scoreSemanticPredictions,
   validateIndependentAnnotations,
   validatePartitionIsolation,
@@ -63,6 +64,21 @@ test("maps paired atomic answers without inventing certainty", () => {
   assert.equal(mapAtomicAnswers({ caseId: "C", supportAnswer: "YES", contradictionAnswer: "YES" }), "MIXED");
   assert.equal(mapAtomicAnswers({ caseId: "D", supportAnswer: "NO", contradictionAnswer: "NO" }), "INSUFFICIENT_EVIDENCE");
   assert.equal(mapAtomicAnswers({ caseId: "E", supportAnswer: "INSUFFICIENT_EVIDENCE", contradictionAnswer: "YES" }), "INSUFFICIENT_EVIDENCE");
+});
+
+test("maps expanded decisions conservatively and distinguishes qualification", () => {
+  const prediction = (supportAnswer, contradictionAnswer, scopeMismatchAnswer, designLimitationAnswer) => ({
+    caseId: "V2", supportAnswer, contradictionAnswer, scopeMismatchAnswer, designLimitationAnswer,
+  });
+  assert.equal(mapExpandedAtomicAnswers(prediction("YES", "NO", "NO", "NO")), "SUPPORTED");
+  assert.equal(mapExpandedAtomicAnswers(prediction("NO", "YES", "NO", "NO")), "CONTRADICTED");
+  assert.equal(mapExpandedAtomicAnswers(prediction("INSUFFICIENT_EVIDENCE", "YES", "NO", "NO")), "CONTRADICTED");
+  assert.equal(mapExpandedAtomicAnswers(prediction("YES", "NO", "YES", "NO")), "MIXED");
+  assert.equal(mapExpandedAtomicAnswers(prediction("YES", "NO", "NO", "YES")), "MIXED");
+  assert.equal(mapExpandedAtomicAnswers(prediction("YES", "YES", "NO", "NO")), "MIXED");
+  assert.equal(mapExpandedAtomicAnswers(prediction("YES", "NO", "INSUFFICIENT_EVIDENCE", "NO")), "INSUFFICIENT_EVIDENCE");
+  assert.equal(mapExpandedAtomicAnswers(prediction("NO", "NO", "YES", "NO")), "INSUFFICIENT_EVIDENCE");
+  assert.throws(() => mapExpandedAtomicAnswers(prediction("MAYBE", "NO", "NO", "NO")), SemanticEvaluationError);
 });
 
 test("computes Cohen's kappa from paired independent labels", () => {

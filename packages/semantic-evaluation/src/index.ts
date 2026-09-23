@@ -70,6 +70,14 @@ export interface SemanticPrediction {
   contradictionAnswer: AtomicAnswer;
 }
 
+export interface ExpandedSemanticPrediction {
+  caseId: string;
+  supportAnswer: AtomicAnswer;
+  contradictionAnswer: AtomicAnswer;
+  scopeMismatchAnswer: AtomicAnswer;
+  designLimitationAnswer: AtomicAnswer;
+}
+
 export interface SemanticMetrics {
   total: number;
   accuracy: number;
@@ -218,6 +226,28 @@ export function mapAtomicAnswers(prediction: SemanticPrediction): SemanticLabel 
   if (support === "YES" && contradiction === "YES") return "MIXED";
   if (support === "YES" && contradiction === "NO") return "SUPPORTED";
   if (support === "NO" && contradiction === "YES") return "CONTRADICTED";
+  return "INSUFFICIENT_EVIDENCE";
+}
+
+export function mapExpandedAtomicAnswers(prediction: ExpandedSemanticPrediction): SemanticLabel {
+  const {
+    supportAnswer: support,
+    contradictionAnswer: contradiction,
+    scopeMismatchAnswer: scopeMismatch,
+    designLimitationAnswer: designLimitation,
+  } = prediction;
+  const answers = [support, contradiction, scopeMismatch, designLimitation];
+  if (answers.some((answer) => !ATOMIC_ANSWERS.includes(answer))) {
+    throw new SemanticEvaluationError("Expanded prediction contains an unsupported atomic answer");
+  }
+
+  const hasQualification = scopeMismatch === "YES" || designLimitation === "YES";
+  if (support === "YES" && (contradiction === "YES" || hasQualification)) return "MIXED";
+  if (contradiction === "YES") return "CONTRADICTED";
+  if (support === "YES"
+    && contradiction === "NO"
+    && scopeMismatch === "NO"
+    && designLimitation === "NO") return "SUPPORTED";
   return "INSUFFICIENT_EVIDENCE";
 }
 
