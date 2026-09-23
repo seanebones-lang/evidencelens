@@ -16,7 +16,8 @@
     "experiment:development": "node research/EXP-EL001-packet-validity/scripts/run-dev-seed.mjs --manifest=research/EXP-EL001-packet-validity/development.manifest.json",
     "experiment:audit-coverage": "node research/EXP-EL001-packet-validity/scripts/audit-source-coverage.mjs",
     "experiment:cv-batch1": "node research/EXP-EL002-source-coverage/scripts/run-batch.mjs --expected-sha256=d77485d286ec0c062099ab92fe83037340d4d2d28d77e973bb9407d52e10eccf",
-    "experiment:annotation-assignments": "node research/EXP-EL003-semantic-relation/scripts/create-annotation-assignments.mjs"
+    "experiment:annotation-assignments": "node research/EXP-EL003-semantic-relation/scripts/create-annotation-assignments.mjs",
+    "experiment:jev-pilot:check": "python3 research/EXP-EL003-semantic-relation/scripts/test-run-jev-pilot.py && python3 research/EXP-EL003-semantic-relation/scripts/run-jev-pilot.py --dry-run"
   },
   "devDependencies": {
     "@types/node": "^24.5.2",
