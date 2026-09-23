@@ -1,6 +1,6 @@
 # EXP-EL003 development authoring status
 
-**Status:** 60 of 80 candidates assembled; human author review required before annotation
+**Status:** 80 of 80 candidates assembled; human author review required before annotation
 
 The deterministic supported-case assembler selected 20 distinct development
 sources using the predeclared SHA-256 order and created one natural supported
@@ -20,11 +20,18 @@ exactly one material proposition.
   `ec0d8b18e66892ddb760e27235785aebca0a6d4747c20a793f70951337476210`
 - Insufficient-evidence confidential authoring-ledger SHA-256:
   `9d49fc9bc5f944f4176bf3c920d30c3b1066869e15a6722cb9d0774b32228410`
-- Candidates: 60 of 80
-- Distinct source groups: 40
-- Natural origin: 40
+- Mixed candidate file SHA-256:
+  `72f6f4778d758f9b12ddafcbc438f8db2a5e6442123a988a274e0be8b5022b90`
+- Mixed confidential authoring-ledger SHA-256:
+  `3439da73ee9d0b9badf9194339038e3c44cbae8c81208d05c430451b611c629e`
+- Evaluation-integrity charter SHA-256:
+  `f9b08d0d089536abfe40fc39909689c129c97579e95fd906f6408b32dd697242`
+- Candidates: 80 of 80
+- Distinct source groups: 52
+- Natural origin: 60
 - Synthetic origin: 20 (the full development synthetic allowance)
-- Remaining authoring target: 20 natural mixed candidates
+- Construction targets: 20 per label
+- Remaining authoring target: none
 
 The remaining-source inventory is frozen before relation-case authoring:
 

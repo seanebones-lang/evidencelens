@@ -6,6 +6,10 @@
 
 **Date:** 2026-09-23
 
+The [evaluation integrity charter](./EVALUATION-INTEGRITY-CHARTER.md) is
+binding for model integration, tuning, protected-partition execution, and
+reporting.
+
 ## Research question
 
 Can a bounded semantic reviewer distinguish whether supplied, exact evidence

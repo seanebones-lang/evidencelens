@@ -1,0 +1,314 @@
+{
+  "assemblyVersion": "1.0.0",
+  "authoringLedger": [
+    {
+      "caseId": "EL003-DEV-MIX-001",
+      "intendedConstructionLabel": "MIXED",
+      "sourceCaseId": "EL002-02-014",
+      "pmcid": "PMC13425555",
+      "claimFieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "claimSpanId": "span_78af5d874d8bc064ef0e8ac0",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[1]/p[1]"
+      ],
+      "mixedBasis": "The oxygen findings support one named outcome, while the supplied study does not evaluate the separately claimed pH outcome.",
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-002",
+      "intendedConstructionLabel": "MIXED",
+      "sourceCaseId": "EL002-02-022",
+      "pmcid": "PMC13313845",
+      "claimFieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[5]/p[@id='Par5']",
+      "claimSpanId": "span_9bd585970e9b5b9c6c3d31c5",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[@id='Abs1']/sec[3]/p[@id='Par3']",
+        "/article/front/article-meta/abstract[@id='Abs1']/sec[4]/p[@id='Par4']",
+        "/article/front/article-meta/abstract[@id='Abs1']/sec[5]/p[@id='Par5']"
+      ],
+      "mixedBasis": "Mutation prevalence and clinical associations support stratification, but actual TKI response was not measured, creating an outcome mismatch.",
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-003",
+      "intendedConstructionLabel": "MIXED",
+      "sourceCaseId": "EL002-CV-001",
+      "pmcid": "PMC13575277",
+      "claimFieldPath": "/article/front/article-meta/abstract[1]/sec[4]/p[1]",
+      "claimSpanId": "span_95078f976a71011c32d4ac8d",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[1]/sec[3]/p[1]"
+      ],
+      "mixedBasis": "BMD and FRAX improvements support effectiveness while de novo fractures, UTI, hypocalcemia, and other events materially qualify safety and fracture prevention.",
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-004",
+      "intendedConstructionLabel": "MIXED",
+      "sourceCaseId": "EL002-CV-011",
+      "pmcid": "PMC13440605",
+      "claimFieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "claimSpanId": "span_68fa3a28b2a08a4c2abf0b69",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[1]/p[1]"
+      ],
+      "mixedBasis": "The review's observed mobility and embolism associations support concern, while the narrative-case evidence does not directly establish necessity or comparative treatment benefit.",
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-005",
+      "intendedConstructionLabel": "MIXED",
+      "sourceCaseId": "EL002-CV-016",
+      "pmcid": "PMC12598066",
+      "claimFieldPath": "/article/front/article-meta/abstract[1]/sec[@id='section4-15266028241231905']/p[1]",
+      "claimSpanId": "span_db4aef760274d19995f3be73",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[1]/sec[@id='section3-15266028241231905']/p[1]"
+      ],
+      "mixedBasis": "Observed patency supports rarity, while recorded endoleaks and early reinterventions materially qualify the favorable outcome.",
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-006",
+      "intendedConstructionLabel": "MIXED",
+      "sourceCaseId": "EL002-02-002",
+      "pmcid": "PMC13494981",
+      "claimFieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "claimSpanId": "span_c77fc44180427be52418f9c6",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[1]/p[1]"
+      ],
+      "mixedBasis": "The review identifies the target and biological rationale while explicitly describing the infectious-disease association as underappreciated and containing knowledge gaps.",
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-007",
+      "intendedConstructionLabel": "MIXED",
+      "sourceCaseId": "EL002-CV-018",
+      "pmcid": "PMC13346321",
+      "claimFieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[4]/p[@id='Par4']",
+      "claimSpanId": "span_ed4ba09d45b0967512a494b7",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[@id='Abs1']/sec[3]/p[@id='Par3']"
+      ],
+      "mixedBasis": "Long-term BP and drug-burden changes support efficacy, while only 27 of 96 had prospective long-term follow-up and renal outcomes qualify the safety scope.",
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-008",
+      "intendedConstructionLabel": "MIXED",
+      "sourceCaseId": "EL002-02-005",
+      "pmcid": "PMC13494822",
+      "claimFieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "claimSpanId": "span_2ddcfc88e3e1d15422bd089a",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[1]/p[1]"
+      ],
+      "mixedBasis": "Two prioritized compounds and cell-line activity support identification, while the narrow library, in-vitro setting, and untested adaptability limit the broader claim.",
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-009",
+      "intendedConstructionLabel": "MIXED",
+      "sourceCaseId": "EL002-CV-010",
+      "pmcid": "PMC13488729",
+      "claimFieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[4]/p[@id='Par4']",
+      "claimSpanId": "span_f8c79e806cff133c8661efdb",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[@id='Abs1']/sec[2]/p[@id='Par2']",
+        "/article/front/article-meta/abstract[@id='Abs1']/sec[3]/p[@id='Par3']"
+      ],
+      "mixedBasis": "Systematic review, GRADE, and recommendations support the claim, while some management areas relied on literature review and expert opinion rather than eligible trials.",
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-010",
+      "intendedConstructionLabel": "MIXED",
+      "sourceCaseId": "EL002-02-011",
+      "pmcid": "PMC13268277",
+      "claimFieldPath": "/article/front/article-meta/abstract[1]/sec[4]/p[1]",
+      "claimSpanId": "span_011d9a02612bc349376129b7",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[1]/sec[2]/p[1]",
+        "/article/front/article-meta/abstract[1]/sec[3]/p[1]"
+      ],
+      "mixedBasis": "Significant psychological outcomes support effectiveness, while the small quasi-experimental regional sample limits population and causal scope.",
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-011",
+      "intendedConstructionLabel": "MIXED",
+      "sourceCaseId": "EL002-CV-022",
+      "pmcid": "PMC13244752",
+      "claimFieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[4]/p[1]",
+      "claimSpanId": "span_a5754185bd08a981e2fe6e7a",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[@id='abs0010']/sec[2]/p[1]",
+        "/article/front/article-meta/abstract[@id='abs0010']/sec[3]/p[1]"
+      ],
+      "mixedBasis": "Urgency, mortality, and survival findings support clinical importance, while the evidence is a 44-patient retrospective single-institution cohort.",
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-012",
+      "intendedConstructionLabel": "MIXED",
+      "sourceCaseId": "EL002-02-024",
+      "pmcid": "PMC13313864",
+      "claimFieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[5]/p[@id='Par5']",
+      "claimSpanId": "span_c1828b0bc2c8cbb25ffeaf4b",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[@id='Abs1']/sec[3]/p[@id='Par3']",
+        "/article/front/article-meta/abstract[@id='Abs1']/sec[4]/p[@id='Par4']"
+      ],
+      "mixedBasis": "Drainage and complication results support recovery benefits, while the small trial and evidence reported for only some claimed outcomes qualify the recommendation's scope.",
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-013",
+      "intendedConstructionLabel": "MIXED",
+      "sourceCaseId": "EL002-CV-014",
+      "pmcid": "PMC13431970",
+      "claimFieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P4']",
+      "claimSpanId": "span_0876bde654de76a2c85240cb",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P4']"
+      ],
+      "mixedBasis": "The system reduced the screening pool, while 32.1% accuracy and documented false positives materially qualify the enrichment claim.",
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-014",
+      "intendedConstructionLabel": "MIXED",
+      "sourceCaseId": "EL002-02-020",
+      "pmcid": "PMC13327348",
+      "claimFieldPath": "/article/front/article-meta/abstract[@id='Abs1']/p[@id='Par1']",
+      "claimSpanId": "span_0886e7bdfcc1d92a5389c24f",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[@id='Abs1']/p[@id='Par1']"
+      ],
+      "mixedBasis": "The review describes biomedical uses while also explicitly covering drawbacks, difficulties, and future prospects rather than established broad application.",
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-015",
+      "intendedConstructionLabel": "MIXED",
+      "sourceCaseId": "EL002-CV-004",
+      "pmcid": "PMC13531951",
+      "claimFieldPath": "/article/front/article-meta/abstract[@id='ABS1']/sec[@id='S4']/p[@id='P4']",
+      "claimSpanId": "span_8d74f6b9b2eb6b824f3d9222",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[@id='ABS1']/sec[@id='S2']/p[@id='P2']",
+        "/article/front/article-meta/abstract[@id='ABS1']/sec[@id='S3']/p[@id='P3']"
+      ],
+      "mixedBasis": "Efficiency and correlation results support feasibility and usefulness, while validation occurred within one 267-patient trial and some specificity applied to recent-onset AF.",
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-016",
+      "intendedConstructionLabel": "MIXED",
+      "sourceCaseId": "EL002-CV-012",
+      "pmcid": "PMC13359128",
+      "claimFieldPath": "/article/front/article-meta/abstract[1]/sec[@id='cns320075-sec-0030']/p[1]",
+      "claimSpanId": "span_d2206ddd654d5782d3e59c24",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[1]/sec[@id='cns320075-sec-0010']/p[1]",
+        "/article/front/article-meta/abstract[1]/sec[@id='cns320075-sec-0020']/p[1]"
+      ],
+      "mixedBasis": "Phenotypic overlap and the cardiac-failure case support diagnostic importance, while a single case does not establish prevention of complications.",
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-017",
+      "intendedConstructionLabel": "MIXED",
+      "sourceCaseId": "EL002-02-008",
+      "pmcid": "PMC13485073",
+      "claimFieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P2']",
+      "claimSpanId": "span_7b0567664ff8de7b56562170",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P2']"
+      ],
+      "mixedBasis": "Autophagy disruption and impaired 3D/in-vivo growth support the target, while preserved 2D growth and preclinical evidence qualify therapeutic generalization.",
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-018",
+      "intendedConstructionLabel": "MIXED",
+      "sourceCaseId": "EL002-02-018",
+      "pmcid": "PMC13395951",
+      "claimFieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[5]/p[@id='Par5']",
+      "claimSpanId": "span_f7f99898f4ca3aa8540fa40b",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[@id='Abs1']/sec[4]/p[@id='Par4']"
+      ],
+      "mixedBasis": "Metabolic changes and reduced proliferation support the mechanism, while withdrawal reversibility materially qualifies therapeutic durability.",
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-019",
+      "intendedConstructionLabel": "MIXED",
+      "sourceCaseId": "EL002-02-021",
+      "pmcid": "PMC13313861",
+      "claimFieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[4]/p[@id='Par4']",
+      "claimSpanId": "span_5db5adc55ca6adf06f282ba0",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[@id='Abs1']/sec[2]/p[@id='Par2']",
+        "/article/front/article-meta/abstract[@id='Abs1']/sec[3]/p[@id='Par3']"
+      ],
+      "mixedBasis": "Expression, clinicopathological associations, and disease-free survival support correlation, while the 40-patient observational sample and possible-correlation framing limit generalization.",
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-020",
+      "intendedConstructionLabel": "MIXED",
+      "sourceCaseId": "EL002-CV-025",
+      "pmcid": "PMC13238726",
+      "claimFieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+      "claimSpanId": "span_1bccdf9e7a330725cb231d63",
+      "evidenceFieldPaths": [
+        "/article/front/article-meta/abstract[1]/p[1]"
+      ],
+      "mixedBasis": "Completion and physiological responses support feasibility, while only 11 participants, limited symptom differences, and the explicit need for further research qualify treatment implications.",
+      "transformation": null,
+      "naturalClaimConfirmed": true,
+      "requiresHumanAuthorReview": true
+    }
+  ]
+}

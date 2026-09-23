@@ -1,0 +1,431 @@
+{
+  "assemblyVersion": "1.0.0",
+  "selectionRule": "Dual-case allocation ranks 21-28 plus single-case ranks 41-52",
+  "cases": [
+    {
+      "caseId": "EL003-DEV-MIX-001",
+      "packetId": "pkt_86a922def2f05628930f73e6",
+      "packetHash": "sha256:86a922def2f05628930f73e6f64ffe5fbb3e4f1d9f2f599e8038563d1e1d679d",
+      "claim": "Fluorescence imaging allows for noninvasively visualizing and measuring key physiological parameters like pH and dissolved oxygen.",
+      "evidence": [
+        {
+          "spanId": "span_6fec17ea1d80a765926ab7a5",
+          "verbatim": "Fluorescence imaging allows for noninvasively visualizing and measuring key physiological parameters like pH and dissolved oxygen. In our work, we created two ratiometric fluorescent microsensors designed for accurately tracking dissolved oxygen levels in 3D cell cultures. We developed a simple and cost-effective method to produce hybrid core–shell silica microparticles that are biocompatible and versatile. These sensors incorporate oxygen-sensitive probes (Ru­(dpp) or PtOEP) and reference dyes (RBITC or A647 NHS-Ester). SEM analysis confirmed the efficient loading and distribution of the sensing dye on the outer shell. Fluorimetric and CLSM tests demonstrated the sensors’ reversibility and high sensitivity to oxygen, even when integrated into 3D scaffolds. Aging and bleaching experiments validated the stability of our hybrid core–shell silica microsensors for 3D monitoring. The Ru­(dpp)-RBITC microparticles showed the most promising performance, especially in a pancreatic cancer model using alginate microgels. By employing computational segmentation, we generated 3D oxygen maps during live cell imaging, revealing oxygen gradients in the extracellular matrix and indicating a significant decrease in oxygen level characteristics of solid tumors. Notably, after 12 h, the oxygen concentration dropped to a hypoxic level of PO2 2.7 ± 0.1%.",
+          "section": "Abstract"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13425555",
+      "nearDuplicateGroupId": "natural_EL002-02-014",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-002",
+      "packetId": "pkt_71bbf38e60e51ae640008a67",
+      "packetHash": "sha256:71bbf38e60e51ae640008a671d80847383d40f43fc5df62f3757e664d41cb272",
+      "claim": "According to the findings, somatic EGFR mutations can be employed as a diagnostic tool for non-small cell lung cancer in Egypt, and they can be implemented in conjunction with clinical criteria to identify which patients are more likely to respond favorably to TKIs.",
+      "evidence": [
+        {
+          "spanId": "span_97355142eb9107acd3d6c780",
+          "verbatim": "The study comprised 333 NSCLC tissue samples from 230 males and 103 females with an average age of 50 years. Exons 18–21 of the EGFR gene have been examined using real-time PCR. Using SPSS, correlations between clinical and demographic variables were examined, and EGFR mutation and clinical features associations were studied.",
+          "section": "Methods"
+        },
+        {
+          "spanId": "span_7e16064c56df70baa14c3b40",
+          "verbatim": "The study’s findings revealed that the incidence rate of EGFR mutation was 24.32% (81/333), with partial deletion of exon 19 (19-Del) and a point mutation of L858R in exon 21 accounting for 66.67% (P < 0.001) and 28.40% (P < 0.001) of the mutant cases, respectively. Patients who had the T790M mutation represent 4.94% (P = 0.004) of total number of patients. Females harbored EGFR mutations (54.32%) with higher frequency than men (45.68%) (P < 0.001), while nonsmokers had EGFR mutations (70.37%) more frequently than current smokers (29.63%) (P < 0.001).",
+          "section": "Results"
+        },
+        {
+          "spanId": "span_18820ac11734c47251d56ef3",
+          "verbatim": "The screening study conducted in Egypt reported that the EGFR mutations prevalence was 24.32% among Egyptians with NSCLC. The study also found a slight gender bias, with females having an incidence rate of these mutations higher than males. Additionally, nonsmokers had higher rates of mutations in EGFR gene compared to smokers. According to the findings, somatic EGFR mutations can be employed as a diagnostic tool for non-small cell lung cancer in Egypt, and they can be implemented in conjunction with clinical criteria to identify which patients are more likely to respond favorably to TKIs.",
+          "section": "Conclusion"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13313845",
+      "nearDuplicateGroupId": "natural_EL002-02-022",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-003",
+      "packetId": "pkt_9c42053f588844f3b3a6ffaf",
+      "packetHash": "sha256:9c42053f588844f3b3a6ffaf5aea27c5b19a76f1609f7894efb74d79dcd56425",
+      "claim": "The use of denosumab in KTRs is effective and safe for the treatment of osteoporosis and prevention of fracture, but it should be carefully monitored for complications, especially UTI.",
+      "evidence": [
+        {
+          "spanId": "span_de949a32eb0b9f4d396b413e",
+          "verbatim": "Mean T-scores at 1 year after denosumab were significantly increased compared to mean T-scores pre-denosumab at the femur neck and spine area, respectively (–2.68 ± 0.68 vs. –2.81 ± 0.68, p < 0.001; –2.78 ± 0.96 vs. –3.21 ± 1.00, p < 0.001). The levels of calcium and phosphorus significantly decreased and those of vitamin D significantly increased at 1 year after denosumab, but there were no significant differences in parathyroid hormone, allograft function, and tacrolimus trough level. There were no recurrent fractures among 12 KTRs with a history of fracture, but three de novo fractures happened. Cardiovascular events occurred in three patients. Denosumab-induced hypocalcemia developed in eight patients, but severe hypocalcemia was observed in only one patient. Acute kidney injury did not happen. Urinary tract infection (UTI) occurred in 17 patients. Arthralgia occurred in four patients. FRAX score was significantly decreased after denosumab. Acute rejection within 1 year after denosumab developed in three patients. There was no graft failure.",
+          "section": "Results"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13575277",
+      "nearDuplicateGroupId": "natural_EL002-CV-001",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-004",
+      "packetId": "pkt_bd787272e7fe09c49c7dcca0",
+      "packetHash": "sha256:bd787272e7fe09c49c7dcca0e47d9a416c5667cd8d0ec7c7355a0f2135a66b76",
+      "claim": "Hence, early diagnosis based on periodic examination in patients with ESRD and aggressive surgical treatment are necessary.",
+      "evidence": [
+        {
+          "spanId": "span_fd8f597dbf30b316e7779f62",
+          "verbatim": "A cardiac calcified amorphous tumor (CAT) is a non-neoplastic cardiac mass composed of calcified nodules surrounded by amorphous fibrous tissue in a context of degeneration and chronic inflammation. Although CAT cases are increasingly reported, its clinical manifestation remains unclear. We aimed to conduct a narrative review of CAT and identify its clinical characteristics. We conducted a comprehensive literature search using PubMed, with the keyword “Cardiac Calcified Amorphous Tumor” to identify relevant articles. A total of 113 articles published between 1997 and 2022 were retrieved. The clinical features allowing for assess patient background, differences with and without end-stage renal disease (ESRD), symptom-related factors, risk factors for embolism caused by CAT, and features of CAT, such as shape, location, mobility, pathology, and treatment, were statistically analyzed in 106 criteria-matched cases. The mean patient age was 60.2 ± 18.6 years, with 45 men and 61 women. Of the data collected from 21 countries, 52 patients were from Japan. Mobile CAT was more common in the chronic renal failure group. Linear, club-shaped, and spindle-shaped CAT tended to be mobile and more common in the ESRD group as well as located in the mitral valve region. The shape, mobility, location, and underlying mechanism of CAT depended on the presence or absence of ESRD. The risk of embolism was considered high because mobile CAT was more common in the ESRD group, and CAT originated in the mitral valve region. Hence, early diagnosis based on periodic examination in patients with ESRD and aggressive surgical treatment are necessary.",
+          "section": "Abstract"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13440605",
+      "nearDuplicateGroupId": "natural_EL002-CV-011",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-005",
+      "packetId": "pkt_ef70f735be72fd931fa9d82b",
+      "packetHash": "sha256:ef70f735be72fd931fa9d82b7970a06ae1fec193f3c6fc18ee8ec8b8fb1ddcc4",
+      "claim": "TV stenosis or occlusion in BTEVAR cases is rare and TV-related reinterventions and instability events are mainly attributed to type Ic and III endoleak formation.",
+      "evidence": [
+        {
+          "spanId": "span_674f0e4bb9f4eca31b79e6ac",
+          "verbatim": "In total, 255 TVs were revascularized using branches: 107 innominate arteries (IAs), 108 left common carotid arteries (LCCAs), and 40 left subclavian arteries (LSAs). Covered stents were used as bridging stents of which 10.2% were balloon expandable. Relining, using bare-metal stents (BMS), was performed in 14.0% of IAs, 35.2% of LCCAs, and 22.5% of LSAs. Technical success on case basis was 99.2%; no failure was related to unsuccessful TV bridging. At 30 day follow-up, no TV occlusion was detected. In 5.6% of cases, a type Ic or III endoleak, attributed to TVs, was recorded. Two patients needed early branch-related reintervention. The mean follow-up was 18.3±9.2 months. Freedom from TV instability was 94.6% (standard error [SE] 2.5%] at 12 months. No TV stenosis or occlusion was detected up to 48 months of follow-up. Freedom from TV-related reinterventions was 95.4% [SE 2.4%] at 12 months.",
+          "section": "Results:"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC12598066",
+      "nearDuplicateGroupId": "natural_EL002-CV-016",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-006",
+      "packetId": "pkt_db4d665dd5bd51b91772cf9b",
+      "packetHash": "sha256:db4d665dd5bd51b91772cf9b8a50b9d3cdb147750cb10b1db42fc04c6ced9057",
+      "claim": "Among many host-directed targets, host immunometabolism has emerged as one of the most attractive targets for developing new host-directed therapies.",
+      "evidence": [
+        {
+          "spanId": "span_7299a2f3fd82535c11ca3c05",
+          "verbatim": "Mycobacterium tuberculosis (Mtb) has remained one of the major infectious disease killers for generations and generations. In 2023 alone, this ancient disease was responsible for the death of 1.4 million individuals and has infected 10.6 million people. With the ever-evolving multi- and extremely resistant Mtb strains, the need for novel and effective drugs requiring shorter treatment regimens represents an urgent medical need for the development of new drugs. Over the last two decades, the field of host-directed therapy as a potential novel avenue for new approaches to TB treatment, either as a mono or adjuvant therapy, has garnered increasing attention. Among many host-directed targets, host immunometabolism has emerged as one of the most attractive targets for developing new host-directed therapies. As one of the most successful bacterial pathogens, Mtb has evolved several mechanisms to modulate numerous host metabolic pathways, including glycolysis, glutaminolysis, Kreb cycle, and oxidative phosphorylation. This mini review will focus on glutamine metabolism and its emergence as a potential target for treating tuberculosis (TB). In the last several decades, the role of glutamine metabolism in cancer and neurological disorders has been extensively studied. However, the association of glutamine metabolism with infectious disease has remained underappreciated. The aim of this review is to not only discuss the current knowledge in the field but also the existing knowledge gap that needs further exploration.",
+          "section": "Abstract"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13494981",
+      "nearDuplicateGroupId": "natural_EL002-02-002",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-007",
+      "packetId": "pkt_b52fb64fd60458a9b1558a9d",
+      "packetHash": "sha256:b52fb64fd60458a9b1558a9d3e9d1ad35a78aa1e1ffc6c13054c0d3280cf9930",
+      "claim": "A significant BP reduction was observed up until 8 years following uRDN in parallel to a decrease in drug burden over time, in the absence of procedure-related adverse events.",
+      "evidence": [
+        {
+          "spanId": "span_12b7930558ba7cbf4d9179ed",
+          "verbatim": "A total of 27 out of the initially enrolled 96 patients underwent prospective follow-up at a median of 8.2 [7.6−8.9] years. Mean age was 62.6±9.3 years (37.0% female). Preprocedural 24 h ambulatory BP was 151.9/84.1±11.5/11.1 mmHg and the median number of DDDs was 5.0 [4.3−7.0]. At 8 years after uRDN, the change in 24 h ambulatory SBP was −19.5 [95%CI −26.7,−12.4] mmHg (p<0.001). The 8-year change in the number of DDDs was −1.7 [−2.8,−0.6] (p = 0.003). The 8-year decline in eGFR was −8.9 [−13.2,−4.7] ml/min/1.73m2 (p<0.001). Clinical event data were available for all 96 patients (median follow-up 3.5 [1.0–8.0] years). Renal failure occurred in one patient and no cases of renal artery stenosis were detected.",
+          "section": "Results"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13346321",
+      "nearDuplicateGroupId": "natural_EL002-CV-018",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-008",
+      "packetId": "pkt_b90ab0b1b7a8d1887539d820",
+      "packetHash": "sha256:b90ab0b1b7a8d1887539d8202f18fc19c0903ea2df79666a36bf6f3770356570",
+      "claim": "In conclusion, this workflow based on theoretical and experimental approaches demonstrates effective in identifying VEGFR‐2 inhibitors and can be easily adapted to other medicinal chemistry goals.",
+      "evidence": [
+        {
+          "spanId": "span_007d45b262d778155a3f5af7",
+          "verbatim": "Vascular endothelial growth factor receptor 2 (VEGFR‐2) stands as a prominent therapeutic target in oncology, playing a critical role in angiogenesis, tumor growth, and metastasis. FDA‐approved VEGFR‐2 inhibitors are associated with diverse side effects. Thus, finding novel and more effective inhibitors is of utmost importance. In this study, a deep learning (DL) classification model was first developed and then employed to select putative active VEGFR‐2 inhibitors from an in‐house chemical library including 187 druglike compounds. A pool of 18 promising candidates was shortlisted and screened against VEGFR‐2 by using molecular docking. Finally, two compounds, RHE‐334 and EA‐11, were prioritized as promising VEGFR‐2 inhibitors by employing PLATO, our target fishing and bioactivity prediction platform. Based on this rationale, we prepared RHE‐334 and EA‐11 and successfully tested their anti‐proliferative potential against MCF‐7 human breast cancer cells with IC50 values of 26.78±4.02 and 38.73±3.84 μM, respectively. Their toxicities were instead challenged against the WI‐38. Interestingly, expression studies indicated that, in the presence of RHE‐334, VEGFR‐2 was equal to 0.52±0.03, thus comparable to imatinib equal to 0.63±0.03. In conclusion, this workflow based on theoretical and experimental approaches demonstrates effective in identifying VEGFR‐2 inhibitors and can be easily adapted to other medicinal chemistry goals.",
+          "section": "Abstract"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13494822",
+      "nearDuplicateGroupId": "natural_EL002-02-005",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-009",
+      "packetId": "pkt_7b5f4f7fba846faf0d3a74d7",
+      "packetHash": "sha256:7b5f4f7fba846faf0d3a74d7dcd670e7ba9d3fbb0df40aad836a249e568d7620",
+      "claim": "This consensus provides evidence-based data to guide LN diagnosis and treatment, supporting the development of public and supplementary health policies in Brazil.",
+      "evidence": [
+        {
+          "spanId": "span_33d45256aaf204a10d351de6",
+          "verbatim": "Two methodologists and 20 rheumatologists from Lupus Comittee of Brazilian Society of Rheumatology participate in the development of this guideline. Fourteen PICO questions were defined and a systematic review was performed. Eligible randomized controlled trials were analyzed regarding complete renal remission, partial renal remission, serum creatinine, proteinuria, serum creatinine doubling, progression to end-stage renal disease, renal relapse, and severe adverse events (infections and mortality). The Grading of Recommendations Assessment, Development and Evaluation (GRADE) approach was used to develop these recommendations. Recommendations required ≥82% of agreement among the voting members and were classified as strongly in favor, weakly in favor, conditional, weakly against or strongly against a particular intervention. Other aspects of LN management (diagnosis, general principles of treatment, treatment of comorbidities and refractory cases) were evaluated through literature review and expert opinion.",
+          "section": "Methods"
+        },
+        {
+          "spanId": "span_b68759325c8262d1179069d7",
+          "verbatim": "All SLE patients should undergo creatinine and urinalysis tests to assess renal involvement. Kidney biopsy is considered the gold standard for diagnosing LN but, if it is not available or there is a contraindication to the procedure, therapeutic decisions should be based on clinical and laboratory parameters. Fourteen recommendations were developed. Target Renal response (TRR) was defined as improvement or maintenance of renal function (±10% at baseline of treatment) combined with a decrease in 24-h proteinuria or 24-h UPCR of 25% at 3 months, a decrease of 50% at 6 months, and proteinuria < 0.8 g/24 h at 12 months. Hydroxychloroquine should be prescribed to all SLE patients, except in cases of contraindication. Glucocorticoids should be used at the lowest dose and for the minimal necessary period. In class III or IV (±V), mycophenolate (MMF), cyclophosphamide, MMF plus tacrolimus (TAC), MMF plus belimumab or TAC can be used as induction therapy. For maintenance therapy, MMF or azathioprine (AZA) are the first choice and TAC or cyclosporin or leflunomide can be used in patients who cannot use MMF or AZA. Rituximab can be prescribed in cases of refractory disease. In cases of failure in achieving TRR, it is important to assess adherence, immunosuppressant dosage, adjuvant therapy, comorbidities, and consider biopsy/rebiopsy.",
+          "section": "Results"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13488729",
+      "nearDuplicateGroupId": "natural_EL002-CV-010",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-010",
+      "packetId": "pkt_ffbcc2396e412cd7018e6f76",
+      "packetHash": "sha256:ffbcc2396e412cd7018e6f7636eb496746645080b3e5e9b571b12c322345fd09",
+      "claim": "The healing program is an effective psychosocial nursing intervention that helps cancer survivors feel better about their illness, and it helps them healthy transition from negative emotions to increased resilience and positive cognitive emotions.",
+      "evidence": [
+        {
+          "spanId": "span_e6dd48308c2a4c6d5f5da36b",
+          "verbatim": "Participants included 39 cancer survivors registered in four healthcare centers in Gyeongsangnam-do. The intervention and control group included 19 and 20 participants, respectively. The healing program using movies developed in this study was provided to the intervention group in 10 sessions, occurring twice each week for 5 weeks and lasting 80 minutes per session. The data were collected using structured questionnaires and they were analyzed to examine differences in the test scores before and after the intervention.",
+          "section": "Methods"
+        },
+        {
+          "spanId": "span_463ae4f465fc6fc3d98884c1",
+          "verbatim": "In the intervention group, the post-traumatic stress syndrome (F = 14.97, p < .001) decreased significantly and the resilience (F = 19.55, p < .001) and adaptive cognitive emotion regulation (F = 5.11, p = .029) increased significantly. The difference between the intervention and control group was statistically significant in post-traumatic stress syndrome, resilience, and adaptive cognitive emotion regulation. Thus, the healing program of this study significantly reduced post-traumatic stress, and it improved both resilience and adaptive cognitive emotion regulation of cancer cancer survivors.",
+          "section": "Results"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13268277",
+      "nearDuplicateGroupId": "natural_EL002-02-011",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-011",
+      "packetId": "pkt_2133700b17a8646485526f93",
+      "packetHash": "sha256:2133700b17a8646485526f93fb31918a612af989b5316ccbb6fa1ff992412436",
+      "claim": "The clinical impact of transcatheter valve explantation is significant and should be strongly considered by multidisciplinary heart teams in the lifetime management strategy of cardiac valvular disease.",
+      "evidence": [
+        {
+          "spanId": "span_cc8312407791ed67c9212e36",
+          "verbatim": "Adult patients undergoing surgical explantation of transcatheter valve prostheses between 2014 and 2022 at a single institution were identified. Retrospective cohort review and survival analysis were performed to assess patient characteristics, indications for explant, and operative outcomes.",
+          "section": "Methods"
+        },
+        {
+          "spanId": "span_a20f5b12c90f9589f236a6d0",
+          "verbatim": "From 2014 to 2022, 8 surgeons at a single institution performed explantation of transcatheter valve prostheses in 44 patients. Among explanted devices, 50% were removed within 1 year of transcatheter implantation. Surgical explantation was performed on an urgent or emergent basis in 57% of patients. Indications for explantation included valve prosthesis failure (57%), iatrogenic injury (16%), and endocarditis (11%). Operative mortality was 11%, with a mean Society of Thoracic Surgeons mortality risk of 12%. Patients undergoing elective explantation had improved survival compared with those undergoing urgent or emergent explantation (P = .03). Overall survival was 77% at 3 years following transcatheter valve explantation.",
+          "section": "Results"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13244752",
+      "nearDuplicateGroupId": "natural_EL002-CV-022",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-012",
+      "packetId": "pkt_350049a8bc64689cca6e1f10",
+      "packetHash": "sha256:350049a8bc64689cca6e1f10e49fba6d4f6b292732ac2454da083bcc1379b5b8",
+      "claim": "Our study recommends the utilization of ultrasound shears in ALND as it is a safe and accurate method that allows faster post-operative recovery with shorter drainage time and lower incidence of seroma or infection, without affecting operative time or lymph node yield.",
+      "evidence": [
+        {
+          "spanId": "span_6bea79b28db7714edda4fcf4",
+          "verbatim": "This study is a randomized control trial. It includes 56 breast cancer ALND cases performed in conjunction with either BCS or MRM; being upfront surgery cases or post-neoadjuvant therapy cases, 28 patients underwent ALND using ultrasound shears and 28 underwent ALND using radio frequency electrosurgery.",
+          "section": "Methods"
+        },
+        {
+          "spanId": "span_72b4827f73c5257126b7588a",
+          "verbatim": "The mean age of the study population was 51 ± 11.7 years, with a mean BMI of 39. The mean operative time in the ultrasound shear group was 29.4. ± 7.6 min and 31.6 ± 5.1 min in the conventional group. The mean amount of drainage in the ultrasound shear group was 319.6 ± 75.4 ml and 407.5 ± 75.2 ml in the conventional group. The mean drainage days in the ultrasound shear group were 8 ± 1 day and 12 ± 2.2 days in the conventional group. Seroma formation was recorded in 6 of the ultrasound shear groups and 9 in the conventional group. Seroma followed by infection was found in 10% of the ultrasound shear group versus 21% in the conventional group. Seroma formation and wound infection were significantly related to the conventional group (p-value = 0.01).",
+          "section": "Results"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13313864",
+      "nearDuplicateGroupId": "natural_EL002-02-024",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-013",
+      "packetId": "pkt_a8cb272d6ae328d58369fd70",
+      "packetHash": "sha256:a8cb272d6ae328d58369fd70685c286aab569346cb72fb4701d4bee0cbe76ca2",
+      "claim": "The RBS provided a systematic way to narrow down the patient population to a subset that is enriched for eligible patients.",
+      "evidence": [
+        {
+          "spanId": "span_1759bcacb4d92075fed748f3",
+          "verbatim": "A majority of patients with heart failure (HF) do not receive adequate medical therapy as recommended by clinical guidelines. One major obstacle encountered by population health management (PHM) programs to improve medication usage is the substantial burden placed on clinical staff who must manually sift through electronic health records (EHRs) to ascertain patients’ eligibility for the guidelines. As a potential solution, the study team developed a rule-based system (RBS) that automatically parses the EHR for identifying patients with HF who may be eligible for guideline-directed therapy. The RBS was deployed to streamline a PHM program at Brigham and Women’s Hospital wherein the RBS was executed every other month to identify potentially eligible patients for further screening by the program staff. The study team evaluated the performance of the system and performed an error analysis to identify areas for improving the system. Of approximately 161,000 patients who have an echocardiogram in the health system, each execution of the RBS typically identified around 4200 patients. A total 5460 patients were manually screened, of which 1754 were found to be truly eligible with an accuracy of 32.1%. An analysis of the false-positive cases showed that over 38% of the false positives were due to incorrect determination of symptomatic HF and medication history of the patients. The system’s performance can be potentially improved by integrating information from clinical notes. The RBS provided a systematic way to narrow down the patient population to a subset that is enriched for eligible patients. However, there is a need to further optimize the system by integrating processing of clinical notes. This study highlights the practical challenges of implementing automated tools to facilitate guideline-directed care.",
+          "section": "Abstract"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13431970",
+      "nearDuplicateGroupId": "natural_EL002-CV-014",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-014",
+      "packetId": "pkt_3c950c1a0a10280e541d44e2",
+      "packetHash": "sha256:3c950c1a0a10280e541d44e2bebb9e3c51fbac7a23948c7ae846c68aa26ce6b3",
+      "claim": "Green synthesis techniques have drawn a lot of interest lately since they are beneficial to the environment and have potential uses in a variety of industries, including biomedicine.",
+      "evidence": [
+        {
+          "spanId": "span_9e54cbe2fb17c10a67cce15c",
+          "verbatim": "Green synthesis techniques have drawn a lot of interest lately since they are beneficial to the environment and have potential uses in a variety of industries, including biomedicine. Because of their special physicochemical characteristics, copper nanoparticles (CuNPs) have become one of the most interesting options for use in biological applications among nanomaterials. An overview of green synthesis methods for CuNPs is given in this review, along with a discussion of their applications in cancer therapeutics. The benefits and drawbacks of certain green synthesis techniques, such as plant-mediated, microorganism-mediated, and other environmentally friendly processes, are discussed. Moreover, a thorough discussion is given of CuNPs’ biological uses, including their antibacterial activity, anticancer potential, drug transport, and bioimaging capabilities. Furthermore, difficulties and prospects for the application of green-synthesised CuNPs in biomedicine are discussed.",
+          "section": "Abstract"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13327348",
+      "nearDuplicateGroupId": "natural_EL002-02-020",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-015",
+      "packetId": "pkt_8abbbf04ff45c3351bdab315",
+      "packetHash": "sha256:8abbbf04ff45c3351bdab31552026e1765aaab054b94a96fcfb36dcb12d8f70d",
+      "claim": "Measurement of symptoms burden throughout clinical trial follow-up is feasible in AF/HF and should be useful for evaluating patient-centered outcomes in AF prevention trials.",
+      "evidence": [
+        {
+          "spanId": "span_0aab477239a33b6f69b87393",
+          "verbatim": "The authors modified a validated, AF-specific patient-reported outcome instrument to function in the setting of AF/HF (Atrial Fibrillation Symptoms Questionnaire [AFSQ]) and used it to measure atrial fibrillation symptoms burden (SxBAF) throughout long-term (180 day) follow-up. The AFSQ queries the presence of 10 new or worsening symptoms, equally divided between those commonly associated with AF or HF. To measure SxBAF, the AFSQ was linked to electrocardiography-documented AF episodes to form a 2-component clinical outcome assessment, which was subjected to psychometric testing, anchor validation, and endpoint performance efficiency compared with time to first symptomatic event in a 267-patient AF/HF trial (GENETIC-AF [Genotype-Directed Comparative Effectiveness Trial of Bucindolol and Toprol-XL for Prevention of Atrial Fibrillation/Atrial Flutter in Patients with Heart Failure] trial) comparing 2 AF prevention treatments.",
+          "section": "METHODS"
+        },
+        {
+          "spanId": "span_80758451b3dd0fcc16815a7a",
+          "verbatim": "SxBAF exhibited greater efficiency than time to first symptomatic event for treatment difference detection, resulting in smaller projected clinical trial sample sizes. SxBAF correlated well with device-detected AF burden (Spearman’s ρ = 0.74; P < 0.0001), while permitting gradation in symptom severity. SxBAF also identified treatment group differences in cardiovascular serious adverse events and AF interventions and in recent-onset AF provided specificity for AF- or worsening HF-associated symptoms (P < 0.001 for each).",
+          "section": "RESULTS"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13531951",
+      "nearDuplicateGroupId": "natural_EL002-CV-004",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-016",
+      "packetId": "pkt_742b532bed231865b0adea59",
+      "packetHash": "sha256:742b532bed231865b0adea59260b6446ab8d0e957f9ffca2e3c7290bce36979a",
+      "claim": "Early identification of LMNA‐related muscular dystrophies is crucial to ensure appropriate cardiac screening and prevent devastating cardiac complications.",
+      "evidence": [
+        {
+          "spanId": "span_f3135f7a9b6879a88510902a",
+          "verbatim": "There are overlapping features between inflammatory myopathies and muscular dystrophies, particularly laminopathies. Key features that characterize laminopathies include axial and proximal weakness, contractures, and cardiac abnormalities.",
+          "section": "Introduction"
+        },
+        {
+          "spanId": "span_c4c8864f14acede0d9af9f30",
+          "verbatim": "A 12‐year‐old girl diagnosed with juvenile dermatomyositis as a child presented with cardiac failure and was found to have an LMNA likely pathogenic variant, with a phenotype most consistent with Emery–Dreifuss muscular dystrophy type 2.",
+          "section": "Methods/Results"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13359128",
+      "nearDuplicateGroupId": "natural_EL002-CV-012",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-017",
+      "packetId": "pkt_92bf0b3f70e4415bf26e2873",
+      "packetHash": "sha256:92bf0b3f70e4415bf26e2873d8cb2eb002bd718a0dc00830ae6f2ca488c4a1ac",
+      "claim": "Together, these results demonstrate a new role of Rab27B in the autophagy trafficking process in CRC and identify Rab27B as a potential therapeutic target for CRC.",
+      "evidence": [
+        {
+          "spanId": "span_52f96d65e22515eba870bbc0",
+          "verbatim": "Autophagy is a cellular recycling process that is associated with tumor growth, anti-tumor immune responses, and therapy resistance in colorectal cancer (CRC). In this report, we identify the small GTPase Rab27B to control the autophagy process in CRC. Depletion of Rab27B showed an abnormal accumulation of autophagy vesicles and increased autophagy markers in CRC cells, indicating autophagy dysregulation. Image analysis indicated that autophagy flux is blocked at the autophagosome/lysosome fusion step when Rab27B is lost. While Rab27B deficient cells are proficient at growth under 2D in vitro conditions, cell growth was significantly impacted in both in vitro 3D growth and in vivo tumorigenesis studies. Together, these results demonstrate a new role of Rab27B in the autophagy trafficking process in CRC and identify Rab27B as a potential therapeutic target for CRC.",
+          "section": "Abstract"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13485073",
+      "nearDuplicateGroupId": "natural_EL002-02-008",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-018",
+      "packetId": "pkt_5511df9429dfbc293392ae52",
+      "packetHash": "sha256:5511df9429dfbc293392ae524561a4602f414cd21ddebad0b5512113f99b5c1b",
+      "claim": "The derangement of multiple glucose-independent metabolic pathways, which are often upregulated in therapy-resistant cancer, and concomitant cMyc downregulation coordinately contribute to the anti-proliferative effect of metformin in liver cancer cells. These are reversible and may influence its therapeutic utility.",
+      "evidence": [
+        {
+          "spanId": "span_195139d46ddfac1673ed3c7f",
+          "verbatim": "Metformin concentrations up to 2.5 mM were found to be anti-proliferative irrespective of presence of glucose without significant increase in cytotoxicity. Apart from mitochondrial impairment, derangement of fatty acid desaturation, one-carbon, glutathione, and polyamine metabolism were associated with metformin treatment irrespective of glucose supplementation. Depletion of pantothenic acid, downregulation of essential amino acid uptake and metabolism alongside purine salvage were identified as novel glucose-independent effects of metformin. These were significantly correlated with cMyc expression and reduction in proliferation. Rescue experiments established reversibility upon metformin withdrawal and tight association between proliferation, metabotype, and cMyc expression.",
+          "section": "Results"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13395951",
+      "nearDuplicateGroupId": "natural_EL002-02-018",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-019",
+      "packetId": "pkt_2459798d7b29535a93995a36",
+      "packetHash": "sha256:2459798d7b29535a93995a36205f6786efb15a454b9146e22b561d8e9819496f",
+      "claim": "There is a possible correlation between c-MET and HER2 gene overexpression and poor clinical outcomes in patients with BC.",
+      "evidence": [
+        {
+          "spanId": "span_673c7097ae235d227b0d352f",
+          "verbatim": "A quantitative real-time polymerase chain reaction was done on 40 BC patients who had undergone transurethral resection (TUR) or radical cystectomy and had a pathologically verified diagnosis of primary tumor without prior chemoradiotherapy as well as 20 patients with benign diseases who served as controls. The c-MET and HER2 expression levels were investigated, and their relationship with clinicopathological features was analyzed.",
+          "section": "Methods"
+        },
+        {
+          "spanId": "span_7e820d4f9c87ae8fe13bc107",
+          "verbatim": "c-MET and HER2 gene expression were significantly higher, 6.1- and 4.5-fold, in the study group compared to the controls. The frequency of c-MET and HER2 overexpression in the study group was 80% (32/40) and 90% (36/40), respectively. c-MET overexpression was associated with pathological stage(P = 0.002), tumor grade (P = 0.019), muscle invasion (P = 0.008), and node involvement (P = 0.017), while HER2 overexpression was associated with pathological stage(P = 0.033), invasion to muscles (P = 0.003), and node involvement (P = 0.005). Based on the Log-rank test, patients expressing both c-MET and HER2 had the poorest disease-free survival rates among all studied patients (median = 10 m, 3.0–16.9 95%CI).",
+          "section": "Results"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13313861",
+      "nearDuplicateGroupId": "natural_EL002-02-021",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    },
+    {
+      "caseId": "EL003-DEV-MIX-020",
+      "packetId": "pkt_5aa70ebd469223caf397fb3c",
+      "packetHash": "sha256:5aa70ebd469223caf397fb3c59b745cbfdc364b12108039299733784f1cc5afe",
+      "claim": "As this protocol is safe and feasible, further research is warranted in this area for developing PPCS treatment options.",
+      "evidence": [
+        {
+          "spanId": "span_c311a14fb505c1b40bbb39ed",
+          "verbatim": "To examine the feasibility, utility and safety of superimposed lower body negative pressure (LBNP) and tilt during supine cycling in individuals suffering from persisting post‐concussive symptoms (PPCS). Eleven individuals aged 17–31 (6 females/5 males) participated in two randomized separate visits, 1 week apart. A ramp‐incremental test was performed during both visits until volitional failure. Visits included no pressure (control) or LBNP at −40 Torr (experimental) with head‐up tilt at 15 degrees (females) or 30 degrees (males). Transcranial Doppler ultrasound was utilized to quantify middle cerebral artery velocity (MCAv), while symptom reports were filled out before and 0, 10, and 60 min post‐exertion. Ratings of exertion and overall condition followed similar trends for participants across both tests. The relative increase in MCAv was blunted during the experimental condition (8%) compared to control (24%), while a greater heart rate (17 beats/min) was achieved during the LBNP condition (P = 0.047). Symptom severity at the 0 and 10 min post‐exertion time points displayed negligible‐to‐small effect sizes between conditions (Wilcoxon's r< 0.11). Symptom reporting was lower at the 60 min post‐exertion time point with these displaying a moderate effect size (Wilcoxon's r = 0.31). The combination of LBNP and tilt during supine cycling did not change the participants’ subjective interpretation of the exertional test but attenuated the hyperpnia‐induced vasodilatory MCAv response, while also enabling participants to achieve a higher heart rate during exercise and reduced symptoms 1 h later. As this protocol is safe and feasible, further research is warranted in this area for developing PPCS treatment options.",
+          "section": "Abstract"
+        }
+      ],
+      "domain": "biomedical-literature",
+      "partition": "DEVELOPMENT",
+      "sourceGroupId": "pmcid_PMC13238726",
+      "nearDuplicateGroupId": "natural_EL002-CV-025",
+      "origin": "NATURAL",
+      "excludedContextConfirmed": true
+    }
+  ]
+}
