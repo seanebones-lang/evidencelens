@@ -1,6 +1,6 @@
 # EXP-EL001 — Evidence-Packet Validity
 
-**Status:** Frozen protocol; development partition passed 30/30
+**Status:** Frozen protocol; development 30/30 and blind holdout 50/50 passed; transfer pending
 **Protocol version:** 0.1.0
 **Date:** 2026-09-23
 
