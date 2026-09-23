@@ -25,13 +25,18 @@ The first recorded run is `DEV-SEED-REPORT-001.json` and passed all five cases.
 
 The development seed is not frozen, statistically meaningful, representative of the target domain, or part of the blind holdout. A 100% seed pass rate means only that these five engineering paths behaved as specified. It is not an EXP-EL001 pass and says nothing about JEV performance.
 
-The protocol still requires:
+The development seed is separate from the frozen partitions described
+below. The outstanding protocol work is a predeclared counting rule
+and expansion to 150–300 source records, consolidated environment
+and failure review, and a final gate decision.
 
-- 30 development claims;
-- 50 frozen blind-holdout claims;
-- 20 transfer claims;
-- 150–300 source records;
-- corpus inclusion and license rules;
-- preserved expected outcomes;
-- scorer and environment manifests; and
-- a final `PASS`, `CONTINUE_RESEARCH`, or `FAIL` decision.
+## EXP-EL001 partition checkpoint
+
+The development, blind holdout, and synaptic plasticity transfer
+partitions have now run on their frozen manifests: 30/30, 50/50, and
+20/20 expected deterministic outcomes respectively. See the
+`research/EXP-EL001-packet-validity/` freeze records and raw reports.
+These partitions use 20 distinct licensed PMC articles. The
+150–300 source-record target remains unmet, and the current overall
+experiment decision is `CONTINUE_RESEARCH`. None of these
+deterministic case results measures JEV semantic performance.
