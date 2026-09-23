@@ -56,6 +56,25 @@ test("manifest hashing changes when nested case content changes", () => {
   assert.notEqual(hashManifest(manifest()), hashManifest(changed));
 });
 
+test("requires field paths and pinned sources for a frozen development manifest", () => {
+  const input = manifest();
+  input.partition = "DEVELOPMENT";
+  input.frozen = true;
+  assert.throws(() => validateEvaluationManifest(input), /source expectations/);
+
+  input.sources = [{
+    pmcid: "PMC7320186",
+    pmid: "32591513",
+    doi: "10.1038/s41597-020-0543-2",
+    version: "PMC7320186.1",
+    license: "CC BY 4.0",
+    contentHash: `sha256:${"a".repeat(64)}`
+  }];
+  assert.throws(() => validateEvaluationManifest(input), /require fieldPath/);
+  input.sources[0].defaultFieldPath = "/article/front/article-meta/abstract[1]/p[1]";
+  assert.doesNotThrow(() => validateEvaluationManifest(input));
+});
+
 test("scores pass and failure counts", () => {
   assert.deepEqual(scoreEvaluationResults([
     { caseId: "A", operation: "VALID_PACKET", passed: true, observedOutcome: "PASS" },

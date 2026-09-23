@@ -25,7 +25,7 @@ interface OrderedNode {
   [key: string]: unknown;
 }
 
-interface AddressableParagraph {
+export interface AddressableParagraph {
   section?: string;
   elementId?: string;
   fieldPath: string;
@@ -99,7 +99,7 @@ function collectParagraphs(
   }
 }
 
-function extractAddressableParagraphs(xml: string): AddressableParagraph[] {
+export function extractPmcAddressableParagraphs(xml: string): AddressableParagraph[] {
   let parsed: unknown;
   try {
     parsed = new XMLParser({
@@ -144,6 +144,7 @@ export function verifyPmcExactSpan(input: {
   source: SourceArtifact;
   xml: string;
   verbatim: string;
+  fieldPath?: string;
 }): EvidenceSpan {
   if (input.source.retentionAuthority !== "OPEN_LICENSE" || !input.source.license) {
     throw new SpanVerificationError("SOURCE_NOT_AUTHORIZED", "PMC full text is not marked with open-license authority");
@@ -163,7 +164,9 @@ export function verifyPmcExactSpan(input: {
   if (!verbatim) throw new SpanVerificationError("SPAN_EMPTY", "Evidence span cannot be empty");
 
   const matches: Array<{ paragraph: AddressableParagraph; startOffset: number }> = [];
-  for (const paragraph of extractAddressableParagraphs(input.xml)) {
+  const paragraphs = extractPmcAddressableParagraphs(input.xml)
+    .filter((paragraph) => input.fieldPath === undefined || paragraph.fieldPath === input.fieldPath);
+  for (const paragraph of paragraphs) {
     let fromIndex = 0;
     while (fromIndex <= paragraph.text.length - verbatim.length) {
       const startOffset = paragraph.text.indexOf(verbatim, fromIndex);

@@ -1,7 +1,7 @@
 # EXP-EL001 — Evidence-Packet Validity
 
-**Status:** Frozen protocol draft; implementation may begin after owner review  
-**Protocol version:** 0.1.0  
+**Status:** Frozen protocol; development partition passed 30/30
+**Protocol version:** 0.1.0
 **Date:** 2026-09-23
 
 ## Research question
@@ -32,6 +32,11 @@ No JEV decision affects the primary EXP-EL001 outcomes.
 - 20 transfer claims from a distinct biomedical subdomain or source format.
 
 The final manifest will record inclusion rules, licenses, identifiers, expected locators, and SHA-256 hashes. Holdout expected results must not be inspected while changing validators.
+
+The 30-claim development manifest was frozen at
+`sha256:5154a0ab562653f757dacc9900cd3d340a6a08d14e69dacdcaef3a40a0b1ba3a`
+after a 30/30 deterministic packet-validity run. The blind holdout and transfer
+partitions remain unbuilt.
 
 ## Primary outcomes
 
@@ -86,4 +91,3 @@ These are engineering gates, not performance claims.
 ## Stop rule
 
 Stop semantic integration work if any displayed source content cannot be traced exactly to the preserved authorized artifact, or if the system fabricates an identifier, passage, or status.
-

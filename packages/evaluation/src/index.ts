@@ -17,8 +17,21 @@ export interface EvaluationCase {
   operation: EvaluationOperation;
   pmcid: string;
   verbatim?: string;
+  claimType?: string;
+  fieldPath?: string;
   expectedOutcome: "PASS" | "EXPECTED_FAILURE";
   expectedErrorCode?: string;
+}
+
+export interface EvaluationSourceExpectation {
+  pmcid: string;
+  pmid: string;
+  doi: string;
+  version: string;
+  license: string;
+  contentHash: string;
+  defaultFieldPath?: string;
+  fieldPaths?: Record<string, string>;
 }
 
 export interface EvaluationManifest {
@@ -26,6 +39,7 @@ export interface EvaluationManifest {
   manifestVersion: string;
   partition: "DEVELOPMENT_SEED" | "DEVELOPMENT" | "BLIND_HOLDOUT" | "TRANSFER";
   frozen: boolean;
+  sources?: EvaluationSourceExpectation[];
   cases: EvaluationCase[];
 }
 
@@ -66,6 +80,46 @@ export function validateEvaluationManifest(input: unknown): asserts input is Eva
     throw new EvaluationManifestError("partition is unsupported");
   }
   if (typeof manifest.frozen !== "boolean") throw new EvaluationManifestError("frozen must be boolean");
+  const requiresFrozenSources = manifest.frozen === true && manifest.partition !== "DEVELOPMENT_SEED";
+  if (requiresFrozenSources && (!Array.isArray(manifest.sources) || manifest.sources.length === 0)) {
+    throw new EvaluationManifestError("Frozen evaluation partitions require source expectations");
+  }
+  const sourceIds = new Set<string>();
+  const sourceDefaultPaths = new Map<string, string>();
+  const sourceCasePaths = new Map<string, string>();
+  if (manifest.sources !== undefined) {
+    if (!Array.isArray(manifest.sources)) throw new EvaluationManifestError("sources must be an array");
+    for (const [index, rawSource] of manifest.sources.entries()) {
+      if (!rawSource || typeof rawSource !== "object" || Array.isArray(rawSource)) {
+        throw new EvaluationManifestError(`sources[${index}] must be an object`);
+      }
+      const source = rawSource as Record<string, unknown>;
+      for (const field of ["pmcid", "pmid", "doi", "version", "license", "contentHash"] as const) {
+        if (typeof source[field] !== "string" || !source[field]) {
+          throw new EvaluationManifestError(`sources[${index}].${field} is required`);
+        }
+      }
+      if (!/^sha256:[a-f0-9]{64}$/.test(String(source.contentHash))) {
+        throw new EvaluationManifestError(`sources[${index}].contentHash must be a SHA-256 digest`);
+      }
+      if (sourceIds.has(String(source.pmcid))) throw new EvaluationManifestError(`Duplicate source ${source.pmcid}`);
+      sourceIds.add(String(source.pmcid));
+      if (typeof source.defaultFieldPath === "string" && source.defaultFieldPath) {
+        sourceDefaultPaths.set(String(source.pmcid), source.defaultFieldPath);
+      }
+      if (source.fieldPaths !== undefined) {
+        if (!source.fieldPaths || typeof source.fieldPaths !== "object" || Array.isArray(source.fieldPaths)) {
+          throw new EvaluationManifestError(`sources[${index}].fieldPaths must be an object`);
+        }
+        for (const [caseId, fieldPath] of Object.entries(source.fieldPaths as Record<string, unknown>)) {
+          if (typeof fieldPath !== "string" || !fieldPath) {
+            throw new EvaluationManifestError(`sources[${index}].fieldPaths.${caseId} is required`);
+          }
+          sourceCasePaths.set(caseId, fieldPath);
+        }
+      }
+    }
+  }
   if (!Array.isArray(manifest.cases) || manifest.cases.length === 0) {
     throw new EvaluationManifestError("Manifest must contain at least one case");
   }
@@ -95,6 +149,14 @@ export function validateEvaluationManifest(input: unknown): asserts input is Eva
     if (["VALID_PACKET", "SPAN_NOT_FOUND", "CONTENT_HASH_MISMATCH"].includes(String(testCase.operation))
       && typeof testCase.verbatim !== "string") {
       throw new EvaluationManifestError(`cases[${index}] operation requires verbatim text`);
+    }
+    if (manifest.partition !== "DEVELOPMENT_SEED" && testCase.operation === "VALID_PACKET"
+      && (typeof testCase.fieldPath !== "string" || !testCase.fieldPath)
+      && !sourceDefaultPaths.has(String(testCase.pmcid)) && !sourceCasePaths.has(String(testCase.caseId))) {
+      throw new EvaluationManifestError(`cases[${index}] valid packets require fieldPath outside the seed partition`);
+    }
+    if (requiresFrozenSources && !sourceIds.has(String(testCase.pmcid))) {
+      throw new EvaluationManifestError(`cases[${index}].pmcid has no frozen source expectation`);
     }
   }
 }

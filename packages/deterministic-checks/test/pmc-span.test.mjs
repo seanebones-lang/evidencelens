@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { createHash } from "node:crypto";
 import test from "node:test";
 
-import { SpanVerificationError, verifyPmcExactSpan } from "../dist/index.js";
+import { SpanVerificationError, extractPmcAddressableParagraphs, verifyPmcExactSpan } from "../dist/index.js";
 
 const xml = `<?xml version="1.0"?><pmc-articleset><article><front><article-meta>
   <abstract id="Abs1"><title>Abstract</title><p id="A1">Alpha <italic>beta</italic> gamma.</p></abstract>
@@ -49,6 +49,12 @@ test("preserves mixed inline text order when matching", () => {
   assert.equal(span.locator.fieldPath, "/article/front/article-meta/abstract[@id='Abs1']/p[@id='A1']");
 });
 
+test("exposes addressable abstract and body paragraphs for corpus curation", () => {
+  const paragraphs = extractPmcAddressableParagraphs(xml);
+  assert.equal(paragraphs.length, 3);
+  assert.deepEqual(paragraphs.map(({ section }) => section), ["Abstract", "Results", "Limitations"]);
+});
+
 test("rejects a modified artifact before parsing", () => {
   assert.throws(() => verifyPmcExactSpan({ source: source(), xml: `${xml} `, verbatim: "The sample was small." }), (error) => {
     assert.ok(error instanceof SpanVerificationError);
@@ -70,6 +76,30 @@ test("rejects ambiguous text rather than selecting a location", () => {
   assert.throws(() => verifyPmcExactSpan({ source: source({ contentHash: hash(repeatedXml), metadataHash: hash(repeatedXml) }), xml: repeatedXml, verbatim: "Treatment X produced a 34% improvement in the measured outcome." }), (error) => {
     assert.ok(error instanceof SpanVerificationError);
     assert.equal(error.code, "SPAN_AMBIGUOUS");
+    return true;
+  });
+});
+
+test("uses a field path to resolve text repeated across JATS locations", () => {
+  const repeatedXml = xml.replace("The sample was small.", "Treatment X produced a 34% improvement in the measured outcome.");
+  const resolved = verifyPmcExactSpan({
+    source: source({ contentHash: hash(repeatedXml), metadataHash: hash(repeatedXml) }),
+    xml: repeatedXml,
+    verbatim: "Treatment X produced a 34% improvement in the measured outcome.",
+    fieldPath: "/article/body/sec[@id='S1']/p[@id='P1']"
+  });
+  assert.equal(resolved.locator.fieldPath, "/article/body/sec[@id='S1']/p[@id='P1']");
+});
+
+test("rejects an exact span when the expected field path is wrong", () => {
+  assert.throws(() => verifyPmcExactSpan({
+    source: source(),
+    xml,
+    verbatim: "The sample was small.",
+    fieldPath: "/article/body/sec[99]/p[1]"
+  }), (error) => {
+    assert.ok(error instanceof SpanVerificationError);
+    assert.equal(error.code, "SPAN_NOT_FOUND");
     return true;
   });
 });
