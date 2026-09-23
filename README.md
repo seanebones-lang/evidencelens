@@ -1,10 +1,35 @@
 # EvidenceLens
 
-EvidenceLens is a provenance-first semantic review and triage system for claims and evidence.
+EvidenceLens is an open-source research build for testing what we believe may be JEV's ideal use: **bounded semantic evidence review and human-review triage**.
 
-It resolves and preserves sources, verifies objective facts in code, packages exact evidence spans, applies narrow semantic questions, exposes uncertainty, and routes claims to qualified human review.
+Our goal is to determine whether a system can reliably reduce large volumes of claims and evidence into a smaller, traceable review queue without allowing the model to become the authority. Deterministic software establishes objective facts. JEV receives tightly bounded claim-and-evidence packets and answers narrow semantic questions. Humans remain responsible for the final judgment.
 
 > EvidenceLens shows reviewers where a claim and its evidence may not line up—and shows its work.
+
+## Research purpose
+
+We are building EvidenceLens to test this hypothesis honestly.
+
+The project is not intended to prove that JEV works, promote a predetermined result, or turn an experimental model into a truth engine. Questions, corpora, controls, thresholds, failures, and negative results will be preserved as part of the research record. If an attempted use fails its gate, it will not be integrated merely because the demo looks promising.
+
+The initial research vertical is scientific claim-and-evidence review. The architecture is designed around:
+
+- deterministic verification of identifiers, source state, hashes, exact spans, dates, and reproducible calculations;
+- atomic JEV questions with an explicit `INSUFFICIENT_EVIDENCE` outcome;
+- state-blind, shuffled-evidence, deterministic, and alternate-model controls;
+- versioned questions, model calls, thresholds, and routing rules;
+- provenance through Witness-compatible records; and
+- review escalation rather than autonomous acceptance or rejection.
+
+## Open source and participation
+
+EvidenceLens is open source under the [MIT License](LICENSE).
+
+Contributors are welcome. Researchers, engineers, reviewers, and domain experts are invited to inspect the methodology, challenge assumptions, reproduce experiments, propose controls, contribute adapters or evaluation cases, and document failures.
+
+Anyone who wants to use, fork, or adapt the build may do so under the license. Please preserve the distinction between experimental semantic findings and established facts, and do not represent unevaluated behavior as scientific or medical verification.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the current development and research requirements.
 
 ## Truth boundary
 
