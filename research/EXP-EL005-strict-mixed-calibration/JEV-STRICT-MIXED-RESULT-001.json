@@ -1,0 +1,816 @@
+{
+  "resultVersion": "1.0.0",
+  "experiment": "EXP-EL005-strict-mixed-calibration",
+  "phase": "DEVELOPMENT_CALIBRATION",
+  "evaluationStatus": "GPT_AUTHORED_SYNTHETIC_CALIBRATION_PROVISIONAL_REFERENCE",
+  "confirmationEligible": false,
+  "humanReviewed": false,
+  "artifacts": {
+    "rawResponseSha256": "5876aee240a7d7ff00e90762b608aa33016684b04a32fb3b316de38e88044c26",
+    "provisionalReferenceSha256": "2c132ff394f6706a517e6ecc51e25d59adfa667d845c094027c1291bb8f506b0",
+    "questionsCanonicalHash": "sha256:23e0418cd27eb3331fdf210e218c2948daa1a1ef3b7a06b7305a2fce843d5c24",
+    "preRunRemoteCommit": "7b769e208517b5f6367bf8e7393d488b698270d9"
+  },
+  "runtime": {
+    "caseCount": 80,
+    "successCount": 80,
+    "errorCount": 0,
+    "resolvedModels": {
+      "jev-1.13.0": 80
+    },
+    "attemptCounts": {
+      "1": 80
+    },
+    "inputTokens": 59246,
+    "outputTokens": 7446,
+    "latencyMs": {
+      "mean": 505.396275,
+      "median": 321.6435,
+      "p95": 539.625,
+      "minimum": 231.821,
+      "maximum": 7303.758
+    }
+  },
+  "metrics": {
+    "accuracy": 0.875,
+    "macroF1": 0.8726987531733026,
+    "abstentionRate": 0.2625,
+    "nonAbstentionCoverage": 0.7375,
+    "criticalFalseReassuranceCount": 1,
+    "criticalFalseReassuranceRate": 0.025,
+    "confusionMatrix": {
+      "SUPPORTED": {
+        "SUPPORTED": 19,
+        "CONTRADICTED": 0,
+        "MIXED": 0,
+        "INSUFFICIENT_EVIDENCE": 1
+      },
+      "CONTRADICTED": {
+        "SUPPORTED": 0,
+        "CONTRADICTED": 19,
+        "MIXED": 0,
+        "INSUFFICIENT_EVIDENCE": 1
+      },
+      "MIXED": {
+        "SUPPORTED": 1,
+        "CONTRADICTED": 6,
+        "MIXED": 13,
+        "INSUFFICIENT_EVIDENCE": 0
+      },
+      "INSUFFICIENT_EVIDENCE": {
+        "SUPPORTED": 0,
+        "CONTRADICTED": 1,
+        "MIXED": 0,
+        "INSUFFICIENT_EVIDENCE": 19
+      }
+    },
+    "perClass": {
+      "SUPPORTED": {
+        "precision": 0.95,
+        "recall": 0.95,
+        "f1": 0.9500000000000001,
+        "support": 20
+      },
+      "CONTRADICTED": {
+        "precision": 0.7307692307692307,
+        "recall": 0.95,
+        "f1": 0.8260869565217392,
+        "support": 20
+      },
+      "MIXED": {
+        "precision": 1.0,
+        "recall": 0.65,
+        "f1": 0.787878787878788,
+        "support": 20
+      },
+      "INSUFFICIENT_EVIDENCE": {
+        "precision": 0.9047619047619048,
+        "recall": 0.95,
+        "f1": 0.9268292682926829,
+        "support": 20
+      }
+    }
+  },
+  "predictions": [
+    {
+      "caseId": "EL005-DEV-CON-001",
+      "provisionalReference": "CONTRADICTED",
+      "predictedLabel": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-CON-002",
+      "provisionalReference": "CONTRADICTED",
+      "predictedLabel": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-CON-003",
+      "provisionalReference": "CONTRADICTED",
+      "predictedLabel": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-CON-004",
+      "provisionalReference": "CONTRADICTED",
+      "predictedLabel": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-CON-005",
+      "provisionalReference": "CONTRADICTED",
+      "predictedLabel": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-CON-006",
+      "provisionalReference": "CONTRADICTED",
+      "predictedLabel": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-CON-007",
+      "provisionalReference": "CONTRADICTED",
+      "predictedLabel": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-CON-008",
+      "provisionalReference": "CONTRADICTED",
+      "predictedLabel": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-CON-009",
+      "provisionalReference": "CONTRADICTED",
+      "predictedLabel": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-CON-010",
+      "provisionalReference": "CONTRADICTED",
+      "predictedLabel": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-CON-011",
+      "provisionalReference": "CONTRADICTED",
+      "predictedLabel": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-CON-012",
+      "provisionalReference": "CONTRADICTED",
+      "predictedLabel": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-CON-013",
+      "provisionalReference": "CONTRADICTED",
+      "predictedLabel": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-CON-014",
+      "provisionalReference": "CONTRADICTED",
+      "predictedLabel": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-CON-015",
+      "provisionalReference": "CONTRADICTED",
+      "predictedLabel": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-CON-016",
+      "provisionalReference": "CONTRADICTED",
+      "predictedLabel": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-CON-017",
+      "provisionalReference": "CONTRADICTED",
+      "predictedLabel": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-CON-018",
+      "provisionalReference": "CONTRADICTED",
+      "predictedLabel": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-CON-019",
+      "provisionalReference": "CONTRADICTED",
+      "predictedLabel": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-CON-020",
+      "provisionalReference": "CONTRADICTED",
+      "predictedLabel": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-IE-001",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "predictedLabel": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-IE-002",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "predictedLabel": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-IE-003",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "predictedLabel": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-IE-004",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "predictedLabel": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-IE-005",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "predictedLabel": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-IE-006",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "predictedLabel": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-IE-007",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "predictedLabel": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-IE-008",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "predictedLabel": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-IE-009",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "predictedLabel": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-IE-010",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "predictedLabel": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-IE-011",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "predictedLabel": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-IE-012",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "predictedLabel": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-IE-013",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "predictedLabel": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-IE-014",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "predictedLabel": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-IE-015",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "predictedLabel": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-IE-016",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "predictedLabel": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-IE-017",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "predictedLabel": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-IE-018",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "predictedLabel": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-IE-019",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "predictedLabel": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-IE-020",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "predictedLabel": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-MIX-001",
+      "provisionalReference": "MIXED",
+      "predictedLabel": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-MIX-002",
+      "provisionalReference": "MIXED",
+      "predictedLabel": "MIXED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "YES"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-MIX-003",
+      "provisionalReference": "MIXED",
+      "predictedLabel": "MIXED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "YES"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-MIX-004",
+      "provisionalReference": "MIXED",
+      "predictedLabel": "MIXED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "YES"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-MIX-005",
+      "provisionalReference": "MIXED",
+      "predictedLabel": "MIXED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "YES"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-MIX-006",
+      "provisionalReference": "MIXED",
+      "predictedLabel": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-MIX-007",
+      "provisionalReference": "MIXED",
+      "predictedLabel": "MIXED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "YES"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-MIX-008",
+      "provisionalReference": "MIXED",
+      "predictedLabel": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-MIX-009",
+      "provisionalReference": "MIXED",
+      "predictedLabel": "MIXED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "YES"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-MIX-010",
+      "provisionalReference": "MIXED",
+      "predictedLabel": "MIXED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "YES"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-MIX-011",
+      "provisionalReference": "MIXED",
+      "predictedLabel": "MIXED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "YES"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-MIX-012",
+      "provisionalReference": "MIXED",
+      "predictedLabel": "MIXED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "YES"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-MIX-013",
+      "provisionalReference": "MIXED",
+      "predictedLabel": "MIXED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "YES"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-MIX-014",
+      "provisionalReference": "MIXED",
+      "predictedLabel": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-MIX-015",
+      "provisionalReference": "MIXED",
+      "predictedLabel": "MIXED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "YES"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-MIX-016",
+      "provisionalReference": "MIXED",
+      "predictedLabel": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-MIX-017",
+      "provisionalReference": "MIXED",
+      "predictedLabel": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-MIX-018",
+      "provisionalReference": "MIXED",
+      "predictedLabel": "MIXED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "YES"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-MIX-019",
+      "provisionalReference": "MIXED",
+      "predictedLabel": "MIXED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "YES"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-MIX-020",
+      "provisionalReference": "MIXED",
+      "predictedLabel": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-SUP-001",
+      "provisionalReference": "SUPPORTED",
+      "predictedLabel": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-SUP-002",
+      "provisionalReference": "SUPPORTED",
+      "predictedLabel": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-SUP-003",
+      "provisionalReference": "SUPPORTED",
+      "predictedLabel": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-SUP-004",
+      "provisionalReference": "SUPPORTED",
+      "predictedLabel": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-SUP-005",
+      "provisionalReference": "SUPPORTED",
+      "predictedLabel": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-SUP-006",
+      "provisionalReference": "SUPPORTED",
+      "predictedLabel": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-SUP-007",
+      "provisionalReference": "SUPPORTED",
+      "predictedLabel": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-SUP-008",
+      "provisionalReference": "SUPPORTED",
+      "predictedLabel": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-SUP-009",
+      "provisionalReference": "SUPPORTED",
+      "predictedLabel": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-SUP-010",
+      "provisionalReference": "SUPPORTED",
+      "predictedLabel": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-SUP-011",
+      "provisionalReference": "SUPPORTED",
+      "predictedLabel": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-SUP-012",
+      "provisionalReference": "SUPPORTED",
+      "predictedLabel": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-SUP-013",
+      "provisionalReference": "SUPPORTED",
+      "predictedLabel": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "YES"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-SUP-014",
+      "provisionalReference": "SUPPORTED",
+      "predictedLabel": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-SUP-015",
+      "provisionalReference": "SUPPORTED",
+      "predictedLabel": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-SUP-016",
+      "provisionalReference": "SUPPORTED",
+      "predictedLabel": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-SUP-017",
+      "provisionalReference": "SUPPORTED",
+      "predictedLabel": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-SUP-018",
+      "provisionalReference": "SUPPORTED",
+      "predictedLabel": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-SUP-019",
+      "provisionalReference": "SUPPORTED",
+      "predictedLabel": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES"
+      }
+    },
+    {
+      "caseId": "EL005-DEV-SUP-020",
+      "provisionalReference": "SUPPORTED",
+      "predictedLabel": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES"
+      }
+    }
+  ]
+}
