@@ -1,0 +1,257 @@
+{
+  "replayVersion": "1.0.0",
+  "experiment": "EXP-EL007",
+  "attempted": 14,
+  "counts": {
+    "REPLAYED_WITH_STATUS_CHECK": 14
+  },
+  "interpretation": "Source replay and status signals only; no case admission or semantic judgment",
+  "records": [
+    {
+      "queueId": "EL007-SRC-001",
+      "pmcid": "PMC11195920",
+      "attemptAt": "2026-09-24T00:58:07.216Z",
+      "outcome": "REPLAYED_WITH_STATUS_CHECK",
+      "version": "PMC11195920.2",
+      "contentHash": "sha256:dc3b56dc5400ebb5b8414846030e148ab731577beb5b10d799940a39e29e820f",
+      "spans": {
+        "possibleClaimLocation": "span_458d4933e7f699e25f772d4e",
+        "possibleEvidenceLocation": "span_9bf3603f36a977a3dcfe632e"
+      },
+      "bodyParagraphCount": 38,
+      "publicationStatus": "UNKNOWN",
+      "statusSignals": [],
+      "statusCheckedAt": "2026-09-24T00:58:07.833Z",
+      "statusResponseHash": "sha256:9148ad4f763aa8a0cafd4b3f430523de69c9a1f1c3cd6611a27bf6a4f29bf183"
+    },
+    {
+      "queueId": "EL007-SRC-004",
+      "pmcid": "PMC13488799",
+      "attemptAt": "2026-09-24T00:58:07.833Z",
+      "outcome": "REPLAYED_WITH_STATUS_CHECK",
+      "version": "PMC13488799.1",
+      "contentHash": "sha256:d55b23d960b562dc9e8d03bc4e34a7f14505c071eb4f7cbf0e6691052221e13a",
+      "spans": {
+        "possibleClaimLocation": "span_ede06f7a1770aa3a5327f85a",
+        "possibleEvidenceLocation": "span_a955b69345efb1ac7f3700a4"
+      },
+      "bodyParagraphCount": 53,
+      "publicationStatus": "UNKNOWN",
+      "statusSignals": [],
+      "statusCheckedAt": "2026-09-24T00:58:08.621Z",
+      "statusResponseHash": "sha256:3b161c21752cdca8944c39987edc0fa754f457c8f1877c1814182283bc43c045"
+    },
+    {
+      "queueId": "EL007-SRC-005",
+      "pmcid": "PMC13488655",
+      "attemptAt": "2026-09-24T00:58:08.621Z",
+      "outcome": "REPLAYED_WITH_STATUS_CHECK",
+      "version": "PMC13488655.1",
+      "contentHash": "sha256:2b7b968cb444e7c3e03a099550947551d3b215ccc308e2924d9734078f70143a",
+      "spans": {
+        "possibleClaimLocation": "span_2f828b980c5fcd989c07ae0b",
+        "possibleEvidenceLocation": "span_293d42a1c4b5e54ff9b7a03c"
+      },
+      "bodyParagraphCount": 33,
+      "publicationStatus": "UNKNOWN",
+      "statusSignals": [],
+      "statusCheckedAt": "2026-09-24T00:58:09.442Z",
+      "statusResponseHash": "sha256:fec8d9ca3906e07d02670f78c5fdc2a4325da01ccc0c46b3dc31a6967e42e51c"
+    },
+    {
+      "queueId": "EL007-SRC-009",
+      "pmcid": "PMC12973230",
+      "attemptAt": "2026-09-24T00:58:09.442Z",
+      "outcome": "REPLAYED_WITH_STATUS_CHECK",
+      "version": "PMC12973230.1",
+      "contentHash": "sha256:353534cee78e4d8afbd10abd3e6b5ab64c393bd7d472cfaf877cfc89e49deeb0",
+      "spans": {
+        "possibleClaimLocation": "span_47f97734cdd384b2c81ff1f9",
+        "possibleEvidenceLocation": "span_441371433f2310bbefd0f401"
+      },
+      "bodyParagraphCount": 33,
+      "publicationStatus": "UNKNOWN",
+      "statusSignals": [],
+      "statusCheckedAt": "2026-09-24T00:58:10.206Z",
+      "statusResponseHash": "sha256:fcec8237eda09c6b0c6e8b0515a92513a1c53494903cb7161e17b9032e3fc16d"
+    },
+    {
+      "queueId": "EL007-SRC-012",
+      "pmcid": "PMC12873539",
+      "attemptAt": "2026-09-24T00:58:10.206Z",
+      "outcome": "REPLAYED_WITH_STATUS_CHECK",
+      "version": "PMC12873539.2",
+      "contentHash": "sha256:e47f19fae48a82f1fdafb76e158d0fc7ac43a32a18dde8aa615bd59e11bd3e67",
+      "spans": {
+        "possibleClaimLocation": "span_e3a91a4782f171a88a32330f",
+        "possibleEvidenceLocation": "span_60cbe0a18adc80f407924b53"
+      },
+      "bodyParagraphCount": 49,
+      "publicationStatus": "UNKNOWN",
+      "statusSignals": [],
+      "statusCheckedAt": "2026-09-24T00:58:11.120Z",
+      "statusResponseHash": "sha256:03fa734d233a30429e61e3ce7ef8b2e8d959cabff13e17681f1fdeb1c09fac3c"
+    },
+    {
+      "queueId": "EL007-SRC-028",
+      "pmcid": "PMC13313863",
+      "attemptAt": "2026-09-24T00:58:11.120Z",
+      "outcome": "REPLAYED_WITH_STATUS_CHECK",
+      "version": "PMC13313863.1",
+      "contentHash": "sha256:d1596316874e6a180abf0805e7192476254d543e806c054560a3adb3c3147d23",
+      "spans": {
+        "possibleClaimLocation": "span_5e56c62828361d7bcb2f131e",
+        "possibleEvidenceLocation": "span_b791eda469bcb6f3bb9977d9"
+      },
+      "bodyParagraphCount": 29,
+      "publicationStatus": "UNKNOWN",
+      "statusSignals": [],
+      "statusCheckedAt": "2026-09-24T00:58:11.885Z",
+      "statusResponseHash": "sha256:3227ad70683d3e6aa3a5a82397aa75ae6ffd11b975cd17ebcb77b3dda748835e"
+    },
+    {
+      "queueId": "EL007-SRC-032",
+      "pmcid": "PMC11467025",
+      "attemptAt": "2026-09-24T00:58:11.885Z",
+      "outcome": "REPLAYED_WITH_STATUS_CHECK",
+      "version": "PMC11467025.2",
+      "contentHash": "sha256:f106e5aaef85ed50dec6b9f3f5cf4988480c9d11b87b2e5ec63796b81e1e81e9",
+      "spans": {
+        "possibleClaimLocation": "span_95b7a7b287998d018e062f1c",
+        "possibleEvidenceLocation": "span_99c11b5a8cca050d5725dd20"
+      },
+      "bodyParagraphCount": 35,
+      "publicationStatus": "UNKNOWN",
+      "statusSignals": [],
+      "statusCheckedAt": "2026-09-24T00:58:12.645Z",
+      "statusResponseHash": "sha256:c10a2f52152db48c1b048d9962c10d087e3c1fa28e42f776cf56c0883d6ac909"
+    },
+    {
+      "queueId": "EL007-SRC-033",
+      "pmcid": "PMC11322377",
+      "attemptAt": "2026-09-24T00:58:12.645Z",
+      "outcome": "REPLAYED_WITH_STATUS_CHECK",
+      "version": "PMC11322377.2",
+      "contentHash": "sha256:06f0801e09c07b4799d17cf0fc6e13db62d7eed010ab9f349fe3c19c3fb9f234",
+      "spans": {
+        "possibleClaimLocation": "span_1e831ef1a93ee14361e6e53e",
+        "possibleEvidenceLocation": "span_5cf6d0e8829ae2fe66f8e10f"
+      },
+      "bodyParagraphCount": 43,
+      "publicationStatus": "UNKNOWN",
+      "statusSignals": [],
+      "statusCheckedAt": "2026-09-24T00:58:13.424Z",
+      "statusResponseHash": "sha256:0cfeeab83886a85538bfcb8623060f2c924e6538aa429648247ec690b76cbb8b"
+    },
+    {
+      "queueId": "EL007-SRC-035",
+      "pmcid": "PMC12836564",
+      "attemptAt": "2026-09-24T00:58:13.424Z",
+      "outcome": "REPLAYED_WITH_STATUS_CHECK",
+      "version": "PMC12836564.1",
+      "contentHash": "sha256:9c41fe9938e2cdc4755e740b408712c56c71946eaf25d29bb57cb524da3b59ea",
+      "spans": {
+        "possibleClaimLocation": "span_8aa91fd03c38d208c401321f",
+        "possibleEvidenceLocation": "span_442b85f572b687a20c788040"
+      },
+      "bodyParagraphCount": 21,
+      "publicationStatus": "UNKNOWN",
+      "statusSignals": [],
+      "statusCheckedAt": "2026-09-24T00:58:14.426Z",
+      "statusResponseHash": "sha256:bddc65f38bd2f3a42f06e4f9f815fe7f940b070273aca62d56a6630ccee4b3be"
+    },
+    {
+      "queueId": "EL007-SRC-036",
+      "pmcid": "PMC12836570",
+      "attemptAt": "2026-09-24T00:58:14.426Z",
+      "outcome": "REPLAYED_WITH_STATUS_CHECK",
+      "version": "PMC12836570.1",
+      "contentHash": "sha256:cde3e3d82875d0fd2bf386379e38841119569fea077640468a989ad03a9d114a",
+      "spans": {
+        "possibleClaimLocation": "span_85fa477c6a0843d6791b788c",
+        "possibleEvidenceLocation": "span_c2376d6434c3a6a56f1991e5"
+      },
+      "bodyParagraphCount": 13,
+      "publicationStatus": "UNKNOWN",
+      "statusSignals": [],
+      "statusCheckedAt": "2026-09-24T00:58:15.025Z",
+      "statusResponseHash": "sha256:465c980d9bc5161a884b4ec50a4716a7aeabc87f4735e86d12612b277f4363af"
+    },
+    {
+      "queueId": "EL007-SRC-037",
+      "pmcid": "PMC12836540",
+      "attemptAt": "2026-09-24T00:58:15.025Z",
+      "outcome": "REPLAYED_WITH_STATUS_CHECK",
+      "version": "PMC12836540.1",
+      "contentHash": "sha256:89ca033045afe7483ee2a8b25356115c6acedb9d6c83668c7850333f95f7533d",
+      "spans": {
+        "possibleClaimLocation": "span_fc34950428d1fd7a519342db",
+        "possibleEvidenceLocation": "span_1115eb134b68e3d24cd1522e"
+      },
+      "bodyParagraphCount": 44,
+      "publicationStatus": "UNKNOWN",
+      "statusSignals": [],
+      "statusCheckedAt": "2026-09-24T00:58:15.831Z",
+      "statusResponseHash": "sha256:e41a93488a8f53e7108d1b216986a91b55d0b079a6b26e9aa352e5ee774ec996"
+    },
+    {
+      "queueId": "EL007-SRC-038",
+      "pmcid": "PMC12836741",
+      "attemptAt": "2026-09-24T00:58:15.831Z",
+      "outcome": "REPLAYED_WITH_STATUS_CHECK",
+      "version": "PMC12836741.1",
+      "contentHash": "sha256:f6abe522718c691d1f4e6615eeee3b14cdf3ddda3e942fcb5cc922b29cbbc53e",
+      "spans": {
+        "possibleClaimLocation": "span_29ada02508aaeba664cb4d84",
+        "possibleEvidenceLocation": "span_88f9afd1e01ef36ea29b3893"
+      },
+      "bodyParagraphCount": 27,
+      "publicationStatus": "CORRECTED",
+      "statusSignals": [
+        {
+          "signalType": "CORRECTION_RELATION",
+          "value": "ErratumIn",
+          "mappedStatus": "CORRECTED",
+          "relatedPmid": "41994012",
+          "citation": "ESMO Gastrointest Oncol. 2026 Jan 06;11:100279. doi: 10.1016/j.esmogo.2025.100279."
+        }
+      ],
+      "statusCheckedAt": "2026-09-24T00:58:16.651Z",
+      "statusResponseHash": "sha256:bc4f7fb7d574fcff543f2a8716bba8b67076ac96ed7126b1bde45bdec2ee13de"
+    },
+    {
+      "queueId": "EL007-SRC-040",
+      "pmcid": "PMC12836578",
+      "attemptAt": "2026-09-24T00:58:16.651Z",
+      "outcome": "REPLAYED_WITH_STATUS_CHECK",
+      "version": "PMC12836578.1",
+      "contentHash": "sha256:98d221147149e3f5b1cc36080fb90b6e3bb29fb06c0b9e3b197226950f8964b5",
+      "spans": {
+        "possibleClaimLocation": "span_d4c4ce2395d48f1b0101e7bb",
+        "possibleEvidenceLocation": "span_668c940ac00bc0e48e96b4d2"
+      },
+      "bodyParagraphCount": 25,
+      "publicationStatus": "UNKNOWN",
+      "statusSignals": [],
+      "statusCheckedAt": "2026-09-24T00:58:17.453Z",
+      "statusResponseHash": "sha256:967af72fcf0be94cce303eb30d23977048fff045a8cae6b0f6c22d34a9c2ab3a"
+    },
+    {
+      "queueId": "EL007-SRC-041",
+      "pmcid": "PMC7618644",
+      "attemptAt": "2026-09-24T00:58:17.453Z",
+      "outcome": "REPLAYED_WITH_STATUS_CHECK",
+      "version": "PMC7618644.1",
+      "contentHash": "sha256:a29c635972db6420c493999f96280e281fb94d1b233683ddcd3510eccc59268e",
+      "spans": {
+        "possibleClaimLocation": "span_27289623857c0026121e14f1",
+        "possibleEvidenceLocation": "span_da2fd4524aeb3901ad87fafc"
+      },
+      "bodyParagraphCount": 29,
+      "publicationStatus": "UNKNOWN",
+      "statusSignals": [],
+      "statusCheckedAt": "2026-09-24T00:58:18.234Z",
+      "statusResponseHash": "sha256:95f7bf87ba259d176a434e7078dee6bb3f4843d73d6e2cad7f49c8ebd2c4595f"
+    }
+  ]
+}
