@@ -340,6 +340,6 @@ export function scoreSemanticPredictions(
   };
 }
 
-export { claimHash, preparePropositionCases } from "./propositions.js";
-export type { PropositionSplit, PreparedPropositionCase } from "./propositions.js";
+export { claimHash, preparePropositionCases, mapPropositionAnswers } from "./propositions.js";
+export type { PropositionSplit, PreparedPropositionCase, PropositionAnswer } from "./propositions.js";
 import { createHash } from "node:crypto";

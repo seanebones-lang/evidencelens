@@ -1,5 +1,5 @@
 import { createHash } from "node:crypto";
-import { SemanticEvaluationError, type SemanticCase } from "./index.js";
+import { ATOMIC_ANSWERS, SemanticEvaluationError, type AtomicAnswer, type SemanticCase, type SemanticLabel } from "./index.js";
 
 export interface PropositionSplit {
   caseId: string;
@@ -16,6 +16,12 @@ export interface PreparedPropositionCase {
   author: string;
   reviewed: boolean;
   propositions: { propositionId: string; text: string }[];
+}
+
+export interface PropositionAnswer {
+  propositionId: string;
+  supportAnswer: AtomicAnswer;
+  contradictionAnswer: AtomicAnswer;
 }
 
 export function claimHash(claim: string): string {
@@ -59,4 +65,33 @@ export function preparePropositionCases(cases: SemanticCase[], splits: Propositi
       author: split.author, reviewed: split.reviewed });
     return { ...JSON.parse(canonical), splitHash: claimHash(canonical) } as PreparedPropositionCase;
   });
+}
+
+/** Strictly score a complete neutral split; no answer can be silently dropped. */
+export function mapPropositionAnswers(
+  prepared: PreparedPropositionCase,
+  answers: PropositionAnswer[],
+): { label: SemanticLabel; internallyConflictingIds: string[] } {
+  if (!Array.isArray(answers) || answers.length !== prepared.propositions.length) {
+    throw new SemanticEvaluationError("One answer pair is required per proposition");
+  }
+  const expected = new Set(prepared.propositions.map((item) => item.propositionId));
+  const seen = new Set<string>();
+  for (const answer of answers) {
+    if (!answer || !expected.has(answer.propositionId) || seen.has(answer.propositionId) ||
+        !ATOMIC_ANSWERS.includes(answer.supportAnswer) || !ATOMIC_ANSWERS.includes(answer.contradictionAnswer)) {
+      throw new SemanticEvaluationError("Invalid, unknown, or duplicate proposition answer");
+    }
+    seen.add(answer.propositionId);
+  }
+  const support = answers.some((item) => item.supportAnswer === "YES");
+  const contradiction = answers.some((item) => item.contradictionAnswer === "YES");
+  const unresolved = answers.some((item) => item.supportAnswer === "INSUFFICIENT_EVIDENCE" ||
+    item.contradictionAnswer === "INSUFFICIENT_EVIDENCE");
+  const label: SemanticLabel = support && contradiction ? "MIXED"
+    : contradiction ? "CONTRADICTED"
+    : support && !unresolved ? "SUPPORTED"
+    : "INSUFFICIENT_EVIDENCE";
+  return { label, internallyConflictingIds: answers.filter((item) =>
+    item.supportAnswer === "YES" && item.contradictionAnswer === "YES").map((item) => item.propositionId) };
 }
