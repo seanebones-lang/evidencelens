@@ -1,0 +1,646 @@
+{
+  "queueVersion": "1.0.0",
+  "experiment": "EXP-EL007",
+  "sourceScreenHash": "f01ec6c70d845b50e6b1f5be4fb3875eab074ec2b3d05610fd93ddc1d64075a2",
+  "counts": {
+    "sources": 41,
+    "pairingLeads": 14,
+    "manualInspection": 27
+  },
+  "interpretation": "Exact-text locations only; no admitted cases, labels, or proposition splits",
+  "records": [
+    {
+      "queueId": "EL007-SRC-001",
+      "pmcid": "PMC11195920",
+      "doi": "10.1097/ono.0000000000000051",
+      "version": "PMC11195920.2",
+      "contentHash": "sha256:dc3b56dc5400ebb5b8414846030e148ab731577beb5b10d799940a39e29e820f",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11195920/",
+      "status": "PAIRING_LEAD_FOR_REVIEW",
+      "pairing": {
+        "possibleClaimLocation": {
+          "section": "Conclusions:",
+          "fieldPath": "/article/front/article-meta/abstract[1]/sec[6]/p[1]",
+          "text": "The incidence of vestibular disorders differed between COVID-19 variants and was significantly elevated in COVID-19-positive patients compared to the control population. These findings have implications for patient counseling and further research is needed to discern the long-term effects of these findings.",
+          "textHash": "sha256:b9b050344061c23a079d4bc815d3d68a055caddd9b34f1cab9569a60f168f499"
+        },
+        "possibleEvidenceLocation": {
+          "section": "Results:",
+          "fieldPath": "/article/front/article-meta/abstract[1]/sec[5]/p[1]",
+          "text": "Patients testing positive for COVID-19 were significantly more likely to have a vestibular disorder compared to the control population. Compared to control patients, the odds ratio of vestibular disorders was significantly elevated in patients with untyped (odds ratio [OR], 2.39; confidence intervals [CI], 2.29–2.50; P < 0.001), alpha (OR, 3.63; CI, 3.48–3.78; P < 0.001), delta (OR, 3.03; CI, 2.94–3.12; P < 0.001), omicron 21K variant (OR, 2.97; CI, 2.90–3.04; P < 0.001), and omicron 23A variant (OR, 8.80; CI, 8.35–9.27; P < 0.001).",
+          "textHash": "sha256:a74d0dfc930141c43fffc29d16110074a40ed68e50ca7c7961e269ef24dc4922"
+        }
+      }
+    },
+    {
+      "queueId": "EL007-SRC-002",
+      "pmcid": "PMC13580852",
+      "doi": "10.1002/open.202400319",
+      "version": "PMC13580852.1",
+      "contentHash": "sha256:eb9564f2f5c549b0ff46e0f6641777e17d5371e94559554d6868e952cb8ab4cf",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13580852/",
+      "status": "MANUAL_ARTICLE_INSPECTION_REQUIRED",
+      "pairing": null
+    },
+    {
+      "queueId": "EL007-SRC-003",
+      "pmcid": "PMC13494990",
+      "doi": "10.3389/ftubr.2024.1378068",
+      "version": "PMC13494990.1",
+      "contentHash": "sha256:db34d8d3c418b2d1e98dded2ed94d9be2b5bdae7d9e3f269d355295241ff6333",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13494990/",
+      "status": "MANUAL_ARTICLE_INSPECTION_REQUIRED",
+      "pairing": null
+    },
+    {
+      "queueId": "EL007-SRC-004",
+      "pmcid": "PMC13488799",
+      "doi": "10.1186/s42358-024-00418-3",
+      "version": "PMC13488799.1",
+      "contentHash": "sha256:d55b23d960b562dc9e8d03bc4e34a7f14505c071eb4f7cbf0e6691052221e13a",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13488799/",
+      "status": "PAIRING_LEAD_FOR_REVIEW",
+      "pairing": {
+        "possibleClaimLocation": {
+          "section": "Conclusion",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[4]/p[@id='Par4']",
+          "text": "These findings corroborate the complex interplay between socioeconomic factors, rheumatic disease activity, and regional disparities as determinants of death due to COVID-19 in Argentina, Brazil and Mexico. Thus, this research provides valuable insights for guiding public health policies and clinical practice in the ongoing fight against the COVID-19 pandemic.",
+          "textHash": "sha256:2d7ffc35c9607fdfdfe27a2e08d45fe22e8d88e3c5b33e05c44e655e8635321c"
+        },
+        "possibleEvidenceLocation": {
+          "section": "Results",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[3]/p[@id='Par3']",
+          "text": "A total of 4744 patients were included, 2534 (53.4%) from SAR-COVID, 1166 (24.6%) from CMRCOVID and 1044 (22.0%) from ReumaCoV-Brasil. Mortality due to COVID-19 was 5.4%. In the multivariable analysis, higher number of physicians per 1000 inhabitants and being infected during the vaccination period of each country were associated with lower mortality. After adjustment for socioeconomic factors, there was no association with country of residence and mortality.",
+          "textHash": "sha256:3b54f481d22a18282038ce2bc42e411e29e1258ce3be652c2927bf0d9a5ec872"
+        }
+      }
+    },
+    {
+      "queueId": "EL007-SRC-005",
+      "pmcid": "PMC13488655",
+      "doi": "10.1186/s42358-024-00397-5",
+      "version": "PMC13488655.1",
+      "contentHash": "sha256:2b7b968cb444e7c3e03a099550947551d3b215ccc308e2924d9734078f70143a",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13488655/",
+      "status": "PAIRING_LEAD_FOR_REVIEW",
+      "pairing": {
+        "possibleClaimLocation": {
+          "section": "Conclusion",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[5]/p[@id='Par5']",
+          "text": "In the comparison between the two immunizers in patients with RA, local reactions and musculoskeletal symptoms were more frequent with ChAdOx1 than with CoronaVac, especially after the first dose. In summary, the AE occurred mainly after the first dose, and were mild, like previous data from others immunizing agents in patients with rheumatoid arthritis. Vaccination did not worsen the degree of disease activity.",
+          "textHash": "sha256:7e967e466aec7a8779432fa277d96b15df16d1b6f18cdc30b2f13bba38027e4a"
+        },
+        "possibleEvidenceLocation": {
+          "section": "Results",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[4]/p[@id='Par4']",
+          "text": "A total of 188 patients with RA were include, 90% female. CoronaVac was used in 109 patients and ChAdOx1 in 79. Only mild AEs were observed, mainly after the first dose. The most common AEs after the first dose were pain at the injection (46,7%), headache (39,4%), arthralgia (39,4%), myalgia (30,5%) and fatigue (26,6%), and ChAdOx1 had a higher frequency of pain at the injection (66% vs 32 %, p < 0.001) arthralgia (62% vs 22%, p < 0.001) and myalgia (45% vs 20%, p < 0.001) compared to CoronaVac. The more common AEs after the second dose were pain at the injection (37%), arthralgia (31%), myalgia (23%), headache (21%) and fatigue (18%). Arthralgia (41,4% vs 25%, p = 0.02) and pain at injection (51,4% vs 27%, p = 0.001) were more common with ChAdOx1. No serious AEs were related. With Regard to RA activity level, no significant difference was observed between the three time periods for both COVID-19 vaccines.",
+          "textHash": "sha256:ce3cbecab07e9be986d4dfbb64361c7f693ae7b70e20c6ba0c0e8502e490c802"
+        }
+      }
+    },
+    {
+      "queueId": "EL007-SRC-006",
+      "pmcid": "PMC13456083",
+      "doi": "10.1146/annurev-immunol-083122-043054",
+      "version": "PMC13456083.1",
+      "contentHash": "sha256:4b456c3c80d90335c3d3a33dc8cf8c13a6d9fc74c993225ee8f6419cafb62d19",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13456083/",
+      "status": "MANUAL_ARTICLE_INSPECTION_REQUIRED",
+      "pairing": null
+    },
+    {
+      "queueId": "EL007-SRC-007",
+      "pmcid": "PMC13380264",
+      "doi": "10.1016/j.virol.2024.110255",
+      "version": "PMC13380264.1",
+      "contentHash": "sha256:5a808059a87f3c7dbfeb3ed8430e4f58f1f1a3ea3913b436a944491bd7832ff2",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13380264/",
+      "status": "MANUAL_ARTICLE_INSPECTION_REQUIRED",
+      "pairing": null
+    },
+    {
+      "queueId": "EL007-SRC-008",
+      "pmcid": "PMC11826387",
+      "doi": "10.31661/gmj.v13i.3625",
+      "version": "PMC11826387.1",
+      "contentHash": "sha256:566f37cc336b8c3fc0320b3cf0019ae0afdc05a4f3d5b0c57ae730b717fd507f",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11826387/",
+      "status": "MANUAL_ARTICLE_INSPECTION_REQUIRED",
+      "pairing": null
+    },
+    {
+      "queueId": "EL007-SRC-009",
+      "pmcid": "PMC12973230",
+      "doi": "10.15212/zoonoses-2024-0028",
+      "version": "PMC12973230.1",
+      "contentHash": "sha256:353534cee78e4d8afbd10abd3e6b5ab64c393bd7d472cfaf877cfc89e49deeb0",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12973230/",
+      "status": "PAIRING_LEAD_FOR_REVIEW",
+      "pairing": {
+        "possibleClaimLocation": {
+          "section": "Conclusion:",
+          "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/sec[@id='S4']/p[@id='P7']",
+          "text": "This work provides evidence that certain substitutions in four IFN-I antiviral pathway proteins appear able to disrupt interactions and may be distinctive to resistant species, thus potentially aiding in determining species’ likelihood of transmitting SARS-CoV-2.",
+          "textHash": "sha256:20210c35e0ea908df2d9bc9eeea66ed7b05282263edfd57d6bb51613bc5c146a"
+        },
+        "possibleEvidenceLocation": {
+          "section": "Results:",
+          "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/sec[@id='S3']/p[@id='P6']",
+          "text": "This pathway approach revealed that 1) 13 proteins were conserved, whereas five lacked data sufficient to determine specific critical amino acids; 2) variation in protein-protein interfaces is tolerated for many amino acid substitutions, and these substitutions follow taxonomic clades rather than correlating with empirically determined species infection status; and 3) four proteins (MDA5, NEMO, IRF3, and ISG15) contained potential domains or specific amino acids whose substitution may result in PPI disruption.",
+          "textHash": "sha256:188b6a7510931b014b508e3051ea34c3e909bd8b54117683182f6e1f80216001"
+        }
+      }
+    },
+    {
+      "queueId": "EL007-SRC-010",
+      "pmcid": "PMC12912400",
+      "doi": "10.1038/s44325-024-00011-z",
+      "version": "PMC12912400.1",
+      "contentHash": "sha256:59a67fa85edd209c7f486af3a7cbe960efd93ae34926eebdd1206f263c454c84",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12912400/",
+      "status": "MANUAL_ARTICLE_INSPECTION_REQUIRED",
+      "pairing": null
+    },
+    {
+      "queueId": "EL007-SRC-011",
+      "pmcid": "PMC12806009",
+      "doi": "10.1002/qub2.64",
+      "version": "PMC12806009.1",
+      "contentHash": "sha256:e1269c525a652474053ac8b58d3d4511d09737a20c85367e1ee841539a5033f8",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12806009/",
+      "status": "MANUAL_ARTICLE_INSPECTION_REQUIRED",
+      "pairing": null
+    },
+    {
+      "queueId": "EL007-SRC-012",
+      "pmcid": "PMC12873539",
+      "doi": "10.12688/f1000research.127061.2",
+      "version": "PMC12873539.2",
+      "contentHash": "sha256:e47f19fae48a82f1fdafb76e158d0fc7ac43a32a18dde8aa615bd59e11bd3e67",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12873539/",
+      "status": "PAIRING_LEAD_FOR_REVIEW",
+      "pairing": {
+        "possibleClaimLocation": {
+          "section": "Conclusions",
+          "fieldPath": "/article/front/article-meta/abstract[1]/sec[4]/p[1]",
+          "text": "These studies allow the identification of the main stabilizing interactions using the crystal structure of SARS‑CoV‑2 RNA‑dependent RNA polymerase. In this order of ideas, this study provides new insights into these ligands that can be used in the design of new COVID-19 treatments. The studies allowed us to find an explanation supported in the Density Functional Theory about the chemical reactivity and the stabilization in the active site of the ligands.",
+          "textHash": "sha256:a450b09a529c628382a7d50609117d35df0cc3d42e8ff035f6133b274d1d0e37"
+        },
+        "possibleEvidenceLocation": {
+          "section": "Results",
+          "fieldPath": "/article/front/article-meta/abstract[1]/sec[3]/p[1]",
+          "text": "The results show the conformations with the highest root-mean-square deviation (RMSD), have π-π stacking interaction with residue LYS621, ARG555 and ASP623, CYS622, ASP760, among others. In the molecular quantum similarity, the highest indices have been obtained in the electronic similarity in comparison with the structural similarity.",
+          "textHash": "sha256:2fa12da192ce5959ee2cafd3a356173f72a19e514b6f86931c26c0d6ab134982"
+        }
+      }
+    },
+    {
+      "queueId": "EL007-SRC-013",
+      "pmcid": "PMC12859536",
+      "doi": "10.1002/bimj.202400027",
+      "version": "PMC12859536.1",
+      "contentHash": "sha256:f476af2bf56dd573d09ac52b25ff7772f217a30aa853f43bd51816bc260944af",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12859536/",
+      "status": "MANUAL_ARTICLE_INSPECTION_REQUIRED",
+      "pairing": null
+    },
+    {
+      "queueId": "EL007-SRC-014",
+      "pmcid": "PMC11800364",
+      "doi": "10.1080/29933935.2024.2439490",
+      "version": "PMC11800364.2",
+      "contentHash": "sha256:8590d8f5ddf1bd46a1e2192a8c92cb8ec1861ab825b2fe71571938f735b9cbe6",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11800364/",
+      "status": "MANUAL_ARTICLE_INSPECTION_REQUIRED",
+      "pairing": null
+    },
+    {
+      "queueId": "EL007-SRC-015",
+      "pmcid": "PMC12997613",
+      "doi": "10.5935/0004-2749.2023-0281",
+      "version": "PMC12997613.1",
+      "contentHash": "sha256:71085e5e727a4c5835354f5b30b6ddf0d530c3604feaa06aa82fdcf663e2523b",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12997613/",
+      "status": "MANUAL_ARTICLE_INSPECTION_REQUIRED",
+      "pairing": null
+    },
+    {
+      "queueId": "EL007-SRC-016",
+      "pmcid": "PMC12356413",
+      "doi": "10.3389/fstro.2024.1423887",
+      "version": "PMC12356413.2",
+      "contentHash": "sha256:a09b574eaaf9a37a06205712d265084e7f2e97a968e524479e13aa4951f48a35",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12356413/",
+      "status": "MANUAL_ARTICLE_INSPECTION_REQUIRED",
+      "pairing": null
+    },
+    {
+      "queueId": "EL007-SRC-017",
+      "pmcid": "PMC11864087",
+      "doi": "10.1146/annurev-pharmtox-061724-080548",
+      "version": "PMC11864087.1",
+      "contentHash": "sha256:2faa96f03e721fafdc81d42c505cb877546fbf078c085a4a6d6925d73c3cb662",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11864087/",
+      "status": "MANUAL_ARTICLE_INSPECTION_REQUIRED",
+      "pairing": null
+    },
+    {
+      "queueId": "EL007-SRC-018",
+      "pmcid": "PMC12697572",
+      "doi": "10.1126/sciadv.adi4350",
+      "version": "PMC12697572.1",
+      "contentHash": "sha256:3780848bd574d366cd2e54fb28861843e0a143f5ea8db3a52d97d3c6afbff562",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12697572/",
+      "status": "MANUAL_ARTICLE_INSPECTION_REQUIRED",
+      "pairing": null
+    },
+    {
+      "queueId": "EL007-SRC-019",
+      "pmcid": "PMC12073661",
+      "doi": "10.1088/1741-2552/ad8961",
+      "version": "PMC12073661.1",
+      "contentHash": "sha256:fc6fb26c809647260f2231d645c1cc1747c5ce78948aa5e1bde9c2fe5b3fff6e",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12073661/",
+      "status": "MANUAL_ARTICLE_INSPECTION_REQUIRED",
+      "pairing": null
+    },
+    {
+      "queueId": "EL007-SRC-020",
+      "pmcid": "PMC12599878",
+      "doi": "10.34133/research.0402",
+      "version": "PMC12599878.1",
+      "contentHash": "sha256:885d8b4f49e3c8de0e809ab8adc3a9ccc7bda4233865cb18e0b84ac191e489ce",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12599878/",
+      "status": "MANUAL_ARTICLE_INSPECTION_REQUIRED",
+      "pairing": null
+    },
+    {
+      "queueId": "EL007-SRC-021",
+      "pmcid": "PMC12559990",
+      "doi": "10.1113/jp286400",
+      "version": "PMC12559990.1",
+      "contentHash": "sha256:afd9b77e32284abbfa6acc0f01bf45da775bddd75d9c03225f06468fde6c8bc3",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12559990/",
+      "status": "MANUAL_ARTICLE_INSPECTION_REQUIRED",
+      "pairing": null
+    },
+    {
+      "queueId": "EL007-SRC-022",
+      "pmcid": "PMC12559981",
+      "doi": "10.1113/jp286176",
+      "version": "PMC12559981.1",
+      "contentHash": "sha256:2036118b1dab2067248651bbb9b5cc7f202915926ce8ccc3fdc300e926c54bbe",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12559981/",
+      "status": "MANUAL_ARTICLE_INSPECTION_REQUIRED",
+      "pairing": null
+    },
+    {
+      "queueId": "EL007-SRC-023",
+      "pmcid": "PMC12539541",
+      "doi": "10.14336/ad.2024.1089",
+      "version": "PMC12539541.1",
+      "contentHash": "sha256:02d5000f76b26d89aead2aea1e1f8ed7ac6eba95b95f536d777fbe86641dcb79",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12539541/",
+      "status": "MANUAL_ARTICLE_INSPECTION_REQUIRED",
+      "pairing": null
+    },
+    {
+      "queueId": "EL007-SRC-024",
+      "pmcid": "PMC12529104",
+      "doi": "10.1016/j.celrep.2024.113986",
+      "version": "PMC12529104.1",
+      "contentHash": "sha256:217e3052d89667ba3d253822ba2c341b8583d7dd41ed2a6c42e2b862bf8a129e",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12529104/",
+      "status": "MANUAL_ARTICLE_INSPECTION_REQUIRED",
+      "pairing": null
+    },
+    {
+      "queueId": "EL007-SRC-025",
+      "pmcid": "PMC12500796",
+      "doi": "10.1007/s00406-024-01898-6",
+      "version": "PMC12500796.1",
+      "contentHash": "sha256:099670f90219bfc6cabfd6d375d594eea6013d8fd2fb6978d0155f0a8ab5dc68",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12500796/",
+      "status": "MANUAL_ARTICLE_INSPECTION_REQUIRED",
+      "pairing": null
+    },
+    {
+      "queueId": "EL007-SRC-026",
+      "pmcid": "PMC12500787",
+      "doi": "10.1007/s00406-024-01873-1",
+      "version": "PMC12500787.1",
+      "contentHash": "sha256:a0bad7af87cf44a3794389b115fd290c1cfcad427ce3ab25da190541c30b20a2",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12500787/",
+      "status": "MANUAL_ARTICLE_INSPECTION_REQUIRED",
+      "pairing": null
+    },
+    {
+      "queueId": "EL007-SRC-027",
+      "pmcid": "PMC11406684",
+      "doi": "10.1021/acsptsci.4c00002",
+      "version": "PMC11406684.1",
+      "contentHash": "sha256:29a62b3dbaa0d6b25b851c2e5e2646816ab627d8ee66145626713c80bdd3b7bb",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11406684/",
+      "status": "MANUAL_ARTICLE_INSPECTION_REQUIRED",
+      "pairing": null
+    },
+    {
+      "queueId": "EL007-SRC-028",
+      "pmcid": "PMC13313863",
+      "doi": "10.1186/s43046-024-00236-0",
+      "version": "PMC13313863.1",
+      "contentHash": "sha256:d1596316874e6a180abf0805e7192476254d543e806c054560a3adb3c3147d23",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13313863/",
+      "status": "PAIRING_LEAD_FOR_REVIEW",
+      "pairing": {
+        "possibleClaimLocation": {
+          "section": "Conclusion",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[4]/p[@id='Par4']",
+          "text": "The combination of these 9-IRGs not only could efficiently predict overall survival of LUAD patients but also show a powerful association with the expression of immune checkpoints and response to ICIs based on IPS; hoping this model paves the way for better stratification and management of patients in clinical practice.",
+          "textHash": "sha256:0b90382b07d1283ecff924f0419876208cebd83bc555e60ac6a4514b39487aef"
+        },
+        "possibleEvidenceLocation": {
+          "section": "Results",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[3]/p[@id='Par3']",
+          "text": "As far as we are aware, this is the first study which introduces a novel prognostic signature model using BIRC5, CBLC, S100P, SHC3, ANOS1, VIPR1, LGR4, PGC, and IGKV4.1. According to multivariate analysis, the 9-immune-related genes (IRGs) signature provided an independent prognostic factor for the overall survival (OS). The low-risk group had better OS, and the tumor mutation burden (TMB) was significantly lower in this group. Moreover, the risk scores were negatively associated with the tumor-infiltrating immune cells, like CD8+ T cells, macrophages, dendritic cells, and NK cells. In addition, the IPS were significantly higher in the low-risk group as they had higher gene expression of immune checkpoints, suggesting that ICIs could be a promising treatment option for low-risk LUAD patients.",
+          "textHash": "sha256:458483dd2f17128bc596731805e494bc3cc364aa6424cc8283856ac9a7497283"
+        }
+      }
+    },
+    {
+      "queueId": "EL007-SRC-029",
+      "pmcid": "PMC13268100",
+      "doi": "10.1016/j.celrep.2024.114209",
+      "version": "PMC13268100.1",
+      "contentHash": "sha256:7efb02897fffc88da7ff475fcb5a5833ce9be08896d8327cb6f96d8600c2c378",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13268100/",
+      "status": "MANUAL_ARTICLE_INSPECTION_REQUIRED",
+      "pairing": null
+    },
+    {
+      "queueId": "EL007-SRC-030",
+      "pmcid": "PMC11996958",
+      "doi": "10.1007/s13402-024-00992-0",
+      "version": "PMC11996958.2",
+      "contentHash": "sha256:1d2cb24b5b19c71cca8682bdf4dea03894d28e40f5ea87d68f2e32daf53f49ad",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11996958/",
+      "status": "MANUAL_ARTICLE_INSPECTION_REQUIRED",
+      "pairing": null
+    },
+    {
+      "queueId": "EL007-SRC-031",
+      "pmcid": "PMC11466988",
+      "doi": "10.1007/s13402-024-00951-9",
+      "version": "PMC11466988.2",
+      "contentHash": "sha256:31f47074531b2d924eb8f7d98bf1fc85c8266c8f4151f34164ca742eede04ad3",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11466988/",
+      "status": "MANUAL_ARTICLE_INSPECTION_REQUIRED",
+      "pairing": null
+    },
+    {
+      "queueId": "EL007-SRC-032",
+      "pmcid": "PMC11467025",
+      "doi": "10.1007/s13402-024-00950-w",
+      "version": "PMC11467025.2",
+      "contentHash": "sha256:f106e5aaef85ed50dec6b9f3f5cf4988480c9d11b87b2e5ec63796b81e1e81e9",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11467025/",
+      "status": "PAIRING_LEAD_FOR_REVIEW",
+      "pairing": {
+        "possibleClaimLocation": {
+          "section": "Conclusion",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[4]/p[@id='Par4']",
+          "text": "Our study proposes Dectin-1 as a potential adjunctive target with ICBs, orchestrating a comprehensive engagement of innate and adaptive immune responses in melanoma. This innovative approach holds promise for overcoming acquired resistance to ICBs in cancer treatment, offering avenues for further exploration and development.",
+          "textHash": "sha256:43ff998241e66da35b214fd65c676c2b198809c72fc703b9a12be9f306257b8a"
+        },
+        "possibleEvidenceLocation": {
+          "section": "Results",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[3]/p[@id='Par3']",
+          "text": "Our findings reveal myeloid cells as primary Dectin-1 expressing cells in the tumor microenvironment (TME), displaying an activated phenotype. Strong Dectin-1 co-expression/co-localization with VISTA and PD-L1 in TME myeloid cells was observed. While Dectin-1 deletion lacked protective effects, curdlan stimulation significantly curtailed B16-F10 tumor progression. RNAseq and pathway analyses supported curdlan’s role in triggering a cascade of events leading to increased production of pro-inflammatory mediators, potentially resulting in the recruitment and activation of immune cells. Moreover, we identified a heterogeneous subset of Dectin-1+ effector T cells in the TME. Similar to mice, human myeloid cells are the prominent cells expressing Dectin-1 in cancer patients.",
+          "textHash": "sha256:f86cdd77013b04bde088c7ce73bc3ad98d53c7fd9cd5ecb2635fdea3983563a6"
+        }
+      }
+    },
+    {
+      "queueId": "EL007-SRC-033",
+      "pmcid": "PMC11322377",
+      "doi": "10.1007/s13402-024-00930-0",
+      "version": "PMC11322377.2",
+      "contentHash": "sha256:06f0801e09c07b4799d17cf0fc6e13db62d7eed010ab9f349fe3c19c3fb9f234",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11322377/",
+      "status": "PAIRING_LEAD_FOR_REVIEW",
+      "pairing": {
+        "possibleClaimLocation": {
+          "section": "Conclusion",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[4]/p[@id='Par4']",
+          "text": "Our findings indicate that ATM is a prognostic factor and is associated with the immune response and drug sensitivity in melanoma.",
+          "textHash": "sha256:6d93a5e1dc5379a878e27b9ed579e9eca832d0286e924d13d63b36a6ec5c913f"
+        },
+        "possibleEvidenceLocation": {
+          "section": "Results",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[3]/p[@id='Par3']",
+          "text": "Our ATM model exhibits robust performance in survival prediction in multiple melanoma cohorts. Different ATM groups exhibited distinct molecular signatures and biological processes. The low ATM group exhibited significant enrichment in B cell activation-related pathways. What’s more, plasma cells showed the lowest ATM score, highlighting their role as pivotal contributors in the ATM model. Mechanistically, the analysis of the interplay between plasma cells and other immune cells elucidated their crucial role in orchestrating an effective anti-tumor immune response. Significantly, the ATM signature exhibited associations with therapeutic efficacy of immune checkpoint blockade and the drug sensitivity of various agents, including FDA-approved and clinically utilized drugs targeting the VEGF signaling pathway. Finally, ATM was associated with tertiary lymphoid structures (TLS), exhibiting stronger patient stratification ability compared to classical “hot tumors”.",
+          "textHash": "sha256:3de58a06cff1f5dce68c0aec82c18611806660dfbbddf0a15cc1f38df25ed56a"
+        }
+      }
+    },
+    {
+      "queueId": "EL007-SRC-034",
+      "pmcid": "PMC12979251",
+      "doi": "10.1016/j.ccell.2024.04.010",
+      "version": "PMC12979251.1",
+      "contentHash": "sha256:b25395bf8cd297dd692ccd1818f60ffda2348e6fd8828e84ae9543fcb899ae34",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12979251/",
+      "status": "MANUAL_ARTICLE_INSPECTION_REQUIRED",
+      "pairing": null
+    },
+    {
+      "queueId": "EL007-SRC-035",
+      "pmcid": "PMC12836564",
+      "doi": "10.1016/j.esmogo.2024.100047",
+      "version": "PMC12836564.1",
+      "contentHash": "sha256:9c41fe9938e2cdc4755e740b408712c56c71946eaf25d29bb57cb524da3b59ea",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12836564/",
+      "status": "PAIRING_LEAD_FOR_REVIEW",
+      "pairing": {
+        "possibleClaimLocation": {
+          "section": "Conclusion",
+          "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[4]/p[1]",
+          "text": "This study reveals comparable tolerability and efficacy of ICIs in elderly and non-elderly patients with MSI mGIC. Survival outcomes did not differ significantly between patients with and without grade ≥3 irAEs and E-irAEs.",
+          "textHash": "sha256:fff7ad2ebfb2cd3c60c49728f16660ddaeea0a8fb85ca372af34ba6b1940e2ed"
+        },
+        "possibleEvidenceLocation": {
+          "section": "Results",
+          "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[3]/p[1]",
+          "text": "Among 201 patients, 24 were elderly (mean age 75–90 years) and 177 non-elderly (mean age 22-74 years). In the overall population, grade ≥3 irAEs and E-irAEs incidence was 40% with the anti-programmed cell death protein 1 + anti-cytotoxic T lymphocyte-associated antigen 4 and 23% with anti-programmed cell death protein 1 monotherapy (P = 0.011). Treatment combination was administered to 29% of elderly and 40% of non-elderly patients. The incidence of grade ≥3 irAEs and E-irAEs was 37%/29% with monotherapy (P = 0.48) and 57%/39% with combination (P = 0.43) in elderly/non-elderly patients. No significant difference was observed in progression-free survival [hazard ratio (HR) = 1.15, 95% confidence interval (CI) 0.57-2.32, P = 0.7] and OS (HR = 1.61, 95% CI 0.75-3.43, P = 0.25) between elderly and non-elderly. Cox regression analysis with a time-dependent variable showed no survival difference between patients with/without grade ≥3 irAEs and E-irAEs (progression-free survival: HR = 1.19, 95% CI 0.64-2.19, P = 0.59; overall survival: HR = 0.91, 95% CI 0.44-1.92, P = 0.81). A positive association was found, however, between objective response rate and immune treatment-related adverse event occurrence [77%/59%, immune treatment-related adverse event patients/others (P = 0.0012)].",
+          "textHash": "sha256:f3b7b8de7db40e2bb8ca05d6e1989c65ecdd969b2e039b2b3014e82627e8eb21"
+        }
+      }
+    },
+    {
+      "queueId": "EL007-SRC-036",
+      "pmcid": "PMC12836570",
+      "doi": "10.1016/j.esmogo.2024.100084",
+      "version": "PMC12836570.1",
+      "contentHash": "sha256:cde3e3d82875d0fd2bf386379e38841119569fea077640468a989ad03a9d114a",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12836570/",
+      "status": "PAIRING_LEAD_FOR_REVIEW",
+      "pairing": {
+        "possibleClaimLocation": {
+          "section": "Conclusions",
+          "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[4]/p[1]",
+          "text": "These results underline the importance of screening for NTRK gene fusions in dMMR/MSI mCRC in sporadic cases with MLH1 promoter hypermethylation RAS/BRAFV600E wt. We highlight several key technical aspects of NTRK fusion testing and interpretation of reports that remain to be explored.",
+          "textHash": "sha256:e75fb076994820e2fd9072a1efb829af7316ffd54f1be932f5890d3da880d91b"
+        },
+        "possibleEvidenceLocation": {
+          "section": "Results",
+          "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[3]/p[1]",
+          "text": "Tumor samples of 10 (5.3%) patients harbored NTRK gene fusions confirmed by FISH (NTRK1 = 8; NTRK3 = 2) including two cases with Lynch syndrome and height sporadic cases with MLH1 promoter hypermethylation and RAS wild-type (wt), out of which only five were positive by pan-TRK immunohistochemistry. One patient with primary resistance to nivolumab received a TRK inhibitor (larotrectinib) and showed a complete response.",
+          "textHash": "sha256:5dc51e799538220a5c3510ee6a465679a49583c33d6d8d55d22015691c242bbd"
+        }
+      }
+    },
+    {
+      "queueId": "EL007-SRC-037",
+      "pmcid": "PMC12836540",
+      "doi": "10.1016/j.esmogo.2024.100083",
+      "version": "PMC12836540.1",
+      "contentHash": "sha256:89ca033045afe7483ee2a8b25356115c6acedb9d6c83668c7850333f95f7533d",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12836540/",
+      "status": "PAIRING_LEAD_FOR_REVIEW",
+      "pairing": {
+        "possibleClaimLocation": {
+          "section": "Conclusions",
+          "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[4]/p[1]",
+          "text": "During ICI treatment, upper gastrointestinal symptoms can be a red flag for developing severe oesophago-gastro-duodenal toxicity that can impact patients’ quality of life and therapeutic plan. We recommend carefully investigating these symptoms, choosing a multidisciplinary approach to decide if an oesophagogastroduodenoscopy with random biopsy is indicated. [18]-fluoro-2-deoxy-d-glucose positron emission tomography/computed tomography might represent a promising complementary diagnostic tool. Steroids still represent the cornerstone of treatment, as for other irAEs.",
+          "textHash": "sha256:28f78e5a0e8212adc63d05bb855d3c2708d8fdd572ede7434f841fb4f35ffece"
+        },
+        "possibleEvidenceLocation": {
+          "section": "Results",
+          "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[3]/p[1]",
+          "text": "We identified six patients with upper gastrointestinal irAEs: four affected by metastatic melanoma (three treated with nivolumab and one with nivolumab plus ipilimumab), one by unresectable cutaneous squamous cell carcinoma (treated with cemiplimab), and one by metastatic non-small-cell lung cancer (treated with pembrolizumab). Proton pump inhibitors and oral corticosteroids have been the mainstay of the management, and thus one patient had to receive intravenous methylprednisolone with hospitalisation, fasting, and parenteral nutrition. Based on the literature and our experience, we proposed a classification of ICI-induced upper gastrointestinal toxicity, with symptom and endoscopic sign grading. Each step of severity has been also correlated with a proposed diagnosis and clinical management.",
+          "textHash": "sha256:4064db1bee412457519850254d9b4be5f933d7e2365b3caae1b8203bfce33f15"
+        }
+      }
+    },
+    {
+      "queueId": "EL007-SRC-038",
+      "pmcid": "PMC12836741",
+      "doi": "10.1016/j.esmogo.2024.100069",
+      "version": "PMC12836741.1",
+      "contentHash": "sha256:f6abe522718c691d1f4e6615eeee3b14cdf3ddda3e942fcb5cc922b29cbbc53e",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12836741/",
+      "status": "PAIRING_LEAD_FOR_REVIEW",
+      "pairing": {
+        "possibleClaimLocation": {
+          "section": "Conclusions",
+          "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[4]/p[1]",
+          "text": "Our findings convey no signal of enhanced systemic efficacy compared with historical data on pembrolizumab alone even if the local control rate is high. To our knowledge, this represents the largest study conducted in this population; further studies could extend the knowledge on the toxicity profile of this combination.",
+          "textHash": "sha256:5d651e2f89a520dd3bdc4ece876d03d5218f528ff1927ce6184d86da13944828"
+        },
+        "possibleEvidenceLocation": {
+          "section": "Results",
+          "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[3]/p[1]",
+          "text": "Among the 14 patients enrolled, 11 received SABR in combination with pembrolizumab as the first to the fourth line. The disease control rate was 50% in the intention-to-treat population, with six patients still maintaining the response after >15 months. Any-grade treatment-related adverse events occurred in 50% of patients, with grade 3 (G3) events in three patients; no treatment-related death occurred.",
+          "textHash": "sha256:ed53c2eaf77a0e29980d272929392ba0dde54fc9f4d10d1481a2b33d8fb669f3"
+        }
+      }
+    },
+    {
+      "queueId": "EL007-SRC-039",
+      "pmcid": "PMC12869779",
+      "doi": "10.1016/j.fmre.2024.10.017",
+      "version": "PMC12869779.1",
+      "contentHash": "sha256:d662b03f330fca99431e628a7c837afe5d2f02076c50e40a12369527f38cf814",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12869779/",
+      "status": "MANUAL_ARTICLE_INSPECTION_REQUIRED",
+      "pairing": null
+    },
+    {
+      "queueId": "EL007-SRC-040",
+      "pmcid": "PMC12836578",
+      "doi": "10.1016/j.esmorw.2024.100090",
+      "version": "PMC12836578.1",
+      "contentHash": "sha256:98d221147149e3f5b1cc36080fb90b6e3bb29fb06c0b9e3b197226950f8964b5",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12836578/",
+      "status": "PAIRING_LEAD_FOR_REVIEW",
+      "pairing": {
+        "possibleClaimLocation": {
+          "section": "Conclusion",
+          "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[4]/p[1]",
+          "text": "The ImmuCare-PRO system correctly detected a third of moderate-to-severe IrAEs, and most of those had clinical impact such as skin toxicities, colitis, and rheumatological IrAEs. This enables earlier management and could avoid unnecessary emergency room visits.",
+          "textHash": "sha256:3df3c7ba7f192e43e0fbf788f48634fef2ebd07a70cc806fd1dab688bbab31f5"
+        },
+        "possibleEvidenceLocation": {
+          "section": "Results",
+          "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[3]/p[1]",
+          "text": "A total of 5202 questionnaires completed by 136 patients led to 783 (15.0%) alert scores; 64 of them were associated with 69 grade 2 or above IrAEs, with 22 (34.4%) questionnaires correctly detecting 27 grade 2 or above IrAEs, saving a mean 4.1 days on the next scheduled visit and leading to only one emergency room visit. Forty-two grade 2 or above IrAEs (mainly blood disorders, n = 31) were not detected. False alerts often resulted from functional or non-specific symptoms (32.3%), such as fatigue or general pain.",
+          "textHash": "sha256:5e8d3ec0b94b8544aac2abd708a45603aea3ca4f96eb6c0e0bd7fed1be906749"
+        }
+      }
+    },
+    {
+      "queueId": "EL007-SRC-041",
+      "pmcid": "PMC7618644",
+      "doi": "10.1016/j.ejca.2024.115160",
+      "version": "PMC7618644.1",
+      "contentHash": "sha256:a29c635972db6420c493999f96280e281fb94d1b233683ddcd3510eccc59268e",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "articleUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7618644/",
+      "status": "PAIRING_LEAD_FOR_REVIEW",
+      "pairing": {
+        "possibleClaimLocation": {
+          "section": "Conclusion",
+          "fieldPath": "/article/front/article-meta/abstract[1]/sec[@id='S4']/p[@id='P4']",
+          "text": "Real-world data suggest that adjuvant TT may be associated with better RFS and DMFS in stage III BRAF V600-mutated melanoma compared to ICI.",
+          "textHash": "sha256:3ed35309115599f33cf3c783b11dd142fb5cd25afe1ddd303fc940e93936387e"
+        },
+        "possibleEvidenceLocation": {
+          "section": "Results",
+          "fieldPath": "/article/front/article-meta/abstract[1]/sec[@id='S3']/p[@id='P3']",
+          "text": "Nine publications with 3625 patients were included. TT showed better relapse-free survival (RFS) at 6, 12, 24, and 36 months than ICI. A similar trend was observed for distant metastasis-free survival (DMFS), with no apparent difference in overall survival.",
+          "textHash": "sha256:c463c777483bd9f3fbf25ff09d1d74dcf58e66ff09baaa17c14514670eb3a3da"
+        }
+      }
+    }
+  ]
+}
