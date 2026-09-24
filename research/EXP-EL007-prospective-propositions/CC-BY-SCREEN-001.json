@@ -1,0 +1,1022 @@
+{
+  "screeningVersion": "1.0.0",
+  "experiment": "EXP-EL007",
+  "poolFileHash": "36ec2483022cb7ad61f86a55cf0e67590c3d48d1477e2e7d5ebfeb54684d9922",
+  "attempted": 41,
+  "counts": {
+    "ABSTRACT_AVAILABLE": 41
+  },
+  "records": [
+    {
+      "pmcid": "PMC11195920",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:51:55.640Z",
+      "version": "PMC11195920.2",
+      "contentHash": "sha256:dc3b56dc5400ebb5b8414846030e148ab731577beb5b10d799940a39e29e820f",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.1097/ono.0000000000000051",
+      "pmid": "38919767",
+      "abstractParagraphs": [
+        {
+          "section": "Objective:",
+          "fieldPath": "/article/front/article-meta/abstract[1]/sec[1]/p[1]",
+          "text": "Determine the incidence of vestibular disorders in patients with SARS-CoV-2 compared to the control population."
+        },
+        {
+          "section": "Study Design:",
+          "fieldPath": "/article/front/article-meta/abstract[1]/sec[2]/p[1]",
+          "text": "Retrospective."
+        },
+        {
+          "section": "Setting:",
+          "fieldPath": "/article/front/article-meta/abstract[1]/sec[3]/p[1]",
+          "text": "Clinical data in the National COVID Cohort Collaborative database (N3C)."
+        },
+        {
+          "section": "Methods:",
+          "fieldPath": "/article/front/article-meta/abstract[1]/sec[4]/p[1]",
+          "text": "Deidentified patient data from the National COVID Cohort Collaborative database (N3C) were queried based on variant peak prevalence (untyped, alpha, delta, omicron 21K, and omicron 23A) from covariants.org to retrospectively analyze the incidence of vestibular disorders in patients with SARS-CoV-2 compared to control population, consisting of patients without documented evidence of COVID infection during the same period."
+        },
+        {
+          "section": "Results:",
+          "fieldPath": "/article/front/article-meta/abstract[1]/sec[5]/p[1]",
+          "text": "Patients testing positive for COVID-19 were significantly more likely to have a vestibular disorder compared to the control population. Compared to control patients, the odds ratio of vestibular disorders was significantly elevated in patients with untyped (odds ratio [OR], 2.39; confidence intervals [CI], 2.29–2.50; P < 0.001), alpha (OR, 3.63; CI, 3.48–3.78; P < 0.001), delta (OR, 3.03; CI, 2.94–3.12; P < 0.001), omicron 21K variant (OR, 2.97; CI, 2.90–3.04; P < 0.001), and omicron 23A variant (OR, 8.80; CI, 8.35–9.27; P < 0.001)."
+        },
+        {
+          "section": "Conclusions:",
+          "fieldPath": "/article/front/article-meta/abstract[1]/sec[6]/p[1]",
+          "text": "The incidence of vestibular disorders differed between COVID-19 variants and was significantly elevated in COVID-19-positive patients compared to the control population. These findings have implications for patient counseling and further research is needed to discern the long-term effects of these findings."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13580852",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:51:56.427Z",
+      "version": "PMC13580852.1",
+      "contentHash": "sha256:eb9564f2f5c549b0ff46e0f6641777e17d5371e94559554d6868e952cb8ab4cf",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.1002/open.202400319",
+      "pmid": "39599934",
+      "abstractParagraphs": [
+        {
+          "section": "Abstract",
+          "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+          "text": "The major threat to public health due to the outbreak of severe acute respiratory syndrome coronavirus‐2 (SARS‐CoV‐2) infection has been recognised as a global issue. The increase in morbidity is primarily due to the lack of SARS‐CoV‐2 specific drugs. One of the major strategies to combat this threat is to deactivate the enzymes responsible for the replication of corona virus. To this end, 3‐arylidene/3‐hydroxycoumarin induced deactivation of 3‐chymotrypsin like protease (3CLpro) enzyme, which takes the pivotal role in the replication and maturation, was investigated. For ready availability of the compounds for the above investigation, we have developed a user‐friendly protocol for the synthesis 3‐hydroxycoumarin derivatives from cheap and readily available starting materials in two steps; i) Bronsted acid catalysed Friedel‐Crafts alkylation of phenols with Morita‐Baylis‐Hillman adducts followed by intramolecular lactonization to trans‐3‐arylidenechroman‐2‐ones in one‐pot and ii) ozonolysis in reasonably good yields. Pharmacokinetic assessments of coumarin derivatives revealed drug‐like characteristics with moderate or low toxicity values. Notably, these hydroxycoumarins exhibited enhanced binding affinity against the 3CL protease of SARS‐CoV‐2, fitting well into the binding pocket akin to the previously studied inhibitor N3. Furthermore, a molecular dynamics study elucidated the dynamic behaviour of these small molecules when bound to the protein, showcasing intriguing complexities within the active site. Despite backbone variations and residual fluctuations, compounds 3 d–f and 6 a exhibited a consistent behaviour, instilling confidence in the therapeutic potential of these coumarins for combating SARS‐CoV‐2."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13494990",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:51:57.183Z",
+      "version": "PMC13494990.1",
+      "contentHash": "sha256:db34d8d3c418b2d1e98dded2ed94d9be2b5bdae7d9e3f269d355295241ff6333",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.3389/ftubr.2024.1378068",
+      "pmid": "42638777",
+      "abstractParagraphs": [
+        {
+          "section": "Abstract",
+          "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+          "text": "The COVID pandemic and tuberculosis (TB) endemicity is double trouble to much of the world. SARS-CoV-2 and Mycobacterium tuberculosis (Mtb), causative agents of COVID and TB, respectively, are both infectious respiratory pathogens involving close communities and individuals. Both pathogens can cause lung disease, involving unbalanced inflammatory cell immune responses that can lead to a syndemic impact. Moreover, dual infection is common in certain settings. In low- and middle- income countries, most individuals with SARS-CoV-2 infection or COVID-19, in fact, will have been exposed to or infected with Mtb and some will develop active TB. Here we review the literature examining the diverse interactions of M. tuberculosis infection and of BCG vaccination with SARS-CoV-2. We discuss areas in which contradictory results have been published and conclude that there are still several unresolved issues that warrant further study on the co-pathogenesis of SARS-CoV-2 and Mtb and BCG- mediated heterologous protection against COVID-19."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13488799",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:51:57.902Z",
+      "version": "PMC13488799.1",
+      "contentHash": "sha256:d55b23d960b562dc9e8d03bc4e34a7f14505c071eb4f7cbf0e6691052221e13a",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.1186/s42358-024-00418-3",
+      "pmid": "39385233",
+      "abstractParagraphs": [
+        {
+          "section": "Background",
+          "elementId": "Par1",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[1]/p[@id='Par1']",
+          "text": "SARS-CoV-2 infection has become a major international issue, not only from a medical point of view, but also social, economic and political. Most of the available information comes from the United States, Europe, and China, where the population and the socioeconomic status are very different from Latin American countries. This study evaluates the effect of regional socioeconomic characteristics on mortality due SARS-CoV-2 infection in patients with immune-mediated rheumatic diseases (IMRD) from Argentina, Mexico and Brazil."
+        },
+        {
+          "section": "Methods",
+          "elementId": "Par2",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[2]/p[@id='Par2']",
+          "text": "Data from three national registries, SAR-COVID (Argentina), CMR-COVID (Mexico) and ReumaCoV-Brasil (Brazil), were combined. Adult IMRD patients with SARS-CoV-2 infection were recruited. National data for each province/state, including population density, number of physicians per inhabitant, income, unemployment, GINI index, Municipal Human Development Index (MHDI), stringency index, vaccination rate and most frequent viral strains per period were assessed as risk factors for mortality due to COVID-19."
+        },
+        {
+          "section": "Results",
+          "elementId": "Par3",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[3]/p[@id='Par3']",
+          "text": "A total of 4744 patients were included, 2534 (53.4%) from SAR-COVID, 1166 (24.6%) from CMRCOVID and 1044 (22.0%) from ReumaCoV-Brasil. Mortality due to COVID-19 was 5.4%. In the multivariable analysis, higher number of physicians per 1000 inhabitants and being infected during the vaccination period of each country were associated with lower mortality. After adjustment for socioeconomic factors, there was no association with country of residence and mortality."
+        },
+        {
+          "section": "Conclusion",
+          "elementId": "Par4",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[4]/p[@id='Par4']",
+          "text": "These findings corroborate the complex interplay between socioeconomic factors, rheumatic disease activity, and regional disparities as determinants of death due to COVID-19 in Argentina, Brazil and Mexico. Thus, this research provides valuable insights for guiding public health policies and clinical practice in the ongoing fight against the COVID-19 pandemic."
+        },
+        {
+          "section": "Supplementary Information",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[5]/p[1]",
+          "text": "The online version contains supplementary material available at 10.1186/s42358-024-00418-3."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13488655",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:51:58.607Z",
+      "version": "PMC13488655.1",
+      "contentHash": "sha256:2b7b968cb444e7c3e03a099550947551d3b215ccc308e2924d9734078f70143a",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.1186/s42358-024-00397-5",
+      "pmid": "39135131",
+      "abstractParagraphs": [
+        {
+          "section": "Background",
+          "elementId": "Par1",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[1]/p[@id='Par1']",
+          "text": "Patients with immune-mediated rheumatic diseases (IMRDs) have been prioritized for COVID-19 vaccination to mitigate the infection severity risks. Patients with rheumatoid arthritis (RA) are at a high risk of severe COVID-19 outcomes, especially those under immunosuppression or with associated comorbidities. However, few studies have assessed the safety of the COVID-19 vaccine in patients with RA."
+        },
+        {
+          "section": "Objective",
+          "elementId": "Par2",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[2]/p[@id='Par2']",
+          "text": "To evaluate the safety of vaccines against SARS-CoV-2 in patients with RA."
+        },
+        {
+          "section": "Methods",
+          "elementId": "Par3",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[3]/p[@id='Par3']",
+          "text": "This data are from the study “Safety and Efficacy on COVID-19 Vaccine in Rheumatic Diseases,” a Brazilian multicentric prospective phase IV study to evaluate COVID-19 vaccine in IMRDs in Brazil. Adverse events (AEs) in patients with RA of all centers were assessed after two doses of ChAdOx1 (Oxford/AstraZeneca) or CoronaVac (Sinovac/Butantan). Stratification of postvaccination AEs was performed using a diary, filled out daily and returned at the end of 28 days for each dose."
+        },
+        {
+          "section": "Results",
+          "elementId": "Par4",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[4]/p[@id='Par4']",
+          "text": "A total of 188 patients with RA were include, 90% female. CoronaVac was used in 109 patients and ChAdOx1 in 79. Only mild AEs were observed, mainly after the first dose. The most common AEs after the first dose were pain at the injection (46,7%), headache (39,4%), arthralgia (39,4%), myalgia (30,5%) and fatigue (26,6%), and ChAdOx1 had a higher frequency of pain at the injection (66% vs 32 %, p < 0.001) arthralgia (62% vs 22%, p < 0.001) and myalgia (45% vs 20%, p < 0.001) compared to CoronaVac. The more common AEs after the second dose were pain at the injection (37%), arthralgia (31%), myalgia (23%), headache (21%) and fatigue (18%). Arthralgia (41,4% vs 25%, p = 0.02) and pain at injection (51,4% vs 27%, p = 0.001) were more common with ChAdOx1. No serious AEs were related. With Regard to RA activity level, no significant difference was observed between the three time periods for both COVID-19 vaccines."
+        },
+        {
+          "section": "Conclusion",
+          "elementId": "Par5",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[5]/p[@id='Par5']",
+          "text": "In the comparison between the two immunizers in patients with RA, local reactions and musculoskeletal symptoms were more frequent with ChAdOx1 than with CoronaVac, especially after the first dose. In summary, the AE occurred mainly after the first dose, and were mild, like previous data from others immunizing agents in patients with rheumatoid arthritis. Vaccination did not worsen the degree of disease activity."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13456083",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:51:59.280Z",
+      "version": "PMC13456083.1",
+      "contentHash": "sha256:4b456c3c80d90335c3d3a33dc8cf8c13a6d9fc74c993225ee8f6419cafb62d19",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.1146/annurev-immunol-083122-043054",
+      "pmid": "39705164",
+      "abstractParagraphs": [
+        {
+          "section": "Abstract",
+          "elementId": "P1",
+          "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P1']",
+          "text": "The persistence of SARS-CoV-2 infections at a global level reflects the repeated emergence of variant strains encoding unique constellations of mutations. These variants have been generated principally because of a dynamic host immune landscape, the countermeasures deployed to combat disease, and selection for enhanced infection of the upper airway and respiratory transmission. The resulting viral diversity creates a challenge for vaccination efforts to maintain efficacy, especially regarding humoral aspects of protection. Here, we review our understanding of how SARS-CoV-2 has evolved during the pandemic, the immune mechanisms that confer protection, and the impact viral evolution has had on transmissibility and adaptive immunity elicited by natural infection and/or vaccination. Evidence suggests that SARS-CoV-2 evolution initially selected variants with increased transmissibility but currently is driven by immune escape. The virus likely will continue to drift to maintain fitness until countermeasures capable of disrupting transmission cycles become widely available."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13380264",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:52:00.079Z",
+      "version": "PMC13380264.1",
+      "contentHash": "sha256:5a808059a87f3c7dbfeb3ed8430e4f58f1f1a3ea3913b436a944491bd7832ff2",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.1016/j.virol.2024.110255",
+      "pmid": "39366027",
+      "abstractParagraphs": [
+        {
+          "section": "Abstract",
+          "elementId": "P1",
+          "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P1']",
+          "text": "We biochemically simulated the mutation synthesis process of SARS-CoV-2 RNA-dependent RNA polymerase (RdRp) complex (nsp7/nsp8/nsp12) involving two sequential mechanistic steps that occur during genomic replication: misinsertion (incorporation of incorrect nucleotides) and mismatch extension. Then, we also simulated mismatch repair process catalyzed by the viral nsp10/nsp14 ExoN complex. In these mechanistic simulations, while SARS-CoV-2 RdRp displays efficient mutation synthesis capability, the viral ExoN complex was able to effectively repair the mismatch primers generated during the mutation synthesis. Also, we observed that the delayed RNA synthesis induced by mutation synthesis process was rescued by the viral ExoN activity. Collectively, our biochemical simulations suggest that SARS-CoV-2 ExoN complex may contribute to both maintenance of proper viral genetic diversity levels and successful completion of the viral large RNA genome replication by removing mismatches generated by the viral RdRp."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11826387",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:52:00.795Z",
+      "version": "PMC11826387.1",
+      "contentHash": "sha256:566f37cc336b8c3fc0320b3cf0019ae0afdc05a4f3d5b0c57ae730b717fd507f",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.31661/gmj.v13i.3625",
+      "pmid": "42038153",
+      "abstractParagraphs": [
+        {
+          "section": "Abstract",
+          "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+          "text": "Background: COVID-19 infection can negatively affect multiple organ systems, including the reproductive system. Previous research has indicated altered levels of inflammatory markers in the reproductive tissues of women with chronic diseases. This study aimed to assess the expression of inflammatory, vascular, cell cycle, and gonadotropin receptor genes in the granulosa cells and oocytes of women with recent COVID-19 infection undergoing Assisted Reproductive Technology (ART), compared to healthy controls.Materials and Methods: The study involved 15 women who had tested positive for COVID-19 within three months of ART treatment and 15 age-matched healthy women as controls. Granulosa cells were collected during oocyte retrieval, and RNA was isolated to analyze gene expression using quantitative real-time PCR. The evaluated genes included inflammatory cytokines (IL-1B, TNF-α, IL-6, IL-8), vascular genes (VEGF, ANGPT1), cell cycle regulators (FOXL2, Cyclin D1, Cyclin D2, KLF4), and gonadotropin receptors (LHCGR, FSHR).Results: Results showed significantly higher expression of inflammatory cytokines in the granulosa cells of COVID-19 positive women, including IL-1B (4.2-fold), TNF-α (3.8-fold), IL-8 (2.5-fold), and IL-6 (3.2-fold). Vascular genes VEGF and ANGPT1 were also overexpressed, while FOXL2 was downregulated and Cyclin D1/D2 were upregulated in the study group. However, LH and FSH receptor expression remained similar between both groups.Conclusion: The present study demonstrates altered gene expression of inflammatory cytokines, vascular factors and cell cycle regulators in granulosa cells and oocytes of COVID-19 positive women undergoing ART. The dysregulated molecular pathways could potentially impair folliculogenesis and oocyte development in SARS-CoV-2 infected individuals."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12973230",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:52:01.555Z",
+      "version": "PMC12973230.1",
+      "contentHash": "sha256:353534cee78e4d8afbd10abd3e6b5ab64c393bd7d472cfaf877cfc89e49deeb0",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.15212/zoonoses-2024-0028",
+      "pmid": "41816638",
+      "abstractParagraphs": [
+        {
+          "section": "Background:",
+          "elementId": "P4",
+          "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/sec[@id='S1']/p[@id='P4']",
+          "text": "Zoonotic transmission of severe acute respiratory coronavirus 2 (SARS-CoV-2) has been found to result in infections in more than 30 mammalian species. The SARS-CoV-2 spike protein binds to the host’s angiotensin converting enzyme 2 (ACE2) cell surface receptor to gain entry into the cell. ACE2 protein sequence conservation has therefore been evaluated across species, and species with amino acid substitutions in ACE2 were ranked low for susceptibility to SARS-CoV-2 infection. However, many of these species have become infected by the virus."
+        },
+        {
+          "section": "Methods:",
+          "elementId": "P5",
+          "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/sec[@id='S2']/p[@id='P5']",
+          "text": "This study investigated the conservation of 24 host protein targets, including the entry proteins ACE2 and transmembrane serine protease 2 (TMPRSS2); 21 proteins in the interferon-I (IFN-I) antiviral response pathway; and tethrin, a protein that suppresses new virion release from cells. Bioinformatics approaches including Sequence Alignment to Predict Across Species Susceptibility (SeqAPASS), Molecular Operating Environment (MOE), and iCn3D software were used to compare protein sequence similarity, conserved domains, and critical amino acids for host-viral protein-protein interactions. The types of bonding interactions were scored, and the results were compared with empirical data indicating which species have or have not become infected."
+        },
+        {
+          "section": "Results:",
+          "elementId": "P6",
+          "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/sec[@id='S3']/p[@id='P6']",
+          "text": "This pathway approach revealed that 1) 13 proteins were conserved, whereas five lacked data sufficient to determine specific critical amino acids; 2) variation in protein-protein interfaces is tolerated for many amino acid substitutions, and these substitutions follow taxonomic clades rather than correlating with empirically determined species infection status; and 3) four proteins (MDA5, NEMO, IRF3, and ISG15) contained potential domains or specific amino acids whose substitution may result in PPI disruption."
+        },
+        {
+          "section": "Conclusion:",
+          "elementId": "P7",
+          "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/sec[@id='S4']/p[@id='P7']",
+          "text": "This work provides evidence that certain substitutions in four IFN-I antiviral pathway proteins appear able to disrupt interactions and may be distinctive to resistant species, thus potentially aiding in determining species’ likelihood of transmitting SARS-CoV-2."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12912400",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:52:02.236Z",
+      "version": "PMC12912400.1",
+      "contentHash": "sha256:59a67fa85edd209c7f486af3a7cbe960efd93ae34926eebdd1206f263c454c84",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.1038/s44325-024-00011-z",
+      "pmid": "41776324",
+      "abstractParagraphs": [
+        {
+          "section": "Abstract",
+          "elementId": "Par1",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/p[@id='Par1']",
+          "text": "People with COVID-19 can experience post-acute sequelae of SARS-CoV-2 (PASC). Studies on risk factors of PASC outcomes are ongoing, especially for endocrine system-related diseases that may impact the cardiovascular system. Cardiac-related PASC is one of the burdens after COVID-19 infection. This study aimed to examine the risk factors of cardiac-related PASC. In this nested case-control study, we obtained electronic health records (EHRs) database from the Hong Kong Hospital Authority. We defined cases as patients with at least one cardiac-related PASC and controls as patients without any cardiac-related PASC. We applied the incidence density sampling and matched controls to cases on age and sex at a 1:10 ratio. Multivariable conditional logistic regression was used to determine the associations between risk factors and cardiac-related PASC. A total of 455 individuals with cardiac-related PASC and matched 3,423 controls were obtained in the underlying cohort. COVID-19-associated hospitalisation (aOR: 1.41, 95% CI: 1.03–1.93) and peripheral vascular disease (aOR: 2.98, 95% CI: 1.31–6.79) were associated with an increased likelihood of cardiac-related PASC. Higher doses of the COVID-19 vaccine (2 doses: 0.68 [0.52–0.89]; ≥3 doses: 0.56 [0.40–0.78]) and more frequent healthcare utilization visits (aOR: 0.95, 95% CI: 0.92–0.97) were associated with a lower likelihood of cardiac-related PASC. This is the first study to examine risk factors of cardiac-related PASC among the Chinese population. We identified peripheral vascular disease and COVID-19-associated hospitalisation as the risk factors for cardiac-related PASC. COVID-19 vaccination was protective against cardiac-related PASC, which should be prioritized for high-risk patients."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12806009",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:52:02.903Z",
+      "version": "PMC12806009.1",
+      "contentHash": "sha256:e1269c525a652474053ac8b58d3d4511d09737a20c85367e1ee841539a5033f8",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.1002/qub2.64",
+      "pmid": "41674874",
+      "abstractParagraphs": [
+        {
+          "section": "Abstract",
+          "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+          "text": "Gene regulatory network (GRN) refers to the complex network formed by regulatory interactions between genes in living cells. In this paper, we consider inferring GRNs in single cells based on single‐cell RNA sequencing (scRNA‐seq) data. In scRNA‐seq, single cells are often profiled from mixed populations, and their cell identities are unknown. A common practice for single‐cell GRN analysis is to first cluster the cells and infer GRNs for every cluster separately. However, this two‐step procedure ignores uncertainty in the clustering step and thus could lead to inaccurate estimation of the networks. Here, we consider the mixture Poisson log‐normal model (MPLN) for network inference of count data from mixed populations. The precision matrices of the MPLN are the GRNs of different cell types. To avoid the intractable optimization of the MPLN’s log‐likelihood, we develop an algorithm called variational mixture Poisson log‐normal (VMPLN) to jointly estimate the GRNs of different cell types based on the variational inference method. We compare VMPLN with state‐of‐the‐art single‐cell regulatory network inference methods. Comprehensive simulation shows that VMPLN achieves better performance, especially in scenarios where different cell types have a high mixing degree. Benchmarking on real scRNA‐seq data also demonstrates that VMPLN can provide more accurate network estimation in most cases. Finally, we apply VMPLN to a large scRNA‐seq dataset from patients infected with severe acute respiratory syndrome coronavirus 2 (SARS‐CoV‐2) and find that VMPLN identifies critical differences in regulatory networks in immune cells between patients with moderate and severe symptoms. The source codes are available on the GitHub website (github.com/XiDsLab/SCVMPLN)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12873539",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:52:03.750Z",
+      "version": "PMC12873539.2",
+      "contentHash": "sha256:e47f19fae48a82f1fdafb76e158d0fc7ac43a32a18dde8aa615bd59e11bd3e67",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.12688/f1000research.127061.2",
+      "pmid": "41657972",
+      "abstractParagraphs": [
+        {
+          "section": "Background",
+          "fieldPath": "/article/front/article-meta/abstract[1]/sec[1]/p[1]",
+          "text": "A coronavirus identified in 2019, SARS-CoV-2, has caused a pandemic of respiratory illness, called COVID-19. Most people with COVID-19 experience mild to moderate symptoms and recover without the need for special treatments. The SARS‑CoV‑2 RNA‑dependent RNA polymerase (RdRp) plays a crucial role in the viral life cycle. The active site of the RdRp is a very accessible region, so targeting this region to study the inhibition of viral replication may be an effective therapeutic approach. For this reason, this study has selected and analysed a series of ligands used as SARS-CoV-2 virus inhibitors, namely: Darunavir (Daru), Dexamethasona (Dexame), Dolutegravir (Dolu), Fosamprenavir (Fosam), Ganciclovir (Gan), Insoine (Inso), Lopinavir (Lop), Ritonavir (Rito) and Tipranavir (Tipra)."
+        },
+        {
+          "section": "Methods",
+          "fieldPath": "/article/front/article-meta/abstract[1]/sec[2]/p[1]",
+          "text": "These ligands were analyzed using molecular docking, molecular quantum similarity using four similarity indices like overlap, Coulomb and their Euclidean distances. On the other hand, these outcomes were supported with chemical reactivity indices defined within a conceptual density functional theory framework."
+        },
+        {
+          "section": "Results",
+          "fieldPath": "/article/front/article-meta/abstract[1]/sec[3]/p[1]",
+          "text": "The results show the conformations with the highest root-mean-square deviation (RMSD), have π-π stacking interaction with residue LYS621, ARG555 and ASP623, CYS622, ASP760, among others. In the molecular quantum similarity, the highest indices have been obtained in the electronic similarity in comparison with the structural similarity."
+        },
+        {
+          "section": "Conclusions",
+          "fieldPath": "/article/front/article-meta/abstract[1]/sec[4]/p[1]",
+          "text": "These studies allow the identification of the main stabilizing interactions using the crystal structure of SARS‑CoV‑2 RNA‑dependent RNA polymerase. In this order of ideas, this study provides new insights into these ligands that can be used in the design of new COVID-19 treatments. The studies allowed us to find an explanation supported in the Density Functional Theory about the chemical reactivity and the stabilization in the active site of the ligands."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12859536",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:52:04.501Z",
+      "version": "PMC12859536.1",
+      "contentHash": "sha256:f476af2bf56dd573d09ac52b25ff7772f217a30aa853f43bd51816bc260944af",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.1002/bimj.202400027",
+      "pmid": "39001710",
+      "abstractParagraphs": [
+        {
+          "section": "ABSTRACT",
+          "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+          "text": "A generalization of Passing–Bablok regression is proposed for comparing multiple measurement methods simultaneously. Possible applications include assay migration studies or interlaboratory trials. When comparing only two methods, the method boils down to the usual Passing–Bablok estimator. It is close in spirit to reduced major axis regression, which is, however, not robust. To obtain a robust estimator, the major axis is replaced by the (hyper‐)spherical median axis. This technique has been applied to compare SARS‐CoV‐2 serological tests, bilirubin in neonates, and an in vitro diagnostic test using different instruments, sample preparations, and reagent lots. In addition, plots similar to the well‐known Bland–Altman plots have been developed to represent the variance structure."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11800364",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:52:05.169Z",
+      "version": "PMC11800364.2",
+      "contentHash": "sha256:8590d8f5ddf1bd46a1e2192a8c92cb8ec1861ab825b2fe71571938f735b9cbe6",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.1080/29933935.2024.2439490",
+      "pmid": "39916748",
+      "abstractParagraphs": [
+        {
+          "section": "ABSTRACT",
+          "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+          "text": "Clinical studies strongly suggest the importance of diet quality on cognition in youth populations (15–24 years). The Mediterranean diet (MeDi) has been shown to improve cognition in contrast to the commonly consumed Western diet (WD). The gut microbiota may serve as a mechanism for diet-induced changes in cognition. Ten-week-old male Sprague Dawley rats were assigned a MeDi or WD (n = 10/group) for 14 weeks. Prior to neurobehavior assessments, microbiota community composition was assessed. At the genus level, the relative abundance of four bacteria increased with the MeDi and five decreased compared to the WD. Rats in the MeDi group demonstrated cognitive flexibility and improvement in reference and working memory relative to the WD group. At the end of the study, serum cytokines were increased, and low-density lipoproteins were decreased in the MeDi group. Markers for neuroinflammation, blood-brain barrier, glial cells, and synaptic plasticity in brain regions did not differ between groups. Overall, the MeDi modulated gut microbiota, cognitive function, and serum lipid and cytokines but not gene expression in the brain compared to the WD. Further studies are needed to determine causality between diet-modulated gut microbiota, cognitive function, and immune function."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12997613",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:52:05.938Z",
+      "version": "PMC12997613.1",
+      "contentHash": "sha256:71085e5e727a4c5835354f5b30b6ddf0d530c3604feaa06aa82fdcf663e2523b",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.5935/0004-2749.2023-0281",
+      "pmid": "39607280",
+      "abstractParagraphs": [
+        {
+          "section": "Abstract",
+          "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+          "text": "This study aimed to propose a guideline for amblyopia treatment and follow-up. Studies show that amblyopia leads to a series of perceptual deficits, including loss of visual acuity, stereoacuity, and contrast sensitivity. Perceptual changes are also found in the sound eye, such as those involving the types of motion perception. The gold standard of treatment remains the prescription of eyeglasses, when indicated, and patching of the dominant eye. The treatment is mostly effective in patients aged <7 years and must be discontinued gradually, tapering off patching for at least 5 weeks. Atropine may be performed for penalization in hyperopic children whose amblyopic eye has better visual acuity under cycloplegia than the fellow eye. The discovery of significant neural plasticity in the amblyopic brain after the critical period opens possibilities for new treatment modalities even after childhood."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12356413",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:52:06.681Z",
+      "version": "PMC12356413.2",
+      "contentHash": "sha256:a09b574eaaf9a37a06205712d265084e7f2e97a968e524479e13aa4951f48a35",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.3389/fstro.2024.1423887",
+      "pmid": "40822706",
+      "abstractParagraphs": [
+        {
+          "section": "Abstract",
+          "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+          "text": "Cardiac arrest-induced global cerebral ischemia (GCI) results in profound cognitive impairment in survivors. Our prior work demonstrated persistent disruption of long-term potentiation (LTP) in hippocampal CA1 neurons, correlating with learning and memory deficits in a rodent model of cardiac arrest/cardiopulmonary resuscitation (CA/CPR). Delayed inhibition of the Ca2+-permeable TRPM2 ion channel restored LTP post-CA/CPR, yet the mechanisms upstream of TRPM2 activation remain elusive. This study investigates CD38 as a potential regulator of TRPM2, highlighting a novel target to reverse hippocampal synaptic plasticity deficits after ischemia. We observe elevated levels of CD38 in activated astrocytes in the CA1 region of the hippocampus 7 days following CA/CPR in both male and female mice. Delayed inhibition of CD38 reverses hippocampal synaptic plasticity impairments at subacute timepoints after CA/CPR, phenocopying TRPM2 restoration of LTP. Our previous findings demonstrated that TRPM2 inhibition reverses the CA/CPR-induced enhancement of GABAA receptor (GABAAR) clustering, which contribute to ongoing LTP deficits. We, therefore, assessed the effect of CD38 on GABAergic inhibitory potentiation and find that inhibition of CD38 reverses GABAAR clustering in a TRPM2-dependent manner. In this study, we identify astroglial CD38 as a potential target and upstream regulator of the TRPM2 channel, offering a promising approach to restore hippocampal synaptic plasticity impairments following GCI through modulation of GABAergic signaling."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11864087",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:52:07.433Z",
+      "version": "PMC11864087.1",
+      "contentHash": "sha256:2faa96f03e721fafdc81d42c505cb877546fbf078c085a4a6d6925d73c3cb662",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.1146/annurev-pharmtox-061724-080548",
+      "pmid": "39374445",
+      "abstractParagraphs": [
+        {
+          "section": "Abstract",
+          "elementId": "P1",
+          "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P1']",
+          "text": "The last two decades have witnessed substantial advances in identifying synaptic plasticity responsible for behavioral changes in animal models of substance use disorder. We have learned the most about cocaine-induced plasticity in the nucleus accumbens and its relationship to cocaine seeking, so that is the focus in this review. Synaptic plasticity pointing to potential therapeutic targets has been identified mainly using two drug self-administration models: extinction-reinstatement and abstinence models. A relationship between cocaine seeking and potentiated AMPAR transmission in nucleus accumbens is indicated by both models. In particular, an atypical subpopulation—Ca2+-permeable or CP-AMPARs—mediates cue-induced seeking that persists even after long periods of abstinence, modeling the persistent vulnerability to relapse that represents a major challenge in treating substance use disorder. We review strategies to reverse CP-AMPAR plasticity; strategies targeting other components of excitatory synapses, including dysregulated glutamate uptake and release; and behavioral interventions that can be augmented by harnessing synaptic plasticity."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12697572",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:52:08.237Z",
+      "version": "PMC12697572.1",
+      "contentHash": "sha256:3780848bd574d366cd2e54fb28861843e0a143f5ea8db3a52d97d3c6afbff562",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.1126/sciadv.adi4350",
+      "pmid": "38507489",
+      "abstractParagraphs": [
+        {
+          "section": "Abstract",
+          "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+          "text": "Cortical excitatory neurons show clear tuning to stimulus features, but the tuning properties of inhibitory interneurons are ambiguous. While inhibitory neurons have been considered to be largely untuned, some studies show that some parvalbumin-expressing (PV) neurons do show feature selectivity and participate in co-tuned subnetworks with pyramidal neurons. In this study, we first use mean-field theory to demonstrate that a combination of homeostatic plasticity governing the synaptic dynamics of the connections from PV to excitatory neurons, heterogeneity in the excitatory postsynaptic potentials that impinge on PV neurons, and shared correlated input from layer 4 results in the functional and structural self-organization of PV subnetworks. Second, we show that structural and functional feature tuning of PV neurons emerges more clearly at the network level, i.e., that population-level measures identify functional and structural co-tuning of PV neurons that are not evident in pairwise individual-level measures. Finally, we show that such co-tuning can enhance network stability at the cost of reduced feature selectivity."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12073661",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:52:08.999Z",
+      "version": "PMC12073661.1",
+      "contentHash": "sha256:fc6fb26c809647260f2231d645c1cc1747c5ce78948aa5e1bde9c2fe5b3fff6e",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.1088/1741-2552/ad8961",
+      "pmid": "39433067",
+      "abstractParagraphs": [
+        {
+          "section": "Objective.",
+          "elementId": "P1",
+          "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/sec[@id='S1']/p[@id='P1']",
+          "text": "Finger dexterity, and finger individuation in particular, is crucial for human movement, and disruptions due to brain injury can significantly impact quality of life. Understanding the neurological mechanisms responsible for recovery is vital for effective neurorehabilitation. This study explores the role of two key pathways in finger individuation: the corticospinal (CS) tract from the primary motor cortex and premotor areas, and the subcortical reticulospinal (RS) tract from the brainstem. We aimed to investigate how the cortical-reticular network reorganizes to aid recovery of finger dexterity following lesions in these areas."
+        },
+        {
+          "section": "Approach.",
+          "elementId": "P2",
+          "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/sec[@id='S2']/p[@id='P2']",
+          "text": "To provide a potential biologically plausible answer to this question, we developed an artificial neural network (ANN) to model the interaction between a premotor planning layer, a cortical layer with excitatory and inhibitory CS outputs, and RS outputs controlling finger movements. The ANN was trained to simulate normal finger individuation and strength. A simulated stroke was then applied to the CS area, RS area, or both, and the recovery of finger dexterity was analyzed."
+        },
+        {
+          "section": "Main results.",
+          "elementId": "P3",
+          "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/sec[@id='S3']/p[@id='P3']",
+          "text": "In the intact model, the ANN demonstrated a near-linear relationship between the forces of instructed and uninstructed fingers, resembling human individuation patterns. Post-stroke simulations revealed that lesions in both CS and RS regions led to increased unintended force in uninstructed fingers, immediate weakening of instructed fingers, improved control during early recovery, and increased neural plasticity. Lesions in the CS region alone significantly impaired individuation, while RS lesions affected strength and to a lesser extent, individuation. The model also predicted the impact of stroke severity on finger individuation, highlighting the combined effects of CS and RS lesions."
+        },
+        {
+          "section": "Significance.",
+          "elementId": "P4",
+          "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/sec[@id='S4']/p[@id='P4']",
+          "text": "This model provides insights into the interactive role of cortical and subcortical regions in finger individuation. It suggests that recovery mechanisms involve reorganization of these networks, which may inform neurorehabilitation strategies."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12599878",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:52:09.708Z",
+      "version": "PMC12599878.1",
+      "contentHash": "sha256:885d8b4f49e3c8de0e809ab8adc3a9ccc7bda4233865cb18e0b84ac191e489ce",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.34133/research.0402",
+      "pmid": "41221079",
+      "abstractParagraphs": [
+        {
+          "section": "Abstract",
+          "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+          "text": "Addressing the urgent need for innovative depression treatments, this study heralds a breakthrough in major depressive disorder (MDD) therapy by intertwining clinical observations with neurobiological advancements. We analyzed brain-derived neurotrophic factor (BDNF) levels in serum exosomes from a diverse group of 60 individuals, including first-episode, drug-free MDD patients, medicated MDD patients, and healthy controls. Our results revealed a significant decrease in BDNF levels within MDD patients’ exosomes, which notably increased post-medication, highlighting BDNF’s potential as a biomarker for both MDD diagnosis and treatment efficacy. Advancing these clinical findings, we developed RVG-modified exosomes engineered to overexpress BDNF (RVG-BDNF-Exos), designed to directly target neuronal cells. Our findings demonstrate that these engineered exosomes can successfully traverse the blood–brain barrier, targeting neurons in the hippocampus and prefrontal cortex. In our mouse model of depression induced by lipopolysaccharide, RVG-BDNF-Exos treatment led to a significant increase of BDNF in these key brain regions, crucial for mood regulation and neurogenesis. This intervention modulated the BDNF/TrkB/AKT signaling pathway, central to neural plasticity and implicated in depression’s pathogenesis. Behavioral assessments exhibited substantial improvements in depressive-like behaviors in mice treated with RVG-BDNF-Exos, including reduced immobility in Tail Suspension and Forced Swim Tests. Additionally, our treatment effectively decreased neuroinflammation, as evidenced by the reduction in microglia and astrocyte numbers. Moreover, RVG-BDNF-Exos treatment enhanced neurogenesis and regulated synaptic plasticity, as indicated by the increased expression of neuronal markers MAP2 and DCX, and synaptic proteins PSD95 and Syn-1. In conclusion, this study not only underscores the clinical potential of serum exosomal BDNF as a diagnostic and therapeutic marker for MDD but also demonstrates the efficacy of RVG-BDNF-Exos in alleviating depressive symptoms. Our findings pave the way for future targeted, personalized psychiatric treatments, offering a promising direction in MDD therapy."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12559990",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:52:10.467Z",
+      "version": "PMC12559990.1",
+      "contentHash": "sha256:afd9b77e32284abbfa6acc0f01bf45da775bddd75d9c03225f06468fde6c8bc3",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.1113/jp286400",
+      "pmid": "39367860",
+      "abstractParagraphs": [
+        {
+          "section": "Abstract",
+          "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+          "text": "The synaptic vesicle cluster (SVC) is an essential component of chemical synapses, which provides neurotransmitter‐loaded vesicles during synaptic activity, at the same time as also controlling the local concentrations of numerous exo‐ and endocytosis cofactors. In addition, the SVC hosts molecules that participate in other aspects of synaptic function, from cytoskeletal components to adhesion proteins, and affects the location and function of organelles such as mitochondria and the endoplasmic reticulum. We argue here that these features extend the functional involvement of the SVC in synapse formation, signalling and plasticity, as well as synapse stabilization and metabolism. We also propose that changes in the size of the SVC coalesce with changes in the postsynaptic compartment, supporting the interplay between pre‐ and postsynaptic dynamics. Thereby, the SVC could be seen as an ‘all‐in‐one’ regulator of synaptic structure and function, which should be investigated in more detail, to reveal molecular mechanisms that control synaptic function and heterogeneity."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12559981",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:52:11.244Z",
+      "version": "PMC12559981.1",
+      "contentHash": "sha256:2036118b1dab2067248651bbb9b5cc7f202915926ce8ccc3fdc300e926c54bbe",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.1113/jp286176",
+      "pmid": "39183664",
+      "abstractParagraphs": [
+        {
+          "section": "Abstract",
+          "fieldPath": "/article/front/article-meta/abstract[1]/sec[@id='tjp16257-sec-0010']/p[1]",
+          "text": "Repetitive synaptic stimulation can induce different forms of synaptic plasticity but may also limit the robustness of synaptic transmission by exhausting key resources. Little is known about how synaptic transmission is stabilized after high‐frequency stimulation. In the present study, we observed that tetanic stimulation of the Drosophila neuromuscular junction (NMJ) decreases quantal content, release‐ready vesicle pool size and synaptic vesicle density for minutes after stimulation. This was accompanied by a pronounced increase in quantal size. Interestingly, action potential‐evoked synaptic transmission remained largely unchanged. EPSC amplitude fluctuation analysis confirmed the post‐tetanic increase in quantal size and the decrease in quantal content, suggesting that the quantal size increase counteracts release depression to maintain evoked transmission. The magnitude of the post‐tetanic quantal size increase and release depression correlated with stimulation frequency and duration, indicating activity‐dependent stabilization of synaptic transmission. The post‐tetanic quantal size increase persisted after genetic ablation of the glutamate receptor subunits GluRIIA or GluRIIB, and glutamate receptor calcium permeability, as well as blockade of postsynaptic calcium channels. By contrast, it was strongly attenuated by pharmacological or presynaptic genetic perturbation of the GTPase dynamin. Similar observations were made after inhibition of the H+‐ATPase, suggesting that the quantal size increase is presynaptically driven. Additionally, dynamin and H+‐ATPase perturbation resulted in a post‐tetanic decrease in evoked amplitudes. Finally, we observed an increase in synaptic vesicle diameter after tetanic stimulation. Thus, a presynaptically‐driven quantal size increase, likely mediated by larger synaptic vesicles, counterbalances post‐tetanic release depression, thereby conferring robustness to synaptic transmission on the minute time scale."
+        },
+        {
+          "section": "Key points",
+          "fieldPath": "/article/front/article-meta/abstract[1]/sec[@id='tjp16257-sec-0020']/p[1]",
+          "text": "Many synapses transmit robustly after sustained activity despite the limitation of key resources, such as release‐ready synaptic vesicles.We report robust synaptic transmission after sustained high‐frequency stimulation of the Drosophila neuromuscular junction despite a reduction in release‐ready vesicle number.An increased postsynaptic response to individual vesicles, likely driven by an increase in vesicle size due to endocytosis defects, stabilizes synaptic efficacy for minutes after sustained activity.Our study provides novel insights into the mechanisms governing synaptic stability after sustained neural activity."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12539541",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:52:12.011Z",
+      "version": "PMC12539541.1",
+      "contentHash": "sha256:02d5000f76b26d89aead2aea1e1f8ed7ac6eba95b95f536d777fbe86641dcb79",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "doi": "10.14336/ad.2024.1089",
+      "pmid": "39812540",
+      "abstractParagraphs": [
+        {
+          "section": "Abstract",
+          "fieldPath": "/article/front/article-meta/abstract[1]/p[1]",
+          "text": "The gut-brain axis is a bidirectional communication pathway that modulates cognitive function. A dysfunctional gut-brain axis has been associated with cognitive impairments during aging. Therefore, we propose evaluating whether modulation of the gut microbiota through fecal microbiota transplantation (FMT) from young-trained donors (YT) to middle-aged or aged mice could enhance brain function and cognition in old age. Twelve-month-old male mice received an initial FMT from YT (YT-Tr) or age-matched donors (Auto-Tr) following antibiotic treatment. Three months later, the mice received a second FMT as reinforcement. Additionally, 18-month-old mice received Auto-Tr, YT-Tr, or FMT from young sedentary donors (YS-Tr). Cognitive function was assessed using novel object recognition and object location memory tests. Long-term potentiation (LTP) in hippocampal brain slices was studied, while neuroinflammation and synaptic plasticity were analyzed in hippocampal samples via qPCR and immunoblot. Gut permeability was evaluated in ileum and colon sections, serum samples were analyzed for cytokine levels, and fecal samples were used to measure short-chain fatty acid (SCFA) levels and perform 16S rRNA gene sequencing. We observed that YT-Tr, whether performed in middle age or old age, improved cognitive function in aged mice. Recognition and spatial memory were significantly enhanced in YT-Tr mice compared to Auto-Tr and YS-Tr groups. Intact LTP was observed in YT-Tr mice at 18 months of age, whereas LTP was impaired in the Auto-Tr group. Neuroinflammation was reduced, and synaptic plasticity modulators such as PSD-95 and FNDC5/Irisin were upregulated in the hippocampus of YT-Tr mice compared to both YS-Tr and Auto-Tr groups. A significant reduction in ileal and colon permeability was detected in YT-Tr animals, along with elevated cecal levels of butyrate and valerate compared to Auto-Tr. Moreover, YT-Tr decreased pro-inflammatory factors and increased anti-inflammatory factors in the serum of aged mice. Beta diversity analysis revealed significant differences in microbial community composition between YT-Tr and Auto-Tr animals, with higher abundances of Akkermansia, Prevotellaceae_ UCG-001, and Odoribacter in YT-Tr mice. In conclusion, our study demonstrates that FMT from young-trained donors improves cognitive function and synaptic plasticity by modulating gut permeability, inflammation, SCFA levels, and gut microbiota composition in aged mice."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12529104",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:52:12.769Z",
+      "version": "PMC12529104.1",
+      "contentHash": "sha256:217e3052d89667ba3d253822ba2c341b8583d7dd41ed2a6c42e2b862bf8a129e",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.1016/j.celrep.2024.113986",
+      "pmid": "38598336",
+      "abstractParagraphs": [
+        {
+          "section": "SUMMARY",
+          "elementId": "P3",
+          "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P3']",
+          "text": "Layer 5 neurons of the neocortex receive their principal inputs from layer 2/3 neurons. We seek to identify the nature and extent of the plasticity of these projections with motor learning. Using optogenetic and viral intersectional tools to selectively stimulate distinct neuronal subsets in rat primary motor cortex, we simultaneously record from pairs of corticospinal neurons associated with distinct features of motor output control: distal forelimb vs. proximal forelimb. Activation of Channelrhodopsin2-expressing layer 2/3 afferents onto layer 5 in untrained animals produces greater monosynaptic excitation of neurons controlling the proximal forelimb. Following skilled grasp training, layer 2/3 inputs onto corticospinal neurons controlling the distal forelimb associated with skilled grasping become significantly stronger. Moreover, peak excitatory response amplitude nearly doubles while latency shortens, and excitatory-to-inhibitory latencies become significantly prolonged. These findings demonstrate distinct, highly segregated, and cell-specific plasticity of layer 2/3 projections during skilled grasp motor learning."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12500796",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:52:13.454Z",
+      "version": "PMC12500796.1",
+      "contentHash": "sha256:099670f90219bfc6cabfd6d375d594eea6013d8fd2fb6978d0155f0a8ab5dc68",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.1007/s00406-024-01898-6",
+      "pmid": "39343821",
+      "abstractParagraphs": [
+        {
+          "section": "Abstract",
+          "elementId": "Par1",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/p[@id='Par1']",
+          "text": "The discovery of ketamine’s rapid antidepressant action has generated intense interest in the field of neuropsychiatry. This discovery demonstrated that to alleviate the symptoms of depression, treatments do not need to elicit substantive alterations in neuronal circuitry or trigger neurogenesis, but rather drive synaptic plasticity mechanisms to compensate for the underlying pathophysiology. The possibility of a rapidly induced antidepressant effect makes therapeutic pursuit of fast-acting neuropsychiatric medications against mood disorders plausible. In the meantime, the accumulating clinical as well as preclinical observations raise critical questions on the nature of the specific synaptic plasticity events that mediate these rapid antidepressant effects. This work has triggered the current growing interest in alternative psychoactive compounds that are thought to have similar properties to ketamine and its action. This review covers our insight into these questions based on the work our group has conducted on this topic in the last decade."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12500787",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:52:14.150Z",
+      "version": "PMC12500787.1",
+      "contentHash": "sha256:a0bad7af87cf44a3794389b115fd290c1cfcad427ce3ab25da190541c30b20a2",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.1007/s00406-024-01873-1",
+      "pmid": "39191930",
+      "abstractParagraphs": [
+        {
+          "section": "Abstract",
+          "elementId": "Par1",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/p[@id='Par1']",
+          "text": "Treatment response and resistance in major depressive disorder (MDD) show a significant genetic component, but previous studies had limited power also due to MDD heterogeneity. This literature review focuses on the genetic factors associated with treatment outcomes in MDD, exploring their overlap with those associated with clinically relevant symptom dimensions. We searched PubMed for: (1) genome-wide association studies (GWASs) or whole exome sequencing studies (WESs) that investigated efficacy outcomes in MDD; (2) studies examining the association between MDD treatment outcomes and specific depressive symptom dimensions; and (3) GWASs of the identified symptom dimensions. We identified 13 GWASs and one WES of treatment outcomes in MDD, reporting several significant loci, genes, and gene sets involved in gene expression, immune system regulation, synaptic transmission and plasticity, neurogenesis and differentiation. Nine symptom dimensions were associated with poor treatment outcomes and studied by previous GWASs (anxiety, neuroticism, anhedonia, cognitive functioning, melancholia, suicide attempt, psychosis, sleep, sociability). Four genes were associated with both treatment outcomes and these symptom dimensions: CGREF1 (anxiety); MCHR1 (neuroticism); FTO and NRXN3 (sleep). Other overlapping signals were found when considering genes suggestively associated with treatment outcomes. Genetic studies of treatment outcomes showed convergence at the level of biological processes, despite no replication at gene or variant level. The genetic signals overlapping with symptom dimensions of interest may point to shared biological mechanisms and potential targets for new treatments tailored to the individual patient’s clinical profile."
+        },
+        {
+          "section": "Supplementary Information",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[1]/p[1]",
+          "text": "The online version contains supplementary material available at 10.1007/s00406-024-01873-1."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11406684",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:52:14.982Z",
+      "version": "PMC11406684.1",
+      "contentHash": "sha256:29a62b3dbaa0d6b25b851c2e5e2646816ab627d8ee66145626713c80bdd3b7bb",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.1021/acsptsci.4c00002",
+      "pmid": "39296258",
+      "abstractParagraphs": [
+        {
+          "section": "Abstract",
+          "fieldPath": "/article/front/article-meta/abstract[1]/p[2]",
+          "text": "Brain aging is associated with cognitive decline, reduced synaptic plasticity, and altered metabolism. The activity of mechanistic target of rapamycin (mTOR) has a major impact on aging by regulating cellular metabolism. Although reduced mTOR signaling has a general antiaging effect, it can negatively affect the aging brain by reducing synaptogenesis and thus cognitive functions. Increased mTOR activity facilitates aging and is responsible for the amnestic effect of the cannabinoid receptor 1 agonist Δ9-tetrahydrocannabinol (THC) in higher doses. Long-term low-dose Δ9-THC had an antiaging effect on the brain by restoring cognitive abilities and synapse densities in old mice. Whether changes in mTOR signaling and metabolome are associated with its positive effects on the aging brain is an open question. Here, we show that Δ9-THC treatment has a tissue-dependent and dual effect on mTOR signaling and the metabolome. In the brain, Δ9-THC treatment induced a transient increase in mTOR activity and in the levels of amino acids and metabolites involved in energy production, followed by an increased synthesis of synaptic proteins. Unexpectedly, we found a similar reduction in the mTOR activity in adipose tissue and in the level of amino acids and carbohydrate metabolites in blood plasma as in animals on a low-calorie diet. Thus, long-term Δ9-THC treatment first increases the level of energy and synaptic protein production in the brain, followed by a reduction in mTOR activity and metabolic processes in the periphery. Our study suggests that a dual effect on mTOR activity and the metabolome could be the basis for an effective antiaging and pro-cognitive medication."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13313863",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:52:15.755Z",
+      "version": "PMC13313863.1",
+      "contentHash": "sha256:d1596316874e6a180abf0805e7192476254d543e806c054560a3adb3c3147d23",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.1186/s43046-024-00236-0",
+      "pmid": "39370456",
+      "abstractParagraphs": [
+        {
+          "section": "Background",
+          "elementId": "Par1",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[1]/p[@id='Par1']",
+          "text": "Although advances in immune checkpoint inhibitor (ICI) research have provided a new treatment approach for lung adenocarcinoma (LUAD) patients, their survival is still unsatisfactory, and there are issues in the era of response prediction to immunotherapy."
+        },
+        {
+          "section": "Methods",
+          "elementId": "Par2",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[2]/p[@id='Par2']",
+          "text": "Using bioinformatics methods, a prognostic signature was constructed, and its predictive ability was validated both in the internal and external datasets (GSE68465). We also explored the tumor-infiltrating immune cells, mutation profiles, and immunophenoscore (IPS) in the low-and high-risk groups."
+        },
+        {
+          "section": "Results",
+          "elementId": "Par3",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[3]/p[@id='Par3']",
+          "text": "As far as we are aware, this is the first study which introduces a novel prognostic signature model using BIRC5, CBLC, S100P, SHC3, ANOS1, VIPR1, LGR4, PGC, and IGKV4.1. According to multivariate analysis, the 9-immune-related genes (IRGs) signature provided an independent prognostic factor for the overall survival (OS). The low-risk group had better OS, and the tumor mutation burden (TMB) was significantly lower in this group. Moreover, the risk scores were negatively associated with the tumor-infiltrating immune cells, like CD8+ T cells, macrophages, dendritic cells, and NK cells. In addition, the IPS were significantly higher in the low-risk group as they had higher gene expression of immune checkpoints, suggesting that ICIs could be a promising treatment option for low-risk LUAD patients."
+        },
+        {
+          "section": "Conclusion",
+          "elementId": "Par4",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[4]/p[@id='Par4']",
+          "text": "The combination of these 9-IRGs not only could efficiently predict overall survival of LUAD patients but also show a powerful association with the expression of immune checkpoints and response to ICIs based on IPS; hoping this model paves the way for better stratification and management of patients in clinical practice."
+        },
+        {
+          "section": "Supplementary Information",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[5]/p[1]",
+          "text": "The online version contains supplementary material available at 10.1186/s43046-024-00236-0."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13268100",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:52:16.499Z",
+      "version": "PMC13268100.1",
+      "contentHash": "sha256:7efb02897fffc88da7ff475fcb5a5833ce9be08896d8327cb6f96d8600c2c378",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.1016/j.celrep.2024.114209",
+      "pmid": "38749434",
+      "abstractParagraphs": [
+        {
+          "section": "SUMMARY",
+          "elementId": "P3",
+          "fieldPath": "/article/front/article-meta/abstract[@id='ABS1']/p[@id='P3']",
+          "text": "2’3’-Cyclic guanosine monophosphate (GMP)-AMP (cGAMP) is a second messenger synthesized upon detection of cytosolic double-stranded DNA (dsDNA) and passed between cells to facilitate downstream immune signaling. Ectonucleotide pyrophosphatase phosphodiesterase I (ENPP1), an extracellular enzyme, was the only metazoan hydrolase known to regulate cGAMP levels to dampen anti-cancer immunity. Here, we uncover ENPP3 as the second and likely the only other metazoan cGAMP hydrolase under homeostatic conditions. ENPP3 has a tissue expression pattern distinct from ENPP1’s and accounts for all cGAMP hydrolysis activity in ENPP1-deficient mice. Importantly, we also show that, as with ENPP1, selectively abolishing ENPP3’s cGAMP hydrolysis activity results in diminished cancer growth and metastasis of certain tumor types in a stimulator of interferon genes (STING)-dependent manner. Both ENPP1 and ENPP3 are extracellular enzymes, suggesting the dominant role that extracellular cGAMP must play as a mediator of cell-cell innate immune communication. Our work demonstrates that ENPP1 and ENPP3 non-redundantly dampen extracellular cGAMP-STING signaling, pointing to ENPP3 as a target for cancer immunotherapy."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11996958",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:52:17.331Z",
+      "version": "PMC11996958.2",
+      "contentHash": "sha256:1d2cb24b5b19c71cca8682bdf4dea03894d28e40f5ea87d68f2e32daf53f49ad",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.1007/s13402-024-00992-0",
+      "pmid": "39325360",
+      "abstractParagraphs": [
+        {
+          "section": "Abstract",
+          "elementId": "Par1",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/p[@id='Par1']",
+          "text": "T helper (Th) cell subsets play pivotal roles in regulating immune responses within the tumor microenvironment, influencing both tumor progression and anti-tumor immunity. Among these subsets, Th1 cells promote cytotoxic responses through the production of IFN-γ, while Th2 cells and regulatory T cells (Tregs) exert immunosuppressive effects that support tumor growth. Th9 and Th17 cells have context-dependent roles, contributing to both pro-inflammatory and regulatory processes in tumor immunity. Tumor antigen-specific T cells within the tumor microenvironment often exhibit a dysfunctional phenotype due to increased expression of inhibitory receptors such as CTLA-4 and PD-1, leading to reduced antitumor activity. Monoclonal antibodies that block these inhibitory signals—collectively known as immune checkpoint inhibitors (ICIs)—can reactivate these T cells, enhancing their ability to target and destroy cancer cells. Recent advancements have highlighted the critical role of T helper subsets in modulating responses to ICIs, with their interactions remaining a focus of ongoing research. Both positive and negative effects of ICIs have been reported in relation to Th cell subsets, with some effects depending on the type of tumor microenvironment. This review summarizes the crucial roles of different T helper cell subsets in tumor immunity and their complex relationship with immune checkpoint inhibitor therapy."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11466988",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:52:18.030Z",
+      "version": "PMC11466988.2",
+      "contentHash": "sha256:31f47074531b2d924eb8f7d98bf1fc85c8266c8f4151f34164ca742eede04ad3",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.1007/s13402-024-00951-9",
+      "pmid": "38717722",
+      "abstractParagraphs": [
+        {
+          "section": "Abstract",
+          "elementId": "Par1",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/p[@id='Par1']",
+          "text": "Gastric cancer (GC) is a malignant tumor with one of the lowest five-year survival rates. Traditional first-line treatment regimens, such as platinum drugs, have limited therapeutic efficacy in treating advanced GC and significant side effects, greatly reducing patient quality of life. In contrast, trastuzumab and other immune checkpoint inhibitors, such as nivolumab and pembrolizumab, have demonstrated consistent and reliable efficacy in treating GC. Here, we discuss the intrinsic characteristics of GC from a molecular perspective and provide a comprehensive review of classification and treatment advances in the disease. Finally, we suggest several strategies based on the intrinsic molecular characteristics of GC to aid in overcoming clinical challenges in the development of precision medicine and improve patient prognosis."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11467025",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:52:18.775Z",
+      "version": "PMC11467025.2",
+      "contentHash": "sha256:f106e5aaef85ed50dec6b9f3f5cf4988480c9d11b87b2e5ec63796b81e1e81e9",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.1007/s13402-024-00950-w",
+      "pmid": "38668817",
+      "abstractParagraphs": [
+        {
+          "section": "Purpose",
+          "elementId": "Par1",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[1]/p[@id='Par1']",
+          "text": "Acquired resistance to immune checkpoint blockers (ICBs) is a major barrier in cancer treatment, emphasizing the need for innovative strategies. Dectin-1 (gene Clec7a) is a C-type lectin receptor best known for its ability to recognize β-glucan-rich structures in fungal cell walls. While Dectin-1 is expressed in myeloid cells and tumor cells, its significance in cancer remains the subject of controversy."
+        },
+        {
+          "section": "Methods",
+          "elementId": "Par2",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[2]/p[@id='Par2']",
+          "text": "Using Celc7a-/- mice and curdlan administration to stimulate Dectin-1 signaling, we explored its impact. VISTA KO mice were employed to assess VISTA’s role, and bulk RNAseq analyzed curdlan effects on neutrophils."
+        },
+        {
+          "section": "Results",
+          "elementId": "Par3",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[3]/p[@id='Par3']",
+          "text": "Our findings reveal myeloid cells as primary Dectin-1 expressing cells in the tumor microenvironment (TME), displaying an activated phenotype. Strong Dectin-1 co-expression/co-localization with VISTA and PD-L1 in TME myeloid cells was observed. While Dectin-1 deletion lacked protective effects, curdlan stimulation significantly curtailed B16-F10 tumor progression. RNAseq and pathway analyses supported curdlan’s role in triggering a cascade of events leading to increased production of pro-inflammatory mediators, potentially resulting in the recruitment and activation of immune cells. Moreover, we identified a heterogeneous subset of Dectin-1+ effector T cells in the TME. Similar to mice, human myeloid cells are the prominent cells expressing Dectin-1 in cancer patients."
+        },
+        {
+          "section": "Conclusion",
+          "elementId": "Par4",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[4]/p[@id='Par4']",
+          "text": "Our study proposes Dectin-1 as a potential adjunctive target with ICBs, orchestrating a comprehensive engagement of innate and adaptive immune responses in melanoma. This innovative approach holds promise for overcoming acquired resistance to ICBs in cancer treatment, offering avenues for further exploration and development."
+        },
+        {
+          "section": "Supplementary Information",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[5]/p[1]",
+          "text": "The online version contains supplementary material available at 10.1007/s13402-024-00950-w."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11322377",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:52:19.496Z",
+      "version": "PMC11322377.2",
+      "contentHash": "sha256:06f0801e09c07b4799d17cf0fc6e13db62d7eed010ab9f349fe3c19c3fb9f234",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.1007/s13402-024-00930-0",
+      "pmid": "38502270",
+      "abstractParagraphs": [
+        {
+          "section": "Purpose",
+          "elementId": "Par1",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[1]/p[@id='Par1']",
+          "text": "Melanoma is widely utilized as a prominent model for the development of immunotherapy, thought an inadequate immune response can occur. Moreover, the development of apoptosis-related therapies and combinations with other therapeutic strategies is impeded by the limited understanding of apoptosis’s role within diverse tumor immune microenvironments (TMEs)."
+        },
+        {
+          "section": "Methods",
+          "elementId": "Par2",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[2]/p[@id='Par2']",
+          "text": "Here, we constructed an apoptosis-related tumor microenvironment signature (ATM) and employ multi-dimensional analysis to understand the roles of apoptosis in tumor microenvironment. We further assessed the clinical applications of ATM in nine independent cohorts, and anticipated the impact of ATM on cellular drug response in cultured cells."
+        },
+        {
+          "section": "Results",
+          "elementId": "Par3",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[3]/p[@id='Par3']",
+          "text": "Our ATM model exhibits robust performance in survival prediction in multiple melanoma cohorts. Different ATM groups exhibited distinct molecular signatures and biological processes. The low ATM group exhibited significant enrichment in B cell activation-related pathways. What’s more, plasma cells showed the lowest ATM score, highlighting their role as pivotal contributors in the ATM model. Mechanistically, the analysis of the interplay between plasma cells and other immune cells elucidated their crucial role in orchestrating an effective anti-tumor immune response. Significantly, the ATM signature exhibited associations with therapeutic efficacy of immune checkpoint blockade and the drug sensitivity of various agents, including FDA-approved and clinically utilized drugs targeting the VEGF signaling pathway. Finally, ATM was associated with tertiary lymphoid structures (TLS), exhibiting stronger patient stratification ability compared to classical “hot tumors”."
+        },
+        {
+          "section": "Conclusion",
+          "elementId": "Par4",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[4]/p[@id='Par4']",
+          "text": "Our findings indicate that ATM is a prognostic factor and is associated with the immune response and drug sensitivity in melanoma."
+        },
+        {
+          "section": "Supplementary Information",
+          "fieldPath": "/article/front/article-meta/abstract[@id='Abs1']/sec[5]/p[1]",
+          "text": "The online version contains supplementary material available at 10.1007/s13402-024-00930-0."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12979251",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:52:20.123Z",
+      "version": "PMC12979251.1",
+      "contentHash": "sha256:b25395bf8cd297dd692ccd1818f60ffda2348e6fd8828e84ae9543fcb899ae34",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.1016/j.ccell.2024.04.010",
+      "pmid": "38744246",
+      "abstractParagraphs": [
+        {
+          "section": "Summary",
+          "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/p[1]",
+          "text": "The success of checkpoint inhibitors (CPIs) for cancer has been tempered by immune-related adverse effects including colitis. CPI-induced colitis is hallmarked by expansion of resident mucosal IFNγ cytotoxic CD8+ T cells, but how these arise is unclear. Here, we track CPI-bound T cells in intestinal tissue using multimodal single-cell and subcellular spatial transcriptomics (ST). Target occupancy was increased in inflamed tissue, with drug-bound T cells located in distinct microdomains distinguished by specific intercellular signaling and transcriptional gradients. CPI-bound cells were largely CD4+ T cells, including enrichment in CPI-bound peripheral helper, follicular helper, and regulatory T cells. IFNγ CD8+ T cells emerged from both tissue-resident memory (TRM) and peripheral populations, displayed more restricted target occupancy profiles, and co-localized with damaged epithelial microdomains lacking effective regulatory cues. Our multimodal analysis identifies causal pathways and constitutes a resource to inform novel preventive strategies."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12836564",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:52:20.930Z",
+      "version": "PMC12836564.1",
+      "contentHash": "sha256:9c41fe9938e2cdc4755e740b408712c56c71946eaf25d29bb57cb524da3b59ea",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.1016/j.esmogo.2024.100047",
+      "pmid": "41648037",
+      "abstractParagraphs": [
+        {
+          "section": "Background",
+          "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[1]/p[1]",
+          "text": "Immune-checkpoint inhibitors (ICIs) are the standard of care for microsatellite instability (MSI) metastatic gastrointestinal cancer (mGIC) patients in first- and later-treatment lines. We compared tolerability and efficacy of ICIs in elderly (aged ≥75 years) versus non-elderly MSI mGIC patients and analyzed the correlation between immune-related adverse events (irAEs) and efficacy."
+        },
+        {
+          "section": "Patients and methods",
+          "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[2]/p[1]",
+          "text": "This single-center prospective cohort study included MSI mGIC patients treated with ICIs, excluding chemotherapy. Assessments covered grade ≥3 irAEs and ≥2 endocrine irAEs (E-irAEs)."
+        },
+        {
+          "section": "Results",
+          "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[3]/p[1]",
+          "text": "Among 201 patients, 24 were elderly (mean age 75–90 years) and 177 non-elderly (mean age 22-74 years). In the overall population, grade ≥3 irAEs and E-irAEs incidence was 40% with the anti-programmed cell death protein 1 + anti-cytotoxic T lymphocyte-associated antigen 4 and 23% with anti-programmed cell death protein 1 monotherapy (P = 0.011). Treatment combination was administered to 29% of elderly and 40% of non-elderly patients. The incidence of grade ≥3 irAEs and E-irAEs was 37%/29% with monotherapy (P = 0.48) and 57%/39% with combination (P = 0.43) in elderly/non-elderly patients. No significant difference was observed in progression-free survival [hazard ratio (HR) = 1.15, 95% confidence interval (CI) 0.57-2.32, P = 0.7] and OS (HR = 1.61, 95% CI 0.75-3.43, P = 0.25) between elderly and non-elderly. Cox regression analysis with a time-dependent variable showed no survival difference between patients with/without grade ≥3 irAEs and E-irAEs (progression-free survival: HR = 1.19, 95% CI 0.64-2.19, P = 0.59; overall survival: HR = 0.91, 95% CI 0.44-1.92, P = 0.81). A positive association was found, however, between objective response rate and immune treatment-related adverse event occurrence [77%/59%, immune treatment-related adverse event patients/others (P = 0.0012)]."
+        },
+        {
+          "section": "Conclusion",
+          "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[4]/p[1]",
+          "text": "This study reveals comparable tolerability and efficacy of ICIs in elderly and non-elderly patients with MSI mGIC. Survival outcomes did not differ significantly between patients with and without grade ≥3 irAEs and E-irAEs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12836570",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:52:21.575Z",
+      "version": "PMC12836570.1",
+      "contentHash": "sha256:cde3e3d82875d0fd2bf386379e38841119569fea077640468a989ad03a9d114a",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.1016/j.esmogo.2024.100084",
+      "pmid": "41647594",
+      "abstractParagraphs": [
+        {
+          "section": "Background",
+          "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[1]/p[1]",
+          "text": "Currently, mismatch repair deficient/microsatellite instable (dMMR/MSI) status constitutes a validated predictive marker of response to immune checkpoint inhibitors (ICIs) in patients with metastatic colorectal cancer (mCRC). Unfortunately, some of these patients do not benefit from ICIs. Very limited therapeutic options for patients with dMMR/MSI mCRC after progression on ICI(s) exist. These patients show poor outcomes with conventional chemotherapy. Inhibitors of tropomyosin receptor kinase (TRK) have shown promising activity against neurotrophic tropomyosin receptor kinase (NTRK) fusion-driven cancers. NTRK gene fusions are rare (<1%) in CRC and data regarding their prevalence in patients with dMMR/MSI CRC are increased but limited, especially in patients with metastatic disease."
+        },
+        {
+          "section": "Materials and methods",
+          "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[2]/p[1]",
+          "text": "A total of 187 dMMR/MSI mCRC patients, including 120 immune ICI-treated, were screened for NTRK gene fusions."
+        },
+        {
+          "section": "Results",
+          "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[3]/p[1]",
+          "text": "Tumor samples of 10 (5.3%) patients harbored NTRK gene fusions confirmed by FISH (NTRK1 = 8; NTRK3 = 2) including two cases with Lynch syndrome and height sporadic cases with MLH1 promoter hypermethylation and RAS wild-type (wt), out of which only five were positive by pan-TRK immunohistochemistry. One patient with primary resistance to nivolumab received a TRK inhibitor (larotrectinib) and showed a complete response."
+        },
+        {
+          "section": "Conclusions",
+          "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[4]/p[1]",
+          "text": "These results underline the importance of screening for NTRK gene fusions in dMMR/MSI mCRC in sporadic cases with MLH1 promoter hypermethylation RAS/BRAFV600E wt. We highlight several key technical aspects of NTRK fusion testing and interpretation of reports that remain to be explored."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12836540",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:52:22.360Z",
+      "version": "PMC12836540.1",
+      "contentHash": "sha256:89ca033045afe7483ee2a8b25356115c6acedb9d6c83668c7850333f95f7533d",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.1016/j.esmogo.2024.100083",
+      "pmid": "41647593",
+      "abstractParagraphs": [
+        {
+          "section": "Background",
+          "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[1]/p[1]",
+          "text": "Immune checkpoint inhibitors (ICIs) have become the standard of care in several solid tumours. Thus the action of ICIs may lead to the development of inflammatory damage in nontumoral tissues, defined as immune-related adverse events (irAEs). Scanty data describe upper gastrointestinal tract toxicity."
+        },
+        {
+          "section": "Patients and methods",
+          "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[2]/p[1]",
+          "text": "We conducted a monocentric retrospective study, enrolling patients with advanced cancer, who developed histology-proven immune-related oesophago-gastro-duodenitis, treated with at least one cycle of ICI between January 2016 and November 2022."
+        },
+        {
+          "section": "Results",
+          "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[3]/p[1]",
+          "text": "We identified six patients with upper gastrointestinal irAEs: four affected by metastatic melanoma (three treated with nivolumab and one with nivolumab plus ipilimumab), one by unresectable cutaneous squamous cell carcinoma (treated with cemiplimab), and one by metastatic non-small-cell lung cancer (treated with pembrolizumab). Proton pump inhibitors and oral corticosteroids have been the mainstay of the management, and thus one patient had to receive intravenous methylprednisolone with hospitalisation, fasting, and parenteral nutrition. Based on the literature and our experience, we proposed a classification of ICI-induced upper gastrointestinal toxicity, with symptom and endoscopic sign grading. Each step of severity has been also correlated with a proposed diagnosis and clinical management."
+        },
+        {
+          "section": "Conclusions",
+          "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[4]/p[1]",
+          "text": "During ICI treatment, upper gastrointestinal symptoms can be a red flag for developing severe oesophago-gastro-duodenal toxicity that can impact patients’ quality of life and therapeutic plan. We recommend carefully investigating these symptoms, choosing a multidisciplinary approach to decide if an oesophagogastroduodenoscopy with random biopsy is indicated. [18]-fluoro-2-deoxy-d-glucose positron emission tomography/computed tomography might represent a promising complementary diagnostic tool. Steroids still represent the cornerstone of treatment, as for other irAEs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12836741",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:52:23.085Z",
+      "version": "PMC12836741.1",
+      "contentHash": "sha256:f6abe522718c691d1f4e6615eeee3b14cdf3ddda3e942fcb5cc922b29cbbc53e",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.1016/j.esmogo.2024.100069",
+      "pmid": "41647587",
+      "abstractParagraphs": [
+        {
+          "section": "Background",
+          "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[1]/p[1]",
+          "text": "Patients with metastatic colorectal cancer (mCRC) carrying a deficit in the mismatch repair system/microsatellite instability (dMMR/MSI) show great responses to immune checkpoint inhibitors. However, 30% of patients with dMMR/MSI are primarily immunoresistant, and another 30% develop secondary resistance. Thus several combinations such as anti-programmed cell death protein 1 (anti-PD-1) and anti-cytotoxic T-lymphocyte-associated protein 4 (anti-CTLA-4) are being pursued. The combination of radiotherapy and immunotherapy is another avenue of research that can increase the release of neoantigens resulting in the abscopal effect. This phenomenon has demonstrated promising potential activity in colon cancer preclinical studies; nevertheless, clinical results are limited to just a few case series."
+        },
+        {
+          "section": "Patients and methods",
+          "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[2]/p[1]",
+          "text": "We conducted a prospective interventional single-institution study to assess the feasibility, safety, and disease control rate of the combination of pembrolizumab and stereotactic ablative radiotherapy (SABR) in a cohort of 14 consecutive patients with dMMR/MSI mCRC."
+        },
+        {
+          "section": "Results",
+          "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[3]/p[1]",
+          "text": "Among the 14 patients enrolled, 11 received SABR in combination with pembrolizumab as the first to the fourth line. The disease control rate was 50% in the intention-to-treat population, with six patients still maintaining the response after >15 months. Any-grade treatment-related adverse events occurred in 50% of patients, with grade 3 (G3) events in three patients; no treatment-related death occurred."
+        },
+        {
+          "section": "Conclusions",
+          "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[4]/p[1]",
+          "text": "Our findings convey no signal of enhanced systemic efficacy compared with historical data on pembrolizumab alone even if the local control rate is high. To our knowledge, this represents the largest study conducted in this population; further studies could extend the knowledge on the toxicity profile of this combination."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12869779",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:52:23.764Z",
+      "version": "PMC12869779.1",
+      "contentHash": "sha256:d662b03f330fca99431e628a7c837afe5d2f02076c50e40a12369527f38cf814",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.1016/j.fmre.2024.10.017",
+      "pmid": "41647554",
+      "abstractParagraphs": [
+        {
+          "section": "Abstract",
+          "fieldPath": "/article/front/article-meta/abstract[@id='abs0001']/p[1]",
+          "text": "Immunotherapy has revolutionized cancer treatment by leveraging the immune system to target tumors. However, its efficacy is often limited by the immunosuppressive tumor microenvironment and the development of resistance, leading to response rates of only 20%–30%. Ultrasound-targeted nanobubbles (UTN) combined with cancer immunotherapy present a promising solution to the limitations of current treatments. By utilizing the mechanical and biological effects of ultrasound, UTN improve drug delivery, reduce systemic toxicity, and modulate immune responses within the tumor microenvironment. Preclinical studies have shown that UTN combined with cancer immunotherapy can significantly increase the use of checkpoint inhibitors, tumor vaccines, and gene-based therapies, resulting in better tumor control. This article reviews the latest advancements, applications, and challenges of UTN combined with cancer immunotherapy, emphasizing the potential of UTN to overcome current therapeutic barriers and providing a forward-looking perspective on its translation into clinical practice."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12836578",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:52:24.443Z",
+      "version": "PMC12836578.1",
+      "contentHash": "sha256:98d221147149e3f5b1cc36080fb90b6e3bb29fb06c0b9e3b197226950f8964b5",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.1016/j.esmorw.2024.100090",
+      "pmid": "41646096",
+      "abstractParagraphs": [
+        {
+          "section": "Background",
+          "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[1]/p[1]",
+          "text": "Toxicity profile of immune checkpoint inhibitors (ICI) poses challenges for early detection of immune-related adverse events (IrAEs). In oncology, patient-reported outcomes (PROs) are reported to have a beneficial effect; however, their efficacy for IrAE detection in melanoma patients remains unclear. A remote patient-monitoring system was created in our department; we investigated its real-world impact in detecting grade 2 or above IrAEs occurring during ICI treatment in melanoma patients."
+        },
+        {
+          "section": "Patients and methods",
+          "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[2]/p[1]",
+          "text": "Patients receiving ICI for a melanoma were followed using a weekly online questionnaire containing 11 symptoms suggestive of IrAE. Moderate/severe symptoms generated an alert score and an intervention by an oncology nurse or physician. The system’s performance in detecting grade 2 or above IrAEs, as well as reasons for missed detections, were retrospectively assessed."
+        },
+        {
+          "section": "Results",
+          "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[3]/p[1]",
+          "text": "A total of 5202 questionnaires completed by 136 patients led to 783 (15.0%) alert scores; 64 of them were associated with 69 grade 2 or above IrAEs, with 22 (34.4%) questionnaires correctly detecting 27 grade 2 or above IrAEs, saving a mean 4.1 days on the next scheduled visit and leading to only one emergency room visit. Forty-two grade 2 or above IrAEs (mainly blood disorders, n = 31) were not detected. False alerts often resulted from functional or non-specific symptoms (32.3%), such as fatigue or general pain."
+        },
+        {
+          "section": "Conclusion",
+          "fieldPath": "/article/front/article-meta/abstract[@id='abs0010']/sec[4]/p[1]",
+          "text": "The ImmuCare-PRO system correctly detected a third of moderate-to-severe IrAEs, and most of those had clinical impact such as skin toxicities, colitis, and rheumatological IrAEs. This enables earlier management and could avoid unnecessary emergency room visits."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7618644",
+      "status": "ABSTRACT_AVAILABLE",
+      "attemptAt": "2026-09-24T00:52:25.208Z",
+      "version": "PMC7618644.1",
+      "contentHash": "sha256:a29c635972db6420c493999f96280e281fb94d1b233683ddcd3510eccc59268e",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "doi": "10.1016/j.ejca.2024.115160",
+      "pmid": "39673834",
+      "abstractParagraphs": [
+        {
+          "section": "Background",
+          "elementId": "P1",
+          "fieldPath": "/article/front/article-meta/abstract[1]/sec[@id='S1']/p[@id='P1']",
+          "text": "Over the past decade, PD-1-based immune checkpoint inhibitors (ICI) and targeted therapies (TT) with BRAF and MEK inhibitors transformed melanoma treatment. Both are widely used in the adjuvant setting. However, for patients with a BRAF V600 mutation, the optimal adjuvant therapy remains unclear due to the lack of head-to-head comparison studies."
+        },
+        {
+          "section": "Methods",
+          "elementId": "P2",
+          "fieldPath": "/article/front/article-meta/abstract[1]/sec[@id='S2']/p[@id='P2']",
+          "text": "We conducted a systematic review of real-world data on adjuvant therapy in stage III melanoma to determine the best option for patients with BRAF V600 mutations. Kaplan-Meier curves were generated for TT and ICI using Digitizelt software."
+        },
+        {
+          "section": "Results",
+          "elementId": "P3",
+          "fieldPath": "/article/front/article-meta/abstract[1]/sec[@id='S3']/p[@id='P3']",
+          "text": "Nine publications with 3625 patients were included. TT showed better relapse-free survival (RFS) at 6, 12, 24, and 36 months than ICI. A similar trend was observed for distant metastasis-free survival (DMFS), with no apparent difference in overall survival."
+        },
+        {
+          "section": "Conclusion",
+          "elementId": "P4",
+          "fieldPath": "/article/front/article-meta/abstract[1]/sec[@id='S4']/p[@id='P4']",
+          "text": "Real-world data suggest that adjuvant TT may be associated with better RFS and DMFS in stage III BRAF V600-mutated melanoma compared to ICI."
+        }
+      ]
+    }
+  ],
+  "interpretation": "Source and abstract availability only; no semantic case or label admitted"
+}
