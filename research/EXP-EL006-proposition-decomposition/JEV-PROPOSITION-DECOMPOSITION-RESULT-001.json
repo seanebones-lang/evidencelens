@@ -1,0 +1,305 @@
+{
+  "resultVersion": "1.0.0",
+  "experiment": "EXP-EL006-proposition-decomposition",
+  "phase": "TUNED_DEVELOPMENT_DIAGNOSTIC",
+  "confirmationEligible": false,
+  "humanReviewed": false,
+  "artifacts": {
+    "rawResponseSha256": "33a77d3be6bf23b0c2b8ae541532c56eced3ed6d8359421ea1f7063c9850042f",
+    "inputSha256": "33fe8a6653d3870b540c5161e8d917aa6faf399adf8014abf203d9881482cd86",
+    "expEL005RawResponseSha256": "5876aee240a7d7ff00e90762b608aa33016684b04a32fb3b316de38e88044c26"
+  },
+  "endpoints": {
+    "caseCount": 20,
+    "bothYesCount": 20,
+    "bothYesRate": 1.0,
+    "supportYesCount": 20,
+    "supportYesRate": 1.0,
+    "contradictionYesCount": 20,
+    "contradictionYesRate": 1.0,
+    "expEL005BothYesCount": 13,
+    "expEL005BothYesRate": 0.65,
+    "pairedRescuedCount": 7,
+    "pairedRegressedCount": 0
+  },
+  "runtime": {
+    "successCount": 20,
+    "resolvedModels": {
+      "jev-1.13.0": 20
+    },
+    "attemptCounts": {
+      "1": 19,
+      "2": 1
+    },
+    "inputTokens": 20054,
+    "outputTokens": 2020,
+    "latencyMs": {
+      "mean": 1132.1768,
+      "median": 327.4675,
+      "minimum": 215.905,
+      "maximum": 12143.091
+    }
+  },
+  "records": [
+    {
+      "caseId": "EL006-DEV-MIX-001",
+      "expEL005": {
+        "support": "NO",
+        "contradiction": "YES",
+        "bothYes": false
+      },
+      "expEL006": {
+        "support": "YES",
+        "contradiction": "YES",
+        "bothYes": true
+      }
+    },
+    {
+      "caseId": "EL006-DEV-MIX-002",
+      "expEL005": {
+        "support": "YES",
+        "contradiction": "YES",
+        "bothYes": true
+      },
+      "expEL006": {
+        "support": "YES",
+        "contradiction": "YES",
+        "bothYes": true
+      }
+    },
+    {
+      "caseId": "EL006-DEV-MIX-003",
+      "expEL005": {
+        "support": "YES",
+        "contradiction": "YES",
+        "bothYes": true
+      },
+      "expEL006": {
+        "support": "YES",
+        "contradiction": "YES",
+        "bothYes": true
+      }
+    },
+    {
+      "caseId": "EL006-DEV-MIX-004",
+      "expEL005": {
+        "support": "YES",
+        "contradiction": "YES",
+        "bothYes": true
+      },
+      "expEL006": {
+        "support": "YES",
+        "contradiction": "YES",
+        "bothYes": true
+      }
+    },
+    {
+      "caseId": "EL006-DEV-MIX-005",
+      "expEL005": {
+        "support": "YES",
+        "contradiction": "YES",
+        "bothYes": true
+      },
+      "expEL006": {
+        "support": "YES",
+        "contradiction": "YES",
+        "bothYes": true
+      }
+    },
+    {
+      "caseId": "EL006-DEV-MIX-006",
+      "expEL005": {
+        "support": "YES",
+        "contradiction": "NO",
+        "bothYes": false
+      },
+      "expEL006": {
+        "support": "YES",
+        "contradiction": "YES",
+        "bothYes": true
+      }
+    },
+    {
+      "caseId": "EL006-DEV-MIX-007",
+      "expEL005": {
+        "support": "YES",
+        "contradiction": "YES",
+        "bothYes": true
+      },
+      "expEL006": {
+        "support": "YES",
+        "contradiction": "YES",
+        "bothYes": true
+      }
+    },
+    {
+      "caseId": "EL006-DEV-MIX-008",
+      "expEL005": {
+        "support": "NO",
+        "contradiction": "YES",
+        "bothYes": false
+      },
+      "expEL006": {
+        "support": "YES",
+        "contradiction": "YES",
+        "bothYes": true
+      }
+    },
+    {
+      "caseId": "EL006-DEV-MIX-009",
+      "expEL005": {
+        "support": "YES",
+        "contradiction": "YES",
+        "bothYes": true
+      },
+      "expEL006": {
+        "support": "YES",
+        "contradiction": "YES",
+        "bothYes": true
+      }
+    },
+    {
+      "caseId": "EL006-DEV-MIX-010",
+      "expEL005": {
+        "support": "YES",
+        "contradiction": "YES",
+        "bothYes": true
+      },
+      "expEL006": {
+        "support": "YES",
+        "contradiction": "YES",
+        "bothYes": true
+      }
+    },
+    {
+      "caseId": "EL006-DEV-MIX-011",
+      "expEL005": {
+        "support": "YES",
+        "contradiction": "YES",
+        "bothYes": true
+      },
+      "expEL006": {
+        "support": "YES",
+        "contradiction": "YES",
+        "bothYes": true
+      }
+    },
+    {
+      "caseId": "EL006-DEV-MIX-012",
+      "expEL005": {
+        "support": "YES",
+        "contradiction": "YES",
+        "bothYes": true
+      },
+      "expEL006": {
+        "support": "YES",
+        "contradiction": "YES",
+        "bothYes": true
+      }
+    },
+    {
+      "caseId": "EL006-DEV-MIX-013",
+      "expEL005": {
+        "support": "YES",
+        "contradiction": "YES",
+        "bothYes": true
+      },
+      "expEL006": {
+        "support": "YES",
+        "contradiction": "YES",
+        "bothYes": true
+      }
+    },
+    {
+      "caseId": "EL006-DEV-MIX-014",
+      "expEL005": {
+        "support": "NO",
+        "contradiction": "YES",
+        "bothYes": false
+      },
+      "expEL006": {
+        "support": "YES",
+        "contradiction": "YES",
+        "bothYes": true
+      }
+    },
+    {
+      "caseId": "EL006-DEV-MIX-015",
+      "expEL005": {
+        "support": "YES",
+        "contradiction": "YES",
+        "bothYes": true
+      },
+      "expEL006": {
+        "support": "YES",
+        "contradiction": "YES",
+        "bothYes": true
+      }
+    },
+    {
+      "caseId": "EL006-DEV-MIX-016",
+      "expEL005": {
+        "support": "NO",
+        "contradiction": "YES",
+        "bothYes": false
+      },
+      "expEL006": {
+        "support": "YES",
+        "contradiction": "YES",
+        "bothYes": true
+      }
+    },
+    {
+      "caseId": "EL006-DEV-MIX-017",
+      "expEL005": {
+        "support": "NO",
+        "contradiction": "YES",
+        "bothYes": false
+      },
+      "expEL006": {
+        "support": "YES",
+        "contradiction": "YES",
+        "bothYes": true
+      }
+    },
+    {
+      "caseId": "EL006-DEV-MIX-018",
+      "expEL005": {
+        "support": "YES",
+        "contradiction": "YES",
+        "bothYes": true
+      },
+      "expEL006": {
+        "support": "YES",
+        "contradiction": "YES",
+        "bothYes": true
+      }
+    },
+    {
+      "caseId": "EL006-DEV-MIX-019",
+      "expEL005": {
+        "support": "YES",
+        "contradiction": "YES",
+        "bothYes": true
+      },
+      "expEL006": {
+        "support": "YES",
+        "contradiction": "YES",
+        "bothYes": true
+      }
+    },
+    {
+      "caseId": "EL006-DEV-MIX-020",
+      "expEL005": {
+        "support": "NO",
+        "contradiction": "YES",
+        "bothYes": false
+      },
+      "expEL006": {
+        "support": "YES",
+        "contradiction": "YES",
+        "bothYes": true
+      }
+    }
+  ]
+}
