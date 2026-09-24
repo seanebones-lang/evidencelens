@@ -6,6 +6,7 @@ import {
   cohenKappa,
   createBlindedAssignments,
   mapAtomicAnswers,
+  mapDirectAtomicAnswers,
   mapExpandedAtomicAnswers,
   scoreSemanticPredictions,
   validateIndependentAnnotations,
@@ -64,6 +65,15 @@ test("maps paired atomic answers without inventing certainty", () => {
   assert.equal(mapAtomicAnswers({ caseId: "C", supportAnswer: "YES", contradictionAnswer: "YES" }), "MIXED");
   assert.equal(mapAtomicAnswers({ caseId: "D", supportAnswer: "NO", contradictionAnswer: "NO" }), "INSUFFICIENT_EVIDENCE");
   assert.equal(mapAtomicAnswers({ caseId: "E", supportAnswer: "INSUFFICIENT_EVIDENCE", contradictionAnswer: "YES" }), "INSUFFICIENT_EVIDENCE");
+});
+
+test("maps strict direct answers with explicit contradiction taking precedence", () => {
+  assert.equal(mapDirectAtomicAnswers({ caseId: "A", supportAnswer: "YES", contradictionAnswer: "NO" }), "SUPPORTED");
+  assert.equal(mapDirectAtomicAnswers({ caseId: "B", supportAnswer: "NO", contradictionAnswer: "YES" }), "CONTRADICTED");
+  assert.equal(mapDirectAtomicAnswers({ caseId: "C", supportAnswer: "YES", contradictionAnswer: "YES" }), "MIXED");
+  assert.equal(mapDirectAtomicAnswers({ caseId: "D", supportAnswer: "INSUFFICIENT_EVIDENCE", contradictionAnswer: "YES" }), "CONTRADICTED");
+  assert.equal(mapDirectAtomicAnswers({ caseId: "E", supportAnswer: "NO", contradictionAnswer: "NO" }), "INSUFFICIENT_EVIDENCE");
+  assert.throws(() => mapDirectAtomicAnswers({ caseId: "F", supportAnswer: "MAYBE", contradictionAnswer: "NO" }), SemanticEvaluationError);
 });
 
 test("maps expanded decisions conservatively and distinguishes qualification", () => {

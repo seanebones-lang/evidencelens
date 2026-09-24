@@ -229,6 +229,18 @@ export function mapAtomicAnswers(prediction: SemanticPrediction): SemanticLabel 
   return "INSUFFICIENT_EVIDENCE";
 }
 
+/** Map the strict direct-support/direct-contradiction contract used by EXP-EL005. */
+export function mapDirectAtomicAnswers(prediction: SemanticPrediction): SemanticLabel {
+  const { supportAnswer: support, contradictionAnswer: contradiction } = prediction;
+  if (!ATOMIC_ANSWERS.includes(support) || !ATOMIC_ANSWERS.includes(contradiction)) {
+    throw new SemanticEvaluationError("Prediction contains an unsupported atomic answer");
+  }
+  if (support === "YES" && contradiction === "YES") return "MIXED";
+  if (contradiction === "YES") return "CONTRADICTED";
+  if (support === "YES" && contradiction === "NO") return "SUPPORTED";
+  return "INSUFFICIENT_EVIDENCE";
+}
+
 export function mapExpandedAtomicAnswers(prediction: ExpandedSemanticPrediction): SemanticLabel {
   const {
     supportAnswer: support,
