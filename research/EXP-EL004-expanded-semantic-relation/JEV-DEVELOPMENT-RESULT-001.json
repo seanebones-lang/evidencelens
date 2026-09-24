@@ -1,0 +1,1222 @@
+{
+  "resultVersion": "1.0.0",
+  "experiment": "EXP-EL004-expanded-semantic-relation",
+  "phase": "DEVELOPMENT",
+  "evaluationStatus": "TUNED_DEVELOPMENT_GPT_AUTHORED_PROVISIONAL_REFERENCE",
+  "confirmationEligible": false,
+  "humanReviewed": false,
+  "changesEXP_EL003": false,
+  "artifacts": {
+    "rawResponseSha256": "45057ba781396fb282eb75b2a9e843f3e1ffd611b954ccaa55c0d5312c250e8d",
+    "provisionalReferenceSha256": "6131e23692da440a862c5080ef72c66117c3299b7d85118dc9becf7afa956a51",
+    "v1ResultSha256": "672543e9a5c9c0f5836fd0f7c17e1d990c41eb381b6f8dbbd03d156f7bd8a595",
+    "questionsCanonicalHash": "sha256:8a77e6ae5e4a8f8bd29482fd1556cdcf72b9c71dd84ec0a0a15b01d762bc4bc5"
+  },
+  "runtime": {
+    "caseCount": 80,
+    "successCount": 80,
+    "errorCount": 0,
+    "resolvedModels": {
+      "jev-1.13.0": 80
+    },
+    "attemptCounts": {
+      "1": 80
+    },
+    "inputTokens": 84645,
+    "outputTokens": 14972,
+    "latencyMs": {
+      "mean": 575.884825,
+      "median": 425.66049999999996,
+      "p95": 555.912,
+      "minimum": 291.784,
+      "maximum": 6960.886
+    }
+  },
+  "v2Metrics": {
+    "accuracy": 0.75,
+    "macroF1": 0.6978717652323067,
+    "abstentionRate": 0.3,
+    "nonAbstentionCoverage": 0.7,
+    "criticalFalseReassuranceCount": 14,
+    "criticalFalseReassuranceRate": 0.35,
+    "confusionMatrix": {
+      "SUPPORTED": {
+        "SUPPORTED": 19,
+        "CONTRADICTED": 0,
+        "MIXED": 0,
+        "INSUFFICIENT_EVIDENCE": 1
+      },
+      "CONTRADICTED": {
+        "SUPPORTED": 0,
+        "CONTRADICTED": 19,
+        "MIXED": 0,
+        "INSUFFICIENT_EVIDENCE": 1
+      },
+      "MIXED": {
+        "SUPPORTED": 14,
+        "CONTRADICTED": 0,
+        "MIXED": 3,
+        "INSUFFICIENT_EVIDENCE": 3
+      },
+      "INSUFFICIENT_EVIDENCE": {
+        "SUPPORTED": 0,
+        "CONTRADICTED": 1,
+        "MIXED": 0,
+        "INSUFFICIENT_EVIDENCE": 19
+      }
+    },
+    "perClass": {
+      "SUPPORTED": {
+        "precision": 0.5757575757575758,
+        "recall": 0.95,
+        "f1": 0.7169811320754716,
+        "support": 20
+      },
+      "CONTRADICTED": {
+        "precision": 0.95,
+        "recall": 0.95,
+        "f1": 0.9500000000000001,
+        "support": 20
+      },
+      "MIXED": {
+        "precision": 1.0,
+        "recall": 0.15,
+        "f1": 0.2608695652173913,
+        "support": 20
+      },
+      "INSUFFICIENT_EVIDENCE": {
+        "precision": 0.7916666666666666,
+        "recall": 0.95,
+        "f1": 0.8636363636363635,
+        "support": 20
+      }
+    }
+  },
+  "v1Metrics": {
+    "accuracy": 0.75,
+    "macroF1": 0.7150456476543433,
+    "abstentionRate": 0.325,
+    "nonAbstentionCoverage": 0.675,
+    "criticalFalseReassuranceCount": 12,
+    "criticalFalseReassuranceRate": 0.3,
+    "confusionMatrix": {
+      "SUPPORTED": {
+        "SUPPORTED": 20,
+        "CONTRADICTED": 0,
+        "MIXED": 0,
+        "INSUFFICIENT_EVIDENCE": 0
+      },
+      "CONTRADICTED": {
+        "SUPPORTED": 0,
+        "CONTRADICTED": 16,
+        "MIXED": 0,
+        "INSUFFICIENT_EVIDENCE": 4
+      },
+      "MIXED": {
+        "SUPPORTED": 12,
+        "CONTRADICTED": 0,
+        "MIXED": 5,
+        "INSUFFICIENT_EVIDENCE": 3
+      },
+      "INSUFFICIENT_EVIDENCE": {
+        "SUPPORTED": 0,
+        "CONTRADICTED": 1,
+        "MIXED": 0,
+        "INSUFFICIENT_EVIDENCE": 19
+      }
+    },
+    "perClass": {
+      "SUPPORTED": {
+        "precision": 0.625,
+        "recall": 1.0,
+        "f1": 0.7692307692307693,
+        "support": 20
+      },
+      "CONTRADICTED": {
+        "precision": 0.9411764705882353,
+        "recall": 0.8,
+        "f1": 0.8648648648648648,
+        "support": 20
+      },
+      "MIXED": {
+        "precision": 1.0,
+        "recall": 0.25,
+        "f1": 0.4,
+        "support": 20
+      },
+      "INSUFFICIENT_EVIDENCE": {
+        "precision": 0.7307692307692307,
+        "recall": 0.95,
+        "f1": 0.8260869565217392,
+        "support": 20
+      }
+    }
+  },
+  "pairedComparison": {
+    "bothCorrect": 56,
+    "v1OnlyCorrect": 4,
+    "v2OnlyCorrect": 4,
+    "bothIncorrect": 16,
+    "changedPredictionCount": 8
+  },
+  "changedPredictions": [
+    {
+      "caseId": "EL003-DEV-CON-003",
+      "provisionalReference": "CONTRADICTED",
+      "v1Prediction": "INSUFFICIENT_EVIDENCE",
+      "v2Prediction": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-CON-014",
+      "provisionalReference": "CONTRADICTED",
+      "v1Prediction": "INSUFFICIENT_EVIDENCE",
+      "v2Prediction": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-CON-020",
+      "provisionalReference": "CONTRADICTED",
+      "v1Prediction": "INSUFFICIENT_EVIDENCE",
+      "v2Prediction": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-MIX-003",
+      "provisionalReference": "MIXED",
+      "v1Prediction": "MIXED",
+      "v2Prediction": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-MIX-005",
+      "provisionalReference": "MIXED",
+      "v1Prediction": "MIXED",
+      "v2Prediction": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-MIX-012",
+      "provisionalReference": "MIXED",
+      "v1Prediction": "MIXED",
+      "v2Prediction": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-MIX-013",
+      "provisionalReference": "MIXED",
+      "v1Prediction": "SUPPORTED",
+      "v2Prediction": "MIXED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "YES",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-SUP-013",
+      "provisionalReference": "SUPPORTED",
+      "v1Prediction": "SUPPORTED",
+      "v2Prediction": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    }
+  ],
+  "predictions": [
+    {
+      "caseId": "EL003-DEV-CON-001",
+      "provisionalReference": "CONTRADICTED",
+      "v1Prediction": "CONTRADICTED",
+      "v2Prediction": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-CON-002",
+      "provisionalReference": "CONTRADICTED",
+      "v1Prediction": "CONTRADICTED",
+      "v2Prediction": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-CON-003",
+      "provisionalReference": "CONTRADICTED",
+      "v1Prediction": "INSUFFICIENT_EVIDENCE",
+      "v2Prediction": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-CON-004",
+      "provisionalReference": "CONTRADICTED",
+      "v1Prediction": "CONTRADICTED",
+      "v2Prediction": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-CON-005",
+      "provisionalReference": "CONTRADICTED",
+      "v1Prediction": "CONTRADICTED",
+      "v2Prediction": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-CON-006",
+      "provisionalReference": "CONTRADICTED",
+      "v1Prediction": "CONTRADICTED",
+      "v2Prediction": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-CON-007",
+      "provisionalReference": "CONTRADICTED",
+      "v1Prediction": "INSUFFICIENT_EVIDENCE",
+      "v2Prediction": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-CON-008",
+      "provisionalReference": "CONTRADICTED",
+      "v1Prediction": "CONTRADICTED",
+      "v2Prediction": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-CON-009",
+      "provisionalReference": "CONTRADICTED",
+      "v1Prediction": "CONTRADICTED",
+      "v2Prediction": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-CON-010",
+      "provisionalReference": "CONTRADICTED",
+      "v1Prediction": "CONTRADICTED",
+      "v2Prediction": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-CON-011",
+      "provisionalReference": "CONTRADICTED",
+      "v1Prediction": "CONTRADICTED",
+      "v2Prediction": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-CON-012",
+      "provisionalReference": "CONTRADICTED",
+      "v1Prediction": "CONTRADICTED",
+      "v2Prediction": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-CON-013",
+      "provisionalReference": "CONTRADICTED",
+      "v1Prediction": "CONTRADICTED",
+      "v2Prediction": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "YES"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-CON-014",
+      "provisionalReference": "CONTRADICTED",
+      "v1Prediction": "INSUFFICIENT_EVIDENCE",
+      "v2Prediction": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-CON-015",
+      "provisionalReference": "CONTRADICTED",
+      "v1Prediction": "CONTRADICTED",
+      "v2Prediction": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-CON-016",
+      "provisionalReference": "CONTRADICTED",
+      "v1Prediction": "CONTRADICTED",
+      "v2Prediction": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-CON-017",
+      "provisionalReference": "CONTRADICTED",
+      "v1Prediction": "CONTRADICTED",
+      "v2Prediction": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-CON-018",
+      "provisionalReference": "CONTRADICTED",
+      "v1Prediction": "CONTRADICTED",
+      "v2Prediction": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-CON-019",
+      "provisionalReference": "CONTRADICTED",
+      "v1Prediction": "CONTRADICTED",
+      "v2Prediction": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-CON-020",
+      "provisionalReference": "CONTRADICTED",
+      "v1Prediction": "INSUFFICIENT_EVIDENCE",
+      "v2Prediction": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-IE-001",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "v1Prediction": "INSUFFICIENT_EVIDENCE",
+      "v2Prediction": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE",
+        "explicit_design_limitation": "INSUFFICIENT_EVIDENCE",
+        "explicit_scope_mismatch": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-IE-002",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "v1Prediction": "INSUFFICIENT_EVIDENCE",
+      "v2Prediction": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-IE-003",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "v1Prediction": "INSUFFICIENT_EVIDENCE",
+      "v2Prediction": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE",
+        "explicit_design_limitation": "INSUFFICIENT_EVIDENCE",
+        "explicit_scope_mismatch": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-IE-004",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "v1Prediction": "INSUFFICIENT_EVIDENCE",
+      "v2Prediction": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE",
+        "explicit_design_limitation": "INSUFFICIENT_EVIDENCE",
+        "explicit_scope_mismatch": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-IE-005",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "v1Prediction": "INSUFFICIENT_EVIDENCE",
+      "v2Prediction": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE",
+        "explicit_design_limitation": "INSUFFICIENT_EVIDENCE",
+        "explicit_scope_mismatch": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-IE-006",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "v1Prediction": "INSUFFICIENT_EVIDENCE",
+      "v2Prediction": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE",
+        "explicit_design_limitation": "INSUFFICIENT_EVIDENCE",
+        "explicit_scope_mismatch": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-IE-007",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "v1Prediction": "INSUFFICIENT_EVIDENCE",
+      "v2Prediction": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-IE-008",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "v1Prediction": "INSUFFICIENT_EVIDENCE",
+      "v2Prediction": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE",
+        "explicit_design_limitation": "INSUFFICIENT_EVIDENCE",
+        "explicit_scope_mismatch": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-IE-009",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "v1Prediction": "INSUFFICIENT_EVIDENCE",
+      "v2Prediction": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE",
+        "explicit_design_limitation": "INSUFFICIENT_EVIDENCE",
+        "explicit_scope_mismatch": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-IE-010",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "v1Prediction": "INSUFFICIENT_EVIDENCE",
+      "v2Prediction": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE",
+        "explicit_design_limitation": "INSUFFICIENT_EVIDENCE",
+        "explicit_scope_mismatch": "YES"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-IE-011",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "v1Prediction": "INSUFFICIENT_EVIDENCE",
+      "v2Prediction": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE",
+        "explicit_design_limitation": "INSUFFICIENT_EVIDENCE",
+        "explicit_scope_mismatch": "YES"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-IE-012",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "v1Prediction": "INSUFFICIENT_EVIDENCE",
+      "v2Prediction": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE",
+        "explicit_design_limitation": "INSUFFICIENT_EVIDENCE",
+        "explicit_scope_mismatch": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-IE-013",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "v1Prediction": "INSUFFICIENT_EVIDENCE",
+      "v2Prediction": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE",
+        "explicit_design_limitation": "INSUFFICIENT_EVIDENCE",
+        "explicit_scope_mismatch": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-IE-014",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "v1Prediction": "INSUFFICIENT_EVIDENCE",
+      "v2Prediction": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE",
+        "explicit_design_limitation": "INSUFFICIENT_EVIDENCE",
+        "explicit_scope_mismatch": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-IE-015",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "v1Prediction": "INSUFFICIENT_EVIDENCE",
+      "v2Prediction": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE",
+        "explicit_design_limitation": "INSUFFICIENT_EVIDENCE",
+        "explicit_scope_mismatch": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-IE-016",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "v1Prediction": "CONTRADICTED",
+      "v2Prediction": "CONTRADICTED",
+      "decisions": {
+        "direct_contradiction": "YES",
+        "direct_support": "NO",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "YES"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-IE-017",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "v1Prediction": "INSUFFICIENT_EVIDENCE",
+      "v2Prediction": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE",
+        "explicit_design_limitation": "INSUFFICIENT_EVIDENCE",
+        "explicit_scope_mismatch": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-IE-018",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "v1Prediction": "INSUFFICIENT_EVIDENCE",
+      "v2Prediction": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE",
+        "explicit_design_limitation": "INSUFFICIENT_EVIDENCE",
+        "explicit_scope_mismatch": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-IE-019",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "v1Prediction": "INSUFFICIENT_EVIDENCE",
+      "v2Prediction": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE",
+        "explicit_design_limitation": "INSUFFICIENT_EVIDENCE",
+        "explicit_scope_mismatch": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-IE-020",
+      "provisionalReference": "INSUFFICIENT_EVIDENCE",
+      "v1Prediction": "INSUFFICIENT_EVIDENCE",
+      "v2Prediction": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE",
+        "explicit_design_limitation": "INSUFFICIENT_EVIDENCE",
+        "explicit_scope_mismatch": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-MIX-001",
+      "provisionalReference": "MIXED",
+      "v1Prediction": "SUPPORTED",
+      "v2Prediction": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-MIX-002",
+      "provisionalReference": "MIXED",
+      "v1Prediction": "SUPPORTED",
+      "v2Prediction": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-MIX-003",
+      "provisionalReference": "MIXED",
+      "v1Prediction": "MIXED",
+      "v2Prediction": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-MIX-004",
+      "provisionalReference": "MIXED",
+      "v1Prediction": "SUPPORTED",
+      "v2Prediction": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-MIX-005",
+      "provisionalReference": "MIXED",
+      "v1Prediction": "MIXED",
+      "v2Prediction": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-MIX-006",
+      "provisionalReference": "MIXED",
+      "v1Prediction": "SUPPORTED",
+      "v2Prediction": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-MIX-007",
+      "provisionalReference": "MIXED",
+      "v1Prediction": "MIXED",
+      "v2Prediction": "MIXED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "YES",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-MIX-008",
+      "provisionalReference": "MIXED",
+      "v1Prediction": "SUPPORTED",
+      "v2Prediction": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-MIX-009",
+      "provisionalReference": "MIXED",
+      "v1Prediction": "INSUFFICIENT_EVIDENCE",
+      "v2Prediction": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-MIX-010",
+      "provisionalReference": "MIXED",
+      "v1Prediction": "SUPPORTED",
+      "v2Prediction": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-MIX-011",
+      "provisionalReference": "MIXED",
+      "v1Prediction": "INSUFFICIENT_EVIDENCE",
+      "v2Prediction": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "INSUFFICIENT_EVIDENCE",
+        "explicit_design_limitation": "YES",
+        "explicit_scope_mismatch": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-MIX-012",
+      "provisionalReference": "MIXED",
+      "v1Prediction": "MIXED",
+      "v2Prediction": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-MIX-013",
+      "provisionalReference": "MIXED",
+      "v1Prediction": "SUPPORTED",
+      "v2Prediction": "MIXED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "YES",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-MIX-014",
+      "provisionalReference": "MIXED",
+      "v1Prediction": "SUPPORTED",
+      "v2Prediction": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-MIX-015",
+      "provisionalReference": "MIXED",
+      "v1Prediction": "SUPPORTED",
+      "v2Prediction": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-MIX-016",
+      "provisionalReference": "MIXED",
+      "v1Prediction": "INSUFFICIENT_EVIDENCE",
+      "v2Prediction": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "INSUFFICIENT_EVIDENCE",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-MIX-017",
+      "provisionalReference": "MIXED",
+      "v1Prediction": "SUPPORTED",
+      "v2Prediction": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-MIX-018",
+      "provisionalReference": "MIXED",
+      "v1Prediction": "SUPPORTED",
+      "v2Prediction": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-MIX-019",
+      "provisionalReference": "MIXED",
+      "v1Prediction": "MIXED",
+      "v2Prediction": "MIXED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "YES"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-MIX-020",
+      "provisionalReference": "MIXED",
+      "v1Prediction": "SUPPORTED",
+      "v2Prediction": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-SUP-001",
+      "provisionalReference": "SUPPORTED",
+      "v1Prediction": "SUPPORTED",
+      "v2Prediction": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-SUP-002",
+      "provisionalReference": "SUPPORTED",
+      "v1Prediction": "SUPPORTED",
+      "v2Prediction": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-SUP-003",
+      "provisionalReference": "SUPPORTED",
+      "v1Prediction": "SUPPORTED",
+      "v2Prediction": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-SUP-004",
+      "provisionalReference": "SUPPORTED",
+      "v1Prediction": "SUPPORTED",
+      "v2Prediction": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-SUP-005",
+      "provisionalReference": "SUPPORTED",
+      "v1Prediction": "SUPPORTED",
+      "v2Prediction": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-SUP-006",
+      "provisionalReference": "SUPPORTED",
+      "v1Prediction": "SUPPORTED",
+      "v2Prediction": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-SUP-007",
+      "provisionalReference": "SUPPORTED",
+      "v1Prediction": "SUPPORTED",
+      "v2Prediction": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-SUP-008",
+      "provisionalReference": "SUPPORTED",
+      "v1Prediction": "SUPPORTED",
+      "v2Prediction": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-SUP-009",
+      "provisionalReference": "SUPPORTED",
+      "v1Prediction": "SUPPORTED",
+      "v2Prediction": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-SUP-010",
+      "provisionalReference": "SUPPORTED",
+      "v1Prediction": "SUPPORTED",
+      "v2Prediction": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-SUP-011",
+      "provisionalReference": "SUPPORTED",
+      "v1Prediction": "SUPPORTED",
+      "v2Prediction": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-SUP-012",
+      "provisionalReference": "SUPPORTED",
+      "v1Prediction": "SUPPORTED",
+      "v2Prediction": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-SUP-013",
+      "provisionalReference": "SUPPORTED",
+      "v1Prediction": "SUPPORTED",
+      "v2Prediction": "INSUFFICIENT_EVIDENCE",
+      "decisions": {
+        "direct_contradiction": "INSUFFICIENT_EVIDENCE",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-SUP-014",
+      "provisionalReference": "SUPPORTED",
+      "v1Prediction": "SUPPORTED",
+      "v2Prediction": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-SUP-015",
+      "provisionalReference": "SUPPORTED",
+      "v1Prediction": "SUPPORTED",
+      "v2Prediction": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-SUP-016",
+      "provisionalReference": "SUPPORTED",
+      "v1Prediction": "SUPPORTED",
+      "v2Prediction": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-SUP-017",
+      "provisionalReference": "SUPPORTED",
+      "v1Prediction": "SUPPORTED",
+      "v2Prediction": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-SUP-018",
+      "provisionalReference": "SUPPORTED",
+      "v1Prediction": "SUPPORTED",
+      "v2Prediction": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-SUP-019",
+      "provisionalReference": "SUPPORTED",
+      "v1Prediction": "SUPPORTED",
+      "v2Prediction": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    },
+    {
+      "caseId": "EL003-DEV-SUP-020",
+      "provisionalReference": "SUPPORTED",
+      "v1Prediction": "SUPPORTED",
+      "v2Prediction": "SUPPORTED",
+      "decisions": {
+        "direct_contradiction": "NO",
+        "direct_support": "YES",
+        "explicit_design_limitation": "NO",
+        "explicit_scope_mismatch": "NO"
+      }
+    }
+  ]
+}
