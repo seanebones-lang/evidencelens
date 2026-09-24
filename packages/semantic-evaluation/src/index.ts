@@ -339,4 +339,7 @@ export function scoreSemanticPredictions(
     perClass,
   };
 }
+
+export { claimHash, preparePropositionCases } from "./propositions.js";
+export type { PropositionSplit, PreparedPropositionCase } from "./propositions.js";
 import { createHash } from "node:crypto";
