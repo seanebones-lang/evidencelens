@@ -17,9 +17,14 @@ model input.
 ## Case construction and references
 
 Collect natural, attributable claim-and-evidence pairs from openly reusable
-article versions. Preserve exact source versions, licenses, passage hashes,
-retrieval times, and the original claim wording. Do not rewrite a claim to
-force a class. Screen excluded context and near duplicates before assignment.
+article versions. The initial metadata pool is recorded in
+`SOURCE-POOL-AUDIT-001.json`: 78 EXP-EL002 article versions absent from all
+EXP-EL003 structured authoring records. Its membership is only a starting
+point; article content, rights for the intended use, natural claim suitability,
+and near-duplicate claims still require screening. Preserve exact source
+versions, licenses, passage hashes, retrieval times, and the original claim
+wording. Do not rewrite a claim to force a class. Screen excluded context and
+near duplicates before assignment.
 
 Two independent reviewers, blind to JEV outputs and to each other's decisions,
 must annotate each case using the strict direct-support/direct-contradiction

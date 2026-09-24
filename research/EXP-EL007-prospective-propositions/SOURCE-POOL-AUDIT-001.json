@@ -1,0 +1,880 @@
+{
+  "auditVersion": "1.0.0",
+  "purpose": "Potential sources absent from EXP-EL003 structured authoring records and EXP-EL004 through EXP-EL006 reused cases",
+  "inputFiles": [
+    {
+      "path": "EXP-EL002-source-coverage/batch-01.manifest.json",
+      "sha256": "d77485d286ec0c062099ab92fe83037340d4d2d28d77e973bb9407d52e10eccf"
+    },
+    {
+      "path": "EXP-EL002-source-coverage/batch-02.manifest.json",
+      "sha256": "735dc31c9b9a9ffbd4e64a5b4e0cc6fb0cc1cf677ffc5bb17b9780c3b112b40e"
+    },
+    {
+      "path": "EXP-EL002-source-coverage/batch-03.manifest.json",
+      "sha256": "a210e38aa744baf4e221e8bb68743e9777cac0663aad3275cea77d1066dbd090"
+    },
+    {
+      "path": "EXP-EL002-source-coverage/batch-04.manifest.json",
+      "sha256": "c80ccf1331dbf2d36a09b87c68424d1f10ad6d6cb2035f133b31e4536827f122"
+    },
+    {
+      "path": "EXP-EL002-source-coverage/batch-05.manifest.json",
+      "sha256": "7440354cca920e9ca0fe23dbdf009f04dcb5383aa23de750a73e5fcb6672bc45"
+    },
+    {
+      "path": "EXP-EL003-semantic-relation/development-source-inventory.json",
+      "sha256": "8f9bd7c78d4af3c5f9ddce4d1f01f355a505030ab848371c6099a7f63fdae511"
+    },
+    {
+      "path": "EXP-EL003-semantic-relation/JEV-PILOT-DISAGREEMENT-AUDIT-001.json",
+      "sha256": "d79320b87e73b64d9561688ad5345870deb5301de22f73797fad272015712882"
+    },
+    {
+      "path": "EXP-EL003-semantic-relation/JEV-PILOT-RESULT-001.json",
+      "sha256": "672543e9a5c9c0f5836fd0f7c17e1d990c41eb381b6f8dbbd03d156f7bd8a595"
+    },
+    {
+      "path": "EXP-EL003-semantic-relation/development-authoring-ledger.json",
+      "sha256": "00574669ac7d60d666d3cdb4b1a352be8b7c1c7c1933b100b5e0b078d5c7df76"
+    },
+    {
+      "path": "EXP-EL003-semantic-relation/development-contradicted-candidates.json",
+      "sha256": "58c051d5a9f6f19b0138b8e6f657ca5f57a99d0fb90adde9a8051cb60407e568"
+    },
+    {
+      "path": "EXP-EL003-semantic-relation/development-contradicted-ledger.json",
+      "sha256": "69317c9c4663fecc07001d627b190f10779a423b3920d5a3b676243e3fe05348"
+    },
+    {
+      "path": "EXP-EL003-semantic-relation/development-insufficient-candidates.json",
+      "sha256": "ec0d8b18e66892ddb760e27235785aebca0a6d4747c20a793f70951337476210"
+    },
+    {
+      "path": "EXP-EL003-semantic-relation/development-insufficient-ledger.json",
+      "sha256": "9d49fc9bc5f944f4176bf3c920d30c3b1066869e15a6722cb9d0774b32228410"
+    },
+    {
+      "path": "EXP-EL003-semantic-relation/development-mixed-candidates.json",
+      "sha256": "72f6f4778d758f9b12ddafcbc438f8db2a5e6442123a988a274e0be8b5022b90"
+    },
+    {
+      "path": "EXP-EL003-semantic-relation/development-mixed-ledger.json",
+      "sha256": "3439da73ee9d0b9badf9194339038e3c44cbae8c81208d05c430451b611c629e"
+    },
+    {
+      "path": "EXP-EL003-semantic-relation/development-pilot-reference.json",
+      "sha256": "6131e23692da440a862c5080ef72c66117c3299b7d85118dc9becf7afa956a51"
+    },
+    {
+      "path": "EXP-EL003-semantic-relation/development-source-inventory.json",
+      "sha256": "8f9bd7c78d4af3c5f9ddce4d1f01f355a505030ab848371c6099a7f63fdae511"
+    },
+    {
+      "path": "EXP-EL003-semantic-relation/development-supported-candidates.json",
+      "sha256": "5cfa01370bd8f3257e52b8680af125e0e956822e665420219ed48866b437f059"
+    },
+    {
+      "path": "EXP-EL003-semantic-relation/jev-pilot-input.json",
+      "sha256": "f11e25ddef28c5ca965f1298faf7906dff57ff0e33b849abe2124c92bf0c9907"
+    },
+    {
+      "path": "EXP-EL003-semantic-relation/jev-pilot-responses.jsonl",
+      "sha256": "611289733e13a595b0376396cadbef56ead602d22d4ea319f448dca5d76be0e1"
+    }
+  ],
+  "counts": {
+    "exp002Sources": 130,
+    "semanticDevelopmentSources": 32,
+    "exp003ExposedSources": 52,
+    "candidateSources": 78
+  },
+  "limitations": [
+    "Metadata exclusion only; no article content or claim suitability screened",
+    "No independent review, adjudication, or source-version refetch performed",
+    "No near-duplicate claim screening performed",
+    "License suitability for a specific quotation or redistribution remains to be checked"
+  ],
+  "candidates": [
+    {
+      "pmcid": "PMC11195920",
+      "pmid": "38919767",
+      "doi": "10.1097/ono.0000000000000051",
+      "version": "PMC11195920.2",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:dc3b56dc5400ebb5b8414846030e148ab731577beb5b10d799940a39e29e820f",
+      "sourceBatch": "03",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC13580852",
+      "pmid": "39599934",
+      "doi": "10.1002/open.202400319",
+      "version": "PMC13580852.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:eb9564f2f5c549b0ff46e0f6641777e17d5371e94559554d6868e952cb8ab4cf",
+      "sourceBatch": "03",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC13494990",
+      "pmid": "42638777",
+      "doi": "10.3389/ftubr.2024.1378068",
+      "version": "PMC13494990.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:db34d8d3c418b2d1e98dded2ed94d9be2b5bdae7d9e3f269d355295241ff6333",
+      "sourceBatch": "03",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC13488799",
+      "pmid": "39385233",
+      "doi": "10.1186/s42358-024-00418-3",
+      "version": "PMC13488799.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:d55b23d960b562dc9e8d03bc4e34a7f14505c071eb4f7cbf0e6691052221e13a",
+      "sourceBatch": "03",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC13488655",
+      "pmid": "39135131",
+      "doi": "10.1186/s42358-024-00397-5",
+      "version": "PMC13488655.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:2b7b968cb444e7c3e03a099550947551d3b215ccc308e2924d9734078f70143a",
+      "sourceBatch": "03",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC13456083",
+      "pmid": "39705164",
+      "doi": "10.1146/annurev-immunol-083122-043054",
+      "version": "PMC13456083.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:4b456c3c80d90335c3d3a33dc8cf8c13a6d9fc74c993225ee8f6419cafb62d19",
+      "sourceBatch": "03",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC13380264",
+      "pmid": "39366027",
+      "doi": "10.1016/j.virol.2024.110255",
+      "version": "PMC13380264.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:5a808059a87f3c7dbfeb3ed8430e4f58f1f1a3ea3913b436a944491bd7832ff2",
+      "sourceBatch": "03",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC13290073",
+      "pmid": "39341403",
+      "doi": "10.1016/j.jinf.2024.106284",
+      "version": "PMC13290073.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:eb729b8b83f2df602b72342530f2e428e701b615821e5c78d044cf7409996a2b",
+      "sourceBatch": "03",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC13277579",
+      "pmid": "42328615",
+      "doi": "10.1097/id9.0000000000000148",
+      "version": "PMC13277579.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:99d1d9c6e173a94cb37e0e71bf60a3939abf340c5ddc1bd01ac7a08f04e5aa01",
+      "sourceBatch": "03",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC13277574",
+      "pmid": "42328241",
+      "doi": "10.1097/id9.0000000000000125",
+      "version": "PMC13277574.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:1fd8ff5db15bc58d881f392edf9e2e40932ba497dfa56e2b7fe984df6eee6010",
+      "sourceBatch": "03",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC13277577",
+      "pmid": "42326884",
+      "doi": "10.1097/id9.0000000000000138",
+      "version": "PMC13277577.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:4265f1b7c56122efe70cb04241d769528dd7d16f172b2116e28516af032be12c",
+      "sourceBatch": "03",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC13277564",
+      "pmid": "42326550",
+      "doi": "10.1097/id9.0000000000000103",
+      "version": "PMC13277564.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:32e6ecb45ef0d9f3bbd3db7184e8b1aaf8bd7b6603993f6aa38238c4bdbc9006",
+      "sourceBatch": "03",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC13277550",
+      "pmid": "42325857",
+      "doi": "10.1097/id9.0000000000000145",
+      "version": "PMC13277550.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:d57e13b71806ab3dffa00f99174a1a714ca46ba3a41e370fcbd378181f480a0c",
+      "sourceBatch": "03",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC13277573",
+      "pmid": "42325292",
+      "doi": "10.1097/id9.0000000000000115",
+      "version": "PMC13277573.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:7921bb453180c4706c5097dd88215dc1c0cdc1728633343957286b21d0df1503",
+      "sourceBatch": "03",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC13208914",
+      "pmid": "38724328",
+      "doi": "10.1016/j.tig.2024.04.003",
+      "version": "PMC13208914.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:0844a969091eadeba67bc7f8563793e4a265aaa187d52c4f2d71533a4bc4585b",
+      "sourceBatch": "03",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC13141935",
+      "pmid": "38869208",
+      "doi": "10.5578/tt.202402929",
+      "version": "PMC13141935.1",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "contentHash": "sha256:b94b76a2bc7ef9d6e08d5f9d8833ae3e5bcc88dd162619bb4ccec875094f937d",
+      "sourceBatch": "03",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC11826387",
+      "pmid": "42038153",
+      "doi": "10.31661/gmj.v13i.3625",
+      "version": "PMC11826387.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:566f37cc336b8c3fc0320b3cf0019ae0afdc05a4f3d5b0c57ae730b717fd507f",
+      "sourceBatch": "03",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC13012655",
+      "pmid": "41883348",
+      "doi": "10.1556/066.2024.00151",
+      "version": "PMC13012655.1",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "contentHash": "sha256:df88147ff9f4ce377f59c7521dfc5ea105c9588a1e989de48c8a932405ba24db",
+      "sourceBatch": "03",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12973230",
+      "pmid": "41816638",
+      "doi": "10.15212/zoonoses-2024-0028",
+      "version": "PMC12973230.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:353534cee78e4d8afbd10abd3e6b5ab64c393bd7d472cfaf877cfc89e49deeb0",
+      "sourceBatch": "03",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12912400",
+      "pmid": "41776324",
+      "doi": "10.1038/s44325-024-00011-z",
+      "version": "PMC12912400.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:59a67fa85edd209c7f486af3a7cbe960efd93ae34926eebdd1206f263c454c84",
+      "sourceBatch": "03",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12806009",
+      "pmid": "41674874",
+      "doi": "10.1002/qub2.64",
+      "version": "PMC12806009.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:e1269c525a652474053ac8b58d3d4511d09737a20c85367e1ee841539a5033f8",
+      "sourceBatch": "03",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12878584",
+      "pmid": "39025017",
+      "doi": "10.1016/j.jnha.2024.100315",
+      "version": "PMC12878584.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:b48ea51cc32cf4df59131b59a98d11b73ffc663525f29358f555db39ec3e0b34",
+      "sourceBatch": "03",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12878588",
+      "pmid": "38901116",
+      "doi": "10.1016/j.jnha.2024.100296",
+      "version": "PMC12878588.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:a7e935f425f8defbc1fb683aff30c2cb3d5cf23f2981f1e8e499a9081a31c64a",
+      "sourceBatch": "03",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12873539",
+      "pmid": "41657972",
+      "doi": "10.12688/f1000research.127061.2",
+      "version": "PMC12873539.2",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:e47f19fae48a82f1fdafb76e158d0fc7ac43a32a18dde8aa615bd59e11bd3e67",
+      "sourceBatch": "03",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC11801853",
+      "pmid": "39927191",
+      "doi": "10.1159/000541602",
+      "version": "PMC11801853.1",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "contentHash": "sha256:b97e3cec4a1d50006e45d6214b42e9de6b9f5c10938578a8d1bc3eb99f92dd31",
+      "sourceBatch": "03",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12859536",
+      "pmid": "39001710",
+      "doi": "10.1002/bimj.202400027",
+      "version": "PMC12859536.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:f476af2bf56dd573d09ac52b25ff7772f217a30aa853f43bd51816bc260944af",
+      "sourceBatch": "03",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC13001755",
+      "pmid": "41929418",
+      "doi": "10.1016/j.jatmed.2024.12.003",
+      "version": "PMC13001755.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:64bd6a39365ac749422b374d2adc6f2782b3f0914afa2be469b73c3acbea0a1b",
+      "sourceBatch": "04",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC13023382",
+      "pmid": "39542222",
+      "doi": "10.1016/j.nbd.2024.106737",
+      "version": "PMC13023382.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:7772393749ec989f74238390e85138d0120b4c7713ad4fb88bf549d7268cc9a6",
+      "sourceBatch": "04",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC11800364",
+      "pmid": "39916748",
+      "doi": "10.1080/29933935.2024.2439490",
+      "version": "PMC11800364.2",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:8590d8f5ddf1bd46a1e2192a8c92cb8ec1861ab825b2fe71571938f735b9cbe6",
+      "sourceBatch": "04",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12997613",
+      "pmid": "39607280",
+      "doi": "10.5935/0004-2749.2023-0281",
+      "version": "PMC12997613.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:71085e5e727a4c5835354f5b30b6ddf0d530c3604feaa06aa82fdcf663e2523b",
+      "sourceBatch": "04",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12834022",
+      "pmid": "41601550",
+      "doi": "10.1016/j.ibneur.2024.11.011",
+      "version": "PMC12834022.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:3b1a80fbd5241acb9a0c527d71c51e9f68c83f9f7323fb81e60700e729074c01",
+      "sourceBatch": "04",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12810228",
+      "pmid": "39722574",
+      "doi": "10.1113/jp285656",
+      "version": "PMC12810228.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:fae808d3ed7713fe41d155b1eab9f82a026ef9ed44d0091442c96888f0e84c4c",
+      "sourceBatch": "04",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12356413",
+      "pmid": "40822706",
+      "doi": "10.3389/fstro.2024.1423887",
+      "version": "PMC12356413.2",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:a09b574eaaf9a37a06205712d265084e7f2e97a968e524479e13aa4951f48a35",
+      "sourceBatch": "04",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC11764858",
+      "pmid": "39668560",
+      "doi": "10.1016/j.ymthe.2024.12.006",
+      "version": "PMC11764858.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:53091c339359478c778b28d55ed464538599884d782e241079d1cf9b12cb1410",
+      "sourceBatch": "04",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC11864087",
+      "pmid": "39374445",
+      "doi": "10.1146/annurev-pharmtox-061724-080548",
+      "version": "PMC11864087.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:2faa96f03e721fafdc81d42c505cb877546fbf078c085a4a6d6925d73c3cb662",
+      "sourceBatch": "04",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12697572",
+      "pmid": "38507489",
+      "doi": "10.1126/sciadv.adi4350",
+      "version": "PMC12697572.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:3780848bd574d366cd2e54fb28861843e0a143f5ea8db3a52d97d3c6afbff562",
+      "sourceBatch": "04",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12486910",
+      "pmid": "41383700",
+      "doi": "10.1002/nep3.43",
+      "version": "PMC12486910.1",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "contentHash": "sha256:45064d8305d7e736ec60288e101bc460327558a8db16f83b090037e8d67bea7b",
+      "sourceBatch": "04",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12478676",
+      "pmid": "41255906",
+      "doi": "10.14744/cpr.2024.30592",
+      "version": "PMC12478676.1",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "contentHash": "sha256:30f88d55b4ee38e6c5adb79a38e25ef3cdf7e29d27fce8fee1bf18abd81d899f",
+      "sourceBatch": "04",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12073661",
+      "pmid": "39433067",
+      "doi": "10.1088/1741-2552/ad8961",
+      "version": "PMC12073661.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:fc6fb26c809647260f2231d645c1cc1747c5ce78948aa5e1bde9c2fe5b3fff6e",
+      "sourceBatch": "04",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12599878",
+      "pmid": "41221079",
+      "doi": "10.34133/research.0402",
+      "version": "PMC12599878.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:885d8b4f49e3c8de0e809ab8adc3a9ccc7bda4233865cb18e0b84ac191e489ce",
+      "sourceBatch": "04",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12559990",
+      "pmid": "39367860",
+      "doi": "10.1113/jp286400",
+      "version": "PMC12559990.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:afd9b77e32284abbfa6acc0f01bf45da775bddd75d9c03225f06468fde6c8bc3",
+      "sourceBatch": "04",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC11922792",
+      "pmid": "39303148",
+      "doi": "10.1113/jp286818",
+      "version": "PMC11922792.2",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:64467fc198817bb8ebaf090e33cf2ff307df77dc953e3e21895e953f4479b553",
+      "sourceBatch": "04",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12559981",
+      "pmid": "39183664",
+      "doi": "10.1113/jp286176",
+      "version": "PMC12559981.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:2036118b1dab2067248651bbb9b5cc7f202915926ce8ccc3fdc300e926c54bbe",
+      "sourceBatch": "04",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12539541",
+      "pmid": "39812540",
+      "doi": "10.14336/ad.2024.1089",
+      "version": "PMC12539541.1",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "contentHash": "sha256:02d5000f76b26d89aead2aea1e1f8ed7ac6eba95b95f536d777fbe86641dcb79",
+      "sourceBatch": "04",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12529104",
+      "pmid": "38598336",
+      "doi": "10.1016/j.celrep.2024.113986",
+      "version": "PMC12529104.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:217e3052d89667ba3d253822ba2c341b8583d7dd41ed2a6c42e2b862bf8a129e",
+      "sourceBatch": "04",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12500796",
+      "pmid": "39343821",
+      "doi": "10.1007/s00406-024-01898-6",
+      "version": "PMC12500796.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:099670f90219bfc6cabfd6d375d594eea6013d8fd2fb6978d0155f0a8ab5dc68",
+      "sourceBatch": "04",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12500787",
+      "pmid": "39191930",
+      "doi": "10.1007/s00406-024-01873-1",
+      "version": "PMC12500787.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:a0bad7af87cf44a3794389b115fd290c1cfcad427ce3ab25da190541c30b20a2",
+      "sourceBatch": "04",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12500284",
+      "pmid": "39265565",
+      "doi": "10.1159/000541379",
+      "version": "PMC12500284.1",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "contentHash": "sha256:7d6b826af3b2b432296b2c3403f8c91f6c77cb0b79b3d599f17923b5d1183cc9",
+      "sourceBatch": "04",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC11489560",
+      "pmid": "39205389",
+      "doi": "10.1016/j.ymthe.2024.08.022",
+      "version": "PMC11489560.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:a902ef71e0796f87f40d92abb7b3e99d587c848e43921ba68dcf5fbef083d9de",
+      "sourceBatch": "04",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC11606516",
+      "pmid": "39467641",
+      "doi": "10.1101/lm.054018.124",
+      "version": "PMC11606516.1",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "contentHash": "sha256:8ac97730b53acd237c9b903d752653fd779ee95bba8cad2ad4e94006bf38f5e0",
+      "sourceBatch": "04",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC11406684",
+      "pmid": "39296258",
+      "doi": "10.1021/acsptsci.4c00002",
+      "version": "PMC11406684.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:29a62b3dbaa0d6b25b851c2e5e2646816ab627d8ee66145626713c80bdd3b7bb",
+      "sourceBatch": "04",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12333908",
+      "pmid": "39264228",
+      "doi": "10.1113/jp285228",
+      "version": "PMC12333908.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:52671dd38efaf466579377da4c70b85e842bb5d8d586a4f2df29f0479ab41e2e",
+      "sourceBatch": "04",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC13313863",
+      "pmid": "39370456",
+      "doi": "10.1186/s43046-024-00236-0",
+      "version": "PMC13313863.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:d1596316874e6a180abf0805e7192476254d543e806c054560a3adb3c3147d23",
+      "sourceBatch": "05",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC13268100",
+      "pmid": "38749434",
+      "doi": "10.1016/j.celrep.2024.114209",
+      "version": "PMC13268100.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:7efb02897fffc88da7ff475fcb5a5833ce9be08896d8327cb6f96d8600c2c378",
+      "sourceBatch": "05",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC11380221",
+      "pmid": "39213052",
+      "doi": "10.3233/cbm-230407",
+      "version": "PMC11380221.2",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "contentHash": "sha256:bf92b1f44a7df38e6965f979de09a44e371511bb63a5666352b1e45797fb0869",
+      "sourceBatch": "05",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12288547",
+      "pmid": "38669521",
+      "doi": "10.3233/cbm-230301",
+      "version": "PMC12288547.1",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "contentHash": "sha256:e35ebbe8c58ac20c3232d4898c696afca87cb0559e1a060432a33e9c93c3f0cf",
+      "sourceBatch": "05",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC11307039",
+      "pmid": "38306024",
+      "doi": "10.3233/cbm-230090",
+      "version": "PMC11307039.2",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "contentHash": "sha256:a346bf30f2a31c361d57c3c143c8fe6c0620ae726e2fa11696a634e477da05b8",
+      "sourceBatch": "05",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC11091592",
+      "pmid": "38250759",
+      "doi": "10.3233/cbm-230086",
+      "version": "PMC11091592.2",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "contentHash": "sha256:d3255cdf1d0e32dffaa1983197efed82b409c31dd5f0853795c61aadc848992f",
+      "sourceBatch": "05",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC11996958",
+      "pmid": "39325360",
+      "doi": "10.1007/s13402-024-00992-0",
+      "version": "PMC11996958.2",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:1d2cb24b5b19c71cca8682bdf4dea03894d28e40f5ea87d68f2e32daf53f49ad",
+      "sourceBatch": "05",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC11466988",
+      "pmid": "38717722",
+      "doi": "10.1007/s13402-024-00951-9",
+      "version": "PMC11466988.2",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:31f47074531b2d924eb8f7d98bf1fc85c8266c8f4151f34164ca742eede04ad3",
+      "sourceBatch": "05",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC11467025",
+      "pmid": "38668817",
+      "doi": "10.1007/s13402-024-00950-w",
+      "version": "PMC11467025.2",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:f106e5aaef85ed50dec6b9f3f5cf4988480c9d11b87b2e5ec63796b81e1e81e9",
+      "sourceBatch": "05",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC11322377",
+      "pmid": "38502270",
+      "doi": "10.1007/s13402-024-00930-0",
+      "version": "PMC11322377.2",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:06f0801e09c07b4799d17cf0fc6e13db62d7eed010ab9f349fe3c19c3fb9f234",
+      "sourceBatch": "05",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12979251",
+      "pmid": "38744246",
+      "doi": "10.1016/j.ccell.2024.04.010",
+      "version": "PMC12979251.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:b25395bf8cd297dd692ccd1818f60ffda2348e6fd8828e84ae9543fcb899ae34",
+      "sourceBatch": "05",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12952736",
+      "pmid": "39716918",
+      "doi": "10.1080/2162402x.2024.2430066",
+      "version": "PMC12952736.1",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "contentHash": "sha256:f08257658ccf3097c3dea06c538a10f00cafa539a1eb98fb3c002f5ff13f208e",
+      "sourceBatch": "05",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12952733",
+      "pmid": "39703053",
+      "doi": "10.1080/2162402x.2024.2440967",
+      "version": "PMC12952733.1",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "contentHash": "sha256:f3fd40432e27fe74f600e1b78d1741d9cfbb4ad1ba9f1e62353dd17b6f3ad2f3",
+      "sourceBatch": "05",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12836530",
+      "pmid": "41648743",
+      "doi": "10.1016/j.esmogo.2024.100045",
+      "version": "PMC12836530.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:8bfa76779eb3e8c75b65cbddccf372af0fed9899201ace7fd9fe9b066d85cc23",
+      "sourceBatch": "05",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12836647",
+      "pmid": "41648734",
+      "doi": "10.1016/j.esmogo.2024.100046",
+      "version": "PMC12836647.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:ae6987cf6b6f61e07d4352978d84a6d619f2c9ee1b9e93e81fa8d1cdd0848512",
+      "sourceBatch": "05",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12836564",
+      "pmid": "41648037",
+      "doi": "10.1016/j.esmogo.2024.100047",
+      "version": "PMC12836564.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:9c41fe9938e2cdc4755e740b408712c56c71946eaf25d29bb57cb524da3b59ea",
+      "sourceBatch": "05",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12836699",
+      "pmid": "41647596",
+      "doi": "10.1016/j.esmogo.2024.100089",
+      "version": "PMC12836699.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:8235f99713604721502cae5a51f96ffc8371470d0f91439a732fc20dc1c56bf8",
+      "sourceBatch": "05",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12836570",
+      "pmid": "41647594",
+      "doi": "10.1016/j.esmogo.2024.100084",
+      "version": "PMC12836570.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:cde3e3d82875d0fd2bf386379e38841119569fea077640468a989ad03a9d114a",
+      "sourceBatch": "05",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12836540",
+      "pmid": "41647593",
+      "doi": "10.1016/j.esmogo.2024.100083",
+      "version": "PMC12836540.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:89ca033045afe7483ee2a8b25356115c6acedb9d6c83668c7850333f95f7533d",
+      "sourceBatch": "05",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12836741",
+      "pmid": "41647587",
+      "doi": "10.1016/j.esmogo.2024.100069",
+      "version": "PMC12836741.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:f6abe522718c691d1f4e6615eeee3b14cdf3ddda3e942fcb5cc922b29cbbc53e",
+      "sourceBatch": "05",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12869779",
+      "pmid": "41647554",
+      "doi": "10.1016/j.fmre.2024.10.017",
+      "version": "PMC12869779.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:d662b03f330fca99431e628a7c837afe5d2f02076c50e40a12369527f38cf814",
+      "sourceBatch": "05",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12836520",
+      "pmid": "41646954",
+      "doi": "10.1016/j.esmogo.2024.100107",
+      "version": "PMC12836520.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:d241c07a5d6b9ec2647e806a5a53f741a59c3d2557ebdb8d1dda4ea6a17a922c",
+      "sourceBatch": "05",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12836640",
+      "pmid": "41646947",
+      "doi": "10.1016/j.esmogo.2024.100108",
+      "version": "PMC12836640.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:2edda5d719943c0da8e4b733952106b26623f508976cbbf0c80ce80287897e57",
+      "sourceBatch": "05",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12836578",
+      "pmid": "41646096",
+      "doi": "10.1016/j.esmorw.2024.100090",
+      "version": "PMC12836578.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:98d221147149e3f5b1cc36080fb90b6e3bb29fb06c0b9e3b197226950f8964b5",
+      "sourceBatch": "05",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC12854964",
+      "pmid": "39566979",
+      "doi": "10.2169/internalmedicine.4654-24",
+      "version": "PMC12854964.1",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "contentHash": "sha256:b231a14adcbbb7149ad90bba4d7b93b500c79a69ea1e47d6651ce7caf66f808b",
+      "sourceBatch": "05",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    },
+    {
+      "pmcid": "PMC7618644",
+      "pmid": "39673834",
+      "doi": "10.1016/j.ejca.2024.115160",
+      "version": "PMC7618644.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "contentHash": "sha256:a29c635972db6420c493999f96280e281fb94d1b233683ddcd3510eccc59268e",
+      "sourceBatch": "05",
+      "status": "UNSCREENED_FOR_SEMANTIC_CASES"
+    }
+  ]
+}
