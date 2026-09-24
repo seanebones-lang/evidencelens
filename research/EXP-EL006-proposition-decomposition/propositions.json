@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "authority": "GPT_AUTHORED_DEVELOPMENT_DIAGNOSTIC",
+  "humanReviewed": false,
+  "records": [
+    {"caseId":"EL006-DEV-MIX-001","supportedProposition":"Fluorescence imaging can measure dissolved oxygen.","contradictedProposition":"The study created no ratiometric fluorescent microsensors."},
+    {"caseId":"EL006-DEV-MIX-002","supportedProposition":"EGFR mutations occurred in 24.32% of the studied Egyptian NSCLC samples.","contradictedProposition":"EGFR mutations were more frequent in men than women."},
+    {"caseId":"EL006-DEV-MIX-003","supportedProposition":"Denosumab increased femoral-neck and spine T-scores.","contradictedProposition":"No patient developed a urinary tract infection."},
+    {"caseId":"EL006-DEV-MIX-004","supportedProposition":"Mobile cardiac calcified amorphous tumors were more common in the chronic renal failure group.","contradictedProposition":"None of the collected cases came from Japan."},
+    {"caseId":"EL006-DEV-MIX-005","supportedProposition":"No target-vessel stenosis or occlusion was detected during follow-up.","contradictedProposition":"No type Ic or III endoleak was recorded."},
+    {"caseId":"EL006-DEV-MIX-006","supportedProposition":"Host immunometabolism has emerged as an attractive host-directed target for tuberculosis.","contradictedProposition":"The association of host immunometabolism with infectious disease has been extensively studied."},
+    {"caseId":"EL006-DEV-MIX-007","supportedProposition":"Ambulatory systolic blood pressure fell eight years after uRDN.","contradictedProposition":"eGFR did not decline during that period."},
+    {"caseId":"EL006-DEV-MIX-008","supportedProposition":"The workflow identified RHE-334 and EA-11 as promising VEGFR-2 inhibitors.","contradictedProposition":"Neither RHE-334 nor EA-11 was tested in human breast-cancer cells."},
+    {"caseId":"EL006-DEV-MIX-009","supportedProposition":"The consensus developed fourteen lupus-nephritis recommendations.","contradictedProposition":"Kidney biopsy was rejected as a diagnostic gold standard."},
+    {"caseId":"EL006-DEV-MIX-010","supportedProposition":"The healing program significantly reduced post-traumatic stress.","contradictedProposition":"The healing program did not increase resilience."},
+    {"caseId":"EL006-DEV-MIX-011","supportedProposition":"Fifty-seven percent of transcatheter-valve explantations were urgent or emergent.","contradictedProposition":"Operative mortality was zero."},
+    {"caseId":"EL006-DEV-MIX-012","supportedProposition":"Ultrasound shears shortened drainage duration.","contradictedProposition":"Seroma followed by infection was more common with ultrasound shears than conventional electrosurgery."},
+    {"caseId":"EL006-DEV-MIX-013","supportedProposition":"The rule-based system narrowed approximately 161,000 patients to roughly 4,200 candidates.","contradictedProposition":"More than 90% of manually screened candidates were truly eligible."},
+    {"caseId":"EL006-DEV-MIX-014","supportedProposition":"The review discusses biomedical uses of green-synthesized copper nanoparticles.","contradictedProposition":"The review reports no drawbacks or implementation difficulties."},
+    {"caseId":"EL006-DEV-MIX-015","supportedProposition":"SxBAF was more efficient than time to first symptomatic event.","contradictedProposition":"SxBAF showed no correlation with device-detected atrial-fibrillation burden."},
+    {"caseId":"EL006-DEV-MIX-016","supportedProposition":"Cardiac abnormalities are characteristic of laminopathies.","contradictedProposition":"The twelve-year-old patient with the LMNA variant did not present with cardiac failure."},
+    {"caseId":"EL006-DEV-MIX-017","supportedProposition":"Loss of Rab27B blocked autophagosome-lysosome fusion.","contradictedProposition":"Rab27B-deficient cells showed significantly impaired growth under two-dimensional conditions."},
+    {"caseId":"EL006-DEV-MIX-018","supportedProposition":"Metformin was antiproliferative without a significant cytotoxicity increase.","contradictedProposition":"Metformin's metabolic and proliferative effects were irreversible after withdrawal."},
+    {"caseId":"EL006-DEV-MIX-019","supportedProposition":"c-MET overexpression was associated with node involvement.","contradictedProposition":"HER2 overexpression was not associated with muscle invasion."},
+    {"caseId":"EL006-DEV-MIX-020","supportedProposition":"The LBNP-and-tilt protocol was safe and feasible.","contradictedProposition":"Symptom reporting was higher sixty minutes after exertion."}
+  ]
+}

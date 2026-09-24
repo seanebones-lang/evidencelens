@@ -19,7 +19,8 @@
     "experiment:annotation-assignments": "node research/EXP-EL003-semantic-relation/scripts/create-annotation-assignments.mjs",
     "experiment:jev-pilot:check": "python3 research/EXP-EL003-semantic-relation/scripts/test-run-jev-pilot.py && python3 research/EXP-EL003-semantic-relation/scripts/run-jev-pilot.py --dry-run",
     "experiment:jev-v2:check": "python3 research/EXP-EL004-expanded-semantic-relation/scripts/test-run-jev-development.py && python3 research/EXP-EL004-expanded-semantic-relation/scripts/run-jev-development.py --dry-run",
-    "experiment:jev-strict-mixed:check": "python3 research/EXP-EL005-strict-mixed-calibration/scripts/test-run-jev-development.py && python3 research/EXP-EL005-strict-mixed-calibration/scripts/run-jev-development.py --dry-run"
+    "experiment:jev-strict-mixed:check": "python3 research/EXP-EL005-strict-mixed-calibration/scripts/test-run-jev-development.py && python3 research/EXP-EL005-strict-mixed-calibration/scripts/run-jev-development.py --dry-run",
+    "experiment:jev-proposition-decomposition:check": "python3 research/EXP-EL006-proposition-decomposition/scripts/test-run-jev-development.py && python3 research/EXP-EL006-proposition-decomposition/scripts/run-jev-development.py --dry-run"
   },
   "devDependencies": {
     "@types/node": "^24.5.2",
